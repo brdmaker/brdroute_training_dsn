@@ -1,0 +1,143 @@
+(pcb /Users/mikaheikkinen/bb/github/brdroute_training/dsn/scottbez1__splitflap/electronics/sensor/sensor.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  36256 -36256  20000 -36256  20000 -20000  36256 -20000
+            36256 -36256)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component ModifiedSymbols:Pin_Header_Right_Angle_1x03
+      (place P100 33208 -33208 front -90 (PN SENSOR))
+    )
+    (component hall_effect:hall_effect_wide
+      (place U100 32192 -23302 back 0 (PN AH3391Q))
+    )
+    (component MountingHoles:M4_mount
+      (place H1 24572 -24572 front 0 (PN MountingHole_Pad))
+    )
+  )
+  (library
+    (image ModifiedSymbols:Pin_Header_Right_Angle_1x03
+      (outline (path signal 150  -1200 -6280  1200 -6280))
+      (outline (path signal 150  -1200 1200  -1200 -6280))
+      (outline (path signal 150  1200 1200  1200 -6280))
+      (outline (path signal 150  -1200 1200  1200 1200))
+      (pin Round[A]Pad_1750.000000_um 3 0 -5080)
+      (pin Round[A]Pad_1750.000000_um 2 0 -2540)
+      (pin Rect[A]Pad_1750.000000x1750.000000_um 1 0 0)
+    )
+    (image hall_effect:hall_effect_wide
+      (outline (path signal 150  -2200 889  2200 889))
+      (outline (path signal 150  -2200 889  -2200 3175))
+      (outline (path signal 150  2200 889  2200 3175))
+      (outline (path signal 150  -1397 3175  -1397 889))
+      (outline (path signal 150  1397 3175  1400 889))
+      (pin Round[A]Pad_1600.000000_um 3 2540 0)
+      (pin Round[A]Pad_1600.000000_um 2 0 0)
+      (pin Rect[A]Pad_1600.000000x1600.000000_um 1 -2540 0)
+    )
+    (image MountingHoles:M4_mount
+      (outline (path signal 150  4000 0  3980.74 -392.069  3923.14 -780.361  3827.76 -1161.14
+            3695.52 -1530.73  3527.68 -1885.59  3325.88 -2222.28  3092.04 -2537.57
+            2828.43 -2828.43  2537.57 -3092.04  2222.28 -3325.88  1885.59 -3527.68
+            1530.73 -3695.52  1161.14 -3827.76  780.361 -3923.14  392.069 -3980.74
+            0 -4000  -392.069 -3980.74  -780.361 -3923.14  -1161.14 -3827.76
+            -1530.73 -3695.52  -1885.59 -3527.68  -2222.28 -3325.88  -2537.57 -3092.04
+            -2828.43 -2828.43  -3092.04 -2537.57  -3325.88 -2222.28  -3527.68 -1885.59
+            -3695.52 -1530.73  -3827.76 -1161.14  -3923.14 -780.361  -3980.74 -392.069
+            -4000 0  -3980.74 392.069  -3923.14 780.361  -3827.76 1161.14
+            -3695.52 1530.73  -3527.68 1885.59  -3325.88 2222.28  -3092.04 2537.57
+            -2828.43 2828.43  -2537.57 3092.04  -2222.28 3325.88  -1885.59 3527.68
+            -1530.73 3695.52  -1161.14 3827.76  -780.361 3923.14  -392.069 3980.74
+            0 4000  392.069 3980.74  780.361 3923.14  1161.14 3827.76  1530.73 3695.52
+            1885.59 3527.68  2222.28 3325.88  2537.57 3092.04  2828.43 2828.43
+            3092.04 2537.57  3325.88 2222.28  3527.68 1885.59  3695.52 1530.73
+            3827.76 1161.14  3923.14 780.361  3980.74 392.069  4000 0))
+      (pin Round[A]Pad_5500.000000_um 1 0 0)
+    )
+    (padstack Round[A]Pad_1600.000000_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1750.000000_um
+      (shape (circle F.Cu 1750))
+      (shape (circle B.Cu 1750))
+      (attach off)
+    )
+    (padstack Round[A]Pad_5500.000000_um
+      (shape (circle F.Cu 5500))
+      (shape (circle B.Cu 5500))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1600.000000x1600.000000_um
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1750.000000x1750.000000_um
+      (shape (rect F.Cu -875 -875 875 875))
+      (shape (rect B.Cu -875 -875 875 875))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(P100-Pad1)"
+      (pins P100-1 U100-3)
+    )
+    (net "Net-(P100-Pad2)"
+      (pins P100-2 U100-1)
+    )
+    (net "Net-(P100-Pad3)"
+      (pins P100-3 U100-2)
+    )
+    (class kicad_default "Net-(P100-Pad1)" "Net-(P100-Pad2)" "Net-(P100-Pad3)"
+      (circuit
+        (use_via "Via[0-1]_600:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path B.Cu 500  29652 -29652  29652 -23302)(net "Net-(P100-Pad1)")(type route))
+    (wire (path B.Cu 500  33208 -33208  29652 -29652)(net "Net-(P100-Pad1)")(type route))
+    (wire (path F.Cu 500  34732 -29144  30668 -33208)(net "Net-(P100-Pad2)")(type route))
+    (wire (path F.Cu 500  34732 -23302  34732 -29144)(net "Net-(P100-Pad2)")(type route))
+    (wire (path F.Cu 500  32192 -29144  28128 -33208)(net "Net-(P100-Pad3)")(type route))
+    (wire (path F.Cu 500  32192 -23302  32192 -29144)(net "Net-(P100-Pad3)")(type route))
+  )
+)

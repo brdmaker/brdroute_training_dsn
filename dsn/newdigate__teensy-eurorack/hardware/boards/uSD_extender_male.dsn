@@ -1,0 +1,196 @@
+(pcb "/Users/mikaheikkinen/bb/github/brdroute_training/dsn/newdigate__teensy-eurorack/hardware/boards/uSD_extender_male.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Top
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Bottom
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  160442 -99544.8  160571 -99579.2  160686 -99645.8  160780 -99740
+            160847 -99855.4  160881 -99984  160884 -100051  160884 -108636
+            160881 -108702  160847 -108831  160780 -108946  160686 -109041
+            160571 -109107  160442 -109142  160376 -109144  156014 -109144
+            155947 -109146  155819 -109180  155703 -109247  155655 -109293
+            154682 -110316  154634 -110362  154518 -110428  154390 -110463
+            154323 -110465  153391 -110465  153357 -110462  153299 -110429
+            153266 -110371  153264 -110338  153264 -109957  153261 -109923
+            153228 -109865  153170 -109832  153137 -109830  151823 -109830
+            151756 -109832  151628 -109866  151512 -109933  151464 -109978
+            151126 -110316  151078 -110362  150962 -110428  150834 -110463
+            150767 -110465  136881 -110465  136795 -110462  136628 -110424
+            136474 -110350  136340 -110243  136233 -110109  136159 -109955
+            136121 -109788  136119 -109703  136119 -100305  136121 -100219
+            136159 -100052  136233 -99897.9  136340 -99764.1  136474 -99657.4
+            136628 -99583.1  136795 -99545  136881 -99542.6  160376 -99542.6
+            160442 -99544.8)
+    )
+    (via "Via[0-1]_800:400_um" "Via[0-1]_457.2:228.6_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "footprints:HFW8R-1STE1LF"
+      (place J3 141478 -108458 front -90 (PN Conn_01x10))
+      (place J1 141478 -101473 back 270 (PN Conn_01x10))
+    )
+    (component "footprints:MICRO-SDCARD"
+      (place J2 160629.6 -109550.2 front 90 (PN Conn_01x08))
+    )
+  )
+  (library
+    (image "footprints:HFW8R-1STE1LF"
+      (outline (path signal 120  1500 -500  -8500 -500))
+      (outline (path signal 120  -8500 -500  -8500 -5500))
+      (outline (path signal 120  -8500 -5500  1500 -5500))
+      (outline (path signal 120  1500 -5500  1500 -500))
+      (pin Rect[T]Pad_700.000000x4200.000000_um 10 1000 -2000)
+      (pin Rect[T]Pad_700.000000x4200.000000_um 9 -8000 -2000)
+      (pin Rect[T]Pad_600.000000x2000.000000_um 8 -7000 0)
+      (pin Rect[T]Pad_600.000000x2000.000000_um 7 -6000 0)
+      (pin Rect[T]Pad_600.000000x2000.000000_um 6 -5000 0)
+      (pin Rect[T]Pad_600.000000x2000.000000_um 5 -4000 0)
+      (pin Rect[T]Pad_600.000000x2000.000000_um 4 -3000 0)
+      (pin Rect[T]Pad_600.000000x2000.000000_um 3 -2000 0)
+      (pin Rect[T]Pad_600.000000x2000.000000_um 2 -1000 0)
+      (pin Rect[T]Pad_600.000000x2000.000000_um 1 0 0)
+    )
+    (image "footprints:MICRO-SDCARD"
+      (outline (path signal 127  -840 15000  -840 9600))
+      (outline (path signal 127  160 0  10160 0))
+      (outline (path signal 127  160 5000  160 0))
+      (outline (path signal 127  -840 6000  160 5000))
+      (outline (path signal 127  -840 7000  -840 6000))
+      (outline (path signal 127  -440 7400  -840 7000))
+      (outline (path signal 127  -440 9200  -440 7400))
+      (outline (path signal 127  -840 9600  -440 9200))
+      (outline (path signal 127  10160 15000  -840 15000))
+      (outline (path signal 127  10160 0  10160 15000))
+      (pin Rect[B]Pad_850.000000x3250.001000_um 8 9160 2300)
+      (pin Rect[B]Pad_850.000000x3250.001000_um 7 8060 2300)
+      (pin Rect[B]Pad_850.000000x3750.000000_um (rotate 180) 6 6960 2100)
+      (pin Rect[B]Pad_850.000000x3250.001000_um 5 5860 2300)
+      (pin Rect[B]Pad_850.000000x3750.000000_um 4 4760 2100)
+      (pin Rect[B]Pad_850.000000x3250.001000_um 3 3660 2300)
+      (pin Rect[B]Pad_850.000000x3250.001000_um 2 2560 2300)
+      (pin Rect[B]Pad_850.000000x3250.001000_um 1 1460 2300)
+    )
+    (padstack Rect[B]Pad_850.000000x3250.001000_um
+      (shape (rect Bottom -425 -1625 425 1625))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_850.000000x3750.000000_um
+      (shape (rect Bottom -425 -1875 425 1875))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600.000000x2000.000000_um
+      (shape (rect Top -300 -1000 300 1000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_700.000000x4200.000000_um
+      (shape (rect Top -350 -2100 350 2100))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle Top 800))
+      (shape (circle Bottom 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_457.2:228.6_um"
+      (shape (circle Top 457.2))
+      (shape (circle Bottom 457.2))
+      (attach off)
+    )
+  )
+  (network
+    (net /DAT1
+      (pins J3-1 J2-1 J1-8)
+    )
+    (net /DAT0
+      (pins J3-2 J2-2 J1-7)
+    )
+    (net /CLK
+      (pins J3-3 J2-3 J1-6)
+    )
+    (net /CMD
+      (pins J3-6 J2-6 J1-3)
+    )
+    (net /DAT2
+      (pins J3-8 J2-8 J1-1)
+    )
+    (net /VCC
+      (pins J3-4 J2-4 J1-5)
+    )
+    (net /GND
+      (pins J3-5 J2-5 J1-4)
+    )
+    (net /CD_DAT3
+      (pins J3-7 J2-7 J1-2)
+    )
+    (class kicad_default /CD_DAT3 /CLK /CMD /DAT0 /DAT1 /DAT2 /GND /VCC
+      (circuit
+        (use_via "Via[0-1]_800:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path Bottom 304.8  141046 -103454  144907 -103454)(net /CMD)(type route))
+    (wire (path Bottom 304.8  158530 -102590  145771 -102590  144907 -103454)(net /CMD)(type route))
+    (wire (path Bottom 304.8  158530 -104790  146619 -104790)(net /VCC)(type route))
+    (wire (path Bottom 304.8  141046 -105486  143688 -105486)(net /VCC)(type route))
+    (wire (path Bottom 304.8  145923 -105486  146619 -104790)(net /VCC)(type route))
+    (wire (path Bottom 304.8  158330 -100390  144923 -100390)(net /DAT2)(type route))
+    (wire (path Bottom 304.8  141046 -101422  143891 -101422  144923 -100390)(net /DAT2)(type route))
+    (wire (path Bottom 304.8  158330 -101490  145347 -101490)(net /CD_DAT3)(type route))
+    (wire (path Bottom 304.8  141046 -102438  144399 -102438)(net /CD_DAT3)(type route))
+    (wire (path Bottom 304.8  145347 -101490  144399 -102438)(net /CD_DAT3)(type route))
+    (wire (path Bottom 304.8  158330 -105890  147297 -105890)(net /CLK)(type route))
+    (wire (path Bottom 304.8  141046 -106502  146685 -106502  147297 -105890)(net /CLK)(type route))
+    (wire (path Bottom 304.8  158330 -106990  147975 -106990)(net /DAT0)(type route))
+    (wire (path Bottom 304.8  141046 -107518  147447 -107518  147975 -106990)(net /DAT0)(type route))
+    (wire (path Bottom 304.8  158330 -108090  148565 -108090)(net /DAT1)(type route))
+    (wire (path Bottom 304.8  141046 -108534  148121 -108534  148565 -108090)(net /DAT1)(type route))
+    (wire (path Top 250  141478 -108458  143637 -108458  143637 -108458)(net /DAT1)(type route))
+    (wire (path Top 250  141478 -107458  143621 -107458  143621 -107458)(net /DAT0)(type route))
+    (wire (path Top 250  141478 -106458  143605 -106458  143605 -106458)(net /CLK)(type route))
+    (wire (path Top 250  141478 -103458  143844 -103458  143844 -103458)(net /CMD)(type route))
+    (wire (path Top 250  141478 -101458  143749 -101458  143749 -101458)(net /DAT2)(type route))
+    (wire (path Top 250  141478 -105458  143716 -105458)(net /VCC)(type route))
+    (wire (path Bottom 304.8  143688 -105486  145923 -105486)(net /VCC)(type route))
+    (wire (path Bottom 304.8  141046 -104470  143688 -104470)(net /GND)(type route))
+    (wire (path Bottom 304.8  145415 -104470  146195 -103690)(net /GND)(type route))
+    (wire (path Bottom 304.8  158330 -103690  146195 -103690)(net /GND)(type route))
+    (wire (path Top 250  141478 -104458  143700 -104458)(net /GND)(type route))
+    (wire (path Bottom 304.8  143688 -104470  145415 -104470)(net /GND)(type route))
+    (wire (path Top 250  141478 -102458  143987 -102458  143987 -102458)(net /CD_DAT3)(type route))
+    (via "Via[0-1]_457.2:228.6_um"  143637 -108458 (net /DAT1)(type route))
+    (via "Via[0-1]_457.2:228.6_um"  143621 -107458 (net /DAT0)(type route))
+    (via "Via[0-1]_457.2:228.6_um"  143605 -106458 (net /CLK)(type route))
+    (via "Via[0-1]_457.2:228.6_um"  143844 -103458 (net /CMD)(type route))
+    (via "Via[0-1]_457.2:228.6_um"  143749 -101458 (net /DAT2)(type route))
+    (via "Via[0-1]_457.2:228.6_um"  143688 -105486 (net /VCC)(type route))
+    (via "Via[0-1]_457.2:228.6_um"  143688 -104470 (net /GND)(type route))
+    (via "Via[0-1]_457.2:228.6_um"  143987 -102458 (net /CD_DAT3)(type route))
+  )
+)

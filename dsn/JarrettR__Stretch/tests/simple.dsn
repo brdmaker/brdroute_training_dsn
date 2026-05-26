@@ -1,0 +1,187 @@
+(pcb /Users/mikaheikkinen/bb/github/brdroute_training/dsn/JarrettR__Stretch/tests/simple.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  68182.9 -31752.4  68401.3 -31790.9  68609.8 -31866.8
+            68801.8 -31977.7  68971.7 -32120.3  69114.3 -32290.2  69225.2 -32482.2
+            69301.1 -32690.7  69339.6 -32909.1  69342 -33020  69342 -40640
+            69339.6 -40750.9  69301.1 -40969.3  69225.2 -41177.8  69114.3 -41369.8
+            68971.7 -41539.7  68801.8 -41682.3  68609.8 -41793.2  68401.3 -41869.1
+            68182.9 -41907.6  68072 -41910  62992 -41910  62881.1 -41907.6
+            62662.7 -41869.1  62454.2 -41793.2  62262.2 -41682.3  62092.3 -41539.7
+            61949.7 -41369.8  61838.8 -41177.8  61762.9 -40969.3  61724.4 -40750.9
+            61722 -40640  61722 -33020  61724.4 -32909.1  61762.9 -32690.7
+            61838.8 -32482.2  61949.7 -32290.2  62092.3 -32120.3  62262.2 -31977.7
+            62454.2 -31866.8  62662.7 -31790.9  62881.1 -31752.4  62992 -31750
+            68072 -31750  68182.9 -31752.4)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+      (place J4 65532 -36830 back 90 (PN Conn_02x03_Counter_Clockwise))
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+      (place J3 65532 -36830 front 90 (PN Conn_02x03_Counter_Clockwise))
+    )
+    (component logo:logo38x53
+      (place G*** 53479.7 -34264.6 back 0 (PN LOGO))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (place J2 62992 -40640 front 90 (PN Conn_01x03))
+      (place J1 62992 -33020 front 90 (PN Conn_01x03))
+    )
+  )
+  (library
+    (image "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+      (outline (polygon signal 0  -2395 -1395  -2395 1395  2395 1395  2395 -1395))
+      (outline (path signal 100  -175 1100  -675 600))
+      (outline (path signal 100  675 -1100  -675 -1100))
+      (outline (path signal 100  675 1100  675 -1100))
+      (outline (path signal 100  -675 600  -675 -1100))
+      (outline (path signal 100  675 1100  -175 1100))
+      (outline (path signal 120  -700 -1160  700 -1160))
+      (outline (path signal 120  700 1160  -1200 1160))
+      (pin Rect[T]Pad_1500.000000x400.000000_um 6 1330 650)
+      (pin Rect[T]Pad_1500.000000x400.000000_um 5 1330 0)
+      (pin Rect[T]Pad_1500.000000x400.000000_um 4 1330 -650)
+      (pin Rect[T]Pad_1500.000000x400.000000_um 3 -1330 -650)
+      (pin Rect[T]Pad_1500.000000x400.000000_um 2 -1330 0)
+      (pin Rect[T]Pad_1500.000000x400.000000_um 1 -1330 650)
+    )
+    (image "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+      (outline (polygon signal 0  -2395 -1795  -2395 1795  2395 1795  2395 -1795))
+      (outline (path signal 100  900 1550  900 -1550))
+      (outline (path signal 100  900 -1550  -900 -1550))
+      (outline (path signal 100  -900 900  -900 -1550))
+      (outline (path signal 100  900 1550  -250 1550))
+      (outline (path signal 100  -900 900  -250 1550))
+      (pin Rect[T]Pad_1560.000000x650.000000_um 5 1350 0)
+      (pin Rect[T]Pad_1560.000000x650.000000_um 6 1350 950)
+      (pin Rect[T]Pad_1560.000000x650.000000_um 4 1350 -950)
+      (pin Rect[T]Pad_1560.000000x650.000000_um 3 -1350 -950)
+      (pin Rect[T]Pad_1560.000000x650.000000_um 2 -1350 0)
+      (pin Rect[T]Pad_1560.000000x650.000000_um 1 -1350 950)
+    )
+    (image logo:logo38x53
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (outline (polygon signal 0  -1795 -6845  -1795 1795  1795 1795  1795 -6845))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -6350  -1270 635))
+      (outline (path signal 100  1270 -6350  -1270 -6350))
+      (outline (path signal 100  1270 1270  1270 -6350))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 3 0 -5080)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 2 0 -2540)
+      (pin Round[A]Pad_1700.000000_um 1 0 0)
+    )
+    (padstack Round[A]Pad_1700.000000_um
+      (shape (circle F.Cu 1700))
+      (shape (circle B.Cu 1700))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700.000000x1700.000000_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500.000000x400.000000_um
+      (shape (rect F.Cu -750 -200 750 200))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1560.000000x650.000000_um
+      (shape (rect F.Cu -780 -325 780 325))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(J1-Pad3)"
+      (pins J4-3 J3-4 J1-3)
+    )
+    (net "Net-(J1-Pad2)"
+      (pins J4-2 J3-5 J1-2)
+    )
+    (net "Net-(J1-Pad1)"
+      (pins J4-1 J3-6 J1-1)
+    )
+    (net "Net-(J2-Pad3)"
+      (pins J4-4 J3-3 J2-3)
+    )
+    (net "Net-(J2-Pad2)"
+      (pins J4-5 J3-2 J2-2)
+    )
+    (net "Net-(J2-Pad1)"
+      (pins J4-6 J3-1 J2-1)
+    )
+    (class kicad_default "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J2-Pad1)"
+      "Net-(J2-Pad2)" "Net-(J2-Pad3)"
+      (circuit
+        (use_via "Via[0-1]_800:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  68072 -34222.1  68072 -33020)(net "Net-(J1-Pad3)")(type route))
+    (wire (path F.Cu 250  68072 -34465  68072 -34222.1)(net "Net-(J1-Pad3)")(type route))
+    (wire (path F.Cu 250  67057 -35480  68072 -34465)(net "Net-(J1-Pad3)")(type route))
+    (wire (path F.Cu 250  66482 -35480  67057 -35480)(net "Net-(J1-Pad3)")(type route))
+    (wire (path B.Cu 250  66182 -34910  68072 -33020)(net "Net-(J1-Pad3)")(type route))
+    (wire (path B.Cu 250  66182 -35880  66182 -34910)(net "Net-(J1-Pad3)")(type route))
+    (wire (path F.Cu 250  65532 -35480  65532 -33020)(net "Net-(J1-Pad2)")(type route))
+    (wire (path B.Cu 250  65532 -35880  65532 -33020)(net "Net-(J1-Pad2)")(type route))
+    (wire (path F.Cu 250  62992 -34120  62992 -33020)(net "Net-(J1-Pad1)")(type route))
+    (wire (path F.Cu 250  62992 -34465  62992 -34120)(net "Net-(J1-Pad1)")(type route))
+    (wire (path F.Cu 250  64007 -35480  62992 -34465)(net "Net-(J1-Pad1)")(type route))
+    (wire (path F.Cu 250  64582 -35480  64007 -35480)(net "Net-(J1-Pad1)")(type route))
+    (wire (path B.Cu 250  64882 -34910  62992 -33020)(net "Net-(J1-Pad1)")(type route))
+    (wire (path B.Cu 250  64882 -35880  64882 -34910)(net "Net-(J1-Pad1)")(type route))
+    (wire (path F.Cu 250  68072 -39437.9  68072 -40640)(net "Net-(J2-Pad3)")(type route))
+    (wire (path F.Cu 250  68072 -39195  68072 -39437.9)(net "Net-(J2-Pad3)")(type route))
+    (wire (path F.Cu 250  67057 -38180  68072 -39195)(net "Net-(J2-Pad3)")(type route))
+    (wire (path F.Cu 250  66482 -38180  67057 -38180)(net "Net-(J2-Pad3)")(type route))
+    (wire (path B.Cu 250  66182 -38750  68072 -40640)(net "Net-(J2-Pad3)")(type route))
+    (wire (path B.Cu 250  66182 -37780  66182 -38750)(net "Net-(J2-Pad3)")(type route))
+    (wire (path F.Cu 250  65532 -38180  65532 -40640)(net "Net-(J2-Pad2)")(type route))
+    (wire (path B.Cu 250  65532 -37780  65532 -40640)(net "Net-(J2-Pad2)")(type route))
+    (wire (path F.Cu 250  62992 -39540  62992 -40640)(net "Net-(J2-Pad1)")(type route))
+    (wire (path F.Cu 250  62992 -39195  62992 -39540)(net "Net-(J2-Pad1)")(type route))
+    (wire (path F.Cu 250  64007 -38180  62992 -39195)(net "Net-(J2-Pad1)")(type route))
+    (wire (path F.Cu 250  64582 -38180  64007 -38180)(net "Net-(J2-Pad1)")(type route))
+    (wire (path B.Cu 250  64882 -38750  62992 -40640)(net "Net-(J2-Pad1)")(type route))
+    (wire (path B.Cu 250  64882 -37780  64882 -38750)(net "Net-(J2-Pad1)")(type route))
+  )
+)

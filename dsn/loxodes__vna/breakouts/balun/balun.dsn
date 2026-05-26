@@ -1,0 +1,244 @@
+(pcb /Users/mikaheikkinen/bb/github/brdroute_training/dsn/loxodes__vna/breakouts/balun/balun.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  113892 -74678.4  114088 -74717.4  114272 -74793.8  114438 -74904.7
+            114579 -75045.9  114690 -75211.9  114767 -75396.4  114806 -75592.2
+            114808 -75692  114808 -97028  114806 -97127.8  114767 -97323.6
+            114690 -97508.1  114579 -97674.1  114438 -97815.3  114272 -97926.2
+            114088 -98002.6  113892 -98041.6  113792 -98044  106172 -98044
+            78232 -92964  78132.2 -92961.6  77936.4 -92922.6  77751.9 -92846.2
+            77585.9 -92735.3  77444.7 -92594.1  77333.8 -92428.1  77257.4 -92243.6
+            77218.4 -92047.8  77216 -91948  77216 -81280  77218.4 -81180.2
+            77257.4 -80984.4  77333.8 -80799.9  77444.7 -80633.9  77585.9 -80492.7
+            77751.9 -80381.8  77936.4 -80305.4  78132.2 -80266.4  78232 -80264
+            106172 -74676  113792 -74676  113892 -74678.4)
+    )
+    (plane GND (polygon F.Cu 0  116332 -99060  106680 -99060  76200 -93980  76200 -79248
+            103632 -73660  116332 -73152  116332 -99060))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitor_SMD:C_0603_1608Metric
+      (place C1 88112.5 -86360 front 180 (PN "100 nF"))
+      (place C2 101600 -88900 front 180 (PN "100 nF"))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::1
+      (place C3 101600 -83820 front 180 (PN "100 nF"))
+    )
+    (component Connector_Coaxial:SMA_Amphenol_132134_Vertical
+      (place J1 81280 -86360 front 0 (PN UNBAL))
+      (place J3 110490 -78740 front 0 (PN BAL2))
+    )
+    (component Connector_Coaxial:SMA_Amphenol_132134_Vertical::1
+      (place J2 110490 -93980 front 0 (PN BAL1))
+    )
+    (component "RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm"
+      (place TR1 95250 -86360 front 0 (PN "ADT2-1T"))
+    )
+  )
+  (library
+    (image Capacitor_SMD:C_0603_1608Metric
+      (outline (polygon signal 0  -1475 725  1475 725  1475 -725  -1475 -725))
+      (outline (path signal 120  -162.779 -510  162.779 -510))
+      (outline (path signal 120  -162.779 510  162.779 510))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin RoundRect[T]Pad_875.000000x950.000000_219.582000_um_0.000000_0 1 -787.5 0)
+      (pin RoundRect[T]Pad_875.000000x950.000000_219.582000_um_0.000000_0 2 787.5 0)
+    )
+    (image Capacitor_SMD:C_0603_1608Metric::1
+      (outline (polygon signal 0  -1475 725  1475 725  1475 -725  -1475 -725))
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 120  -162.779 510  162.779 510))
+      (outline (path signal 120  -162.779 -510  162.779 -510))
+      (pin RoundRect[T]Pad_875.000000x950.000000_219.582000_um_0.000000_0 2 787.5 0)
+      (pin RoundRect[T]Pad_875.000000x950.000000_219.582000_um_0.000000_0 1 -787.5 0)
+    )
+    (image Connector_Coaxial:SMA_Amphenol_132134_Vertical
+      (outline (polygon signal 0  4165 -4165  -4165 -4165  -4165 4165  4165 4165))
+      (outline (path signal 120  -1800 3680  1800 3680))
+      (outline (path signal 120  -1800 -3680  1800 -3680))
+      (outline (path signal 120  3680 1800  3680 -1800))
+      (outline (path signal 120  -3680 1800  -3680 -1800))
+      (outline (path signal 100  3500 3500  3500 -3500))
+      (outline (path signal 100  -3500 -3500  3500 -3500))
+      (outline (path signal 100  -3500 3500  -3500 -3500))
+      (outline (path signal 100  -3500 3500  3500 3500))
+      (outline (path signal 100  3175 0  3155.73 -349.276  3098.15 -694.312  3002.97 -1030.92
+            2871.33 -1355.02  2704.84 -1662.66  2505.52 -1950.12  2275.78 -2213.92
+            2018.42 -2450.84  1736.56 -2658  1433.62 -2832.91  1113.27 -2973.42
+            779.416 -3077.85  436.098 -3144.91  87.485 -3173.79  -262.189 -3164.16
+            -608.681 -3116.11  -947.785 -3030.24  -1275.38 -2907.58  -1587.5 -2749.63
+            -1880.35 -2558.3  -2150.37 -2335.92  -2394.29 -2085.19  -2609.14 -1809.14
+            -2792.33 -1511.13  -2941.62 -1194.78  -3055.2 -863.929  -3131.7 -522.588
+            -3170.18 -174.904  -3170.18 174.904  -3131.7 522.588  -3055.2 863.929
+            -2941.62 1194.78  -2792.33 1511.13  -2609.14 1809.14  -2394.29 2085.19
+            -2150.37 2335.92  -1880.35 2558.3  -1587.5 2749.63  -1275.38 2907.58
+            -947.785 3030.24  -608.681 3116.11  -262.189 3164.16  87.485 3173.79
+            436.098 3144.91  779.416 3077.85  1113.27 2973.42  1433.62 2832.91
+            1736.56 2658  2018.42 2450.84  2275.78 2213.92  2505.52 1950.12
+            2704.84 1662.66  2871.33 1355.02  3002.97 1030.92  3098.15 694.312
+            3155.73 349.276  3175 0))
+      (pin Round[A]Pad_2050.000000_um 1 0 0)
+      (pin Round[A]Pad_2250.000000_um 2 2540 -2540)
+      (pin Round[A]Pad_2250.000000_um 2@1 2540 2540)
+      (pin Round[A]Pad_2250.000000_um 2@2 -2540 2540)
+      (pin Round[A]Pad_2250.000000_um 2@3 -2540 -2540)
+    )
+    (image Connector_Coaxial:SMA_Amphenol_132134_Vertical::1
+      (outline (polygon signal 0  4165 -4165  -4165 -4165  -4165 4165  4165 4165))
+      (outline (path signal 100  3175 0  3155.73 -349.276  3098.15 -694.312  3002.97 -1030.92
+            2871.33 -1355.02  2704.84 -1662.66  2505.52 -1950.12  2275.78 -2213.92
+            2018.42 -2450.84  1736.56 -2658  1433.62 -2832.91  1113.27 -2973.42
+            779.416 -3077.85  436.098 -3144.91  87.485 -3173.79  -262.189 -3164.16
+            -608.681 -3116.11  -947.785 -3030.24  -1275.38 -2907.58  -1587.5 -2749.63
+            -1880.35 -2558.3  -2150.37 -2335.92  -2394.29 -2085.19  -2609.14 -1809.14
+            -2792.33 -1511.13  -2941.62 -1194.78  -3055.2 -863.929  -3131.7 -522.588
+            -3170.18 -174.904  -3170.18 174.904  -3131.7 522.588  -3055.2 863.929
+            -2941.62 1194.78  -2792.33 1511.13  -2609.14 1809.14  -2394.29 2085.19
+            -2150.37 2335.92  -1880.35 2558.3  -1587.5 2749.63  -1275.38 2907.58
+            -947.785 3030.24  -608.681 3116.11  -262.189 3164.16  87.485 3173.79
+            436.098 3144.91  779.416 3077.85  1113.27 2973.42  1433.62 2832.91
+            1736.56 2658  2018.42 2450.84  2275.78 2213.92  2505.52 1950.12
+            2704.84 1662.66  2871.33 1355.02  3002.97 1030.92  3098.15 694.312
+            3155.73 349.276  3175 0))
+      (outline (path signal 100  -3500 3500  3500 3500))
+      (outline (path signal 100  -3500 3500  -3500 -3500))
+      (outline (path signal 100  -3500 -3500  3500 -3500))
+      (outline (path signal 100  3500 3500  3500 -3500))
+      (outline (path signal 120  -3680 1800  -3680 -1800))
+      (outline (path signal 120  3680 1800  3680 -1800))
+      (outline (path signal 120  -1800 -3680  1800 -3680))
+      (outline (path signal 120  -1800 3680  1800 3680))
+      (pin Round[A]Pad_2250.000000_um 2 -2540 -2540)
+      (pin Round[A]Pad_2250.000000_um 2@1 -2540 2540)
+      (pin Round[A]Pad_2250.000000_um 2@2 2540 2540)
+      (pin Round[A]Pad_2250.000000_um 2@3 2540 -2540)
+      (pin Round[A]Pad_2050.000000_um 1 0 0)
+    )
+    (image "RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm"
+      (outline (polygon signal 0  4055 -4315  -4055 -4315  -4055 4315  4055 4315))
+      (outline (path signal 120  2921 -4064  2921 -3556))
+      (outline (path signal 120  -2921 -4064  2921 -4064))
+      (outline (path signal 120  -2921 -3556  -2921 -4064))
+      (outline (path signal 120  -2921 3556  -3810 3556))
+      (outline (path signal 120  -2921 4064  -2921 3556))
+      (outline (path signal 120  2921 4064  -2921 4064))
+      (outline (path signal 120  2921 3556  2921 4064))
+      (outline (path signal 100  -1794 3937  -2794 2937))
+      (outline (path signal 100  -1794 3937  2794 3937))
+      (outline (path signal 100  -2794 -3937  -2794 2937))
+      (outline (path signal 100  2794 -3937  -2794 -3937))
+      (outline (path signal 100  2794 3937  2794 -3937))
+      (pin Rect[T]Pad_2540.000000x1650.000000_um 1 -2540 2540)
+      (pin Rect[T]Pad_2540.000000x1650.000000_um 2 -2540 0)
+      (pin Rect[T]Pad_2540.000000x1650.000000_um 3 -2540 -2540)
+      (pin Rect[T]Pad_2540.000000x1650.000000_um 4 2540 -2540)
+      (pin Rect[T]Pad_2540.000000x1650.000000_um 5 2540 0)
+      (pin Rect[T]Pad_2540.000000x1650.000000_um 6 2540 2540)
+    )
+    (padstack Round[A]Pad_2050.000000_um
+      (shape (circle F.Cu 2050))
+      (shape (circle B.Cu 2050))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2250.000000_um
+      (shape (circle F.Cu 2250))
+      (shape (circle B.Cu 2250))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_875.000000x950.000000_219.582000_um_0.000000_0
+      (shape (polygon F.Cu 0  -438.332 256.25  -421.617 340.28  -374.018 411.518  -302.78 459.117
+            -218.75 475.832  218.75 475.832  302.78 459.117  374.018 411.518
+            421.617 340.28  438.332 256.25  438.332 -256.25  421.617 -340.28
+            374.018 -411.518  302.78 -459.117  218.75 -475.832  -218.75 -475.832
+            -302.78 -459.117  -374.018 -411.518  -421.617 -340.28  -438.332 -256.25
+            -438.332 256.25))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2540.000000x1650.000000_um
+      (shape (rect F.Cu -1270 -825 1270 825))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(C1-Pad1)"
+      (pins C1-1 TR1-3)
+    )
+    (net "Net-(C1-Pad2)"
+      (pins C1-2 J1-1)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins C2-1 J2-1)
+    )
+    (net "Net-(C2-Pad2)"
+      (pins C2-2 TR1-4)
+    )
+    (net "Net-(C3-Pad2)"
+      (pins C3-2 TR1-6)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins C3-1 J3-1)
+    )
+    (net GND
+      (pins J1-2 J1-2@1 J1-2@2 J1-2@3 J2-2 J2-2@1 J2-2@2 J2-2@3 J3-2 J3-2@1 J3-2@2
+        J3-2@3 TR1-1 TR1-5)
+    )
+    (class kicad_default GND "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)"
+      "Net-(C2-Pad2)" "Net-(C3-Pad1)" "Net-(C3-Pad2)"
+      (circuit
+        (use_via "Via[0-1]_800:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 1500  92710 -88900  90424 -88900  88900 -87376)(net "Net-(C1-Pad1)")(type route))
+    (wire (path F.Cu 1000  88900 -87376  88900 -86360)(net "Net-(C1-Pad1)")(type route))
+    (wire (path F.Cu 1500  81280 -86360  86868 -86360)(net "Net-(C1-Pad2)")(type route))
+    (wire (path F.Cu 1500  110490 -93980  105156 -93980  102388 -91211.5)(net "Net-(C2-Pad1)")(type route))
+    (wire (path F.Cu 1000  102388 -91211.5  102388 -88900)(net "Net-(C2-Pad1)")(type route))
+    (wire (path F.Cu 1500  97790 -88900  100076 -88900)(net "Net-(C2-Pad2)")(type route))
+    (wire (path F.Cu 1500  97790 -83820  100076 -83820)(net "Net-(C3-Pad2)")(type route))
+    (wire (path F.Cu 1500  110490 -78740  105156 -78740  102388 -81508.5)(net "Net-(C3-Pad1)")(type route))
+    (wire (path F.Cu 1000  102388 -81508.5  102388 -83820)(net "Net-(C3-Pad1)")(type route))
+  )
+)

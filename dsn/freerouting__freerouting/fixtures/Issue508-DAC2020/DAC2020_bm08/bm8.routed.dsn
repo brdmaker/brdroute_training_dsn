@@ -1,0 +1,258 @@
+(pcb "/Users/mikaheikkinen/bb/github/brdroute_training/dsn/freerouting__freerouting/fixtures/Issue508-DAC2020/DAC2020_bm08/bm8.routed.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Top
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Bottom
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  158750 -111938  138252 -111938  138252 -98069.4  158750 -98069.4
+            158750 -111938)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "imu:LGA-24"
+      (place U5 145059.4 -105206.8 front -90)
+    )
+    (component imu:C0805
+      (place U1 149606 -100863.4 front -90)
+      (place U2 151866.6 -100863.4 front -90)
+    )
+    (component imu:C0805::1
+      (place U3 140563.6 -105232.2 front 90)
+    )
+    (component imu:C0805::2
+      (place U4 142798.8 -100685.6 front 180)
+    )
+    (component imu:R0805
+      (place U6 149479 -108610.4 front -90)
+      (place U7 151739.6 -108585 front -90)
+    )
+    (component "imu:MA04-1"
+      (place U8 156083 -104902 front 90)
+    )
+  )
+  (library
+    (image "imu:LGA-24"
+      (outline (polygon signal 0  2995 2995  2995 -2995  -2995 -2995  -2995 2995))
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 90) 1 -2129 1250)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 90) 2 -2129 750)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 90) 3 -2129 250)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 90) 4 -2129 -250)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 90) 5 -2129 -750)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 90) 6 -2129 -1250)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 180) 7 -1250 -2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 180) 8 -750 -2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 180) 9 -250 -2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 180) 10 250 -2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 180) 11 750 -2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 180) 12 1250 -2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 270) 13 2129 -1250)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 270) 14 2129 -750)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 270) 15 2129 -250)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 270) 16 2129 250)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 270) 17 2129 750)
+      (pin Rect[T]Pad_290.000000x1208.000000_um (rotate 270) 18 2129 1250)
+      (pin Rect[T]Pad_290.000000x1208.000000_um 19 1250 2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um 20 750 2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um 21 250 2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um 22 -250 2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um 23 -750 2129)
+      (pin Rect[T]Pad_290.000000x1208.000000_um 24 -1250 2129)
+    )
+    (image imu:C0805
+      (outline (polygon signal 0  1965 975  1965 -975  -1965 -975  -1965 975))
+      (pin Rect[T]Pad_1300.000000x1500.000000_um 1 -950 0)
+      (pin Rect[T]Pad_1300.000000x1500.000000_um 2 950 0)
+    )
+    (image imu:C0805::1
+      (outline (polygon signal 0  -1965 -975  -1965 975  1965 975  1965 -975))
+      (pin Rect[T]Pad_1300.000000x1500.000000_um 1 -950 0)
+      (pin Rect[T]Pad_1300.000000x1500.000000_um 2 950 0)
+    )
+    (image imu:C0805::2
+      (outline (polygon signal 0  -1965 975  1965 975  1965 -975  -1965 -975))
+      (pin Rect[T]Pad_1300.000000x1500.000000_um 1 -950 0)
+      (pin Rect[T]Pad_1300.000000x1500.000000_um 2 950 0)
+    )
+    (image imu:R0805
+      (outline (polygon signal 0  1995 995  1995 -995  -1995 -995  -1995 995))
+      (pin Rect[T]Pad_1300.000000x1500.000000_um 1 -850 0)
+      (pin Rect[T]Pad_1300.000000x1500.000000_um 2 850 0)
+    )
+    (image "imu:MA04-1"
+      (outline (polygon signal 0  -4995 -1745  -4995 1745  4995 1745  4995 -1745))
+      (pin Oval[A]Pad_3048.000000x1524.000000_um (rotate 90) 1 -3810 0)
+      (pin Oval[A]Pad_3048.000000x1524.000000_um (rotate 90) 2 -1270 0)
+      (pin Oval[A]Pad_3048.000000x1524.000000_um (rotate 90) 3 1270 0)
+      (pin Oval[A]Pad_3048.000000x1524.000000_um (rotate 90) 4 3810 0)
+    )
+    (padstack Oval[A]Pad_3048.000000x1524.000000_um
+      (shape (path Top 1524  -762 0  762 0))
+      (shape (path Bottom 1524  -762 0  762 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_290.000000x1208.000000_um
+      (shape (rect Top -145 -604 145 604))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1300.000000x1500.000000_um
+      (shape (rect Top -650 -750 650 750))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle Top 600))
+      (shape (circle Bottom 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins U5-2 U5-3 U5-4 U5-5 U5-6 U5-22 U5-23 U1-2 U2-2 U4-1 U8-4)
+    )
+    (net VDD
+      (pins U5-15 U5-16 U5-17 U5-18 U1-1 U2-1 U6-2 U7-2 U8-1)
+    )
+    (net /SDA
+      (pins U5-24 U8-3)
+    )
+    (net /SCL
+      (pins U5-21 U8-2)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins U5-20 U7-1)
+    )
+    (net "Net-(R1-Pad1)"
+      (pins U5-19 U6-1)
+    )
+    (net "Net-(U1-Pad14)"
+      (pins U5-14)
+    )
+    (net "Net-(U1-Pad13)"
+      (pins U5-13)
+    )
+    (net "Net-(U1-Pad12)"
+      (pins U5-12)
+    )
+    (net "Net-(U1-Pad11)"
+      (pins U5-11)
+    )
+    (net "Net-(U1-Pad10)"
+      (pins U5-10)
+    )
+    (net "Net-(C1-Pad1)"
+      (pins U5-9 U3-1)
+    )
+    (net "Net-(C1-Pad2)"
+      (pins U5-8 U3-2)
+    )
+    (net "Net-(C2-Pad2)"
+      (pins U5-7 U4-2)
+    )
+    (net "Net-(U1-Pad1)"
+      (pins U5-1)
+    )
+    (class kicad_default /SCL /SDA GND "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad2)"
+      "Net-(R1-Pad1)" "Net-(R2-Pad1)" "Net-(U1-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad11)"
+      "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" VDD
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path Top 304.8  151877 -101803  151867 -101813)(net GND)(type route))
+    (wire (path Top 304.8  158064 -104343  158064 -102032  157124 -101092)(net GND)(type route))
+    (wire (path Top 304.8  154038 -104457  154483 -104902)(net GND)(type route))
+    (wire (path Top 304.8  153238 -101803  151877 -101803)(net GND)(type route))
+    (wire (path Top 304.8  156083 -101092  153949 -101092)(net GND)(type route))
+    (wire (path Top 304.8  144809 -103078  144809 -100686)(net GND)(type route))
+    (wire (path Top 304.8  147188 -104957  147341 -104953)(net GND)(type route))
+    (wire (path Top 304.8  149149 -104457  154038 -104457)(net GND)(type route))
+    (wire (path Top 304.8  157505 -104902  158064 -104343)(net GND)(type route))
+    (wire (path Top 304.8  145809 -103078  145809 -100686)(net GND)(type route))
+    (wire (path Top 304.8  151867 -101813  149606 -101813)(net GND)(type route))
+    (wire (path Top 304.8  147188 -104457  149149 -104457)(net GND)(type route))
+    (wire (path Top 304.8  145309 -103078  145309 -100686)(net GND)(type route))
+    (wire (path Top 304.8  153949 -101092  153238 -101803)(net GND)(type route))
+    (wire (path Top 304.8  144309 -103078  144309 -100686)(net GND)(type route))
+    (wire (path Top 304.8  147341 -104953  149149 -104953  149149 -104457)(net GND)(type route))
+    (wire (path Top 304.8  154483 -104902  157505 -104902)(net GND)(type route))
+    (wire (path Top 304.8  157124 -101092  156083 -101092)(net GND)(type route))
+    (wire (path Top 304.8  143809 -103078  143809 -100746  143749 -100686)(net GND)(type route))
+    (wire (path Top 304.8  144309 -100686  144809 -100686  145309 -100686  145809 -100686
+            146990 -100686)(net GND)(type route))
+    (wire (path Top 304.8  143749 -100686  144309 -100686)(net GND)(type route))
+    (wire (path Top 304.8  146990 -100686  148158 -101854  149591 -101854  149606 -101813)(net GND)(type route))
+    (wire (path Top 304.8  145796 -109423  146329 -109423)(net VDD)(type route))
+    (wire (path Top 304.8  153340 -109550  151855 -109550)(net VDD)(type route))
+    (wire (path Top 304.8  144882 -109423  145364 -109423)(net VDD)(type route))
+    (wire (path Top 304.8  146329 -109423  149987 -109423)(net VDD)(type route))
+    (wire (path Top 304.8  150063 -109499  149518 -109499)(net VDD)(type route))
+    (wire (path Top 304.8  154178 -108712  153340 -109550)(net VDD)(type route))
+    (wire (path Top 304.8  149987 -109423  150063 -109499  151675 -109499  151740 -109435)(net VDD)(type route))
+    (wire (path Top 304.8  145309 -109368  145364 -109423)(net VDD)(type route))
+    (wire (path Top 304.8  156083 -108712  154178 -108712)(net VDD)(type route))
+    (wire (path Top 304.8  144809 -109402  144882 -109423)(net VDD)(type route))
+    (wire (path Top 304.8  145364 -109423  145796 -109423)(net VDD)(type route))
+    (wire (path Top 304.8  144809 -107336  144809 -109402)(net VDD)(type route))
+    (wire (path Top 304.8  145809 -109410  145796 -109423)(net VDD)(type route))
+    (wire (path Top 304.8  149518 -109499  149479 -109460)(net VDD)(type route))
+    (wire (path Top 304.8  146309 -107336  146309 -109403  146329 -109423)(net VDD)(type route))
+    (wire (path Top 304.8  151867 -99913.4  151867 -99938.8)(net VDD)(type route))
+    (wire (path Top 304.8  145809 -107336  145809 -109410)(net VDD)(type route))
+    (wire (path Top 304.8  145309 -107336  145309 -109368)(net VDD)(type route))
+    (wire (path Top 304.8  151867 -99938.8  149606 -99913.4)(net VDD)(type route))
+    (wire (path Top 304.8  151855 -109550  151740 -109435)(net VDD)(type route))
+    (wire (path Top 304.8  149606 -99913.4  148148 -99938.8  147523 -99314  140487 -99314)(net VDD)(type route))
+    (wire (path Top 304.8  144809 -109402  141245 -109402  141199 -109398)(net VDD)(type route))
+    (wire (path Top 304.8  139294 -107442  141199 -109398)(net VDD)(type route))
+    (wire (path Top 304.8  140487 -99314  139294 -100508  139294 -107442)(net VDD)(type route))
+    (wire (path Top 304.8  147188 -103957  155758 -103957  156083 -103632)(net /SDA)(type route))
+    (wire (path Top 304.8  156083 -106172  154229 -106172  153514 -105457)(net /SCL)(type route))
+    (wire (path Top 304.8  147188 -105457  153514 -105457)(net /SCL)(type route))
+    (wire (path Top 304.8  150991 -105957  151740 -106705)(net "Net-(R2-Pad1)")(type route))
+    (wire (path Top 304.8  147188 -105957  150991 -105957)(net "Net-(R2-Pad1)")(type route))
+    (wire (path Top 304.8  151740 -106705  151740 -107735)(net "Net-(R2-Pad1)")(type route))
+    (wire (path Top 304.8  149479 -107760  149479 -106578  149377 -106451  147208 -106451
+            147188 -106457)(net "Net-(R1-Pad1)")(type route))
+    (wire (path Top 304.8  142930 -104957  142185 -104957)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Top 304.8  141732 -105918  141478 -106172)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Top 304.8  141732 -105410  141732 -105918)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Top 304.8  142185 -104957  141732 -105410)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Top 304.8  141478 -106182  140564 -106182)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Top 304.8  141478 -106172  141478 -106182)(net "Net-(C1-Pad1)")(type route))
+    (wire (path Top 304.8  142930 -104457  140738 -104457  140564 -104282)(net "Net-(C1-Pad2)")(type route))
+    (wire (path Top 304.8  142336 -103957  142930 -103957)(net "Net-(C2-Pad2)")(type route))
+    (wire (path Top 304.8  141849 -100686  141849 -100686  142028 -100721  142179 -100822
+            142316 -101153)(net "Net-(C2-Pad2)")(type route))
+    (wire (path Top 304.8  142316 -103937  142336 -103957)(net "Net-(C2-Pad2)")(type route))
+    (wire (path Top 304.8  142316 -103937  142316 -103937)(net "Net-(C2-Pad2)")(type route))
+    (wire (path Top 304.8  142316 -101153  142316 -103937)(net "Net-(C2-Pad2)")(type route))
+  )
+)

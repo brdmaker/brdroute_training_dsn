@@ -1,0 +1,1708 @@
+(pcb "/Users/mikaheikkinen/bb/github/brdroute_training/dsn/KiCad__kicad-source-mirror/demos/complex_hierarchy/complex_hierarchy.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer top_copper
+      (type power)
+      (property
+        (index 0)
+      )
+    )
+    (layer bottom_copper
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  188595 -51816  188595 -131826  87900 -131826  87900 -51800
+            188595 -51816)
+    )
+    (plane "Net-(Q201-E)" (polygon top_copper 0  137943 -109805  138226 -110088  139454 -109548  139066 -108965
+            138483 -108577  137943 -109805))
+    (plane -VAA (polygon top_copper 0  114630 -98250.6  115240 -98250.6  115720 -96822.1
+            114935 -96265  114150 -96822.1  114630 -98250.6))
+    (plane -VAA (polygon top_copper 0  114630 -126191  115240 -126191  115720 -124762  114935 -124205
+            114150 -124762  114630 -126191))
+    (plane HT (polygon top_copper 0  154135 -90216  154135 -89616  153415 -89436.9  153034 -89916
+            153585 -90466  154135 -90216))
+    (plane HT (polygon top_copper 0  146611 -85341.1  146180 -84910  145026 -85524  145414 -86106.7
+            145997 -86494.9  146611 -85341.1))
+    (plane HT (polygon top_copper 0  148072 -109271  148072 -108661  146822 -108279  146684 -108966
+            146822 -109653  148072 -109271))
+    (plane "Net-(Q201-E)" (polygon top_copper 0  130648 -114617  130365 -114900  130895 -115629  131446 -115317
+            131680 -114816  130648 -114617))
+    (plane "Net-(Q204-E)" (polygon top_copper 0  130756 -124680  130356 -124680  130006 -125230  130556 -125731
+            131106 -125230  130756 -124680))
+    (plane -VAA (polygon top_copper 0  151536 -65583.8  151967 -66014.9  152982 -65700.6
+            153036 -64515.3  152235 -64184.6  151536 -65583.8))
+    (plane -VAA (polygon top_copper 0  115656 -94706.2  115225 -94275.2  114373 -95318.8
+            114934 -96266.7  115735 -95866  115656 -94706.2))
+    (plane "Net-(Q204-E)" (polygon top_copper 0  133208 -120323  133208 -120723  134356 -120829  134494 -120142
+            134104 -119560  133208 -120323))
+    (plane GND (polygon bottom_copper 0  187325 -131572  187325 -53086  88392 -53086  88392 -131572
+            187325 -131572))
+    (plane "Net-(C201-Pad2)" (polygon bottom_copper 0  111242 -110436  111242 -110036  109992 -109549
+            109854 -110236  109992 -110923  111242 -110436))
+    (plane "Net-(Q302-E)" (polygon bottom_copper 0  150772 -91746.3  151055 -91463.5  151045 -89850.9
+            150494 -89915.3  150251 -91216  150772 -91746.3))
+    (plane "Net-(Q302-E)" (polygon bottom_copper 0  161506 -96149.4  161074 -96149.4  160603 -97399.4
+            161290 -97537  161977 -97399.4  161506 -96149.4))
+    (plane /ampli_ht_vertical/Vpil_0_3,3V (polygon bottom_copper 0  110795 -116370  110795 -116802  111711 -117386
+            112396 -116586  111711 -115786  110795 -116370))
+    (plane "Net-(U201A--)" (polygon bottom_copper 0  109951 -122092  109646 -122397  109190 -123362
+            109856 -124207  110520 -123362  109951 -122092))
+    (plane /ampli_ht_vertical/PIEZO_IN (polygon bottom_copper 0  94830.9 -109133  94399.1 -109133  93615 -110133
+            94615 -111634  95615 -110133  94830.9 -109133))
+    (plane /ampli_ht_horizontal/Vpil_0_3,3V (polygon bottom_copper 0  111455 -88861.9  111455 -88430.1  110539 -87846
+            109854 -88646  110539 -89446  111455 -88861.9))
+    (plane /ampli_ht_horizontal/S_OUT+ (polygon bottom_copper 0  156629 -91302.6  157061 -91302.6  157532 -90052.6
+            156845 -89915  156158 -90052.6  156629 -91302.6))
+    (plane "Net-(C201-Pad2)" (polygon bottom_copper 0  103368 -111948  103063 -111643  101846 -112194
+            102234 -112777  102817 -113165  103368 -111948))
+    (plane "Net-(D304-K)" (polygon bottom_copper 0  148633 -102416  148633 -102816  149183 -103008
+            149734 -102235  149263 -101816  148633 -102416))
+    (plane "Net-(U301A--)" (polygon bottom_copper 0  110071 -94281.4  109639 -94281.4  109070 -95709.9
+            109855 -96267  110640 -95709.9  110071 -94281.4))
+    (plane "Net-(C202-Pad1)" (polygon bottom_copper 0  103591 -109947  103286 -109642  102372 -109549
+            102234 -110237  102624 -110818  103591 -109947))
+    (plane /ampli_ht_horizontal/Vpil_0_3,3V (polygon bottom_copper 0  112179 -90630.6  112611 -90630.6  113180 -89202.1
+            112395 -88645  111610 -89202.1  112179 -90630.6))
+    (plane /ampli_ht_horizontal/S_OUT+ (polygon bottom_copper 0  99851.2 -100231  99851.2 -99799.1  98565.5 -99369.8
+            98424 -100076  98825 -100675  99851.2 -100231))
+    (plane /ampli_ht_vertical/PIEZO_OUT (polygon bottom_copper 0  173571 -121549  173139 -121549  172668 -122799
+            173355 -122937  174042 -122799  173571 -121549))
+    (plane "Net-(U201B-+)" (polygon bottom_copper 0  115151 -114601  114719 -114601  114150 -116030
+            114935 -116587  115720 -116030  115151 -114601))
+    (plane "Net-(C301-Pad2)" (polygon bottom_copper 0  110833 -83576.4  110401 -83576.4  109930 -84826.4
+            110617 -84964  111304 -84826.4  110833 -83576.4))
+    (plane "Net-(U102-CAP+)" (polygon bottom_copper 0  148051 -70022  147746 -70327.4  147290 -71291.5
+            147956 -72136.7  148620 -71291.5  148051 -70022))
+    (plane /ampli_ht_horizontal/Vpil_0_3,3V (polygon bottom_copper 0  113526 -90082  113831 -89776.7  113195 -88314.6
+            112394 -88645.3  112448 -89830.6  113526 -90082))
+    (plane "Net-(D202-K)" (polygon bottom_copper 0  131615 -113846  131615 -114246  132335 -114525
+            132716 -114046  132165 -113496  131615 -113846))
+    (plane "Net-(D303-K)" (polygon bottom_copper 0  141389 -91500.6  141821 -91500.6  142390 -90072.1
+            141605 -89915  140820 -90072.1  141389 -91500.6))
+    (plane "Net-(D302-K)" (polygon bottom_copper 0  137995 -79639.4  137595 -79639.4  137108 -80889.4
+            137795 -81027  138482 -80889.4  137995 -79639.4))
+    (plane VCC (polygon bottom_copper 0  123105 -71542.8  123529 -71967  124434 -71416
+            124207 -70865.3  123706 -70588.2  123105 -71542.8))
+    (plane "Net-(D204-K)" (polygon bottom_copper 0  142194 -125078  142477 -124795  141770 -123240
+            140969 -123570  140639 -124371  142194 -125078))
+    (plane "Net-(D303-A)" (polygon bottom_copper 0  134185 -87596  133785 -87596  133456 -88315.8
+            133985 -88647  134514 -88315.8  134185 -87596))
+    (plane "Net-(U301B-+)" (polygon bottom_copper 0  104171 -85276.6  104454 -84993.8  103386 -84381
+            102996 -84962.3  103134 -85649.6  104171 -85276.6))
+    (plane HT (polygon bottom_copper 0  148072 -109266  148072 -108666  146822 -108279
+            146684 -108966  146822 -109653  148072 -109266))
+    (plane HT (polygon bottom_copper 0  97400 -57204.8  97400 -56595.2  96400 -55900  94899 -56900
+            96400 -57900  97400 -57204.8))
+    (plane /ampli_ht_vertical/Vpil_0_3,3V (polygon bottom_copper 0  111455 -116802  111455 -116370  110539 -115786
+            109854 -116586  110539 -117386  111455 -116802))
+    (plane "Net-(C304-Pad1)" (polygon bottom_copper 0  137081 -102867  136776 -103172  137384 -104584
+            138050 -104141  138493 -103475  137081 -102867))
+    (plane /ampli_ht_vertical/Vpil_0_3,3V (polygon bottom_copper 0  112179 -118571  112611 -118571  113180 -117142
+            112395 -116585  111610 -117142  112179 -118571))
+    (plane /12Vext (polygon bottom_copper 0  97300 -68626  97300 -68026  96300 -67900  94799 -69400
+            96300 -69843.7  97300 -68626))
+    (plane "Net-(C302-Pad1)" (polygon bottom_copper 0  111434 -78178  111434 -77778  110226 -78053.4
+            110362 -78740  110945 -79128.9  111434 -78178))
+    (plane /ampli_ht_vertical/PIEZO_OUT (polygon bottom_copper 0  178692 -112258  178692 -112658  179692 -113458
+            181194 -112458  179692 -111458  178692 -112258))
+    (plane "Net-(D204-K)" (polygon bottom_copper 0  134066 -125043  133783 -124760  132817 -125231
+            133095 -125731  133646 -125958  134066 -125043))
+    (plane "Net-(C201-Pad2)" (polygon bottom_copper 0  108468 -110020  108468 -110452  109718 -110923
+            109856 -110236  109718 -109549  108468 -110020))
+    (plane /ampli_ht_vertical/Vpil_0_3,3V (polygon bottom_copper 0  116947 -109465  117230 -109748  118174 -110139
+            118619 -109473  118174 -108809  116947 -109465))
+    (plane "Net-(D202-K)" (polygon bottom_copper 0  127200 -110297  127506 -110602  128298 -109766
+            127636 -108965  126835 -109766  127200 -110297))
+    (plane HT (polygon bottom_copper 0  136657 -106726  136657 -106126  135699 -105253
+            135254 -105918  135099 -106703  136657 -106726))
+    (plane /ampli_ht_horizontal/S_OUT+ (polygon bottom_copper 0  158232 -90131.9  158232 -89700.1  156982 -89229.4
+            156844 -89916  156982 -90602.6  158232 -90131.9))
+    (plane VCC (polygon bottom_copper 0  126056 -71166  126056 -70566  125506 -70316  124205 -70866
+            125506 -71416  126056 -71166))
+    (plane "Net-(C301-Pad2)" (polygon bottom_copper 0  111635 -81607  111635 -81207  110480 -81609.4
+            110616 -82296  111304 -82432.6  111635 -81607))
+    (plane "Net-(Q302-E)" (polygon bottom_copper 0  164602 -92013.8  164907 -92319.1  166124 -91768
+            165736 -91185.3  165153 -90797.1  164602 -92013.8))
+    (plane "Net-(U301B-+)" (polygon bottom_copper 0  114228 -86339  114533 -86033.6  114577 -84992.1
+            113791 -84835.3  113348 -85501.2  114228 -86339))
+    (plane "Net-(R213-Pad1)" (polygon bottom_copper 0  101737 -127574  102042 -127879  103259 -127328
+            102871 -126745  102288 -126357  101737 -127574))
+    (plane "Net-(D302-K)" (polygon bottom_copper 0  132915 -85526  132515 -85526  132186 -86245.8
+            132715 -87377  133244 -86245.8  132915 -85526))
+    (plane "Net-(R212-Pad2)" (polygon bottom_copper 0  126657 -121529  127089 -121529  127560 -120279
+            126873 -120141  126186 -120279  126657 -121529))
+    (plane "Net-(D304-K)" (polygon bottom_copper 0  140005 -97336  140005 -97736  140805 -98336  141606 -97536
+            140805 -96736  140005 -97336))
+    (plane "Net-(C202-Pad1)" (polygon bottom_copper 0  108468 -106845  108468 -107277  109718 -107748
+            109856 -107061  109718 -106374  108468 -106845))
+    (plane "Net-(Q301-E)" (polygon bottom_copper 0  131245 -90496  131645 -90496  131995 -89946  131445 -88645
+            130895 -89946  131245 -90496))
+    (plane "Net-(C301-Pad2)" (polygon bottom_copper 0  110401 -83682.6  110833 -83682.6  111304 -82432.6
+            110617 -82295  109930 -82432.6  110401 -83682.6))
+    (plane "Net-(D202-K)" (polygon bottom_copper 0  123654 -114454  123348 -114149  122166 -114734
+            122554 -115317  123242 -115453  123654 -114454))
+    (plane "Net-(U201B-+)" (polygon bottom_copper 0  111242 -112992  111242 -112560  109992 -112089
+            109854 -112776  109992 -113463  111242 -112992))
+    (plane /ampli_ht_vertical/PIEZO_IN (polygon bottom_copper 0  100848 -106845  100848 -107277  102098 -107748
+            102236 -107061  102098 -106374  100848 -106845))
+    (plane "Net-(U102-CAP+)" (polygon bottom_copper 0  139916 -75216  139484 -75216  138700 -76216  139700 -77217
+            140700 -76216  139916 -75216))
+    (plane "Net-(U201B-+)" (polygon bottom_copper 0  112080 -112560  112080 -112992  113509 -113561
+            113666 -112776  113509 -111991  112080 -112560))
+    (plane "Net-(U301B-+)" (polygon bottom_copper 0  115031 -86532  114726 -86837.4  114270 -87801.5
+            114936 -88646.7  115600 -87801.5  115031 -86532))
+    (plane "Net-(D301-K)" (polygon bottom_copper 0  124879 -80467  125311 -80467  125895 -79667  125095 -78866
+            124295 -79667  124879 -80467))
+    (plane "Net-(Q304-B)" (polygon bottom_copper 0  125819 -99959.4  125387 -99959.4  124916 -101209
+            125603 -101347  126290 -101209  125819 -99959.4))
+    (plane "Net-(C302-Pad1)" (polygon bottom_copper 0  104384 -82511.9  104384 -82080.1  103134 -81609.4
+            102996 -82296  103134 -82982.6  104384 -82511.9))
+    (plane "Net-(C302-Pad1)" (polygon bottom_copper 0  112207 -77778  112207 -78178  113636 -78762.6
+            113793 -77978  113636 -77193.4  112207 -77778))
+    (plane "Net-(Q204-B)" (polygon bottom_copper 0  130726 -124260  130726 -124660  131446 -124939
+            131827 -124460  131276 -123910  130726 -124260))
+    (plane "Net-(R212-Pad2)" (polygon bottom_copper 0  107679 -126145  107984 -125840  108115 -125406
+            107314 -124205  106829 -125406  107679 -126145))
+    (plane "Net-(Q302-E)" (polygon bottom_copper 0  165951 -89799.4  165519 -89799.4  165048 -91049.4
+            165735 -91187  166422 -91049.4  165951 -89799.4))
+    (plane "Net-(D304-K)" (polygon bottom_copper 0  142992 -101562  142992 -101130  141742 -100659
+            141604 -101346  141742 -102033  142992 -101562))
+    (plane "Net-(C301-Pad2)" (polygon bottom_copper 0  112160 -81207  112160 -81607  113589 -82191.6
+            113746 -81407  113589 -80622.4  112160 -81207))
+    (plane "Net-(Q204-B)" (polygon bottom_copper 0  126565 -126629  126165 -126629  125678 -127879
+            126365 -128017  127052 -127879  126565 -126629))
+    (plane VCC (polygon bottom_copper 0  119348 -73706  119348 -73106  118348 -72406  117347 -73406
+            118348 -74406  119348 -73706))
+    (plane +12V (polygon bottom_copper 0  105715 -88341.2  105715 -88950.8  106631 -89446
+            107316 -88646  106631 -87846  105715 -88341.2))
+    (plane /ampli_ht_horizontal/Vpil_0_3,3V (polygon bottom_copper 0  117809 -82514.3  118079 -82851.5  119189 -82072.2
+            118746 -81406.4  117960 -81250.9  117809 -82514.3))
+    (plane /ampli_ht_vertical/S_OUT+ (polygon bottom_copper 0  155013 -117477  155319 -117783  156347 -117400
+            156211 -116712  155628 -116324  155013 -117477))
+    (plane "Net-(Q303-E)" (polygon bottom_copper 0  152083 -100168  151800 -99884.7  151553 -99665
+            151002 -100966  151553 -101193  152083 -100168))
+    (plane "Net-(D203-K)" (polygon bottom_copper 0  140754 -117536  141186 -117536  141755 -116107
+            140970 -115950  140185 -116107  140754 -117536))
+    (plane +12V (polygon bottom_copper 0  126246 -62425.5  126678 -62856.5  127542 -61706
+            126620 -60705.3  125619 -61706  126246 -62425.5))
+    (plane "Net-(D303-A)" (polygon bottom_copper 0  150665 -88446  150665 -88846  151385 -89125.1
+            151766 -88646  151215 -88096  150665 -88446))
+    (plane "Net-(Q202-E)" (polygon bottom_copper 0  160236 -122819  159804 -122819  159333 -124069
+            160020 -124207  160707 -124069  160236 -122819))
+    (plane "Net-(R313-Pad1)" (polygon bottom_copper 0  94200.8 -101237  94506.1 -100932  93943.7 -99676
+            93344.3 -100075  92945 -100675  94200.8 -101237))
+    (plane HT (polygon bottom_copper 0  120098 -58459.8  119674 -58884  120593 -60793.2
+            121794 -60579.7  122007 -59379  120098 -58459.8))
+    (plane "Net-(D301-K)" (polygon bottom_copper 0  125311 -80711.4  124879 -80711.4  124310 -82139.9
+            125095 -82297  125880 -82139.9  125311 -80711.4))
+    (plane "Net-(R312-Pad2)" (polygon bottom_copper 0  107679 -98204.9  107984 -97899.5  108115 -97466
+            107314 -96265.3  106829 -97466  107679 -98204.9))
+    (plane "Net-(Q202-E)" (polygon bottom_copper 0  149224 -116995  149507 -116712  149775 -116362
+            149224 -115061  148775 -116362  149224 -116995))
+    (plane "Net-(Q304-E)" (polygon bottom_copper 0  129594 -98370  129994 -98370  130344 -97820  129794 -96519
+            129244 -97820  129594 -98370))
+    (plane +12V (polygon bottom_copper 0  124643 -67226  124033 -67226  123727 -67945.8
+            124206 -68327  124826 -67776  124643 -67226))
+    (plane "Net-(C202-Pad1)" (polygon bottom_copper 0  112501 -106861  112501 -107261  113821 -106830
+            113666 -106045  112880 -105889  112501 -106861))
+    (plane "Net-(D204-K)" (polygon bottom_copper 0  143496 -125815  143214 -126097  143817 -127262
+            144400 -126874  144536 -126186  143496 -125815))
+    (plane -VAA (polygon bottom_copper 0  154635 -64820.8  154635 -64211.2  153719 -63716
+            153034 -64516  153719 -65316  154635 -64820.8))
+    (plane "Net-(U201B-+)" (polygon bottom_copper 0  114633 -114049  114938 -113744  114330 -112332
+            113664 -112775  113221 -113441  114633 -114049))
+    (plane HT (polygon bottom_copper 0  123912 -58983.1  123488 -58558.8  121605 -59379
+            121792 -60579.7  122993 -60819.3  123912 -58983.1))
+    (plane "Net-(U301A--)" (polygon bottom_copper 0  97311.2 -97751.9  97311.2 -97320.1  96025.5 -96829.8
+            95884 -97536  96025.5 -98242.2  97311.2 -97751.9))
+    (plane "Net-(Q202-E)" (polygon bottom_copper 0  165951 -117739  165519 -117739  165048 -118989
+            165735 -119127  166422 -118989  165951 -117739))
+    (plane /ampli_ht_horizontal/PIEZO_OUT (polygon bottom_copper 0  173571 -96149.4  173139 -96149.4  172668 -97399.4
+            173355 -97537  174042 -97399.4  173571 -96149.4))
+    (plane "Net-(D302-K)" (polygon bottom_copper 0  131353 -81921.2  131070 -82204.1  131915 -82981.7
+            132716 -82296.7  131915 -81496  131353 -81921.2))
+    (plane /12Vext (polygon bottom_copper 0  101299 -68026  101299 -68626  102767 -69240.6
+            103379 -68326  102767 -67411.4  101299 -68026))
+    (plane -VAA (polygon bottom_copper 0  158485 -64211.2  158485 -64820.8  160215 -64339.8
+            160021 -63359  159189 -62803.4  158485 -64211.2))
+    (plane "Net-(C204-Pad1)" (polygon bottom_copper 0  136563 -128260  136995 -128260  137466 -127010
+            136779 -126872  136092 -127010  136563 -128260))
+    (plane "Net-(Q203-E)" (polygon bottom_copper 0  152865 -124025  152865 -123625  152315 -123275
+            151764 -123825  152315 -124325  152865 -124025))
+    (plane "Net-(C204-Pad1)" (polygon bottom_copper 0  137208 -128775  136903 -129080  137511 -130492
+            138177 -130049  138620 -129383  137208 -128775))
+    (plane "Net-(D204-K)" (polygon bottom_copper 0  145175 -128058  145457 -127776  145086 -126736
+            144398 -126872  144010 -127455  145175 -128058))
+    (plane "Net-(U102-CAP-)" (polygon bottom_copper 0  153572 -75542.7  153267 -75848  153719 -77411.1
+            154701 -77216.7  155256 -76384.5  153572 -75542.7))
+    (plane "Net-(D204-K)" (polygon bottom_copper 0  139370 -123355  139370 -123787  140170 -124371
+            140971 -123571  140170 -122771  139370 -123355))
+    (plane "Net-(C202-Pad1)" (polygon bottom_copper 0  111242 -107261  111242 -106861  109992 -106374
+            109854 -107061  109992 -107748  111242 -107261))
+    (plane "Net-(Q303-E)" (polygon bottom_copper 0  156775 -99041.1  157080 -98735.7  157427 -97924.9
+            156844 -97535.3  156263 -97924.9  156775 -99041.1))
+    (plane "Net-(Q304-B)" (polygon bottom_copper 0  129964 -95050  129964 -95450  130684 -95729.1
+            131065 -95250  130514 -94700  129964 -95050))
+    (plane "Net-(D204-K)" (polygon bottom_copper 0  150202 -126734  150507 -127039  150950 -126324
+            150496 -125094  149966 -126225  150202 -126734))
+    (plane "Net-(D201-K)" (polygon bottom_copper 0  129235 -106118  129235 -105718  128435 -105118
+            127634 -105918  128435 -106718  129235 -106118))
+    (plane "Net-(D302-K)" (polygon bottom_copper 0  132515 -83896  132915 -83896  133515 -83096  132715 -82295
+            131915 -83096  132515 -83896))
+    (plane HT (polygon bottom_copper 0  152065 -114012  151465 -114012  151236 -114732
+            151765 -115063  152294 -114732  152065 -114012))
+    (plane /ampli_ht_horizontal/PIEZO_IN (polygon bottom_copper 0  96522 -82853.3  96216.7 -82548  94671.7 -83500
+            94899.3 -85000.7  96400 -84509.6  96522 -82853.3))
+    (plane "Net-(D203-A)" (polygon bottom_copper 0  149395 -113211  149395 -113611  150025 -114211
+            150496 -113792  149945 -113019  149395 -113211))
+    (plane HT (polygon bottom_copper 0  146802 -86410.8  146802 -85801.2  145552 -85419.4
+            145414 -86106  145552 -86792.6  146802 -86410.8))
+    (plane /ampli_ht_horizontal/PIEZO_OUT (polygon bottom_copper 0  173139 -92572.6  173571 -92572.6  174042 -91322.6
+            173355 -91185  172668 -91322.6  173139 -92572.6))
+    (plane /ampli_ht_horizontal/PIEZO_OUT (polygon bottom_copper 0  178700 -86100  178700 -86500  179700 -87300  181201 -86300
+            179700 -85300  178700 -86100))
+    (plane "Net-(R312-Pad2)" (polygon bottom_copper 0  118275 -96382.6  118707 -96382.6  119178 -95132.6
+            118491 -94995  117804 -95132.6  118275 -96382.6))
+    (plane "Net-(Q203-E)" (polygon bottom_copper 0  164698 -123887  165035 -124157  166124 -123518
+            165736 -122935  165048 -122799  164698 -123887))
+    (plane "Net-(D203-A)" (polygon bottom_copper 0  135085 -115516  135085 -115116  134365 -114837
+            133984 -115316  134535 -115866  135085 -115516))
+    (plane HT (polygon bottom_copper 0  145298 -108661  145298 -109271  146548 -109653
+            146686 -108966  146548 -108279  145298 -108661))
+    (plane HT (polygon bottom_copper 0  134070 -79122  134494 -78697.7  132871 -78082.4
+            132714 -78866.3  133159 -79532.2  134070 -79122))
+    (plane "Net-(U102-CAP-)" (polygon bottom_copper 0  152819 -74120.6  153251 -74120.6  153820 -72692.1
+            153035 -72135  152250 -72692.1  152819 -74120.6))
+    (plane /ampli_ht_vertical/S_OUT+ (polygon bottom_copper 0  158633 -116370  158633 -116802  159883 -117273
+            160021 -116586  159883 -115899  158633 -116370))
+    (plane "Net-(D201-K)" (polygon bottom_copper 0  133670 -108766  133670 -109166  135099 -109751
+            135256 -108966  135099 -108181  133670 -108766))
+    (plane /ampli_ht_horizontal/S_OUT+ (polygon bottom_copper 0  159903 -89700.1  159903 -90131.9  161153 -90602.6
+            161291 -89916  161153 -89229.4  159903 -89700.1))
+    (plane "Net-(Q303-E)" (polygon bottom_copper 0  155721 -97971  155721 -98371  156982 -98222.6
+            156846 -97536  156263 -97147.1  155721 -97971))
+    (plane "Net-(D304-K)" (polygon bottom_copper 0  141389 -99136  141821 -99136  142405 -98336  141605 -97535
+            140805 -98336  141389 -99136))
+    (plane "Net-(C302-Pad1)" (polygon bottom_copper 0  109230 -79567.8  109535 -79873.1  110752 -79322
+            110364 -78739.3  109781 -78351.1  109230 -79567.8))
+    (plane "Net-(D203-A)" (polygon bottom_copper 0  144996 -114366  144564 -114366  143995 -115795
+            144780 -115952  145565 -115795  144996 -114366))
+    (plane /ampli_ht_vertical/S_OUT+ (polygon bottom_copper 0  157597 -116802  157597 -116370  156347 -116026
+            156209 -116713  156599 -117295  157597 -116802))
+    (plane /ampli_ht_horizontal/PIEZO_IN (polygon bottom_copper 0  101610 -79567.8  101915 -79873.1  103132 -79322
+            102744 -78739.3  102161 -78351.1  101610 -79567.8))
+    (plane "Net-(Q203-E)" (polygon bottom_copper 0  155034 -123625  155034 -124025  155628 -124722
+            156211 -124333  156347 -123646  155034 -123625))
+    (plane "Net-(R313-Pad1)" (polygon bottom_copper 0  100848 -102400  100848 -102832  102098 -103303
+            102236 -102616  102098 -101929  100848 -102400))
+    (plane VCC (polygon bottom_copper 0  143815 -64211.2  143815 -64820.8  144731 -65316
+            145416 -64516  144731 -63716  143815 -64211.2))
+    (plane "Net-(C304-Pad1)" (polygon bottom_copper 0  135185 -101581  135490 -101276  134374 -100764
+            133984 -101345  134374 -101928  135185 -101581))
+    (plane /ampli_ht_horizontal/Vpil_0_3,3V (polygon bottom_copper 0  112611 -94281.4  112179 -94281.4  111610 -95709.9
+            112395 -96267  113180 -95709.9  112611 -94281.4))
+    (plane /ampli_ht_horizontal/PIEZO_OUT (polygon bottom_copper 0  173555 -89799.4  173155 -89799.4  172668 -91049.4
+            173355 -91187  174042 -91049.4  173555 -89799.4))
+    (plane "Net-(Q301-E)" (polygon bottom_copper 0  137595 -87492.6  137995 -87492.6  138482 -86242.6
+            137795 -86105  137108 -86242.6  137595 -87492.6))
+    (plane "Net-(Q304-E)" (polygon bottom_copper 0  124606 -94925.7  124911 -95231.1  125722 -95578
+            126112 -94995.3  125722 -94414  124606 -94925.7))
+    (plane "Net-(D304-K)" (polygon bottom_copper 0  133131 -97600.3  133414 -97317.5  132883 -96291.5
+            132333 -96519.3  132787 -97750.6  133131 -97600.3))
+    (plane "Net-(D203-K)" (polygon bottom_copper 0  144699 -121915  144394 -122220  143980 -122771
+            144781 -123572  145466 -122771  144699 -121915))
+    (plane /ampli_ht_vertical/S_OUT+ (polygon bottom_copper 0  99958.1 -125518  99652.8 -125213  98565.5 -124770
+            98424.3 -125477  98825 -126075  99958.1 -125518))
+    (plane "Net-(D303-K)" (polygon bottom_copper 0  145631 -95936  145199 -95936  144615 -96736  145415 -97537
+            146215 -96736  145631 -95936))
+    (plane "Net-(D304-K)" (polygon bottom_copper 0  141821 -99959.4  141389 -99959.4  140918 -101209
+            141605 -101347  142292 -101209  141821 -99959.4))
+    (plane "Net-(R213-Pad1)" (polygon bottom_copper 0  94200.8 -126637  94506.1 -126332  93943.7 -125076
+            93344.3 -125475  92945 -126075  94200.8 -126637))
+    (plane /ampli_ht_vertical/PIEZO_OUT (polygon bottom_copper 0  173555 -117739  173155 -117739  172668 -118989
+            173355 -119127  174042 -118989  173555 -117739))
+    (plane "Net-(Q303-E)" (polygon bottom_copper 0  165500 -98735.7  165805 -99041.1  166317 -97924.9
+            165736 -97535.3  165153 -97924.9  165500 -98735.7))
+    (plane "Net-(Q203-E)" (polygon bottom_copper 0  155994 -125720  156426 -125720  156897 -124470
+            156210 -124332  155523 -124470  155994 -125720))
+    (plane "Net-(C201-Pad2)" (polygon bottom_copper 0  112349 -110036  112349 -110436  113774 -110259
+            113619 -109474  112953 -109030  112349 -110036))
+    (plane "Net-(U201A--)" (polygon bottom_copper 0  97311.2 -123152  97311.2 -122720  96025.5 -122230
+            95884 -122936  96025.5 -123642  97311.2 -123152))
+    (plane +12V (polygon bottom_copper 0  105715 -116281  105715 -116891  106631 -117386
+            107316 -116586  106631 -115786  105715 -116281))
+    (plane /ampli_ht_horizontal/Vpil_0_3,3V (polygon bottom_copper 0  110795 -88430.1  110795 -88861.9  111711 -89446
+            112396 -88646  111711 -87846  110795 -88430.1))
+    (plane /ampli_ht_vertical/PIEZO_OUT (polygon bottom_copper 0  173139 -120513  173571 -120513  174042 -119263
+            173355 -119125  172668 -119263  173139 -120513))
+    (plane /ampli_ht_vertical/Vpil_0_3,3V (polygon bottom_copper 0  112611 -122221  112179 -122221  111610 -123650
+            112395 -124207  113180 -123650  112611 -122221))
+    (plane HT (polygon bottom_copper 0  144650 -84910  144219 -85341.1  144833 -86494.9
+            145416 -86106.7  145804 -85524  144650 -84910))
+    (plane "Net-(D303-A)" (polygon bottom_copper 0  145730 -88846  145730 -88446  144750 -89471.5
+            145414 -89916  146200 -89759.9  145730 -88846))
+    (plane "Net-(U301B-+)" (polygon bottom_copper 0  112289 -85271.6  112594 -85577  113636 -85620.6
+            113793 -84835.3  113127 -84391.5  112289 -85271.6))
+    (plane "Net-(Q202-E)" (polygon bottom_copper 0  164348 -118910  164348 -119342  165598 -119813
+            165736 -119126  165598 -118439  164348 -118910))
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component complex_hierarchy:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+      (place C104 126619 -60706 front 0 (PN 47uF/20V))
+      (place C105 139700 -77216 front 0 (PN 10uF))
+    )
+    (component complex_hierarchy:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal
+      (place C101 121793 -60579 front 180 (PN 47uF/63V))
+    )
+    (component complex_hierarchy:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal::1
+      (place C103 160020 -78359 front 90 (PN 10uF))
+    )
+    (component "complex_hierarchy:TO-92_HandSolder"
+      (place Q201 131445 -115316 front 0 (PN MPSA92))
+      (place Q301 131445 -88646 front 0 (PN MPSA92))
+      (place Q302 150495 -89916 front 0 (PN MPSA42))
+      (place Q304 129794 -96520 front 0 (PN MPSA42))
+      (place Q202 149225 -115062 front 0 (PN MPSA42))
+      (place Q204 130556 -125730 front 0 (PN MPSA42))
+    )
+    (component "complex_hierarchy:TO-92_HandSolder::1"
+      (place Q203 151765 -123825 front 180 (PN MPSA92))
+      (place Q303 151003 -100965 front 180 (PN MPSA92))
+    )
+    (component complex_hierarchy:Potentiometer_Bourns_3266W_Vertical
+      (place RV201 93345 -125476 front 180 (PN 4,7K))
+      (place RV301 93345 -100076 front 180 (PN 4,7K))
+    )
+    (component "complex_hierarchy:TO-92_HandSolder::2"
+      (place U101 124206 -70866 front 90 (PN 78L05))
+    )
+    (component complex_hierarchy:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+      (place R312 126111 -94996 front 180 (PN 1K))
+      (place R202 109855 -110236 front 180 (PN 22K))
+      (place R308 125603 -101346 front 180 (PN 1K))
+      (place R302 110617 -82296 front 180 (PN 22K))
+      (place R306 173355 -91186 front 180 (PN 47))
+      (place R304 145415 -86106 front 180 (PN 470))
+      (place R211 144399 -126873 front 180 (PN 5,6K))
+      (place R212 134493 -120142 front 180 (PN 1K))
+      (place R208 126365 -128016 front 180 (PN 1K))
+      (place R203 109855 -112776 front 180 (PN 22K))
+      (place R204 146685 -108966 front 180 (PN 470))
+      (place R206 173355 -119126 front 180 (PN 47))
+      (place R307 173355 -97536 front 180 (PN 47))
+      (place R207 173355 -122936 front 180 (PN 47))
+      (place R301 110363 -78740 front 180 (PN 1K))
+      (place R201 109855 -107061 front 180 (PN 1K))
+      (place R311 141605 -101346 front 180 (PN 5,6K))
+    )
+    (component complex_hierarchy:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal::1
+      (place R305 137795 -81026 front 0 (PN 220K))
+      (place R303 102997 -84963 front 0 (PN 22K))
+    )
+    (component complex_hierarchy:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal::2
+      (place R209 156210 -116713 front -90 (PN 220K))
+      (place R205 122555 -115316 front -90 (PN 220K))
+      (place R310 161290 -89916 front -90 (PN 220K))
+      (place R210 160020 -116586 front -90 (PN 220K))
+      (place R309 156845 -89916 front -90 (PN 220K))
+    )
+    (component complex_hierarchy:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal::3
+      (place R213 102870 -126746 front 90 (PN 4,7K))
+      (place R313 102235 -102616 front 90 (PN 4,7K))
+    )
+    (component "complex_hierarchy:DIP-8_W7.62mm_LongPads"
+      (place U301 107315 -96266 front 90 (PN LM358N))
+      (place U102 145415 -72136 front 90 (PN ICL7660))
+      (place U201 107315 -124206 front 90 (PN LM358N))
+    )
+    (component complex_hierarchy:C_Disc_D5.0mm_W2.5mm_P5.00mm
+      (place C304 138049 -104140 front 0 (PN 820pF))
+      (place C303 113792 -84836 front 0 (PN 4.7nF))
+      (place C204 138176 -130048 front 0 (PN 820pF))
+      (place C202 113665 -106045 front 0 (PN 150nF))
+      (place C302 113792 -77978 front 0 (PN 150nF))
+      (place C203 113665 -112776 front 0 (PN 4.7nF))
+    )
+    (component complex_hierarchy:C_Disc_D5.0mm_W2.5mm_P5.00mm::1
+      (place C301 118745 -81407 front 180 (PN 15nF))
+      (place C201 118618 -109474 front 180 (PN 15nF))
+    )
+    (component "complex_hierarchy:D_DO-41_SOD81_P12.70mm_Horizontal"
+      (place D101 116078 -68326 front 180 (PN 1N4007))
+    )
+    (component "complex_hierarchy:D_DO-35_SOD27_P7.62mm_Horizontal"
+      (place D301 125095 -78867 front 0 (PN 1N4148))
+      (place D201 127635 -105918 front 0 (PN 1N4148))
+      (place D202 127635 -108966 front 0 (PN 1N4148))
+    )
+    (component "complex_hierarchy:D_DO-35_SOD27_P7.62mm_Horizontal::1"
+      (place D203 144780 -123571 front 90 (PN 1N4148))
+      (place D304 141605 -97536 front 90 (PN 1N4148))
+      (place D204 140970 -123571 front 90 (PN 1N4148))
+      (place D303 145415 -97536 front 90 (PN 1N4148))
+    )
+    (component "complex_hierarchy:D_DO-35_SOD27_P7.62mm_Horizontal::2"
+      (place D302 132715 -82296 front 180 (PN 1N4148))
+    )
+    (component "complex_hierarchy:Altech_AK300_1x02_P5.00mm_45-Degree"
+      (place P101 94900 -56900 front -90 (PN CONN_2))
+      (place P102 94800 -69400 front -90 (PN CONN_2))
+      (place P201 94615 -111633 front -90 (PN CONN_2))
+      (place P301 94900 -85000 front -90 (PN CONN_2))
+    )
+    (component "complex_hierarchy:Altech_AK300_1x02_P5.00mm_45-Degree::1"
+      (place P202 181192.5 -112457.5 front 90 (PN CONN_2))
+      (place P302 181200 -86300 front 90 (PN CONN_2))
+    )
+    (component complex_hierarchy:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal::2
+      (place C102 117348 -73406 front 180 (PN 47uF))
+    )
+  )
+  (library
+    (image complex_hierarchy:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+      (outline (polygon signal 0  16245 -2495  -1245 -2495  -1245 2495  16245 2495))
+      (outline (path signal 120  630 2200  2130 2200))
+      (outline (path signal 120  1240 0  2380 0))
+      (outline (path signal 120  1380 2950  1380 1450))
+      (outline (path signal 120  2380 2370  2380 -2370))
+      (outline (path signal 120  2380 2370  3880 2370))
+      (outline (path signal 120  2380 -2370  3880 -2370))
+      (outline (path signal 120  3880 2370  4630 1620))
+      (outline (path signal 120  3880 -2370  4630 -1620))
+      (outline (path signal 120  4630 1620  5380 2370))
+      (outline (path signal 120  4630 -1620  5380 -2370))
+      (outline (path signal 120  5380 2370  12620 2370))
+      (outline (path signal 120  5380 -2370  12620 -2370))
+      (outline (path signal 120  12620 2370  12620 -2370))
+      (outline (path signal 120  13760 0  12620 0))
+      (outline (path signal 100  0 0  2500 0))
+      (outline (path signal 100  2500 2250  2500 -2250))
+      (outline (path signal 100  2500 2250  3880 2250))
+      (outline (path signal 100  2500 -2250  3880 -2250))
+      (outline (path signal 100  3880 2250  4630 1500))
+      (outline (path signal 100  3880 -2250  4630 -1500))
+      (outline (path signal 100  3900 0  5400 0))
+      (outline (path signal 100  4630 1500  5380 2250))
+      (outline (path signal 100  4630 -1500  5380 -2250))
+      (outline (path signal 100  4650 750  4650 -750))
+      (outline (path signal 100  5380 2250  12500 2250))
+      (outline (path signal 100  5380 -2250  12500 -2250))
+      (outline (path signal 100  12500 2250  12500 -2250))
+      (outline (path signal 100  15000 0  12500 0))
+      (pin Rect[A]Pad_2000.000000x2000.000000_um 1 0 0)
+      (pin Oval[A]Pad_2000.000000x2000.000000_um 2 15000 0)
+    )
+    (image complex_hierarchy:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal
+      (outline (polygon signal 0  -1445 3245  19445 3245  19445 -3245  -1445 -3245))
+      (outline (path signal 120  16560 0  14620 0))
+      (outline (path signal 120  14620 3120  14620 -3120))
+      (outline (path signal 120  6980 -3120  14620 -3120))
+      (outline (path signal 120  6980 3120  14620 3120))
+      (outline (path signal 120  6080 -2220  6980 -3120))
+      (outline (path signal 120  6080 2220  6980 3120))
+      (outline (path signal 120  5180 -3120  6080 -2220))
+      (outline (path signal 120  5180 3120  6080 2220))
+      (outline (path signal 120  3380 -3120  5180 -3120))
+      (outline (path signal 120  3380 3120  5180 3120))
+      (outline (path signal 120  3380 3120  3380 -3120))
+      (outline (path signal 120  2180 3500  2180 1700))
+      (outline (path signal 120  1440 0  3380 0))
+      (outline (path signal 120  1280 2600  3080 2600))
+      (outline (path signal 100  18000 0  14500 0))
+      (outline (path signal 100  14500 3000  14500 -3000))
+      (outline (path signal 100  6980 -3000  14500 -3000))
+      (outline (path signal 100  6980 3000  14500 3000))
+      (outline (path signal 100  6100 900  6100 -900))
+      (outline (path signal 100  6080 -2100  6980 -3000))
+      (outline (path signal 100  6080 2100  6980 3000))
+      (outline (path signal 100  5200 0  7000 0))
+      (outline (path signal 100  5180 -3000  6080 -2100))
+      (outline (path signal 100  5180 3000  6080 2100))
+      (outline (path signal 100  3500 -3000  5180 -3000))
+      (outline (path signal 100  3500 3000  5180 3000))
+      (outline (path signal 100  3500 3000  3500 -3000))
+      (outline (path signal 100  0 0  3500 0))
+      (pin Rect[A]Pad_2400.000000x2400.000000_um 1 0 0)
+      (pin Oval[A]Pad_2400.000000x2400.000000_um 2 18000 0)
+    )
+    (image complex_hierarchy:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal::1
+      (outline (polygon signal 0  -1245 -2495  -1245 2495  16245 2495  16245 -2495))
+      (outline (path signal 120  1380 2950  1380 1450))
+      (outline (path signal 120  12620 2370  12620 -2370))
+      (outline (path signal 120  5380 2370  12620 2370))
+      (outline (path signal 120  3880 2370  4630 1620))
+      (outline (path signal 120  2380 2370  3880 2370))
+      (outline (path signal 120  2380 2370  2380 -2370))
+      (outline (path signal 120  630 2200  2130 2200))
+      (outline (path signal 120  4630 1620  5380 2370))
+      (outline (path signal 120  13760 0  12620 0))
+      (outline (path signal 120  1240 0  2380 0))
+      (outline (path signal 120  4630 -1620  5380 -2370))
+      (outline (path signal 120  5380 -2370  12620 -2370))
+      (outline (path signal 120  3880 -2370  4630 -1620))
+      (outline (path signal 120  2380 -2370  3880 -2370))
+      (outline (path signal 100  12500 2250  12500 -2250))
+      (outline (path signal 100  5380 2250  12500 2250))
+      (outline (path signal 100  3880 2250  4630 1500))
+      (outline (path signal 100  2500 2250  3880 2250))
+      (outline (path signal 100  2500 2250  2500 -2250))
+      (outline (path signal 100  4630 1500  5380 2250))
+      (outline (path signal 100  4650 750  4650 -750))
+      (outline (path signal 100  15000 0  12500 0))
+      (outline (path signal 100  3900 0  5400 0))
+      (outline (path signal 100  0 0  2500 0))
+      (outline (path signal 100  4630 -1500  5380 -2250))
+      (outline (path signal 100  5380 -2250  12500 -2250))
+      (outline (path signal 100  3880 -2250  4630 -1500))
+      (outline (path signal 100  2500 -2250  3880 -2250))
+      (pin Rect[A]Pad_2000.000000x2000.000000_um 1 0 0)
+      (pin Oval[A]Pad_2000.000000x2000.000000_um 2 15000 0)
+    )
+    (image "complex_hierarchy:TO-92_HandSolder"
+      (outline (polygon signal 0  3995 -2005  -1455 -2005  -1455 3045  3995 3045))
+      (outline (path signal 120  -530 -1850  3070 -1850))
+      (outline (polygon signal 0  -499.797 -1798.97  -482.692 -1831.87  -488.194 -1868.54
+            -514.199 -1894.98  -550.776 -1901.08  -583.953 -1884.51  -785.309 -1662.6
+            -960.259 -1419.32  -1106.55 -1157.81  -1222.31 -881.424  -1306.05 -593.712
+            -1356.69 -298.372  -1373.58 0.801  -1356.51 299.965  -1305.69 595.274
+            -1221.78 882.935  -1105.85 1159.25  -959.398 1420.67  -784.301 1663.84
+            -582.81 1885.64  -357.514 2083.2  -111.307 2254  152.647 2395.84
+            430.957 2506.9  468.037 2507.22  498.228 2485.69  509.998 2450.53
+            498.85 2415.16  469.043 2393.1  325.165 2345.01  51.052 2214.93
+            -205.506 2052.96  -440.812 1861.42  -651.479 1643.07  -834.472 1401.06
+            -987.155 1138.87  -1107.33 860.276  -1193.27 569.292  -1243.73 270.108
+            -1257.98 -32.965  -1235.83 -335.564  -1177.58 -633.329  -1084.09 -921.974
+            -956.691 -1197.34  -797.223 -1455.46  -607.981 -1692.62  -499.797 -1798.97))
+      (outline (polygon signal 0  2031.8 2392.83  2001.67 2414.45  1990 2449.64  2001.25 2484.98
+            2031.12 2506.95  2068.2 2507.17  2348.39 2400.03  2614.56 2261.68
+            2863.25 2093.94  3091.24 1898.98  3295.55 1679.34  3473.53 1437.88
+            3622.87 1177.72  3741.64 902.254  3828.27 615.061  3881.65 319.874
+            3901.09 20.529  3886.32 -279.082  3837.55 -575.067  3755.41 -863.576
+            3640.97 -1140.86  3495.7 -1403.32  3321.51 -1647.53  3120.65 -1870.33
+            3087.52 -1886.99  3050.92 -1881  3024.84 -1854.64  3019.23 -1817.98
+            3036.24 -1785.03  3144.18 -1678.24  3332.73 -1440.2  3491.23 -1181.18
+            3617.36 -904.946  3709.3 -615.527  3765.69 -317.14  3785.72 -14.132
+            3769.09 289.081  3716.06 588.083  3627.38 878.516  3504.36 1156.15
+            3348.78 1416.94  3162.91 1657.08  2949.47 1873.08  2711.55 2061.79
+            2452.63 2220.45  2176.48 2346.77  2031.8 2392.83))
+      (outline (path signal 100  -500 -1750  3000 -1750))
+      (outline (polygon signal 0  -448.27 -1718.27  -434.241 -1745.8  -439.075 -1776.33
+            -460.925 -1798.17  -491.447 -1803.01  -518.98 -1788.98  -716.852 -1566.31
+            -887.18 -1321.92  -1027.6 -1059.21  -1136.17 -781.813  -1211.39 -493.579
+            -1252.2 -198.502  -1258.05 99.327  -1228.85 395.779  -1165.01 686.744
+            -1067.41 968.189  -937.415 1236.21  -776.813 1487.1  -587.836 1717.37
+            -373.103 1923.83  -135.593 2103.62  121.404 2254.25  394.324 2373.62
+            679.383 2460.1  972.63 2512.46  1270 2530  1299.39 2520.45  1317.55 2495.45
+            1317.55 2464.55  1299.39 2439.55  1270 2430  1119.14 2429.94
+            819.731 2392.62  527.239 2318.55  246.156 2208.87  -19.202 2065.26
+            -264.76 1889.94  -486.746 1685.59  -681.75 1455.35  -846.777 1202.75
+            -979.294 931.688  -1077.26 646.312  -1139.18 351.009  -1164.1 50.316
+            -1151.63 -251.15  -1101.97 -548.759  -1015.87 -837.94  -894.673 -1114.25
+            -740.225 -1373.45  -554.902 -1611.55  -448.27 -1718.27))
+      (outline (polygon signal 0  1270 2430  1240.61 2439.55  1222.45 2464.55  1222.45 2495.45
+            1240.61 2520.45  1270 2530  1567.37 2512.46  1860.62 2460.1
+            2145.68 2373.62  2418.6 2254.25  2675.59 2103.62  2913.1 1923.83
+            3127.84 1717.37  3316.81 1487.1  3477.41 1236.21  3607.41 968.189
+            3705.01 686.744  3768.85 395.779  3798.05 99.327  3792.2 -198.502
+            3751.39 -493.579  3676.17 -781.813  3567.6 -1059.21  3427.18 -1321.92
+            3256.85 -1566.31  3058.98 -1788.98  3031.45 -1803.01  3000.93 -1798.17
+            2979.07 -1776.33  2974.24 -1745.8  2988.27 -1718.27  3094.9 -1611.55
+            3280.22 -1373.45  3434.67 -1114.25  3555.87 -837.94  3641.97 -548.759
+            3691.63 -251.15  3704.1 50.316  3679.18 351.009  3617.26 646.312
+            3519.29 931.688  3386.78 1202.75  3221.75 1455.35  3026.75 1685.59
+            2804.76 1889.94  2559.2 2065.26  2293.84 2208.87  2012.76 2318.55
+            1720.27 2392.62  1420.86 2429.94  1270 2430))
+      (pin "Rect[A][0.000000,-400.000000]Pad_1100.000000x1800.000000_um" 1 0 0)
+      (pin RoundRect[A][0.000000,400.000000]Pad_1100.000000x1800.000000_276.046000_um_0.000000_0 2 1270 1270)
+      (pin "RoundRect[A][0.000000,-400.000000]Pad_1100.000000x1800.000000_276.046000_um_0.000000_0" 3 2540 0)
+    )
+    (image "complex_hierarchy:TO-92_HandSolder::1"
+      (outline (polygon signal 0  -1455 3045  3995 3045  3995 -2005  -1455 -2005))
+      (outline (path signal 120  -530 -1850  3070 -1850))
+      (outline (polygon signal 0  2031.8 2392.83  2001.67 2414.45  1990 2449.64  2001.25 2484.98
+            2031.12 2506.95  2068.2 2507.17  2348.39 2400.03  2614.56 2261.68
+            2863.25 2093.94  3091.24 1898.98  3295.55 1679.34  3473.53 1437.88
+            3622.87 1177.72  3741.64 902.254  3828.27 615.061  3881.65 319.874
+            3901.09 20.529  3886.32 -279.082  3837.55 -575.067  3755.41 -863.576
+            3640.97 -1140.86  3495.7 -1403.32  3321.51 -1647.53  3120.65 -1870.33
+            3087.52 -1886.99  3050.92 -1881  3024.84 -1854.64  3019.23 -1817.98
+            3036.24 -1785.03  3144.18 -1678.24  3332.73 -1440.2  3491.23 -1181.18
+            3617.36 -904.946  3709.3 -615.527  3765.69 -317.14  3785.72 -14.132
+            3769.09 289.081  3716.06 588.083  3627.38 878.516  3504.36 1156.15
+            3348.78 1416.94  3162.91 1657.08  2949.47 1873.08  2711.55 2061.79
+            2452.63 2220.45  2176.48 2346.77  2031.8 2392.83))
+      (outline (polygon signal 0  -499.797 -1798.97  -482.692 -1831.87  -488.194 -1868.54
+            -514.199 -1894.98  -550.776 -1901.08  -583.953 -1884.51  -785.309 -1662.6
+            -960.259 -1419.32  -1106.55 -1157.81  -1222.31 -881.424  -1306.05 -593.712
+            -1356.69 -298.372  -1373.58 0.801  -1356.51 299.965  -1305.69 595.274
+            -1221.78 882.935  -1105.85 1159.25  -959.398 1420.67  -784.301 1663.84
+            -582.81 1885.64  -357.514 2083.2  -111.307 2254  152.647 2395.84
+            430.957 2506.9  468.037 2507.22  498.228 2485.69  509.998 2450.53
+            498.85 2415.16  469.043 2393.1  325.165 2345.01  51.052 2214.93
+            -205.506 2052.96  -440.812 1861.42  -651.479 1643.07  -834.472 1401.06
+            -987.155 1138.87  -1107.33 860.276  -1193.27 569.292  -1243.73 270.108
+            -1257.98 -32.965  -1235.83 -335.564  -1177.58 -633.329  -1084.09 -921.974
+            -956.691 -1197.34  -797.223 -1455.46  -607.981 -1692.62  -499.797 -1798.97))
+      (outline (path signal 100  -500 -1750  3000 -1750))
+      (outline (polygon signal 0  1270 2430  1240.61 2439.55  1222.45 2464.55  1222.45 2495.45
+            1240.61 2520.45  1270 2530  1567.37 2512.46  1860.62 2460.1
+            2145.68 2373.62  2418.6 2254.25  2675.59 2103.62  2913.1 1923.83
+            3127.84 1717.37  3316.81 1487.1  3477.41 1236.21  3607.41 968.189
+            3705.01 686.744  3768.85 395.779  3798.05 99.327  3792.2 -198.502
+            3751.39 -493.579  3676.17 -781.813  3567.6 -1059.21  3427.18 -1321.92
+            3256.85 -1566.31  3058.98 -1788.98  3031.45 -1803.01  3000.93 -1798.17
+            2979.07 -1776.33  2974.24 -1745.8  2988.27 -1718.27  3094.9 -1611.55
+            3280.22 -1373.45  3434.67 -1114.25  3555.87 -837.94  3641.97 -548.759
+            3691.63 -251.15  3704.1 50.316  3679.18 351.009  3617.26 646.312
+            3519.29 931.688  3386.78 1202.75  3221.75 1455.35  3026.75 1685.59
+            2804.76 1889.94  2559.2 2065.26  2293.84 2208.87  2012.76 2318.55
+            1720.27 2392.62  1420.86 2429.94  1270 2430))
+      (outline (polygon signal 0  -448.27 -1718.27  -434.241 -1745.8  -439.075 -1776.33
+            -460.925 -1798.17  -491.447 -1803.01  -518.98 -1788.98  -716.852 -1566.31
+            -887.18 -1321.92  -1027.6 -1059.21  -1136.17 -781.813  -1211.39 -493.579
+            -1252.2 -198.502  -1258.05 99.327  -1228.85 395.779  -1165.01 686.744
+            -1067.41 968.189  -937.415 1236.21  -776.813 1487.1  -587.836 1717.37
+            -373.103 1923.83  -135.593 2103.62  121.404 2254.25  394.324 2373.62
+            679.383 2460.1  972.63 2512.46  1270 2530  1299.39 2520.45  1317.55 2495.45
+            1317.55 2464.55  1299.39 2439.55  1270 2430  1119.14 2429.94
+            819.731 2392.62  527.239 2318.55  246.156 2208.87  -19.202 2065.26
+            -264.76 1889.94  -486.746 1685.59  -681.75 1455.35  -846.777 1202.75
+            -979.294 931.688  -1077.26 646.312  -1139.18 351.009  -1164.1 50.316
+            -1151.63 -251.15  -1101.97 -548.759  -1015.87 -837.94  -894.673 -1114.25
+            -740.225 -1373.45  -554.902 -1611.55  -448.27 -1718.27))
+      (pin "Rect[A][0.000000,-400.000000]Pad_1100.000000x1800.000000_um" 1 0 0)
+      (pin RoundRect[A][0.000000,400.000000]Pad_1100.000000x1800.000000_276.046000_um_0.000000_0 2 1270 1270)
+      (pin "RoundRect[A][0.000000,-400.000000]Pad_1100.000000x1800.000000_276.046000_um_0.000000_0" 3 2540 0)
+    )
+    (image complex_hierarchy:Potentiometer_Bourns_3266W_Vertical
+      (outline (polygon signal 0  -6145 1295  1095 1295  1095 -3745  -6145 -3745))
+      (outline (path signal 120  935 -495  935 -3600))
+      (outline (path signal 120  935 1140  935 495))
+      (outline (path signal 120  -6015 -3600  935 -3600))
+      (outline (path signal 120  -6015 -495  -6015 -3600))
+      (outline (path signal 120  -6015 1140  935 1140))
+      (outline (path signal 120  -6015 1140  -6015 495))
+      (outline (path signal 100  815 -3480  815 1020))
+      (outline (path signal 100  815 1020  -5895 1020))
+      (outline (path signal 100  -455 -3092  -454 -1329))
+      (outline (path signal 100  -455 -3092  -454 -1329))
+      (outline (path signal 100  -5895 -3480  815 -3480))
+      (outline (path signal 100  -5895 1020  -5895 -3480))
+      (outline (path signal 100  -1345 -2210  -1326.78 -2030.84  -1272.87 -1859.02  -1185.48 -1701.57
+            -1068.18 -1564.93  -925.778 -1454.71  -764.102 -1375.4  -589.771 -1330.26
+            -409.922 -1321.14  -231.919 -1348.41  -63.049 -1410.95  89.774 -1506.21
+            220.295 -1630.28  323.168 -1778.08  394.184 -1943.57  430.434 -2119.96
+            430.434 -2300.04  394.184 -2476.43  323.168 -2641.92  220.295 -2789.72
+            89.774 -2913.79  -63.049 -3009.05  -231.919 -3071.59  -409.922 -3098.86
+            -589.771 -3089.74  -764.102 -3044.6  -925.778 -2965.29  -1068.18 -2855.07
+            -1185.48 -2718.43  -1272.87 -2560.98  -1326.78 -2389.16  -1345 -2210))
+      (pin Round[A]Pad_1440.000000_um 1 0 0)
+      (pin Round[A]Pad_1440.000000_um 2 -2540 -2540)
+      (pin Round[A]Pad_1440.000000_um 3 -5080 0)
+    )
+    (image "complex_hierarchy:TO-92_HandSolder::2"
+      (outline (polygon signal 0  -1455 -2005  -1455 3045  3995 3045  3995 -2005))
+      (outline (path signal 120  -530 -1850  3070 -1850))
+      (outline (polygon signal 0  2031.8 2392.83  2001.67 2414.45  1990 2449.64  2001.25 2484.98
+            2031.12 2506.95  2068.2 2507.17  2348.39 2400.03  2614.56 2261.68
+            2863.25 2093.94  3091.24 1898.98  3295.55 1679.34  3473.53 1437.88
+            3622.87 1177.72  3741.64 902.254  3828.27 615.061  3881.65 319.874
+            3901.09 20.529  3886.32 -279.082  3837.55 -575.067  3755.41 -863.576
+            3640.97 -1140.86  3495.7 -1403.32  3321.51 -1647.53  3120.65 -1870.33
+            3087.52 -1886.99  3050.92 -1881  3024.84 -1854.64  3019.23 -1817.98
+            3036.24 -1785.03  3144.18 -1678.24  3332.73 -1440.2  3491.23 -1181.18
+            3617.36 -904.946  3709.3 -615.527  3765.69 -317.14  3785.72 -14.132
+            3769.09 289.081  3716.06 588.083  3627.38 878.516  3504.36 1156.15
+            3348.78 1416.94  3162.91 1657.08  2949.47 1873.08  2711.55 2061.79
+            2452.63 2220.45  2176.48 2346.77  2031.8 2392.83))
+      (outline (polygon signal 0  -499.797 -1798.97  -482.692 -1831.87  -488.194 -1868.54
+            -514.199 -1894.98  -550.776 -1901.08  -583.953 -1884.51  -785.309 -1662.6
+            -960.259 -1419.32  -1106.55 -1157.81  -1222.31 -881.424  -1306.05 -593.712
+            -1356.69 -298.372  -1373.58 0.801  -1356.51 299.965  -1305.69 595.274
+            -1221.78 882.935  -1105.85 1159.25  -959.398 1420.67  -784.301 1663.84
+            -582.81 1885.64  -357.514 2083.2  -111.307 2254  152.647 2395.84
+            430.957 2506.9  468.037 2507.22  498.228 2485.69  509.998 2450.53
+            498.85 2415.16  469.043 2393.1  325.165 2345.01  51.052 2214.93
+            -205.506 2052.96  -440.812 1861.42  -651.479 1643.07  -834.472 1401.06
+            -987.155 1138.87  -1107.33 860.276  -1193.27 569.292  -1243.73 270.108
+            -1257.98 -32.965  -1235.83 -335.564  -1177.58 -633.329  -1084.09 -921.974
+            -956.691 -1197.34  -797.223 -1455.46  -607.981 -1692.62  -499.797 -1798.97))
+      (outline (path signal 100  -500 -1750  3000 -1750))
+      (outline (polygon signal 0  1270 2430  1240.61 2439.55  1222.45 2464.55  1222.45 2495.45
+            1240.61 2520.45  1270 2530  1567.37 2512.46  1860.62 2460.1
+            2145.68 2373.62  2418.6 2254.25  2675.59 2103.62  2913.1 1923.83
+            3127.84 1717.37  3316.81 1487.1  3477.41 1236.21  3607.41 968.189
+            3705.01 686.744  3768.85 395.779  3798.05 99.327  3792.2 -198.502
+            3751.39 -493.579  3676.17 -781.813  3567.6 -1059.21  3427.18 -1321.92
+            3256.85 -1566.31  3058.98 -1788.98  3031.45 -1803.01  3000.93 -1798.17
+            2979.07 -1776.33  2974.24 -1745.8  2988.27 -1718.27  3094.9 -1611.55
+            3280.22 -1373.45  3434.67 -1114.25  3555.87 -837.94  3641.97 -548.759
+            3691.63 -251.15  3704.1 50.316  3679.18 351.009  3617.26 646.312
+            3519.29 931.688  3386.78 1202.75  3221.75 1455.35  3026.75 1685.59
+            2804.76 1889.94  2559.2 2065.26  2293.84 2208.87  2012.76 2318.55
+            1720.27 2392.62  1420.86 2429.94  1270 2430))
+      (outline (polygon signal 0  -448.27 -1718.27  -434.241 -1745.8  -439.075 -1776.33
+            -460.925 -1798.17  -491.447 -1803.01  -518.98 -1788.98  -716.852 -1566.31
+            -887.18 -1321.92  -1027.6 -1059.21  -1136.17 -781.813  -1211.39 -493.579
+            -1252.2 -198.502  -1258.05 99.327  -1228.85 395.779  -1165.01 686.744
+            -1067.41 968.189  -937.415 1236.21  -776.813 1487.1  -587.836 1717.37
+            -373.103 1923.83  -135.593 2103.62  121.404 2254.25  394.324 2373.62
+            679.383 2460.1  972.63 2512.46  1270 2530  1299.39 2520.45  1317.55 2495.45
+            1317.55 2464.55  1299.39 2439.55  1270 2430  1119.14 2429.94
+            819.731 2392.62  527.239 2318.55  246.156 2208.87  -19.202 2065.26
+            -264.76 1889.94  -486.746 1685.59  -681.75 1455.35  -846.777 1202.75
+            -979.294 931.688  -1077.26 646.312  -1139.18 351.009  -1164.1 50.316
+            -1151.63 -251.15  -1101.97 -548.759  -1015.87 -837.94  -894.673 -1114.25
+            -740.225 -1373.45  -554.902 -1611.55  -448.27 -1718.27))
+      (pin "Rect[A][0.000000,-400.000000]Pad_1100.000000x1800.000000_um" 1 0 0)
+      (pin RoundRect[A][0.000000,400.000000]Pad_1100.000000x1800.000000_276.046000_um_0.000000_0 2 1270 1270)
+      (pin "RoundRect[A][0.000000,-400.000000]Pad_1100.000000x1800.000000_276.046000_um_0.000000_0" 3 2540 0)
+    )
+    (image complex_hierarchy:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+      (outline (polygon signal 0  -945 1045  8565 1045  8565 -1045  -945 -1045))
+      (outline (path signal 120  6680 0  5730 0))
+      (outline (path signal 120  5730 -920  5730 920))
+      (outline (path signal 120  5730 920  1890 920))
+      (outline (path signal 120  1890 -920  5730 -920))
+      (outline (path signal 120  1890 920  1890 -920))
+      (outline (path signal 120  940 0  1890 0))
+      (outline (path signal 100  7620 0  5610 0))
+      (outline (path signal 100  5610 -800  5610 800))
+      (outline (path signal 100  5610 800  2010 800))
+      (outline (path signal 100  2010 -800  5610 -800))
+      (outline (path signal 100  2010 800  2010 -800))
+      (outline (path signal 100  0 0  2010 0))
+      (pin Round[A]Pad_1400.000000_um 1 0 0)
+      (pin Oval[A]Pad_1400.000000x1400.000000_um 2 7620 0)
+    )
+    (image complex_hierarchy:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal::1
+      (outline (polygon signal 0  8565 -1045  -945 -1045  -945 1045  8565 1045))
+      (outline (path signal 120  940 0  1890 0))
+      (outline (path signal 120  1890 920  1890 -920))
+      (outline (path signal 120  1890 -920  5730 -920))
+      (outline (path signal 120  5730 920  1890 920))
+      (outline (path signal 120  5730 -920  5730 920))
+      (outline (path signal 120  6680 0  5730 0))
+      (outline (path signal 100  0 0  2010 0))
+      (outline (path signal 100  2010 800  2010 -800))
+      (outline (path signal 100  2010 -800  5610 -800))
+      (outline (path signal 100  5610 800  2010 800))
+      (outline (path signal 100  5610 -800  5610 800))
+      (outline (path signal 100  7620 0  5610 0))
+      (pin Round[A]Pad_1400.000000_um 1 0 0)
+      (pin Oval[A]Pad_1400.000000x1400.000000_um 2 7620 0)
+    )
+    (image complex_hierarchy:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal::2
+      (outline (polygon signal 0  8565 1045  8565 -1045  -945 -1045  -945 1045))
+      (outline (path signal 120  1890 -920  5730 -920))
+      (outline (path signal 120  5730 -920  5730 920))
+      (outline (path signal 120  940 0  1890 0))
+      (outline (path signal 120  6680 0  5730 0))
+      (outline (path signal 120  1890 920  1890 -920))
+      (outline (path signal 120  5730 920  1890 920))
+      (outline (path signal 100  2010 -800  5610 -800))
+      (outline (path signal 100  5610 -800  5610 800))
+      (outline (path signal 100  0 0  2010 0))
+      (outline (path signal 100  7620 0  5610 0))
+      (outline (path signal 100  2010 800  2010 -800))
+      (outline (path signal 100  5610 800  2010 800))
+      (pin Round[A]Pad_1400.000000_um 1 0 0)
+      (pin Oval[A]Pad_1400.000000x1400.000000_um 2 7620 0)
+    )
+    (image complex_hierarchy:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal::3
+      (outline (polygon signal 0  -945 -1045  -945 1045  8565 1045  8565 -1045))
+      (outline (path signal 120  5730 920  1890 920))
+      (outline (path signal 120  1890 920  1890 -920))
+      (outline (path signal 120  6680 0  5730 0))
+      (outline (path signal 120  940 0  1890 0))
+      (outline (path signal 120  5730 -920  5730 920))
+      (outline (path signal 120  1890 -920  5730 -920))
+      (outline (path signal 100  5610 800  2010 800))
+      (outline (path signal 100  2010 800  2010 -800))
+      (outline (path signal 100  7620 0  5610 0))
+      (outline (path signal 100  0 0  2010 0))
+      (outline (path signal 100  5610 -800  5610 800))
+      (outline (path signal 100  2010 -800  5610 -800))
+      (pin Round[A]Pad_1400.000000_um 1 0 0)
+      (pin Oval[A]Pad_1400.000000x1400.000000_um 2 7620 0)
+    )
+    (image "complex_hierarchy:DIP-8_W7.62mm_LongPads"
+      (outline (polygon signal 0  -1445 -9145  -1445 1545  9095 1545  9095 -9145))
+      (outline (path signal 120  6060 1330  4810 1330))
+      (outline (path signal 120  2810 1330  1560 1330))
+      (outline (path signal 120  1560 1330  1560 -8950))
+      (outline (path signal 120  6060 -8950  6060 1330))
+      (outline (path signal 120  1560 -8950  6060 -8950))
+      (outline (polygon signal 0  4750 1330  4761.46 1365.27  4791.46 1387.06  4828.54 1387.06
+            4858.54 1365.27  4870 1330  4851.95 1135.23  4798.42 947.084
+            4711.23 771.982  4593.35 615.883  4448.79 484.102  4282.48 381.127
+            4100.08 310.465  3907.8 274.522  3712.2 274.522  3519.92 310.465
+            3337.52 381.127  3171.21 484.102  3026.65 615.883  2908.77 771.982
+            2821.58 947.084  2768.05 1135.23  2750 1330  2761.46 1365.27
+            2791.46 1387.06  2828.54 1387.06  2858.54 1365.27  2870 1330
+            2870 1237.42  2906.12 1055.81  2976.98 884.743  3079.86 730.785
+            3210.78 599.855  3364.74 496.983  3535.81 426.124  3717.42 390
+            3902.58 390  4084.19 426.124  4255.26 496.983  4409.22 599.855
+            4540.15 730.785  4643.02 884.743  4713.88 1055.81  4750 1237.42
+            4750 1330))
+      (outline (path signal 100  6985 1270  6985 -8890))
+      (outline (path signal 100  1635 1270  6985 1270))
+      (outline (path signal 100  635 270  1635 1270))
+      (outline (path signal 100  6985 -8890  635 -8890))
+      (outline (path signal 100  635 -8890  635 270))
+      (pin Rect[A]Pad_2400.000000x1600.000000_um 1 0 0)
+      (pin Oval[A]Pad_2400.000000x1600.000000_um 2 0 -2540)
+      (pin Oval[A]Pad_2400.000000x1600.000000_um 3 0 -5080)
+      (pin Oval[A]Pad_2400.000000x1600.000000_um 4 0 -7620)
+      (pin Oval[A]Pad_2400.000000x1600.000000_um 5 7620 -7620)
+      (pin Oval[A]Pad_2400.000000x1600.000000_um 6 7620 -5080)
+      (pin Oval[A]Pad_2400.000000x1600.000000_um 7 7620 -2540)
+      (pin Oval[A]Pad_2400.000000x1600.000000_um 8 7620 0)
+    )
+    (image complex_hierarchy:C_Disc_D5.0mm_W2.5mm_P5.00mm
+      (outline (polygon signal 0  6045 -1495  -1045 -1495  -1045 1495  6045 1495))
+      (outline (path signal 120  -120 1370  -120 1055))
+      (outline (path signal 120  -120 1370  5120 1370))
+      (outline (path signal 120  -120 -1055  -120 -1370))
+      (outline (path signal 120  -120 -1370  5120 -1370))
+      (outline (path signal 120  5120 1370  5120 1055))
+      (outline (path signal 120  5120 -1055  5120 -1370))
+      (outline (path signal 100  0 1250  0 -1250))
+      (outline (path signal 100  0 -1250  5000 -1250))
+      (outline (path signal 100  5000 1250  0 1250))
+      (outline (path signal 100  5000 -1250  5000 1250))
+      (pin Round[A]Pad_1600.000000_um 1 0 0)
+      (pin Round[A]Pad_1600.000000_um 2 5000 0)
+    )
+    (image complex_hierarchy:C_Disc_D5.0mm_W2.5mm_P5.00mm::1
+      (outline (polygon signal 0  -1045 1495  6045 1495  6045 -1495  -1045 -1495))
+      (outline (path signal 120  5120 -1055  5120 -1370))
+      (outline (path signal 120  5120 1370  5120 1055))
+      (outline (path signal 120  -120 -1370  5120 -1370))
+      (outline (path signal 120  -120 -1055  -120 -1370))
+      (outline (path signal 120  -120 1370  5120 1370))
+      (outline (path signal 120  -120 1370  -120 1055))
+      (outline (path signal 100  5000 -1250  5000 1250))
+      (outline (path signal 100  5000 1250  0 1250))
+      (outline (path signal 100  0 -1250  5000 -1250))
+      (outline (path signal 100  0 1250  0 -1250))
+      (pin Round[A]Pad_1600.000000_um 1 0 0)
+      (pin Round[A]Pad_1600.000000_um 2 5000 0)
+    )
+    (image "complex_hierarchy:D_DO-41_SOD81_P12.70mm_Horizontal"
+      (outline (polygon signal 0  -1345 1595  14045 1595  14045 -1595  -1345 -1595))
+      (outline (path signal 120  11360 0  9070 0))
+      (outline (path signal 120  9070 -1470  9070 1470))
+      (outline (path signal 120  9070 1470  3630 1470))
+      (outline (path signal 120  4650 1470  4650 -1470))
+      (outline (path signal 120  4530 1470  4530 -1470))
+      (outline (path signal 120  4410 1470  4410 -1470))
+      (outline (path signal 120  3630 -1470  9070 -1470))
+      (outline (path signal 120  3630 1470  3630 -1470))
+      (outline (path signal 120  1340 0  3630 0))
+      (outline (path signal 100  12700 0  8950 0))
+      (outline (path signal 100  8950 -1350  8950 1350))
+      (outline (path signal 100  8950 1350  3750 1350))
+      (outline (path signal 100  4630 1350  4630 -1350))
+      (outline (path signal 100  4530 1350  4530 -1350))
+      (outline (path signal 100  4430 1350  4430 -1350))
+      (outline (path signal 100  3750 -1350  8950 -1350))
+      (outline (path signal 100  3750 1350  3750 -1350))
+      (outline (path signal 100  0 0  3750 0))
+      (pin Rect[A]Pad_2200.000000x2200.000000_um 1 0 0)
+      (pin Oval[A]Pad_2200.000000x2200.000000_um 2 12700 0)
+    )
+    (image "complex_hierarchy:D_DO-35_SOD27_P7.62mm_Horizontal"
+      (outline (polygon signal 0  8665 -1245  -1045 -1245  -1045 1245  8665 1245))
+      (outline (path signal 120  1040 0  1690 0))
+      (outline (path signal 120  1690 1120  1690 -1120))
+      (outline (path signal 120  1690 -1120  5930 -1120))
+      (outline (path signal 120  2290 1120  2290 -1120))
+      (outline (path signal 120  2410 1120  2410 -1120))
+      (outline (path signal 120  2530 1120  2530 -1120))
+      (outline (path signal 120  5930 1120  1690 1120))
+      (outline (path signal 120  5930 -1120  5930 1120))
+      (outline (path signal 120  6580 0  5930 0))
+      (outline (path signal 100  0 0  1810 0))
+      (outline (path signal 100  1810 1000  1810 -1000))
+      (outline (path signal 100  1810 -1000  5810 -1000))
+      (outline (path signal 100  2310 1000  2310 -1000))
+      (outline (path signal 100  2410 1000  2410 -1000))
+      (outline (path signal 100  2510 1000  2510 -1000))
+      (outline (path signal 100  5810 1000  1810 1000))
+      (outline (path signal 100  5810 -1000  5810 1000))
+      (outline (path signal 100  7620 0  5810 0))
+      (pin Rect[A]Pad_1600.000000x1600.000000_um 1 0 0)
+      (pin Oval[A]Pad_1600.000000x1600.000000_um 2 7620 0)
+    )
+    (image "complex_hierarchy:D_DO-35_SOD27_P7.62mm_Horizontal::1"
+      (outline (polygon signal 0  -1045 -1245  -1045 1245  8665 1245  8665 -1245))
+      (outline (path signal 120  5930 1120  1690 1120))
+      (outline (path signal 120  2530 1120  2530 -1120))
+      (outline (path signal 120  2410 1120  2410 -1120))
+      (outline (path signal 120  2290 1120  2290 -1120))
+      (outline (path signal 120  1690 1120  1690 -1120))
+      (outline (path signal 120  6580 0  5930 0))
+      (outline (path signal 120  1040 0  1690 0))
+      (outline (path signal 120  5930 -1120  5930 1120))
+      (outline (path signal 120  1690 -1120  5930 -1120))
+      (outline (path signal 100  5810 1000  1810 1000))
+      (outline (path signal 100  2510 1000  2510 -1000))
+      (outline (path signal 100  2410 1000  2410 -1000))
+      (outline (path signal 100  2310 1000  2310 -1000))
+      (outline (path signal 100  1810 1000  1810 -1000))
+      (outline (path signal 100  7620 0  5810 0))
+      (outline (path signal 100  0 0  1810 0))
+      (outline (path signal 100  5810 -1000  5810 1000))
+      (outline (path signal 100  1810 -1000  5810 -1000))
+      (pin Rect[A]Pad_1600.000000x1600.000000_um 1 0 0)
+      (pin Oval[A]Pad_1600.000000x1600.000000_um 2 7620 0)
+    )
+    (image "complex_hierarchy:D_DO-35_SOD27_P7.62mm_Horizontal::2"
+      (outline (polygon signal 0  -1045 1245  8665 1245  8665 -1245  -1045 -1245))
+      (outline (path signal 120  6580 0  5930 0))
+      (outline (path signal 120  5930 -1120  5930 1120))
+      (outline (path signal 120  5930 1120  1690 1120))
+      (outline (path signal 120  2530 1120  2530 -1120))
+      (outline (path signal 120  2410 1120  2410 -1120))
+      (outline (path signal 120  2290 1120  2290 -1120))
+      (outline (path signal 120  1690 -1120  5930 -1120))
+      (outline (path signal 120  1690 1120  1690 -1120))
+      (outline (path signal 120  1040 0  1690 0))
+      (outline (path signal 100  7620 0  5810 0))
+      (outline (path signal 100  5810 -1000  5810 1000))
+      (outline (path signal 100  5810 1000  1810 1000))
+      (outline (path signal 100  2510 1000  2510 -1000))
+      (outline (path signal 100  2410 1000  2410 -1000))
+      (outline (path signal 100  2310 1000  2310 -1000))
+      (outline (path signal 100  1810 -1000  5810 -1000))
+      (outline (path signal 100  1810 1000  1810 -1000))
+      (outline (path signal 100  0 0  1810 0))
+      (pin Rect[A]Pad_1600.000000x1600.000000_um 1 0 0)
+      (pin Oval[A]Pad_1600.000000x1600.000000_um 2 7620 0)
+    )
+    (image "complex_hierarchy:Altech_AK300_1x02_P5.00mm_45-Degree"
+      (outline (polygon signal 0  7745 6245  7745 -6745  -2745 -6745  -2745 6245))
+      (outline (path signal 120  -2620 -6620  7620 -6620))
+      (outline (path signal 120  -2620 -6620  7620 -6620))
+      (outline (path signal 120  -3000 3500  -3000 6500))
+      (outline (path signal 120  -2620 6120  -2620 -6620))
+      (outline (path signal 120  -2620 6120  -2620 -6620))
+      (outline (path signal 120  -2620 6120  7620 6120))
+      (outline (path signal 120  -2620 6120  7620 6120))
+      (outline (path signal 120  7620 6120  7620 -6620))
+      (outline (path signal 120  7620 6120  7620 -6620))
+      (outline (path signal 120  -3000 6500  0 6500))
+      (outline (path signal 100  -2500 -6500  -2500 5500))
+      (outline (path signal 100  7500 -6500  -2500 -6500))
+      (outline (path signal 100  -2500 5500  -2000 6000))
+      (outline (path signal 100  -2000 6000  7500 6000))
+      (outline (path signal 100  7500 6000  7500 -6500))
+      (pin Rect[A]Pad_3000.000000x3000.000000_um 1 0 0)
+      (pin Round[A]Pad_3000.000000_um 2 5000 0)
+    )
+    (image "complex_hierarchy:Altech_AK300_1x02_P5.00mm_45-Degree::1"
+      (outline (polygon signal 0  -2745 -6745  -2745 6245  7745 6245  7745 -6745))
+      (outline (path signal 120  -3000 6500  0 6500))
+      (outline (path signal 120  7620 6120  7620 -6620))
+      (outline (path signal 120  7620 6120  7620 -6620))
+      (outline (path signal 120  -2620 6120  7620 6120))
+      (outline (path signal 120  -2620 6120  7620 6120))
+      (outline (path signal 120  -2620 6120  -2620 -6620))
+      (outline (path signal 120  -2620 6120  -2620 -6620))
+      (outline (path signal 120  -3000 3500  -3000 6500))
+      (outline (path signal 120  -2620 -6620  7620 -6620))
+      (outline (path signal 120  -2620 -6620  7620 -6620))
+      (outline (path signal 100  7500 6000  7500 -6500))
+      (outline (path signal 100  -2000 6000  7500 6000))
+      (outline (path signal 100  -2500 5500  -2000 6000))
+      (outline (path signal 100  7500 -6500  -2500 -6500))
+      (outline (path signal 100  -2500 -6500  -2500 5500))
+      (pin Rect[A]Pad_3000.000000x3000.000000_um 1 0 0)
+      (pin Round[A]Pad_3000.000000_um 2 5000 0)
+    )
+    (image complex_hierarchy:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal::2
+      (outline (polygon signal 0  -1245 2495  16245 2495  16245 -2495  -1245 -2495))
+      (outline (path signal 120  13760 0  12620 0))
+      (outline (path signal 120  12620 2370  12620 -2370))
+      (outline (path signal 120  5380 -2370  12620 -2370))
+      (outline (path signal 120  5380 2370  12620 2370))
+      (outline (path signal 120  4630 -1620  5380 -2370))
+      (outline (path signal 120  4630 1620  5380 2370))
+      (outline (path signal 120  3880 -2370  4630 -1620))
+      (outline (path signal 120  3880 2370  4630 1620))
+      (outline (path signal 120  2380 -2370  3880 -2370))
+      (outline (path signal 120  2380 2370  3880 2370))
+      (outline (path signal 120  2380 2370  2380 -2370))
+      (outline (path signal 120  1380 2950  1380 1450))
+      (outline (path signal 120  1240 0  2380 0))
+      (outline (path signal 120  630 2200  2130 2200))
+      (outline (path signal 100  15000 0  12500 0))
+      (outline (path signal 100  12500 2250  12500 -2250))
+      (outline (path signal 100  5380 -2250  12500 -2250))
+      (outline (path signal 100  5380 2250  12500 2250))
+      (outline (path signal 100  4650 750  4650 -750))
+      (outline (path signal 100  4630 -1500  5380 -2250))
+      (outline (path signal 100  4630 1500  5380 2250))
+      (outline (path signal 100  3900 0  5400 0))
+      (outline (path signal 100  3880 -2250  4630 -1500))
+      (outline (path signal 100  3880 2250  4630 1500))
+      (outline (path signal 100  2500 -2250  3880 -2250))
+      (outline (path signal 100  2500 2250  3880 2250))
+      (outline (path signal 100  2500 2250  2500 -2250))
+      (outline (path signal 100  0 0  2500 0))
+      (pin Rect[A]Pad_2000.000000x2000.000000_um 1 0 0)
+      (pin Oval[A]Pad_2000.000000x2000.000000_um 2 15000 0)
+    )
+    (padstack Round[A]Pad_1400.000000_um
+      (shape (circle top_copper 1400))
+      (shape (circle bottom_copper 1400))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1440.000000_um
+      (shape (circle top_copper 1440))
+      (shape (circle bottom_copper 1440))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1600.000000_um
+      (shape (circle top_copper 1600))
+      (shape (circle bottom_copper 1600))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3000.000000_um
+      (shape (circle top_copper 3000))
+      (shape (circle bottom_copper 3000))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1400.000000x1400.000000_um
+      (shape (path top_copper 1400  0 0  0 0))
+      (shape (path bottom_copper 1400  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2400.000000x1600.000000_um
+      (shape (path top_copper 1600  -400 0  400 0))
+      (shape (path bottom_copper 1600  -400 0  400 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1600.000000x1600.000000_um
+      (shape (path top_copper 1600  0 0  0 0))
+      (shape (path bottom_copper 1600  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2000.000000x2000.000000_um
+      (shape (path top_copper 2000  0 0  0 0))
+      (shape (path bottom_copper 2000  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2200.000000x2200.000000_um
+      (shape (path top_copper 2200  0 0  0 0))
+      (shape (path bottom_copper 2200  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2400.000000x2400.000000_um
+      (shape (path top_copper 2400  0 0  0 0))
+      (shape (path bottom_copper 2400  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[A][0.000000,400.000000]Pad_1100.000000x1800.000000_276.046000_um_0.000000_0
+      (shape (polygon top_copper 0  -551.046 1025  -530.033 1130.64  -470.194 1220.19
+            -380.638 1280.03  -275 1301.05  275 1301.05  380.638 1280.03
+            470.194 1220.19  530.033 1130.64  551.046 1025  551.046 -225
+            530.033 -330.638  470.194 -420.194  380.638 -480.033  275 -501.046
+            -275 -501.046  -380.638 -480.033  -470.194 -420.194  -530.033 -330.638
+            -551.046 -225  -551.046 1025))
+      (shape (polygon bottom_copper 0  -551.046 1025  -530.033 1130.64  -470.194 1220.19
+            -380.638 1280.03  -275 1301.05  275 1301.05  380.638 1280.03
+            470.194 1220.19  530.033 1130.64  551.046 1025  551.046 -225
+            530.033 -330.638  470.194 -420.194  380.638 -480.033  275 -501.046
+            -275 -501.046  -380.638 -480.033  -470.194 -420.194  -530.033 -330.638
+            -551.046 -225  -551.046 1025))
+      (attach off)
+    )
+    (padstack "RoundRect[A][0.000000,-400.000000]Pad_1100.000000x1800.000000_276.046000_um_0.000000_0"
+      (shape (polygon top_copper 0  -551.046 225  -530.033 330.638  -470.194 420.194
+            -380.638 480.033  -275 501.046  275 501.046  380.638 480.033
+            470.194 420.194  530.033 330.638  551.046 225  551.046 -1025
+            530.033 -1130.64  470.194 -1220.19  380.638 -1280.03  275 -1301.05
+            -275 -1301.05  -380.638 -1280.03  -470.194 -1220.19  -530.033 -1130.64
+            -551.046 -1025  -551.046 225))
+      (shape (polygon bottom_copper 0  -551.046 225  -530.033 330.638  -470.194 420.194
+            -380.638 480.033  -275 501.046  275 501.046  380.638 480.033
+            470.194 420.194  530.033 330.638  551.046 225  551.046 -1025
+            530.033 -1130.64  470.194 -1220.19  380.638 -1280.03  275 -1301.05
+            -275 -1301.05  -380.638 -1280.03  -470.194 -1220.19  -530.033 -1130.64
+            -551.046 -1025  -551.046 225))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2000.000000x2000.000000_um
+      (shape (rect top_copper -1000 -1000 1000 1000))
+      (shape (rect bottom_copper -1000 -1000 1000 1000))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2200.000000x2200.000000_um
+      (shape (rect top_copper -1100 -1100 1100 1100))
+      (shape (rect bottom_copper -1100 -1100 1100 1100))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2400.000000x2400.000000_um
+      (shape (rect top_copper -1200 -1200 1200 1200))
+      (shape (rect bottom_copper -1200 -1200 1200 1200))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2400.000000x1600.000000_um
+      (shape (rect top_copper -1200 -800 1200 800))
+      (shape (rect bottom_copper -1200 -800 1200 800))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_3000.000000x3000.000000_um
+      (shape (rect top_copper -1500 -1500 1500 1500))
+      (shape (rect bottom_copper -1500 -1500 1500 1500))
+      (attach off)
+    )
+    (padstack "Rect[A][0.000000,-400.000000]Pad_1100.000000x1800.000000_um"
+      (shape (rect top_copper -550 -1300 550 500))
+      (shape (rect bottom_copper -550 -1300 550 500))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1600.000000x1600.000000_um
+      (shape (rect top_copper -800 -800 800 800))
+      (shape (rect bottom_copper -800 -800 800 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle top_copper 600))
+      (shape (circle bottom_copper 600))
+      (attach off)
+    )
+  )
+  (network
+    (net -VAA
+      (pins C103-2 U301-4 U102-5 U201-4)
+    )
+    (net /12Vext
+      (pins D101-2 P102-1)
+    )
+    (net /ampli_ht_horizontal/PIEZO_IN
+      (pins R301-2 P301-1)
+    )
+    (net /ampli_ht_horizontal/PIEZO_OUT
+      (pins R306-1 R307-1 P302-1)
+    )
+    (net /ampli_ht_horizontal/S_OUT+
+      (pins RV301-3 R310-1 R309-1)
+    )
+    (net /ampli_ht_horizontal/Vpil_0_3,3V
+      (pins U301-3 U301-6 U301-7 C301-1)
+    )
+    (net /ampli_ht_vertical/PIEZO_IN
+      (pins R201-2 P201-1)
+    )
+    (net /ampli_ht_vertical/PIEZO_OUT
+      (pins R206-1 R207-1 P202-1)
+    )
+    (net /ampli_ht_vertical/S_OUT+
+      (pins RV201-3 R209-1 R210-1)
+    )
+    (net /ampli_ht_vertical/Vpil_0_3,3V
+      (pins U201-3 U201-6 U201-7 C201-1)
+    )
+    (net GND
+      (pins C104-2 C101-2 C103-1 Q203-3 Q303-3 U101-2 R308-2 R305-2 R213-2 R208-2
+        R313-2 R205-2 U102-3 C304-2 C303-2 C204-2 C202-2 C302-2 C203-2 P101-2 P102-2
+        P201-2 P202-2 P301-2 P302-2 C102-2)
+    )
+    (net HT
+      (pins C101-1 Q302-3 R304-1 R204-1 D301-2 D201-2 P101-1 Q202-3)
+    )
+    (net "Net-(U102-CAP+)"
+      (pins C105-1 U102-2)
+    )
+    (net "Net-(U102-CAP-)"
+      (pins C105-2 U102-4)
+    )
+    (net "Net-(C201-Pad2)"
+      (pins R202-1 R203-2 C201-2)
+    )
+    (net "Net-(C202-Pad1)"
+      (pins R202-2 R201-1 C202-1)
+    )
+    (net "Net-(U201B-+)"
+      (pins R203-1 U201-5 C203-1)
+    )
+    (net "Net-(C204-Pad1)"
+      (pins R211-2 C204-1)
+    )
+    (net "Net-(C301-Pad2)"
+      (pins R302-1 R303-2 C301-2)
+    )
+    (net "Net-(C302-Pad1)"
+      (pins R302-2 R301-1 C302-1)
+    )
+    (net "Net-(U301B-+)"
+      (pins R303-1 U301-5 C303-1)
+    )
+    (net "Net-(C304-Pad1)"
+      (pins R311-2 C304-1)
+    )
+    (net "Net-(D201-K)"
+      (pins D201-1 D202-2)
+    )
+    (net "Net-(D202-K)"
+      (pins Q201-2 R205-1 D202-1)
+    )
+    (net "Net-(D203-K)"
+      (pins D203-1 D204-2)
+    )
+    (net "Net-(D203-A)"
+      (pins Q201-3 D203-2 Q202-2)
+    )
+    (net "Net-(D204-K)"
+      (pins Q203-2 R211-1 D204-1 Q204-3)
+    )
+    (net "Net-(D301-K)"
+      (pins D301-1 D302-2)
+    )
+    (net "Net-(D302-K)"
+      (pins Q301-2 R305-1 D302-1)
+    )
+    (net "Net-(D303-A)"
+      (pins Q301-3 Q302-2 D303-2)
+    )
+    (net "Net-(D303-K)"
+      (pins D304-2 D303-1)
+    )
+    (net "Net-(D304-K)"
+      (pins Q303-2 Q304-3 R311-1 D304-1)
+    )
+    (net VCC
+      (pins U101-1 U102-8 C102-1)
+    )
+    (net "Net-(Q201-E)"
+      (pins Q201-1 R204-2)
+    )
+    (net "Net-(Q202-E)"
+      (pins R206-2 R210-2 Q202-1)
+    )
+    (net "Net-(Q203-E)"
+      (pins Q203-1 R209-2 R207-2)
+    )
+    (net "Net-(Q204-E)"
+      (pins R212-1 Q204-1)
+    )
+    (net "Net-(Q204-B)"
+      (pins R208-1 Q204-2)
+    )
+    (net "Net-(Q301-E)"
+      (pins Q301-1 R304-2)
+    )
+    (net +12V
+      (pins C104-1 U101-3 U301-8 U201-8 D101-1)
+    )
+    (net "Net-(Q302-E)"
+      (pins Q302-1 R306-2 R310-2)
+    )
+    (net "Net-(Q303-E)"
+      (pins Q303-1 R307-2 R309-2)
+    )
+    (net "Net-(Q304-B)"
+      (pins Q304-2 R308-1)
+    )
+    (net "Net-(Q304-E)"
+      (pins Q304-1 R312-1)
+    )
+    (net "Net-(R212-Pad2)"
+      (pins R212-2 U201-1)
+    )
+    (net "Net-(R213-Pad1)"
+      (pins RV201-1 R213-1)
+    )
+    (net "Net-(R312-Pad2)"
+      (pins R312-2 U301-1)
+    )
+    (net "Net-(R313-Pad1)"
+      (pins RV301-1 R313-1)
+    )
+    (net "Net-(U201A--)"
+      (pins RV201-2 U201-2)
+    )
+    (net "Net-(U301A--)"
+      (pins RV301-2 U301-2)
+    )
+    (net "unconnected-(U102-LV-Pad6)"
+      (pins U102-6)
+    )
+    (net "unconnected-(U102-OSC-Pad7)"
+      (pins U102-7)
+    )
+    (class kicad_default +12V -VAA /12Vext /ampli_ht_horizontal/PIEZO_IN /ampli_ht_horizontal/PIEZO_OUT
+      /ampli_ht_horizontal/S_OUT+ /ampli_ht_horizontal/Vpil_0_3,3V /ampli_ht_vertical/PIEZO_IN
+      /ampli_ht_vertical/PIEZO_OUT /ampli_ht_vertical/S_OUT+ /ampli_ht_vertical/Vpil_0_3,3V
+      GND HT "Net-(C201-Pad2)" "Net-(C202-Pad1)" "Net-(C204-Pad1)" "Net-(C301-Pad2)"
+      "Net-(C302-Pad1)" "Net-(C304-Pad1)" "Net-(D201-K)" "Net-(D202-K)" "Net-(D203-A)"
+      "Net-(D203-K)" "Net-(D204-K)" "Net-(D301-K)" "Net-(D302-K)" "Net-(D303-A)"
+      "Net-(D303-K)" "Net-(D304-K)" "Net-(Q201-E)" "Net-(Q202-E)" "Net-(Q203-E)"
+      "Net-(Q204-B)" "Net-(Q204-E)" "Net-(Q301-E)" "Net-(Q302-E)" "Net-(Q303-E)"
+      "Net-(Q304-B)" "Net-(Q304-E)" "Net-(R212-Pad2)" "Net-(R213-Pad1)" "Net-(R312-Pad2)"
+      "Net-(R313-Pad1)" "Net-(U102-CAP+)" "Net-(U102-CAP-)" "Net-(U201A--)"
+      "Net-(U201B-+)" "Net-(U301A--)" "Net-(U301B-+)" VCC "unconnected-(U102-LV-Pad6)"
+      "unconnected-(U102-OSC-Pad7)"
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path top_copper 609.6  107061 -104521  104775 -106807)(net -VAA)(type route))
+    (wire (path top_copper 609.6  105410 -126492  114681 -126492)(net -VAA)(type route))
+    (wire (path top_copper 609.6  104775 -106807  104775 -125857)(net -VAA)(type route))
+    (wire (path top_copper 609.6  128905 -86614  128905 -80518)(net -VAA)(type route))
+    (wire (path top_copper 609.6  140081 -69342  148209 -69342  153035 -64516)(net -VAA)(type route))
+    (wire (path top_copper 609.6  128905 -80518  140081 -69342)(net -VAA)(type route))
+    (wire (path top_copper 609.6  114935 -102108  114935 -102362)(net -VAA)(type route))
+    (wire (path top_copper 609.6  114935 -96266  114935 -94996  121031 -88900)(net -VAA)(type route))
+    (wire (path top_copper 609.6  114935 -126238  114935 -124206)(net -VAA)(type route))
+    (wire (path top_copper 609.6  114935 -102362  112776 -104521)(net -VAA)(type route))
+    (wire (path top_copper 609.6  105410 -126492  104775 -125857)(net -VAA)(type route))
+    (wire (path top_copper 600  121031 -88900  126619 -88900)(net -VAA)(type route))
+    (wire (path top_copper 609.6  112776 -104521  107061 -104521)(net -VAA)(type route))
+    (wire (path top_copper 609.6  114681 -126492  114935 -126238)(net -VAA)(type route))
+    (wire (path top_copper 609.6  126619 -88900  128905 -86614)(net -VAA)(type route))
+    (wire (path top_copper 609.6  114935 -96266  114935 -102108)(net -VAA)(type route))
+    (wire (path bottom_copper 609.6  153035 -64516  158750 -64516  160020 -63246)(net -VAA)(type route))
+    (wire (path bottom_copper 600  103378 -68326  95874 -68326  94800 -69400)(net /12Vext)(type route))
+    (wire (path bottom_copper 431.8  98552 -80518  100965 -80518)(net /ampli_ht_horizontal/PIEZO_IN)(type route))
+    (wire (path bottom_copper 431.8  95885 -83185  98552 -80518)(net /ampli_ht_horizontal/PIEZO_IN)(type route))
+    (wire (path bottom_copper 431.8  95885 -84836  95885 -83185)(net /ampli_ht_horizontal/PIEZO_IN)(type route))
+    (wire (path bottom_copper 431.8  100965 -80518  102743 -78740)(net /ampli_ht_horizontal/PIEZO_IN)(type route))
+    (wire (path bottom_copper 400  173355 -89045  173355 -91186)(net /ampli_ht_horizontal/PIEZO_OUT)(type route))
+    (wire (path bottom_copper 431.8  173355 -97536  173355 -91186)(net /ampli_ht_horizontal/PIEZO_OUT)(type route))
+    (wire (path bottom_copper 400  176100 -86300  173355 -89045)(net /ampli_ht_horizontal/PIEZO_OUT)(type route))
+    (wire (path bottom_copper 400  181200 -86300  176100 -86300)(net /ampli_ht_horizontal/PIEZO_OUT)(type route))
+    (wire (path bottom_copper 431.8  116586 -99187  119888 -99187)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  156845 -89916  156845 -92456)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  143510 -91821  146685 -94996)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  140589 -88011  142240 -88011)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  98486 -100015  103698 -100015)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  113728 -102044  116586 -99187)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  123698 -92710  120523 -95885)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  105728 -102044  113728 -102044)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  142240 -88011  143510 -89281)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  135890 -92710  123698 -92710)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  154305 -94996  146685 -94996)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  143510 -89281  143510 -91821)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 400  135890 -92710  136017 -92710)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  120523 -95885  120523 -98552)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  119888 -99187  120523 -98552)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  105728 -102044  103698 -100015)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 400  140589 -88138  140589 -88011)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  98425 -100076  98486 -100015)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  156845 -89916  161290 -89916)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  156845 -92456  154305 -94996)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 400  136017 -92710  140589 -88138)(net /ampli_ht_horizontal/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  109855 -88646  112395 -88646)(net /ampli_ht_horizontal/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  114427 -90678  112395 -88646)(net /ampli_ht_horizontal/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  118745 -82042  116840 -83566)(net /ampli_ht_horizontal/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  116078 -90678  114427 -90678)(net /ampli_ht_horizontal/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  116840 -83566  116840 -89916)(net /ampli_ht_horizontal/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  112395 -88646  112395 -96266)(net /ampli_ht_horizontal/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  116840 -89916  116078 -90678)(net /ampli_ht_horizontal/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  118745 -81407  118745 -82042)(net /ampli_ht_horizontal/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  94615 -108204  95758 -107061)(net /ampli_ht_vertical/PIEZO_IN)(type route))
+    (wire (path bottom_copper 431.8  94615 -111506  94615 -108204)(net /ampli_ht_vertical/PIEZO_IN)(type route))
+    (wire (path bottom_copper 431.8  95758 -107061  102235 -107061)(net /ampli_ht_vertical/PIEZO_IN)(type route))
+    (wire (path bottom_copper 431.8  173355 -122936  173355 -119126)(net /ampli_ht_vertical/PIEZO_OUT)(type route))
+    (wire (path bottom_copper 400  173355 -115445  173355 -119126)(net /ampli_ht_vertical/PIEZO_OUT)(type route))
+    (wire (path bottom_copper 400  181192 -112458  176342 -112458  173355 -115445)(net /ampli_ht_vertical/PIEZO_OUT)(type route))
+    (wire (path bottom_copper 431.8  146050 -120396  152400 -120396)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 400  139319 -114046  139002 -114364)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  142875 -115316  142875 -117221)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  152400 -120396  156210 -116586)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  105029 -127254  106553 -128778)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  141097 -114046  141605 -114046)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  98425 -125476  99695 -125476)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  156210 -116586  160020 -116586)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  118046 -125920  124016 -125920)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  141605 -114046  142875 -115316)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  142875 -117221  146050 -120396)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  101092 -124079  103886 -124079)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 400  141097 -114046  139319 -114046)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  124016 -125920  131572 -118364)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 400  139002 -114364  139002 -116142)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  136779 -118364  139002 -116142)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  99695 -125476  101092 -124079)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  105029 -125222  105029 -127254)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  115189 -128778  118046 -125920)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  131572 -118364  136779 -118364)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  103886 -124079  105029 -125222)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  106553 -128778  115189 -128778)(net /ampli_ht_vertical/S_OUT+)(type route))
+    (wire (path bottom_copper 431.8  116713 -111760  116713 -113792)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 400  116713 -109982  117221 -109474  118618 -109474)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  112395 -116586  109855 -116586)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  118618 -119253  116713 -121158)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  116713 -113792  118618 -115697)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  112395 -121158  112395 -116586)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  116713 -121158  112395 -121158)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 400  116713 -111760  116713 -109982)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  112395 -124206  112395 -121158)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path bottom_copper 431.8  118618 -115697  118618 -119253)(net /ampli_ht_vertical/Vpil_0_3,3V)(type route))
+    (wire (path top_copper 609.6  154305 -106426  151765 -108966)(net HT)(type route))
+    (wire (path top_copper 609.6  145415 -86106  147955 -83566)(net HT)(type route))
+    (wire (path top_copper 600  154178 -89916  154305 -90043)(net HT)(type route))
+    (wire (path top_copper 609.6  154305 -86106  154305 -90043)(net HT)(type route))
+    (wire (path top_copper 609.6  151765 -83566  154305 -86106)(net HT)(type route))
+    (wire (path top_copper 609.6  147955 -83566  151765 -83566)(net HT)(type route))
+    (wire (path top_copper 609.6  151765 -108966  146685 -108966)(net HT)(type route))
+    (wire (path top_copper 600  153035 -89916  154178 -89916)(net HT)(type route))
+    (wire (path top_copper 609.6  154305 -90043  154305 -106426)(net HT)(type route))
+    (wire (path bottom_copper 600  135763 -106426  135255 -105918)(net HT)(type route))
+    (wire (path bottom_copper 609.6  136525 -82801.5  142110 -82801.5)(net HT)(type route))
+    (wire (path bottom_copper 600  136522 -82801.5  134874 -81153  134874 -79502  134239 -78867
+            132715 -78867)(net HT)(type route))
+    (wire (path bottom_copper 600  121892 -60579  124854 -57617.4)(net HT)(type route))
+    (wire (path bottom_copper 609.6  142110 -82801.5  145415 -86106)(net HT)(type route))
+    (wire (path bottom_copper 609.6  143383 -108966  146685 -108966)(net HT)(type route))
+    (wire (path bottom_copper 600  117159 -56900  118114 -56900)(net HT)(type route))
+    (wire (path bottom_copper 600  151765 -111506  149225 -108966)(net HT)(type route))
+    (wire (path bottom_copper 609.6  140843 -106426  143383 -108966)(net HT)(type route))
+    (wire (path bottom_copper 609.6  124854 -57617.4  160741 -57617.4  164465 -61341)(net HT)(type route))
+    (wire (path bottom_copper 600  149225 -108966  146685 -108966)(net HT)(type route))
+    (wire (path bottom_copper 609.6  152400 -82931  149225 -86106)(net HT)(type route))
+    (wire (path bottom_copper 609.6  159385 -82931  152400 -82931)(net HT)(type route))
+    (wire (path bottom_copper 609.6  164465 -77851  159385 -82931)(net HT)(type route))
+    (wire (path bottom_copper 600  140716 -106426  135763 -106426)(net HT)(type route))
+    (wire (path bottom_copper 609.6  140716 -106426  140843 -106426)(net HT)(type route))
+    (wire (path bottom_copper 609.6  164465 -61341  164465 -77851)(net HT)(type route))
+    (wire (path bottom_copper 609.6  149225 -86106  145415 -86106)(net HT)(type route))
+    (wire (path bottom_copper 609.6  117159 -56900  94900 -56900)(net HT)(type route))
+    (wire (path bottom_copper 600  121793 -60579  121892 -60579)(net HT)(type route))
+    (wire (path bottom_copper 600  151765 -115062  151765 -111506)(net HT)(type route))
+    (wire (path bottom_copper 600  136525 -82801.5  136522 -82801.5)(net HT)(type route))
+    (wire (path bottom_copper 600  118114 -56900  121793 -60579)(net HT)(type route))
+    (wire (path bottom_copper 431.8  147955 -70231  147955 -72136)(net "Net-(U102-CAP+)")(type route))
+    (wire (path bottom_copper 431.8  139700 -71501  142240 -68961)(net "Net-(U102-CAP+)")(type route))
+    (wire (path bottom_copper 431.8  139700 -77216  139700 -71501)(net "Net-(U102-CAP+)")(type route))
+    (wire (path bottom_copper 431.8  142240 -68961  146685 -68961  147955 -70231)(net "Net-(U102-CAP+)")(type route))
+    (wire (path bottom_copper 431.8  153035 -72136  153035 -75311  154940 -77216)(net "Net-(U102-CAP-)")(type route))
+    (wire (path bottom_copper 400  112856 -110236  113618 -109474)(net "Net-(C201-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  102235 -112776  104775 -110236  109855 -110236)(net "Net-(C201-Pad2)")(type route))
+    (wire (path bottom_copper 400  109855 -110236  112856 -110236)(net "Net-(C201-Pad2)")(type route))
+    (wire (path bottom_copper 400  112649 -107061  113665 -106045)(net "Net-(C202-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  106172 -107061  109855 -107061)(net "Net-(C202-Pad1)")(type route))
+    (wire (path bottom_copper 400  109855 -107061  112649 -107061)(net "Net-(C202-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  102235 -110236  102997 -110236  106172 -107061)(net "Net-(C202-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  109855 -112776  113665 -112776  114935 -114046
+            114935 -116586)(net "Net-(U201B-+)")(type route))
+    (wire (path bottom_copper 431.8  136779 -128651  138176 -130048)(net "Net-(C204-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  136779 -126873  136779 -128651)(net "Net-(C204-Pad1)")(type route))
+    (wire (path bottom_copper 400  111506 -81407  110617 -82296)(net "Net-(C301-Pad2)")(type route))
+    (wire (path bottom_copper 400  113745 -81407  111506 -81407)(net "Net-(C301-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  110617 -84963  110617 -82296)(net "Net-(C301-Pad2)")(type route))
+    (wire (path bottom_copper 400  111125 -77978  110363 -78740)(net "Net-(C302-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  106807 -82296  110363 -78740)(net "Net-(C302-Pad1)")(type route))
+    (wire (path bottom_copper 400  113792 -77978  111125 -77978)(net "Net-(C302-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  102997 -82296  106807 -82296)(net "Net-(C302-Pad1)")(type route))
+    (wire (path bottom_copper 400  104140 -84963  105791 -86614)(net "Net-(U301B-+)")(type route))
+    (wire (path bottom_copper 431.8  114935 -86741  114935 -88646)(net "Net-(U301B-+)")(type route))
+    (wire (path bottom_copper 400  102997 -84963  104140 -84963)(net "Net-(U301B-+)")(type route))
+    (wire (path bottom_copper 431.8  111252 -86614  105791 -86614)(net "Net-(U301B-+)")(type route))
+    (wire (path bottom_copper 431.8  113665 -84836  113030 -84836)(net "Net-(U301B-+)")(type route))
+    (wire (path bottom_copper 431.8  113665 -84836  113665 -85471  114935 -86741)(net "Net-(U301B-+)")(type route))
+    (wire (path bottom_copper 431.8  113030 -84836  111252 -86614)(net "Net-(U301B-+)")(type route))
+    (wire (path bottom_copper 431.8  135255 -101346  138049 -104140)(net "Net-(C304-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  133985 -101346  135255 -101346)(net "Net-(C304-Pad1)")(type route))
+    (wire (path bottom_copper 400  127635 -105918  129618 -105918  132666 -108966
+            135255 -108966)(net "Net-(D201-K)")(type route))
+    (wire (path bottom_copper 431.8  122555 -115316  122555 -115247)(net "Net-(D202-K)")(type route))
+    (wire (path bottom_copper 400  132715 -114046  131514 -114046)(net "Net-(D202-K)")(type route))
+    (wire (path bottom_copper 431.8  122555 -115247  127635 -110167)(net "Net-(D202-K)")(type route))
+    (wire (path bottom_copper 431.8  127635 -108966  127635 -110167)(net "Net-(D202-K)")(type route))
+    (wire (path bottom_copper 400  131514 -114046  130175 -112707)(net "Net-(D202-K)")(type route))
+    (wire (path bottom_copper 431.8  127635 -110167  130175 -112707)(net "Net-(D202-K)")(type route))
+    (wire (path bottom_copper 431.8  140970 -118491  144780 -122301  144780 -123571)(net "Net-(D203-K)")(type route))
+    (wire (path bottom_copper 431.8  140970 -115951  140970 -118491)(net "Net-(D203-K)")(type route))
+    (wire (path bottom_copper 431.8  144780 -112776  144145 -112141  138430 -112141)(net "Net-(D203-A)")(type route))
+    (wire (path bottom_copper 400  147320 -113411  150114 -113411)(net "Net-(D203-A)")(type route))
+    (wire (path bottom_copper 400  133985 -115316  135255 -115316)(net "Net-(D203-A)")(type route))
+    (wire (path bottom_copper 400  150114 -113411  150495 -113792)(net "Net-(D203-A)")(type route))
+    (wire (path bottom_copper 400  135255 -115316  136525 -114046)(net "Net-(D203-A)")(type route))
+    (wire (path bottom_copper 431.8  138430 -112141  136525 -114046)(net "Net-(D203-A)")(type route))
+    (wire (path bottom_copper 431.8  144780 -113411  144780 -112776)(net "Net-(D203-A)")(type route))
+    (wire (path bottom_copper 431.8  147320 -113411  144780 -113411)(net "Net-(D203-A)")(type route))
+    (wire (path bottom_copper 431.8  144780 -115951  144780 -113411)(net "Net-(D203-A)")(type route))
+    (wire (path bottom_copper 400  144399 -127000  145415 -128016)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 400  144272 -126873  140970 -123571)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 431.8  149225 -128016  150495 -126746)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 400  144399 -126873  144272 -126873)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 400  144399 -126873  144399 -127000)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 400  134620 -124206  133096 -125730)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 431.8  138430 -123571  140970 -123571)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 431.8  137795 -124206  138430 -123571)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 400  137795 -124206  134620 -124206)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 431.8  145415 -128016  149225 -128016)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 431.8  150495 -126746  150495 -125476)(net "Net-(D204-K)")(type route))
+    (wire (path bottom_copper 431.8  125095 -78867  125095 -82296)(net "Net-(D301-K)")(type route))
+    (wire (path bottom_copper 400  130175 -77851  131064 -76962  136017 -76962  137795 -78740
+            137795 -79756)(net "Net-(D302-K)")(type route))
+    (wire (path bottom_copper 400  130366 -81216.5  131445 -82296  132715 -82296)(net "Net-(D302-K)")(type route))
+    (wire (path bottom_copper 431.8  137795 -81026  137795 -79756)(net "Net-(D302-K)")(type route))
+    (wire (path bottom_copper 431.8  130175 -79756  130366 -79946.5)(net "Net-(D302-K)")(type route))
+    (wire (path bottom_copper 400  132715 -82296  132715 -87376)(net "Net-(D302-K)")(type route))
+    (wire (path bottom_copper 400  130366 -79946.5  130366 -81216.5)(net "Net-(D302-K)")(type route))
+    (wire (path bottom_copper 431.8  130175 -79121  130175 -79756)(net "Net-(D302-K)")(type route))
+    (wire (path bottom_copper 400  130175 -79121  130175 -77851)(net "Net-(D302-K)")(type route))
+    (wire (path bottom_copper 400  133985 -88646  133985 -86106)(net "Net-(D303-A)")(type route))
+    (wire (path bottom_copper 431.8  144780 -88011  143510 -88011  139700 -84201)(net "Net-(D303-A)")(type route))
+    (wire (path bottom_copper 400  133985 -86106  135943 -84147.7)(net "Net-(D303-A)")(type route))
+    (wire (path bottom_copper 431.8  138430 -84201  138377 -84147.7)(net "Net-(D303-A)")(type route))
+    (wire (path bottom_copper 400  145415 -88646  151765 -88646)(net "Net-(D303-A)")(type route))
+    (wire (path bottom_copper 431.8  145415 -88646  144780 -88011)(net "Net-(D303-A)")(type route))
+    (wire (path bottom_copper 431.8  138377 -84147.7  135943 -84147.7)(net "Net-(D303-A)")(type route))
+    (wire (path bottom_copper 431.8  145415 -89916  145415 -88646)(net "Net-(D303-A)")(type route))
+    (wire (path bottom_copper 431.8  139700 -84201  138430 -84201)(net "Net-(D303-A)")(type route))
+    (wire (path bottom_copper 431.8  141605 -91821  145415 -95631)(net "Net-(D303-K)")(type route))
+    (wire (path bottom_copper 431.8  141605 -89916  141605 -91821)(net "Net-(D303-K)")(type route))
+    (wire (path bottom_copper 431.8  145415 -95631  145415 -97536)(net "Net-(D303-K)")(type route))
+    (wire (path bottom_copper 400  133350 -97536  132334 -96520)(net "Net-(D304-K)")(type route))
+    (wire (path bottom_copper 400  149352 -102616  149733 -102235)(net "Net-(D304-K)")(type route))
+    (wire (path bottom_copper 431.8  145415 -102616  144145 -101346)(net "Net-(D304-K)")(type route))
+    (wire (path bottom_copper 400  141605 -97536  133350 -97536)(net "Net-(D304-K)")(type route))
+    (wire (path bottom_copper 431.8  144145 -101346  141605 -101346)(net "Net-(D304-K)")(type route))
+    (wire (path bottom_copper 400  145415 -102616  149352 -102616)(net "Net-(D304-K)")(type route))
+    (wire (path bottom_copper 431.8  141605 -97536  141605 -101346)(net "Net-(D304-K)")(type route))
+    (wire (path bottom_copper 609.6  133350 -70866  139700 -64516)(net VCC)(type route))
+    (wire (path bottom_copper 600  124206 -70866  133350 -70866)(net VCC)(type route))
+    (wire (path bottom_copper 600  121666 -73406  124206 -70866)(net VCC)(type route))
+    (wire (path bottom_copper 609.6  139700 -64516  145415 -64516)(net VCC)(type route))
+    (wire (path bottom_copper 600  117348 -73406  121666 -73406)(net VCC)(type route))
+    (wire (path top_copper 400  131826 -111506  136525 -111506)(net "Net-(Q201-E)")(type route))
+    (wire (path top_copper 400  131445 -115316  131064 -115316  130429 -114681)(net "Net-(Q201-E)")(type route))
+    (wire (path top_copper 400  136525 -111506  139065 -108966)(net "Net-(Q201-E)")(type route))
+    (wire (path top_copper 400  130429 -112903  131826 -111506)(net "Net-(Q201-E)")(type route))
+    (wire (path top_copper 400  130429 -114681  130429 -112903)(net "Net-(Q201-E)")(type route))
+    (wire (path bottom_copper 431.8  160020 -121031  161925 -119126)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 431.8  165735 -119126  165735 -115951)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 431.8  161925 -119126  165735 -119126)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 400  149225 -116713  150368 -117856)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 431.8  156210 -114046  163830 -114046)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 431.8  160020 -124206  160020 -121031)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 400  152400 -117856  150368 -117856)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 431.8  165735 -115951  163830 -114046)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 431.8  156210 -114046  152400 -117856)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 400  149225 -115062  149225 -116713)(net "Net-(Q202-E)")(type route))
+    (wire (path bottom_copper 400  155702 -123825  156210 -124333)(net "Net-(Q203-E)")(type route))
+    (wire (path bottom_copper 431.8  156210 -124206  156210 -126111)(net "Net-(Q203-E)")(type route))
+    (wire (path bottom_copper 400  151765 -123825  155702 -123825)(net "Net-(Q203-E)")(type route))
+    (wire (path bottom_copper 431.8  156210 -126111  156845 -126746)(net "Net-(Q203-E)")(type route))
+    (wire (path bottom_copper 431.8  162560 -126746  163195 -126111)(net "Net-(Q203-E)")(type route))
+    (wire (path bottom_copper 431.8  156845 -126746  162560 -126746)(net "Net-(Q203-E)")(type route))
+    (wire (path bottom_copper 431.8  163195 -126111  165735 -122936)(net "Net-(Q203-E)")(type route))
+    (wire (path top_copper 400  132334 -120523  130556 -122301  130556 -125730)(net "Net-(Q204-E)")(type route))
+    (wire (path top_copper 400  134493 -120523  132334 -120523)(net "Net-(Q204-E)")(type route))
+    (wire (path top_copper 400  134493 -120142  134493 -120523)(net "Net-(Q204-E)")(type route))
+    (wire (path bottom_copper 400  126365 -128016  126365 -125730)(net "Net-(Q204-B)")(type route))
+    (wire (path bottom_copper 400  127635 -124460  131826 -124460)(net "Net-(Q204-B)")(type route))
+    (wire (path bottom_copper 400  126365 -125730  127635 -124460)(net "Net-(Q204-B)")(type route))
+    (wire (path bottom_copper 400  131445 -90805  131445 -88646)(net "Net-(Q301-E)")(type route))
+    (wire (path bottom_copper 400  137795 -88011  134874 -90932)(net "Net-(Q301-E)")(type route))
+    (wire (path bottom_copper 400  131572 -90932  131445 -90805)(net "Net-(Q301-E)")(type route))
+    (wire (path bottom_copper 400  134874 -90932  131572 -90932)(net "Net-(Q301-E)")(type route))
+    (wire (path bottom_copper 400  137795 -87122  137795 -88011)(net "Net-(Q301-E)")(type route))
+    (wire (path bottom_copper 431.8  137795 -87122  137795 -86106)(net "Net-(Q301-E)")(type route))
+    (wire (path bottom_copper 609.6  117914 -68326  122492 -63748.9)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  98298 -87249  99695 -88646)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  122492 -63748.9  124338 -63748.9)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  92800 -114200  97500 -114200)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  99886 -116586  107315 -116586)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  126619 -62484  126619 -60706)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  91668.6 -87249  91668.6 -113069)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  91668.6 -87249  98298 -87249)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  95250 -78232  99568 -78232)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  99695 -88646  107315 -88646)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  99568 -78232  100838 -76962)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  104648 -76962  113284 -68326  117914 -68326)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  91668.6 -113069  92800 -114200)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  124338 -68193.9  124206 -68326)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  91668.6 -87249  91668.6 -81813.4)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  125354 -63748.9  126619 -62484)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  124338 -63748.9  125354 -63748.9)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  97500 -114200  99886 -116586)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  91668.6 -81813.4  95250 -78232)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  100838 -76962  104648 -76962)(net +12V)(type route))
+    (wire (path bottom_copper 609.6  124338 -63748.9  124338 -68193.9)(net +12V)(type route))
+    (wire (path bottom_copper 431.8  155575 -86106  163830 -86106)(net "Net-(Q302-E)")(type route))
+    (wire (path bottom_copper 431.8  161290 -95631  165735 -91186)(net "Net-(Q302-E)")(type route))
+    (wire (path bottom_copper 431.8  161290 -97536  161290 -95631)(net "Net-(Q302-E)")(type route))
+    (wire (path bottom_copper 431.8  154305 -87376  155575 -86106)(net "Net-(Q302-E)")(type route))
+    (wire (path bottom_copper 400  154305 -91440  154305 -89916)(net "Net-(Q302-E)")(type route))
+    (wire (path bottom_copper 431.8  165735 -91186  165735 -88011  163830 -86106)(net "Net-(Q302-E)")(type route))
+    (wire (path bottom_copper 400  150495 -91186  151025 -91716  154029 -91716  154305 -91440)(net "Net-(Q302-E)")(type route))
+    (wire (path bottom_copper 400  150495 -89916  150495 -91186)(net "Net-(Q302-E)")(type route))
+    (wire (path bottom_copper 431.8  154305 -89916  154305 -87376)(net "Net-(Q302-E)")(type route))
+    (wire (path bottom_copper 431.8  165735 -97536  165735 -98806)(net "Net-(Q303-E)")(type route))
+    (wire (path bottom_copper 431.8  158115 -100076  164465 -100076)(net "Net-(Q303-E)")(type route))
+    (wire (path bottom_copper 431.8  156845 -97536  156845 -98806)(net "Net-(Q303-E)")(type route))
+    (wire (path bottom_copper 431.8  165735 -98806  164465 -100076)(net "Net-(Q303-E)")(type route))
+    (wire (path bottom_copper 400  153797 -98171  151003 -100965)(net "Net-(Q303-E)")(type route))
+    (wire (path bottom_copper 431.8  156845 -98806  158115 -100076)(net "Net-(Q303-E)")(type route))
+    (wire (path bottom_copper 431.8  156210 -98171  156845 -97536)(net "Net-(Q303-E)")(type route))
+    (wire (path bottom_copper 400  156210 -98171  153797 -98171)(net "Net-(Q303-E)")(type route))
+    (wire (path bottom_copper 431.8  126365 -97536  125603 -98298  125603 -101346)(net "Net-(Q304-B)")(type route))
+    (wire (path bottom_copper 400  126365 -97536  128651 -95250  131064 -95250)(net "Net-(Q304-B)")(type route))
+    (wire (path bottom_copper 431.8  123190 -102362  124460 -103632)(net "Net-(Q304-E)")(type route))
+    (wire (path bottom_copper 431.8  126111 -94996  124841 -94996)(net "Net-(Q304-E)")(type route))
+    (wire (path bottom_copper 431.8  124460 -103632  126619 -103632)(net "Net-(Q304-E)")(type route))
+    (wire (path bottom_copper 431.8  124841 -94996  123190 -96647  123190 -102362)(net "Net-(Q304-E)")(type route))
+    (wire (path bottom_copper 400  129794 -96520  129794 -100457)(net "Net-(Q304-E)")(type route))
+    (wire (path bottom_copper 431.8  126619 -103632  129794 -100457)(net "Net-(Q304-E)")(type route))
+    (wire (path bottom_copper 431.8  115570 -126873  117348 -125095)(net "Net-(R212-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  115570 -126873  108712 -126873)(net "Net-(R212-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  126873 -121666  126873 -120142)(net "Net-(R212-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  117348 -125095  123444 -125095)(net "Net-(R212-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  107315 -125476  107315 -124206)(net "Net-(R212-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  108712 -126873  107315 -125476)(net "Net-(R212-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  123444 -125095  126873 -121666)(net "Net-(R212-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  95885 -128016  101600 -128016)(net "Net-(R213-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  93345 -125476  95885 -128016)(net "Net-(R213-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  102870 -126746  101600 -128016)(net "Net-(R213-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  118491 -97028  118491 -94996)(net "Net-(R312-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  108839 -99060  114935 -99060)(net "Net-(R312-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  117348 -98171  118491 -97028)(net "Net-(R312-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  114935 -99060  115824 -98171)(net "Net-(R312-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  107315 -96266  107315 -97536)(net "Net-(R312-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  115824 -98171  117348 -98171)(net "Net-(R312-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  107315 -97536  108839 -99060)(net "Net-(R312-Pad2)")(type route))
+    (wire (path bottom_copper 431.8  95885 -102616  102235 -102616)(net "Net-(R313-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  93345 -100076  95885 -102616)(net "Net-(R313-Pad1)")(type route))
+    (wire (path bottom_copper 431.8  102108 -122936  103505 -121539)(net "Net-(U201A--)")(type route))
+    (wire (path bottom_copper 431.8  95885 -122936  102108 -122936)(net "Net-(U201A--)")(type route))
+    (wire (path bottom_copper 431.8  103505 -121539  109093 -121539  109855 -122301
+            109855 -124206)(net "Net-(U201A--)")(type route))
+    (wire (path bottom_copper 431.8  109093 -92837  109855 -93599  109855 -96266)(net "Net-(U301A--)")(type route))
+    (wire (path bottom_copper 431.8  105283 -96647  105283 -93726)(net "Net-(U301A--)")(type route))
+    (wire (path bottom_copper 431.8  106172 -92837  109093 -92837)(net "Net-(U301A--)")(type route))
+    (wire (path bottom_copper 431.8  95885 -97536  104394 -97536)(net "Net-(U301A--)")(type route))
+    (wire (path bottom_copper 431.8  105283 -93726  106172 -92837)(net "Net-(U301A--)")(type route))
+    (wire (path bottom_copper 431.8  104394 -97536  105283 -96647)(net "Net-(U301A--)")(type route))
+  )
+)

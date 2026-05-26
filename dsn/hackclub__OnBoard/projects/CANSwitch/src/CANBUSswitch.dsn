@@ -1,0 +1,179 @@
+(pcb /Users/mikaheikkinen/bb/github/brdroute_training/dsn/hackclub__OnBoard/projects/CANSwitch/src/CANBUSswitch.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  201549 -37338  201476 -37340.6  201337 -37381.5  201215 -37460.1
+            201119 -37569.9  201059 -37702.1  201038 -37846  201059 -37989.9
+            201119 -38122.1  201215 -38231.9  201337 -38310.5  201476 -38351.4
+            201549 -38354  201549 -42799  186690 -42799  181610 -42799  181610 -38354
+            181683 -38351.4  181822 -38310.5  181944 -38231.9  182040 -38122.1
+            182100 -37989.9  182121 -37846  182100 -37702.1  182040 -37569.9
+            181944 -37460.1  181822 -37381.5  181683 -37340.6  181610 -37338
+            181610 -36449  201549 -36449  201549 -37338)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Button_Switch_THT:★MFS401N−2−Z
+      (place SW1 191596 -39624 front 0 (PN ~))
+    )
+    (component Library:WirePad2
+      (place J1 200025 -40767 back 180 (PN Conn_01x02))
+      (place J2 183134 -40894 back 180 (PN Conn_01x02))
+    )
+    (component Resistor_SMD:R_0805_2012Metric
+      (place R2 199136 -37846 back 0 (PN R))
+      (place R1 184023 -37846 back 0 (PN R))
+    )
+  )
+  (library
+    (image Button_Switch_THT:★MFS401N−2−Z
+      (outline (path signal 100  -7000 3000  7000 3000))
+      (outline (path signal 100  -7000 -3000  -7000 3000))
+      (outline (path signal 100  7000 3000  7000 -3000))
+      (outline (path signal 100  7000 -3000  -7000 -3000))
+      (pin Round[A]Pad_1076.200000_um 1 -5000 1250)
+      (pin Round[A]Pad_1076.200000_um 2 -3000 1250)
+      (pin Round[A]Pad_1076.200000_um 3 -1000 1250)
+      (pin Round[A]Pad_1076.200000_um 4 1000 1250)
+      (pin Round[A]Pad_1076.200000_um 5 3000 1250)
+      (pin Round[A]Pad_1076.200000_um 6 5000 1250)
+      (pin Round[A]Pad_1076.200000_um 7 -5000 -1250)
+      (pin Round[A]Pad_1076.200000_um 8 -3000 -1250)
+      (pin Round[A]Pad_1076.200000_um 9 -1000 -1250)
+      (pin Round[A]Pad_1076.200000_um 10 1000 -1250)
+      (pin Round[A]Pad_1076.200000_um 11 3000 -1250)
+      (pin Round[A]Pad_1076.200000_um 12 5000 -1250)
+    )
+    (image Library:WirePad2
+      (pin Rect[T]Pad_2000.000000x3000.000000_um (rotate 180) 1 0 0)
+      (pin Rect[B]Pad_3000.000000x2000.000000_um (rotate 270) 2 0 0)
+    )
+    (image Resistor_SMD:R_0805_2012Metric
+      (outline (polygon signal 0  -1675 945  1675 945  1675 -945  -1675 -945))
+      (outline (path signal 120  -227.064 -735  227.064 -735))
+      (outline (path signal 120  -227.064 735  227.064 735))
+      (outline (path signal 100  -1000 -625  -1000 625))
+      (outline (path signal 100  -1000 625  1000 625))
+      (outline (path signal 100  1000 -625  -1000 -625))
+      (outline (path signal 100  1000 625  1000 -625))
+      (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 1 -912.5 0)
+      (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 2 912.5 0)
+    )
+    (padstack Round[A]Pad_1076.200000_um
+      (shape (circle F.Cu 1076.2))
+      (shape (circle B.Cu 1076.2))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0
+      (shape (polygon F.Cu 0  -513.451 450  -494.348 546.035  -439.949 627.449  -358.535 681.848
+            -262.499 700.95  262.5 700.951  358.535 681.848  439.949 627.449
+            494.348 546.035  513.45 449.999  513.451 -450  494.348 -546.035
+            439.949 -627.449  358.535 -681.848  262.499 -700.95  -262.5 -700.951
+            -358.535 -681.848  -439.949 -627.449  -494.348 -546.035  -513.45 -449.999
+            -513.451 450))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_3000.000000x2000.000000_um
+      (shape (rect B.Cu -1500 -1000 1500 1000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2000.000000x3000.000000_um
+      (shape (rect F.Cu -1000 -1500 1000 1500))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(J2-Pin_1)"
+      (pins SW1-7 J2-1 R1-2)
+    )
+    (net "Net-(J2-Pin_2)"
+      (pins SW1-3 SW1-4 J2-2)
+    )
+    (net "unconnected-(SW1C-C-Pad9)"
+      (pins SW1-9)
+    )
+    (net "unconnected-(SW1A-A-Pad1)"
+      (pins SW1-1)
+    )
+    (net "unconnected-(SW1D-C-Pad12)"
+      (pins SW1-12)
+    )
+    (net "unconnected-(SW1D-A-Pad10)"
+      (pins SW1-10)
+    )
+    (net "unconnected-(SW1D-B-Pad11)"
+      (pins SW1-11)
+    )
+    (net "Net-(SW1A-B)"
+      (pins SW1-2 R1-1)
+    )
+    (net "Net-(J1-Pin_2)"
+      (pins SW1-5 J1-2)
+    )
+    (net "Net-(J1-Pin_1)"
+      (pins SW1-8 J1-1 R2-1)
+    )
+    (net "Net-(SW1B-C)"
+      (pins SW1-6 R2-2)
+    )
+    (class kicad_default "Net-(J1-Pin_1)" "Net-(J1-Pin_2)" "Net-(J2-Pin_1)"
+      "Net-(J2-Pin_2)" "Net-(SW1A-B)" "Net-(SW1B-C)" "unconnected-(SW1A-A-Pad1)"
+      "unconnected-(SW1C-C-Pad9)" "unconnected-(SW1D-A-Pad10)" "unconnected-(SW1D-B-Pad11)"
+      "unconnected-(SW1D-C-Pad12)"
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path B.Cu 508  183154 -40874  183134 -40894)(net "Net-(J2-Pin_1)")(type route))
+    (wire (path B.Cu 508  183110 -37846  183110 -40870.5)(net "Net-(J2-Pin_1)")(type route))
+    (wire (path B.Cu 508  186596 -40874  183154 -40874)(net "Net-(J2-Pin_1)")(type route))
+    (wire (path B.Cu 508  183110 -40870.5  183134 -40894)(net "Net-(J2-Pin_1)")(type route))
+    (wire (path F.Cu 508  183134 -40894  184404 -39624  189346 -39624)(net "Net-(J2-Pin_2)")(type route))
+    (wire (path F.Cu 508  190596 -38374  192596 -38374)(net "Net-(J2-Pin_2)")(type route))
+    (wire (path F.Cu 508  189346 -39624  190596 -38374)(net "Net-(J2-Pin_2)")(type route))
+    (wire (path B.Cu 508  185698 -37084  187306 -37084)(net "Net-(SW1A-B)")(type route))
+    (wire (path B.Cu 508  184936 -37846  185698 -37084)(net "Net-(SW1A-B)")(type route))
+    (wire (path B.Cu 508  187306 -37084  188596 -38374)(net "Net-(SW1A-B)")(type route))
+    (wire (path F.Cu 508  194596 -38374  195846 -39624  198882 -39624  200025 -40767)(net "Net-(J1-Pin_2)")(type route))
+    (wire (path B.Cu 508  199009 -39751  200025 -40767)(net "Net-(J1-Pin_1)")(type route))
+    (wire (path B.Cu 508  200048 -37846  200048 -40743.5  200025 -40767)(net "Net-(J1-Pin_1)")(type route))
+    (wire (path B.Cu 508  188596 -40874  189719 -39751  199009 -39751)(net "Net-(J1-Pin_1)")(type route))
+    (wire (path B.Cu 508  198224 -37846  197124 -37846  196596 -38374)(net "Net-(SW1B-C)")(type route))
+  )
+)

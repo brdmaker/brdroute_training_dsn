@@ -1,0 +1,178 @@
+(pcb /Users/mikaheikkinen/bb/github/brdroute_training/dsn/scottbez1__splitflap/electronics/chainlinkBuddyBreadboard/chainlinkBuddyBreadboard.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  96520 -82550  63500 -82550  63500 -63500  96520 -63500
+            96520 -82550)
+    )
+    (plane GND (polygon B.Cu 0  96520 -82550  63500 -82550  63500 -63500  96520 -63500
+            96520 -82550))
+    (plane GND (polygon F.Cu 0  96520 -82550  63500 -82550  63500 -63500  96520 -63500
+            96520 -82550))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component ModifiedSymbols:PinHeader_1x05_P2.54mm_Vertical_NoSilk
+      (place J2 95250 -78105 back 180 (PN Conn_01x05_Male))
+    )
+    (component "ModifiedSymbols:IDC-Header_2x04_P2.54mm_Vertical"
+      (place J1 67310 -69215 front 0 (PN Output))
+    )
+  )
+  (library
+    (image ModifiedSymbols:PinHeader_1x05_P2.54mm_Vertical_NoSilk
+      (outline (polygon signal 0  1795 -11945  -1795 -11945  -1795 1795  1795 1795))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -11430))
+      (outline (path signal 100  1270 -11430  -1270 -11430))
+      (outline (path signal 100  -1270 -11430  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 5 0 -10160)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 4 0 -7620)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 3 0 -5080)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 2 0 -2540)
+      (pin Rect[A]Pad_1700.000000x1700.000000_um 1 0 0)
+    )
+    (image "ModifiedSymbols:IDC-Header_2x04_P2.54mm_Vertical"
+      (outline (polygon signal 0  6215 -13215  -3675 -13215  -3675 5595  6215 5595))
+      (outline (path signal 100  -3180 4100  -2180 5100))
+      (outline (path signal 100  -2180 5100  5720 5100))
+      (outline (path signal 100  5720 5100  5720 -12720))
+      (outline (path signal 100  5720 -12720  -3180 -12720))
+      (outline (path signal 100  -3180 -12720  -3180 4100))
+      (outline (path signal 100  -3180 -1760  -1980 -1760))
+      (outline (path signal 100  -1980 -1760  -1980 3910))
+      (outline (path signal 100  -1980 3910  4520 3910))
+      (outline (path signal 100  4520 3910  4520 -11530))
+      (outline (path signal 100  4520 -11530  -1980 -11530))
+      (outline (path signal 100  -1980 -11530  -1980 -5860))
+      (outline (path signal 100  -1980 -5860  -1980 -5860))
+      (outline (path signal 100  -1980 -5860  -3180 -5860))
+      (outline (path signal 120  -3290 5210  5830 5210))
+      (outline (path signal 120  5830 5210  5830 -12830))
+      (outline (path signal 120  5830 -12830  -3290 -12830))
+      (outline (path signal 120  -3290 -12830  -3290 5210))
+      (outline (path signal 120  -3290 -1760  -1980 -1760))
+      (outline (path signal 120  -1980 -1760  -1980 3910))
+      (outline (path signal 120  -1980 3910  4520 3910))
+      (outline (path signal 120  4520 3910  4520 -11530))
+      (outline (path signal 120  4520 -11530  -1980 -11530))
+      (outline (path signal 120  -1980 -11530  -1980 -5860))
+      (outline (path signal 120  -1980 -5860  -1980 -5860))
+      (outline (path signal 120  -1980 -5860  -3290 -5860))
+      (pin Round[A]Pad_1700.000000_um 8 2540 -7620)
+      (pin Round[A]Pad_1700.000000_um 6 2540 -5080)
+      (pin Round[A]Pad_1700.000000_um 4 2540 -2540)
+      (pin Round[A]Pad_1700.000000_um 2 2540 0)
+      (pin Round[A]Pad_1700.000000_um 7 0 -7620)
+      (pin Round[A]Pad_1700.000000_um 5 0 -5080)
+      (pin Round[A]Pad_1700.000000_um 3 0 -2540)
+      (pin RoundRect[A]Pad_1700.000000x1700.000000_250.951000_um_0.000000_0 1 0 0)
+    )
+    (padstack Round[A]Pad_1700.000000_um
+      (shape (circle F.Cu 1700))
+      (shape (circle B.Cu 1700))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700.000000x1700.000000_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[A]Pad_1700.000000x1700.000000_250.951000_um_0.000000_0
+      (shape (polygon F.Cu 0  -850.951 600  -831.848 696.035  -777.449 777.449  -696.035 831.848
+            -599.999 850.95  600 850.951  696.035 831.848  777.449 777.449
+            831.848 696.035  850.95 599.999  850.951 -600  831.848 -696.035
+            777.449 -777.449  696.035 -831.848  599.999 -850.95  -600 -850.951
+            -696.035 -831.848  -777.449 -777.449  -831.848 -696.035  -850.95 -599.999
+            -850.951 600))
+      (shape (polygon B.Cu 0  -850.951 600  -831.848 696.035  -777.449 777.449  -696.035 831.848
+            -599.999 850.95  600 850.951  696.035 831.848  777.449 777.449
+            831.848 696.035  850.95 599.999  850.951 -600  831.848 -696.035
+            777.449 -777.449  696.035 -831.848  599.999 -850.95  -600 -850.951
+            -696.035 -831.848  -777.449 -777.449  -831.848 -696.035  -850.95 -599.999
+            -850.951 600))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700.000000x1700.000000_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins J2-1 J1-8 J1-6 J1-4 J1-2)
+    )
+    (net /LATCH
+      (pins J2-2 J1-7)
+    )
+    (net /SENSOR_DATA
+      (pins J2-3 J1-5)
+    )
+    (net /MOTOR_DATA
+      (pins J2-4 J1-3)
+    )
+    (net /CLOCK
+      (pins J2-5 J1-1)
+    )
+    (class kicad_default /CLOCK /LATCH /MOTOR_DATA /SENSOR_DATA GND
+      (circuit
+        (use_via "Via[0-1]_800:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 500  69850 -69215  93345 -69215)(net GND)(type route))
+    (wire (path F.Cu 500  93345 -71755  69850 -71755)(net GND)(type route))
+    (wire (path F.Cu 500  69850 -74295  93345 -74295)(net GND)(type route))
+    (wire (path F.Cu 250  95155 -75660  95250 -75565)(net /LATCH)(type route))
+    (wire (path F.Cu 250  68485 -75660  95155 -75660)(net /LATCH)(type route))
+    (wire (path F.Cu 250  67310 -76835  68485 -75660)(net /LATCH)(type route))
+    (wire (path F.Cu 250  68580 -73025  95250 -73025)(net /SENSOR_DATA)(type route))
+    (wire (path F.Cu 250  67310 -74295  68580 -73025)(net /SENSOR_DATA)(type route))
+    (wire (path F.Cu 250  68580 -70485  95250 -70485)(net /MOTOR_DATA)(type route))
+    (wire (path F.Cu 250  67310 -71755  68580 -70485)(net /MOTOR_DATA)(type route))
+    (wire (path F.Cu 250  67730 -67945  95250 -67945)(net /CLOCK)(type route))
+    (wire (path F.Cu 250  67310 -68365  67730 -67945)(net /CLOCK)(type route))
+    (wire (path F.Cu 250  67310 -69215  67310 -68365)(net /CLOCK)(type route))
+    (via "Via[0-1]_800:400_um"  93345 -69215 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  93345 -71755 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  93345 -74295 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  67310 -66675 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  93345 -66675 (net GND)(type route))
+  )
+)

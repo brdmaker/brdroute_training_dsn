@@ -1,0 +1,624 @@
+(pcb /Users/mikaheikkinen/bb/github/brdroute_training/dsn/sethhillbrand__kicad_templates/Alchitry_Au/Alchitry_Au.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  95000 -20000.1  95000 -25000.1  93500 -26500.1  91500 -26500.1
+            90000 -28000.1  90000 -54000.1  91500 -55500.1  93500 -55500.1
+            95000 -57000.1  95000 -62000.1  93500 -63500.1  31500 -63500.1
+            30000 -62000.1  30000 -20000.1  31500 -18500.1  93500 -18500.1
+            95000 -20000.1)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Alchitry_Au:Alchitry_Conn
+      (place B1 56500 -23000 front 0 (PN Alchitry_Shield))
+      (place B3 60500 -59000 front 0 (PN Alchitry_Shield))
+      (place B4 82000 -59000 front 0 (PN Alchitry_Shield))
+      (place B2 82000 -23000 front 0 (PN Alchitry_Shield))
+    )
+    (component Alchitry_Au:2m2ThroughHole
+      (place H4 32500 -61000 front 0 (PN MountingHole))
+      (place H3 92500 -21000 front 0 (PN MountingHole))
+      (place H2 92500 -61000 front 0 (PN MountingHole))
+      (place H1 32500 -21000 front 0 (PN MountingHole))
+    )
+  )
+  (library
+    (image Alchitry_Au:Alchitry_Conn
+      (outline (polygon signal 0  7995 -3495  -7995 -3495  -7995 3495  7995 3495))
+      (outline (path signal 120  6460 2000  7580 2000))
+      (outline (path signal 120  6460 -2000  7580 -2000))
+      (outline (path signal 120  -7620 -2000  -6500 -2000))
+      (outline (path signal 120  -7620 2000  -6500 2000))
+      (outline (path signal 127  7580 2000  7580 -2000))
+      (outline (path signal 127  -7620 800  -7620 2000))
+      (outline (path signal 127  -7420 -800  -7420 800))
+      (outline (path signal 127  -7620 800  -7420 800))
+      (outline (path signal 127  -7620 -800  -7620 800))
+      (outline (path signal 127  -7420 -800  -7620 -800))
+      (outline (path signal 127  -7620 -2000  -7620 -800))
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B24 5480 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B33 2480 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B12 -520 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B11 -1020 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B25 5980 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B14 480 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B15 980 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B40 -1020 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B41 -1520 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B32 2980 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B31 3480 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B10 -1520 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B9 -2020 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B22 4480 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B23 4980 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B6 -3520 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B5 -4020 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B42 -2020 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B43 -2520 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B36 980 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B18 2480 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B19 2980 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B50 -6020 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B13 -20 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B48 -5020 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B49 -5520 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B16 1480 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B17 1980 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B35 1480 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B28 4980 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B27 5480 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B26 5980 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B39 -520 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B30 3980 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B29 4480 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B4 -4520 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B3 -5020 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B44 -3020 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B45 -3520 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B46 -4020 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B47 -4520 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B20 3480 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B21 3980 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B34 1980 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B8 -2520 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B7 -3020 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B2 -5520 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B1 -6020 -2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B37 480 2200)
+      (pin RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0 (rotate 90) B38 -20 2200)
+      (keepout "" (circle F.Cu 1100 6950 -1250))
+      (keepout "" (circle B.Cu 1100 6950 -1250))
+      (keepout "" (circle F.Cu 1100 -6950 -1250))
+      (keepout "" (circle B.Cu 1100 -6950 -1250))
+    )
+    (image Alchitry_Au:2m2ThroughHole
+      (outline (path signal 254  1500 0  1480.58 -240.617  1422.81 -475.002  1328.18 -697.085
+            1199.16 -901.113  1039.09 -1081.8  852.097 -1234.48  643.039 -1355.18
+            417.326 -1440.78  180.805 -1489.06  -60.399 -1498.78  -300.039 -1469.69
+            -531.907 -1402.52  -750 -1299.04  -948.668 -1161.91  -1122.77 -994.684
+            -1267.79 -801.699  -1379.97 -587.95  -1456.41 -358.973  -1495.14 -120.7
+            -1495.14 120.7  -1456.41 358.973  -1379.97 587.95  -1267.79 801.699
+            -1122.77 994.684  -948.668 1161.91  -750 1299.04  -531.907 1402.52
+            -300.039 1469.69  -60.399 1498.78  180.805 1489.06  417.326 1440.78
+            643.039 1355.18  852.097 1234.48  1039.09 1081.8  1199.16 901.113
+            1328.18 697.085  1422.81 475.002  1480.58 240.617  1500 0))
+      (outline (path signal 254  1500 0  1480.58 -240.617  1422.81 -475.002  1328.18 -697.085
+            1199.16 -901.113  1039.09 -1081.8  852.097 -1234.48  643.039 -1355.18
+            417.326 -1440.78  180.805 -1489.06  -60.399 -1498.78  -300.039 -1469.69
+            -531.907 -1402.52  -750 -1299.04  -948.668 -1161.91  -1122.77 -994.684
+            -1267.79 -801.699  -1379.97 -587.95  -1456.41 -358.973  -1495.14 -120.7
+            -1495.14 120.7  -1456.41 358.973  -1379.97 587.95  -1267.79 801.699
+            -1122.77 994.684  -948.668 1161.91  -750 1299.04  -531.907 1402.52
+            -300.039 1469.69  -60.399 1498.78  180.805 1489.06  417.326 1440.78
+            643.039 1355.18  852.097 1234.48  1039.09 1081.8  1199.16 901.113
+            1328.18 697.085  1422.81 475.002  1480.58 240.617  1500 0))
+      (outline (path signal 254  1500 0  1480.58 -240.617  1422.81 -475.002  1328.18 -697.085
+            1199.16 -901.113  1039.09 -1081.8  852.097 -1234.48  643.039 -1355.18
+            417.326 -1440.78  180.805 -1489.06  -60.399 -1498.78  -300.039 -1469.69
+            -531.907 -1402.52  -750 -1299.04  -948.668 -1161.91  -1122.77 -994.684
+            -1267.79 -801.699  -1379.97 -587.95  -1456.41 -358.973  -1495.14 -120.7
+            -1495.14 120.7  -1456.41 358.973  -1379.97 587.95  -1267.79 801.699
+            -1122.77 994.684  -948.668 1161.91  -750 1299.04  -531.907 1402.52
+            -300.039 1469.69  -60.399 1498.78  180.805 1489.06  417.326 1440.78
+            643.039 1355.18  852.097 1234.48  1039.09 1081.8  1199.16 901.113
+            1328.18 697.085  1422.81 475.002  1480.58 240.617  1500 0))
+      (outline (path signal 254  1500 0  1480.58 -240.617  1422.81 -475.002  1328.18 -697.085
+            1199.16 -901.113  1039.09 -1081.8  852.097 -1234.48  643.039 -1355.18
+            417.326 -1440.78  180.805 -1489.06  -60.399 -1498.78  -300.039 -1469.69
+            -531.907 -1402.52  -750 -1299.04  -948.668 -1161.91  -1122.77 -994.684
+            -1267.79 -801.699  -1379.97 -587.95  -1456.41 -358.973  -1495.14 -120.7
+            -1495.14 120.7  -1456.41 358.973  -1379.97 587.95  -1267.79 801.699
+            -1122.77 994.684  -948.668 1161.91  -750 1299.04  -531.907 1402.52
+            -300.039 1469.69  -60.399 1498.78  180.805 1489.06  417.326 1440.78
+            643.039 1355.18  852.097 1234.48  1039.09 1081.8  1199.16 901.113
+            1328.18 697.085  1422.81 475.002  1480.58 240.617  1500 0))
+      (keepout "" (circle F.Cu 2700))
+      (keepout "" (circle B.Cu 2700))
+    )
+    (padstack RoundRect[B]Pad_2000.000000x250.000000_62.738000_um_0.000000_0
+      (shape (polygon B.Cu 0  -1000.24 62.5  -995.462 86.509  -981.862 106.862  -961.509 120.462
+            -937.5 125.238  937.5 125.238  961.509 120.462  981.862 106.862
+            995.462 86.509  1000.24 62.5  1000.24 -62.5  995.462 -86.509
+            981.862 -106.862  961.509 -120.462  937.5 -125.238  -937.5 -125.238
+            -961.509 -120.462  -981.862 -106.862  -995.462 -86.509  -1000.24 -62.5
+            -1000.24 62.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(B1-PadB24)"
+      (pins B1-B24)
+    )
+    (net "Net-(B1-PadB33)"
+      (pins B1-B33)
+    )
+    (net "Net-(B1-PadB12)"
+      (pins B1-B12)
+    )
+    (net "Net-(B1-PadB11)"
+      (pins B1-B11)
+    )
+    (net "Net-(B1-PadB14)"
+      (pins B1-B14)
+    )
+    (net "Net-(B1-PadB15)"
+      (pins B1-B15)
+    )
+    (net "Net-(B1-PadB40)"
+      (pins B1-B40)
+    )
+    (net GND
+      (pins B1-B41 B1-B10 B1-B22 B1-B16 B1-B35 B1-B29 B1-B4 B1-B47 B3-B41 B3-B10 B3-B22
+        B3-B16 B3-B35 B3-B29 B3-B4 B3-B47 B4-B41 B4-B10 B4-B22 B4-B16 B4-B35 B4-B29
+        B4-B4 B4-B47 B2-B41 B2-B10 B2-B22 B2-B16 B2-B35 B2-B29 B2-B4 B2-B47)
+    )
+    (net "Net-(B1-PadB31)"
+      (pins B1-B31)
+    )
+    (net "Net-(B1-PadB23)"
+      (pins B1-B23)
+    )
+    (net "Net-(B1-PadB5)"
+      (pins B1-B5)
+    )
+    (net "Net-(B1-PadB36)"
+      (pins B1-B36)
+    )
+    (net "Net-(B1-PadB18)"
+      (pins B1-B18)
+    )
+    (net "Net-(B1-PadB17)"
+      (pins B1-B17)
+    )
+    (net "Net-(B1-PadB28)"
+      (pins B1-B28)
+    )
+    (net "Net-(B1-PadB27)"
+      (pins B1-B27)
+    )
+    (net "Net-(B1-PadB39)"
+      (pins B1-B39)
+    )
+    (net "Net-(B1-PadB30)"
+      (pins B1-B30)
+    )
+    (net "Net-(B1-PadB3)"
+      (pins B1-B3)
+    )
+    (net "Net-(B1-PadB46)"
+      (pins B1-B46)
+    )
+    (net "Net-(B1-PadB20)"
+      (pins B1-B20)
+    )
+    (net "Net-(B1-PadB21)"
+      (pins B1-B21)
+    )
+    (net "Net-(B1-PadB34)"
+      (pins B1-B34)
+    )
+    (net "Net-(B1-PadB2)"
+      (pins B1-B2)
+    )
+    (net "Net-(B1-PadB37)"
+      (pins B1-B37)
+    )
+    (net "Net-(B1-PadB9)"
+      (pins B1-B9)
+    )
+    (net "Net-(B1-PadB6)"
+      (pins B1-B6)
+    )
+    (net "Net-(B1-PadB42)"
+      (pins B1-B42)
+    )
+    (net "Net-(B1-PadB43)"
+      (pins B1-B43)
+    )
+    (net "Net-(B1-PadB48)"
+      (pins B1-B48)
+    )
+    (net "Net-(B1-PadB49)"
+      (pins B1-B49)
+    )
+    (net "Net-(B1-PadB45)"
+      (pins B1-B45)
+    )
+    (net "Net-(B1-PadB8)"
+      (pins B1-B8)
+    )
+    (net +3V3
+      (pins B1-B25 B1-B32 B1-B19 B1-B13 B1-B26 B1-B44 B1-B7 B1-B38 B3-B25 B3-B32 B3-B19
+        B3-B13 B3-B26 B3-B44 B3-B7 B3-B38 B4-B25 B4-B32 B4-B19 B4-B13 B4-B26 B4-B44
+        B4-B7 B4-B38 B2-B25 B2-B32 B2-B19 B2-B13 B2-B26 B2-B44 B2-B7 B2-B38)
+    )
+    (net +5V
+      (pins B1-B50 B1-B1 B3-B50 B3-B1 B4-B50 B2-B50 B2-B1)
+    )
+    (net "Net-(B2-PadB24)"
+      (pins B2-B24)
+    )
+    (net "Net-(B2-PadB33)"
+      (pins B2-B33)
+    )
+    (net "Net-(B2-PadB12)"
+      (pins B2-B12)
+    )
+    (net "Net-(B2-PadB11)"
+      (pins B2-B11)
+    )
+    (net "Net-(B2-PadB14)"
+      (pins B2-B14)
+    )
+    (net "Net-(B2-PadB15)"
+      (pins B2-B15)
+    )
+    (net "Net-(B2-PadB40)"
+      (pins B2-B40)
+    )
+    (net "Net-(B2-PadB31)"
+      (pins B2-B31)
+    )
+    (net "Net-(B2-PadB9)"
+      (pins B2-B9)
+    )
+    (net "Net-(B2-PadB23)"
+      (pins B2-B23)
+    )
+    (net "Net-(B2-PadB6)"
+      (pins B2-B6)
+    )
+    (net "Net-(B2-PadB5)"
+      (pins B2-B5)
+    )
+    (net "Net-(B2-PadB42)"
+      (pins B2-B42)
+    )
+    (net "Net-(B2-PadB43)"
+      (pins B2-B43)
+    )
+    (net "Net-(B2-PadB36)"
+      (pins B2-B36)
+    )
+    (net "Net-(B2-PadB18)"
+      (pins B2-B18)
+    )
+    (net "Net-(B2-PadB48)"
+      (pins B2-B48)
+    )
+    (net "Net-(B2-PadB49)"
+      (pins B2-B49)
+    )
+    (net "Net-(B2-PadB17)"
+      (pins B2-B17)
+    )
+    (net "Net-(B2-PadB28)"
+      (pins B2-B28)
+    )
+    (net "Net-(B2-PadB27)"
+      (pins B2-B27)
+    )
+    (net "Net-(B2-PadB39)"
+      (pins B2-B39)
+    )
+    (net "Net-(B2-PadB30)"
+      (pins B2-B30)
+    )
+    (net "Net-(B2-PadB3)"
+      (pins B2-B3)
+    )
+    (net "Net-(B2-PadB45)"
+      (pins B2-B45)
+    )
+    (net "Net-(B2-PadB46)"
+      (pins B2-B46)
+    )
+    (net "Net-(B2-PadB20)"
+      (pins B2-B20)
+    )
+    (net "Net-(B2-PadB21)"
+      (pins B2-B21)
+    )
+    (net "Net-(B2-PadB34)"
+      (pins B2-B34)
+    )
+    (net "Net-(B2-PadB8)"
+      (pins B2-B8)
+    )
+    (net "Net-(B2-PadB2)"
+      (pins B2-B2)
+    )
+    (net "Net-(B2-PadB37)"
+      (pins B2-B37)
+    )
+    (net "Net-(B3-PadB24)"
+      (pins B3-B24)
+    )
+    (net "Net-(B3-PadB33)"
+      (pins B3-B33)
+    )
+    (net "Net-(B3-PadB12)"
+      (pins B3-B12)
+    )
+    (net "Net-(B3-PadB11)"
+      (pins B3-B11)
+    )
+    (net "Net-(B3-PadB14)"
+      (pins B3-B14)
+    )
+    (net "Net-(B3-PadB15)"
+      (pins B3-B15)
+    )
+    (net "Net-(B3-PadB40)"
+      (pins B3-B40)
+    )
+    (net "Net-(B3-PadB31)"
+      (pins B3-B31)
+    )
+    (net "Net-(B3-PadB9)"
+      (pins B3-B9)
+    )
+    (net "Net-(B3-PadB23)"
+      (pins B3-B23)
+    )
+    (net "Net-(B3-PadB6)"
+      (pins B3-B6)
+    )
+    (net "Net-(B3-PadB5)"
+      (pins B3-B5)
+    )
+    (net "Net-(B3-PadB42)"
+      (pins B3-B42)
+    )
+    (net "Net-(B3-PadB43)"
+      (pins B3-B43)
+    )
+    (net "Net-(B3-PadB36)"
+      (pins B3-B36)
+    )
+    (net "Net-(B3-PadB18)"
+      (pins B3-B18)
+    )
+    (net "Net-(B3-PadB48)"
+      (pins B3-B48)
+    )
+    (net "Net-(B3-PadB49)"
+      (pins B3-B49)
+    )
+    (net "Net-(B3-PadB17)"
+      (pins B3-B17)
+    )
+    (net "Net-(B3-PadB28)"
+      (pins B3-B28)
+    )
+    (net "Net-(B3-PadB27)"
+      (pins B3-B27)
+    )
+    (net "Net-(B3-PadB39)"
+      (pins B3-B39)
+    )
+    (net "Net-(B3-PadB30)"
+      (pins B3-B30)
+    )
+    (net "Net-(B3-PadB3)"
+      (pins B3-B3)
+    )
+    (net "Net-(B3-PadB45)"
+      (pins B3-B45)
+    )
+    (net "Net-(B3-PadB46)"
+      (pins B3-B46)
+    )
+    (net "Net-(B3-PadB20)"
+      (pins B3-B20)
+    )
+    (net "Net-(B3-PadB21)"
+      (pins B3-B21)
+    )
+    (net "Net-(B3-PadB34)"
+      (pins B3-B34)
+    )
+    (net "Net-(B3-PadB8)"
+      (pins B3-B8)
+    )
+    (net "Net-(B3-PadB2)"
+      (pins B3-B2)
+    )
+    (net "Net-(B3-PadB37)"
+      (pins B3-B37)
+    )
+    (net "Net-(B4-PadB24)"
+      (pins B4-B24)
+    )
+    (net "Net-(B4-PadB33)"
+      (pins B4-B33)
+    )
+    (net "Net-(B4-PadB12)"
+      (pins B4-B12)
+    )
+    (net "Net-(B4-PadB11)"
+      (pins B4-B11)
+    )
+    (net "Net-(B4-PadB14)"
+      (pins B4-B14)
+    )
+    (net "Net-(B4-PadB15)"
+      (pins B4-B15)
+    )
+    (net "Net-(B4-PadB40)"
+      (pins B4-B40)
+    )
+    (net "Net-(B4-PadB31)"
+      (pins B4-B31)
+    )
+    (net "Net-(B4-PadB9)"
+      (pins B4-B9)
+    )
+    (net "Net-(B4-PadB23)"
+      (pins B4-B23)
+    )
+    (net "Net-(B4-PadB6)"
+      (pins B4-B6)
+    )
+    (net "Net-(B4-PadB5)"
+      (pins B4-B5)
+    )
+    (net "Net-(B4-PadB42)"
+      (pins B4-B42)
+    )
+    (net "Net-(B4-PadB43)"
+      (pins B4-B43)
+    )
+    (net "Net-(B4-PadB36)"
+      (pins B4-B36)
+    )
+    (net "Net-(B4-PadB18)"
+      (pins B4-B18)
+    )
+    (net "Net-(B4-PadB48)"
+      (pins B4-B48)
+    )
+    (net "Net-(B4-PadB49)"
+      (pins B4-B49)
+    )
+    (net "Net-(B4-PadB17)"
+      (pins B4-B17)
+    )
+    (net "Net-(B4-PadB28)"
+      (pins B4-B28)
+    )
+    (net "Net-(B4-PadB27)"
+      (pins B4-B27)
+    )
+    (net "Net-(B4-PadB39)"
+      (pins B4-B39)
+    )
+    (net "Net-(B4-PadB30)"
+      (pins B4-B30)
+    )
+    (net "Net-(B4-PadB3)"
+      (pins B4-B3)
+    )
+    (net "Net-(B4-PadB45)"
+      (pins B4-B45)
+    )
+    (net "Net-(B4-PadB46)"
+      (pins B4-B46)
+    )
+    (net "Net-(B4-PadB20)"
+      (pins B4-B20)
+    )
+    (net "Net-(B4-PadB21)"
+      (pins B4-B21)
+    )
+    (net "Net-(B4-PadB34)"
+      (pins B4-B34)
+    )
+    (net "Net-(B4-PadB8)"
+      (pins B4-B8)
+    )
+    (net "Net-(B4-PadB2)"
+      (pins B4-B2)
+    )
+    (net "Net-(B4-PadB1)"
+      (pins B4-B1)
+    )
+    (net "Net-(B4-PadB37)"
+      (pins B4-B37)
+    )
+    (class kicad_default +3V3 +5V GND "Net-(B1-PadB11)" "Net-(B1-PadB12)"
+      "Net-(B1-PadB14)" "Net-(B1-PadB15)" "Net-(B1-PadB17)" "Net-(B1-PadB18)"
+      "Net-(B1-PadB2)" "Net-(B1-PadB20)" "Net-(B1-PadB21)" "Net-(B1-PadB23)"
+      "Net-(B1-PadB24)" "Net-(B1-PadB27)" "Net-(B1-PadB28)" "Net-(B1-PadB3)"
+      "Net-(B1-PadB30)" "Net-(B1-PadB31)" "Net-(B1-PadB33)" "Net-(B1-PadB34)"
+      "Net-(B1-PadB36)" "Net-(B1-PadB37)" "Net-(B1-PadB39)" "Net-(B1-PadB40)"
+      "Net-(B1-PadB42)" "Net-(B1-PadB43)" "Net-(B1-PadB45)" "Net-(B1-PadB46)"
+      "Net-(B1-PadB48)" "Net-(B1-PadB49)" "Net-(B1-PadB5)" "Net-(B1-PadB6)"
+      "Net-(B1-PadB8)" "Net-(B1-PadB9)" "Net-(B2-PadB11)" "Net-(B2-PadB12)"
+      "Net-(B2-PadB14)" "Net-(B2-PadB15)" "Net-(B2-PadB17)" "Net-(B2-PadB18)"
+      "Net-(B2-PadB2)" "Net-(B2-PadB20)" "Net-(B2-PadB21)" "Net-(B2-PadB23)"
+      "Net-(B2-PadB24)" "Net-(B2-PadB27)" "Net-(B2-PadB28)" "Net-(B2-PadB3)"
+      "Net-(B2-PadB30)" "Net-(B2-PadB31)" "Net-(B2-PadB33)" "Net-(B2-PadB34)"
+      "Net-(B2-PadB36)" "Net-(B2-PadB37)" "Net-(B2-PadB39)" "Net-(B2-PadB40)"
+      "Net-(B2-PadB42)" "Net-(B2-PadB43)" "Net-(B2-PadB45)" "Net-(B2-PadB46)"
+      "Net-(B2-PadB48)" "Net-(B2-PadB49)" "Net-(B2-PadB5)" "Net-(B2-PadB6)"
+      "Net-(B2-PadB8)" "Net-(B2-PadB9)" "Net-(B3-PadB11)" "Net-(B3-PadB12)"
+      "Net-(B3-PadB14)" "Net-(B3-PadB15)" "Net-(B3-PadB17)" "Net-(B3-PadB18)"
+      "Net-(B3-PadB2)" "Net-(B3-PadB20)" "Net-(B3-PadB21)" "Net-(B3-PadB23)"
+      "Net-(B3-PadB24)" "Net-(B3-PadB27)" "Net-(B3-PadB28)" "Net-(B3-PadB3)"
+      "Net-(B3-PadB30)" "Net-(B3-PadB31)" "Net-(B3-PadB33)" "Net-(B3-PadB34)"
+      "Net-(B3-PadB36)" "Net-(B3-PadB37)" "Net-(B3-PadB39)" "Net-(B3-PadB40)"
+      "Net-(B3-PadB42)" "Net-(B3-PadB43)" "Net-(B3-PadB45)" "Net-(B3-PadB46)"
+      "Net-(B3-PadB48)" "Net-(B3-PadB49)" "Net-(B3-PadB5)" "Net-(B3-PadB6)"
+      "Net-(B3-PadB8)" "Net-(B3-PadB9)" "Net-(B4-PadB1)" "Net-(B4-PadB11)"
+      "Net-(B4-PadB12)" "Net-(B4-PadB14)" "Net-(B4-PadB15)" "Net-(B4-PadB17)"
+      "Net-(B4-PadB18)" "Net-(B4-PadB2)" "Net-(B4-PadB20)" "Net-(B4-PadB21)"
+      "Net-(B4-PadB23)" "Net-(B4-PadB24)" "Net-(B4-PadB27)" "Net-(B4-PadB28)"
+      "Net-(B4-PadB3)" "Net-(B4-PadB30)" "Net-(B4-PadB31)" "Net-(B4-PadB33)"
+      "Net-(B4-PadB34)" "Net-(B4-PadB36)" "Net-(B4-PadB37)" "Net-(B4-PadB39)"
+      "Net-(B4-PadB40)" "Net-(B4-PadB42)" "Net-(B4-PadB43)" "Net-(B4-PadB45)"
+      "Net-(B4-PadB46)" "Net-(B4-PadB48)" "Net-(B4-PadB49)" "Net-(B4-PadB5)"
+      "Net-(B4-PadB6)" "Net-(B4-PadB8)" "Net-(B4-PadB9)"
+      (circuit
+        (use_via "Via[0-1]_600:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+  )
+)

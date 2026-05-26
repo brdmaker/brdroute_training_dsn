@@ -1,0 +1,187 @@
+(pcb "/Users/mikaheikkinen/bb/github/brdroute_training/dsn/sszczep__Cherry-MX-Breakout-Board/Cherry MX Breakout Board/Cherry MX Breakout Board (Kailh Socket).dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  161798 -122936  143526 -122936  143526 -97028  161798 -97028
+            161798 -122936)
+    )
+    (keepout "" (polygon signal 0  156966 -107110  159966 -107110  159966 -103710  156966 -103710
+            156966 -107110))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+      (place J1 159092 -117946 front -90 (PN Conn_01x06_Male))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric
+      (place C1 153920 -121520 back 180 (PN 0.1uF))
+    )
+    (component "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+      (place U1 153416 -105410 front 90 (PN Cherry_MX_RGB))
+    )
+  )
+  (library
+    (image Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+      (outline (polygon signal 0  1795 1795  1795 -14495  -1795 -14495  -1795 1795))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -13970))
+      (outline (path signal 100  1270 -13970  -1270 -13970))
+      (outline (path signal 100  -1270 -13970  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 120  -1330 -14030  1330 -14030))
+      (outline (path signal 120  -1330 -1270  -1330 -14030))
+      (outline (path signal 120  1330 -1270  1330 -14030))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (pin Rect[A]Pad_1700.000000x1700.000000_um 1 0 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 2 0 -2540)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 3 0 -5080)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 4 0 -7620)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 5 0 -10160)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 6 0 -12700)
+    )
+    (image Capacitor_SMD:C_0603_1608Metric
+      (outline (polygon signal 0  1475 -725  -1475 -725  -1475 725  1475 725))
+      (outline (path signal 120  -162.779 -510  162.779 -510))
+      (outline (path signal 120  -162.779 510  162.779 510))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin RoundRect[T]Pad_875.000000x950.000000_219.582000_um_0.000000_0 2 787.5 0)
+      (pin RoundRect[T]Pad_875.000000x950.000000_219.582000_um_0.000000_0 1 -787.5 0)
+    )
+    (image "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+      (outline (path signal 120  -1700 -3250  -2000 -3250))
+      (outline (path signal 120  -2000 -3250  -2000 -3550))
+      (outline (path signal 120  7800 -7800  -7800 -7800))
+      (outline (path signal 120  -7800 -7800  -7800 7800))
+      (outline (path signal 120  7800 -7800  7800 7800))
+      (outline (path signal 120  -7800 7800  7800 7800))
+      (pin Rect[B]Pad_1800.000000x900.000000_um 3 2600 -4300)
+      (pin Rect[B]Pad_1800.000000x900.000000_um 4 2600 -5800)
+      (pin Rect[B]Pad_1800.000000x900.000000_um 2 -2600 -5800)
+      (pin Rect[B]Pad_1800.000000x900.000000_um 1 -2600 -4300)
+      (pin Rect[B]Pad_2550.000000x2500.000000_um 6 6015 5080)
+      (pin Rect[B]Pad_2550.000000x2500.000000_um 5 -7410 2540)
+      (keepout "" (circle F.Cu 3500 2540 5080))
+      (keepout "" (circle B.Cu 3500 2540 5080))
+      (keepout "" (circle F.Cu 3500 -3810 2540))
+      (keepout "" (circle B.Cu 3500 -3810 2540))
+      (keepout "" (circle F.Cu 4500))
+      (keepout "" (circle B.Cu 4500))
+    )
+    (padstack Oval[A]Pad_1700.000000x1700.000000_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_875.000000x950.000000_219.582000_um_0.000000_0
+      (shape (polygon F.Cu 0  -438.332 256.25  -421.617 340.28  -374.018 411.518  -302.78 459.117
+            -218.75 475.832  218.75 475.832  302.78 459.117  374.018 411.518
+            421.617 340.28  438.332 256.25  438.332 -256.25  421.617 -340.28
+            374.018 -411.518  302.78 -459.117  218.75 -475.832  -218.75 -475.832
+            -302.78 -459.117  -374.018 -411.518  -421.617 -340.28  -438.332 -256.25
+            -438.332 256.25))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_2550.000000x2500.000000_um
+      (shape (rect B.Cu -1275 -1250 1275 1250))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_1800.000000x900.000000_um
+      (shape (rect B.Cu -900 -450 900 450))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700.000000x1700.000000_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net VCC
+      (pins J1-4 C1-1 U1-4)
+    )
+    (net GND
+      (pins J1-2 C1-2 U1-1)
+    )
+    (net SW1
+      (pins J1-5 U1-5)
+    )
+    (net SW2
+      (pins J1-6 U1-6)
+    )
+    (net DIN
+      (pins J1-1 U1-2)
+    )
+    (net DOUT
+      (pins J1-3 U1-3)
+    )
+    (class kicad_default DIN DOUT GND SW1 SW2 VCC
+      (circuit
+        (use_via "Via[0-1]_800:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path B.Cu 250  159216 -101660  158956 -101400)(net VCC)(type route))
+    (wire (path B.Cu 250  159216 -102810  159216 -101660)(net VCC)(type route))
+    (wire (path B.Cu 250  157191 -101400  156060 -102531)(net VCC)(type route))
+    (wire (path B.Cu 250  158956 -101400  157191 -101400)(net VCC)(type route))
+    (wire (path B.Cu 250  156060 -102531  156060 -113330  151440 -117950)(net VCC)(type route))
+    (wire (path B.Cu 250  152695 -121520  151450 -120275)(net VCC)(type route))
+    (wire (path B.Cu 250  153132 -121520  152695 -121520)(net VCC)(type route))
+    (wire (path B.Cu 250  151450 -120275  151450 -118000)(net VCC)(type route))
+    (wire (path B.Cu 250  156679 -117946  156552 -117946)(net GND)(type route))
+    (wire (path B.Cu 250  157716 -108010  157716 -116704  156510 -117910)(net GND)(type route))
+    (wire (path B.Cu 250  155145 -121520  156530 -120135)(net GND)(type route))
+    (wire (path B.Cu 250  154708 -121520  155145 -121520)(net GND)(type route))
+    (wire (path B.Cu 250  156530 -120135  156530 -118030)(net GND)(type route))
+    (wire (path B.Cu 250  148932 -117946  148932 -114838  150720 -113050  150720 -112980)(net SW1)(type route))
+    (wire (path B.Cu 250  146392 -116744  145250 -115602)(net SW2)(type route))
+    (wire (path B.Cu 250  146392 -117946  146392 -116744)(net SW2)(type route))
+    (wire (path B.Cu 250  145250 -115602  145250 -100220  146040 -99430  148480 -99430)(net SW2)(type route))
+    (wire (path B.Cu 250  159098 -117940  159092 -117946)(net DIN)(type route))
+    (wire (path B.Cu 250  158896 -117623  159092 -117819)(net DIN)(type route))
+    (wire (path B.Cu 250  158796 -117606  159050 -117860)(net DIN)(type route))
+    (wire (path B.Cu 250  159216 -108010  159216 -117764  159050 -117930)(net DIN)(type route))
+    (wire (path B.Cu 250  157016 -102810  156510 -103316)(net DOUT)(type route))
+    (wire (path B.Cu 250  157716 -102810  157016 -102810)(net DOUT)(type route))
+    (wire (path B.Cu 250  156510 -103316  156510 -115400  154030 -117880)(net DOUT)(type route))
+  )
+)

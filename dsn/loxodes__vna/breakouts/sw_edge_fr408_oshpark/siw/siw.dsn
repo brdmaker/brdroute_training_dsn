@@ -1,0 +1,224 @@
+(pcb /Users/mikaheikkinen/bb/github/brdroute_training/dsn/loxodes__vna/breakouts/sw_edge_fr408_oshpark/siw/siw.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (layer In2.Cu
+      (type signal)
+      (property
+        (index 2)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 3)
+      )
+    )
+    (boundary
+      (path pcb 0  200450 -89600  154500 -89600  154500 -76400  200450 -76400
+            200450 -89600)
+    )
+    (plane GND (polygon In1.Cu 0  154500 -76400  154500 -89600  200450 -89600  200450 -76400
+            154500 -76400))
+    (via "Via[0-3]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component vna_footprints:band_x2_siw_fr408_6p7mil
+      (place FL101 162495 -83000 front 0 (PN band_pass_filter))
+    )
+    (component vna_mm:sw_edge_oshpark_4layer
+      (place J101 154500 -83000 front 90 (PN Conn_Coaxial))
+      (place J102 200450 -83000 front -90 (PN Conn_Coaxial))
+    )
+  )
+  (library
+    (image vna_footprints:band_x2_siw_fr408_6p7mil
+      (pin Round[A]Pad_508.000000_um 3 25000 2875)
+      (pin Round[A]Pad_508.000000_um 3@1 25000 -2875)
+      (pin Round[A]Pad_508.000000_um 3@2 23947.4 2875)
+      (pin Round[A]Pad_508.000000_um 3@3 23947.4 -2875)
+      (pin Round[A]Pad_508.000000_um 3@4 22894.7 2875)
+      (pin Round[A]Pad_508.000000_um 3@5 22894.7 -2875)
+      (pin Round[A]Pad_508.000000_um 3@6 21842.1 2875)
+      (pin Round[A]Pad_508.000000_um 3@7 21842.1 -2875)
+      (pin Round[A]Pad_508.000000_um 3@8 20789.5 2875)
+      (pin Round[A]Pad_508.000000_um 3@9 20789.5 -2875)
+      (pin Round[A]Pad_508.000000_um 3@10 19736.8 2875)
+      (pin Round[A]Pad_508.000000_um 3@11 19736.8 -2875)
+      (pin Round[A]Pad_508.000000_um 3@12 18684.2 2875)
+      (pin Round[A]Pad_508.000000_um 3@13 18684.2 -2875)
+      (pin Round[A]Pad_508.000000_um 3@14 17631.6 2875)
+      (pin Round[A]Pad_508.000000_um 3@15 17631.6 -2875)
+      (pin Round[A]Pad_508.000000_um 3@16 16578.9 2875)
+      (pin Round[A]Pad_508.000000_um 3@17 16578.9 -2875)
+      (pin Round[A]Pad_508.000000_um 3@18 15526.3 2875)
+      (pin Round[A]Pad_508.000000_um 3@19 15526.3 -2875)
+      (pin Round[A]Pad_508.000000_um 3@20 14473.7 2875)
+      (pin Round[A]Pad_508.000000_um 3@21 14473.7 -2875)
+      (pin Round[A]Pad_508.000000_um 3@22 13421.1 2875)
+      (pin Round[A]Pad_508.000000_um 3@23 13421.1 -2875)
+      (pin Round[A]Pad_508.000000_um 3@24 12368.4 2875)
+      (pin Round[A]Pad_508.000000_um 3@25 12368.4 -2875)
+      (pin Round[A]Pad_508.000000_um 3@26 11315.8 2875)
+      (pin Round[A]Pad_508.000000_um 3@27 11315.8 -2875)
+      (pin Round[A]Pad_508.000000_um 3@28 10263.2 2875)
+      (pin Round[A]Pad_508.000000_um 3@29 10263.2 -2875)
+      (pin Round[A]Pad_508.000000_um 3@30 9210.53 2875)
+      (pin Round[A]Pad_508.000000_um 3@31 9210.53 -2875)
+      (pin Round[A]Pad_508.000000_um 3@32 8157.9 2875)
+      (pin Round[A]Pad_508.000000_um 3@33 8157.9 -2875)
+      (pin Round[A]Pad_508.000000_um 3@34 7105.26 2875)
+      (pin Round[A]Pad_508.000000_um 3@35 7105.26 -2875)
+      (pin Round[A]Pad_508.000000_um 3@36 6052.63 2875)
+      (pin Round[A]Pad_508.000000_um 3@37 6052.63 -2875)
+      (pin Round[A]Pad_508.000000_um 3@38 5000 2875)
+      (pin Round[A]Pad_508.000000_um 3@39 5000 -2875)
+      (pin Rect[T]Pad_410.000000x410.000000_um 2 29795 0)
+      (pin Rect[T]Pad_410.000000x410.000000_um 1 205 0)
+    )
+    (image vna_mm:sw_edge_oshpark_4layer
+      (outline (path signal 150  1000 -8000  1500 -8000))
+      (outline (path signal 150  -1000 -8000  -1500 -8000))
+      (outline (path signal 150  6600 0  6600 -5100))
+      (outline (path signal 150  -6600 0  -6600 -5000))
+      (outline (path signal 150  -6600 -5000  -6600 -5100))
+      (pin Rect[B]Pad_13000.000000x5100.000000_um (rotate 180) 2 0 -2550)
+      (pin Rect[T]Pad_3250.000000x4500.000000_um (rotate 180) 2@1 4775 -2850)
+      (pin Rect[T]Pad_3250.000000x4500.000000_um (rotate 180) 2@2 -4775 -2850)
+      (pin Round[A]Pad_3000.000000_um 2@3 -4675 -2790)
+      (pin Round[A]Pad_3000.000000_um 2@4 4675 -2790)
+      (pin Rect[T]Pad_410.000000x4080.000000_um 1 0 -3040)
+      (pin Trapz[T]Pad_300.000000x950.000000_p0.000000xp110.000000_um 1@1 0 -550)
+      (pin Rect[T]Pad_6000.000000x600.000000_um (rotate 180) 2@5 3400 -300)
+      (pin Trapz[T]Pad_5800.000000x200.000000_p0.000000xn200.000000_um 2@6 3400 -700)
+      (pin Round[A]Pad_500.000000_um 2@7 1000 -400)
+      (pin Round[A]Pad_500.000000_um 2@8 2000 -400)
+      (pin Round[A]Pad_500.000000_um 2@9 3000 -400)
+      (pin Round[A]Pad_500.000000_um 2@10 4000 -400)
+      (pin Round[A]Pad_500.000000_um 2@11 5000 -400)
+      (pin Round[A]Pad_500.000000_um 2@12 6000 -400)
+      (pin Trapz[T]Pad_5800.000000x200.000000_p0.000000xn200.000000_um 2@13 -3400 -700)
+      (pin Rect[T]Pad_6000.000000x600.000000_um (rotate 180) 2@14 -3400 -300)
+      (pin Round[A]Pad_500.000000_um 2@15 -2800 -400)
+      (pin Round[A]Pad_500.000000_um 2@16 -800 -400)
+      (pin Round[A]Pad_500.000000_um 2@17 -1800 -400)
+      (pin Round[A]Pad_500.000000_um 2@18 -5800 -400)
+      (pin Round[A]Pad_500.000000_um 2@19 -3800 -400)
+      (pin Round[A]Pad_500.000000_um 2@20 -4800 -400)
+    )
+    (padstack Round[A]Pad_3000.000000_um
+      (shape (circle F.Cu 3000))
+      (shape (circle In1.Cu 3000))
+      (shape (circle In2.Cu 3000))
+      (shape (circle B.Cu 3000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_500.000000_um
+      (shape (circle F.Cu 500))
+      (shape (circle In1.Cu 500))
+      (shape (circle In2.Cu 500))
+      (shape (circle B.Cu 500))
+      (attach off)
+    )
+    (padstack Round[A]Pad_508.000000_um
+      (shape (circle F.Cu 508))
+      (shape (circle In1.Cu 508))
+      (shape (circle In2.Cu 508))
+      (shape (circle B.Cu 508))
+      (attach off)
+    )
+    (padstack Trapz[T]Pad_300.000000x950.000000_p0.000000xp110.000000_um
+      (shape (polygon F.Cu 0  -205 -475  -95 475  95 475  205 -475))
+      (attach off)
+    )
+    (padstack Trapz[T]Pad_5800.000000x200.000000_p0.000000xn200.000000_um
+      (shape (polygon F.Cu 0  -2800 -100  -3000 100  3000 100  2800 -100))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_13000.000000x5100.000000_um
+      (shape (rect B.Cu -6500 -2550 6500 2550))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3250.000000x4500.000000_um
+      (shape (rect F.Cu -1625 -2250 1625 2250))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_410.000000x4080.000000_um
+      (shape (rect F.Cu -205 -2040 205 2040))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_410.000000x410.000000_um
+      (shape (rect F.Cu -205 -205 205 205))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_6000.000000x600.000000_um
+      (shape (rect F.Cu -3000 -300 3000 300))
+      (attach off)
+    )
+    (padstack "Via[0-3]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle In1.Cu 800))
+      (shape (circle In2.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(FL101-Pad1)"
+      (pins FL101-1 J101-1 J101-1@1)
+    )
+    (net "Net-(FL101-Pad2)"
+      (pins FL101-2 J102-1 J102-1@1)
+    )
+    (net GND
+      (pins FL101-3 FL101-3@1 FL101-3@2 FL101-3@3 FL101-3@4 FL101-3@5 FL101-3@6 FL101-3@7
+        FL101-3@8 FL101-3@9 FL101-3@10 FL101-3@11 FL101-3@12 FL101-3@13 FL101-3@14
+        FL101-3@15 FL101-3@16 FL101-3@17 FL101-3@18 FL101-3@19 FL101-3@20 FL101-3@21
+        FL101-3@22 FL101-3@23 FL101-3@24 FL101-3@25 FL101-3@26 FL101-3@27 FL101-3@28
+        FL101-3@29 FL101-3@30 FL101-3@31 FL101-3@32 FL101-3@33 FL101-3@34 FL101-3@35
+        FL101-3@36 FL101-3@37 FL101-3@38 FL101-3@39 J101-2 J101-2@1 J101-2@2 J101-2@3
+        J101-2@4 J101-2@5 J101-2@6 J101-2@7 J101-2@8 J101-2@9 J101-2@10 J101-2@11
+        J101-2@12 J101-2@13 J101-2@14 J101-2@15 J101-2@16 J101-2@17 J101-2@18 J101-2@19
+        J101-2@20 J102-2 J102-2@1 J102-2@2 J102-2@3 J102-2@4 J102-2@5 J102-2@6 J102-2@7
+        J102-2@8 J102-2@9 J102-2@10 J102-2@11 J102-2@12 J102-2@13 J102-2@14 J102-2@15
+        J102-2@16 J102-2@17 J102-2@18 J102-2@19 J102-2@20)
+    )
+    (class kicad_default GND "Net-(FL101-Pad1)" "Net-(FL101-Pad2)"
+      (circuit
+        (use_via "Via[0-3]_800:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 410  160000 -83000  162700 -83000)(net "Net-(FL101-Pad1)")(type route))
+    (wire (path F.Cu 410  157540 -83000  160000 -83000  160205 -83000)(net "Net-(FL101-Pad1)")(type route))
+    (wire (path F.Cu 410  192290 -83000  197410 -83000)(net "Net-(FL101-Pad2)")(type route))
+  )
+)

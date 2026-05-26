@@ -1,0 +1,242 @@
+(pcb "/Users/mikaheikkinen/bb/github/brdroute_training/dsn/Jana-Marie__Otter-Iron-PRO/v2.0/USB/USB_conn.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  107422 -90252.6  107764 -90294.1  108099 -90376.6  108421 -90498.7
+            108726 -90658.8  109009 -90854.5  109267 -91082.9  109496 -91340.7
+            109691 -91624.2  109851 -91929.3  109973 -92251.3  110056 -92585.8
+            110097 -92927.8  110100 -93100  110100 -107900  110097 -108072
+            110056 -108414  109973 -108749  109851 -109071  109691 -109376
+            109496 -109659  109267 -109917  109009 -110146  108726 -110341
+            108421 -110501  108099 -110623  107764 -110706  107422 -110747
+            107250 -110750  88300 -110750  88300 -90250  107250 -90250  107422 -90252.6)
+    )
+    (plane GND (polygon F.Cu 0  107400 -92100  107400 -90500  90000 -90500  90000 -92400
+            92100 -92400  92400 -92100  92500 -92100  107400 -92100))
+    (plane VBUS (polygon F.Cu 0  107400 -94100  107400 -92500  103700 -92500  92800 -92500
+            92700 -92600  90000 -92600  90000 -94500  92100 -94500  102900 -94500
+            103300 -94100  107400 -94100))
+    (plane VBUS (polygon B.Cu 0  107400 -94100  107400 -92500  103700 -92500  92800 -92500
+            92700 -92600  90000 -92600  90000 -94500  92100 -94500  102900 -94500
+            103300 -94100  107400 -94100))
+    (plane GND (polygon B.Cu 0  107400 -92100  107400 -90500  90000 -90500  90000 -92400
+            92100 -92400  92400 -92100  92500 -92100  107400 -92100))
+    (keepout "" (polygon signal 0  100821 -96002.2  100668 -96037.2  100526 -96105.4  100403 -96203.5
+            100305 -96326.4  100237 -96468.1  100202 -96621.4  100200 -96700
+            100200 -104300  100202 -104379  100237 -104532  100305 -104674
+            100403 -104797  100526 -104895  100668 -104963  100821 -104998
+            100900 -105000  102800 -105000  102879 -104998  103032 -104963
+            103174 -104895  103297 -104797  103395 -104674  103463 -104532
+            103498 -104379  103500 -104300  103500 -100500  103500 -96700
+            103498 -96621.4  103463 -96468.1  103395 -96326.4  103297 -96203.5
+            103174 -96105.4  103032 -96037.2  102879 -96002.2  102800 -96000
+            100900 -96000  100821 -96002.2))
+    (via "Via[0-1]_800:400_um" "Via[0-1]_600:300_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component otter:pad_1_2
+      (place J11 105900 -110000 front 90 (PN Conn_01x01))
+      (place J10 105900 -108500 front 90 (PN Conn_01x01))
+      (place J9 105900 -107000 front 90 (PN Conn_01x01))
+      (place J8 105900 -103400 front 90 (PN Conn_01x01))
+      (place J7 105900 -101900 front 90 (PN Conn_01x01))
+      (place J6 105900 -100400 front 90 (PN Conn_01x01))
+    )
+    (component otter:pad_0.75_3
+      (place J5 105900 -98800 front 90 (PN Conn_01x01))
+      (place J4 105900 -97550 front 90 (PN Conn_01x01))
+    )
+    (component otter:pad_1.5_3
+      (place J3 105900 -93300 front 90 (PN Conn_01x01))
+      (place J2 105900 -91300 front 90 (PN Conn_01x01))
+    )
+    (component Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical
+      (place J1 91000 -100500 front 180 (PN Conn_01x10))
+    )
+  )
+  (library
+    (image otter:pad_1_2
+      (pin Rect[T]Pad_1000.000000x3000.000000_um 1 0 0)
+    )
+    (image otter:pad_0.75_3
+      (pin Rect[T]Pad_750.000000x3000.000000_um 1 0 0)
+    )
+    (image otter:pad_1.5_3
+      (pin Rect[T]Pad_1500.000000x3000.000000_um 1 0 0)
+    )
+    (image Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical
+      (outline (polygon signal 0  -1495 10495  1495 10495  1495 -10495  -1495 -10495))
+      (outline (path signal 100  -500 10000  1000 10000))
+      (outline (path signal 100  1000 10000  1000 -10000))
+      (outline (path signal 100  1000 -10000  -1000 -10000))
+      (outline (path signal 100  -1000 -10000  -1000 9500))
+      (outline (path signal 100  -1000 9500  -500 10000))
+      (outline (path signal 120  -1060 -10060  1060 -10060))
+      (outline (path signal 120  -1060 8000  -1060 -10060))
+      (outline (path signal 120  1060 8000  1060 -10060))
+      (outline (path signal 120  -1060 8000  1060 8000))
+      (outline (path signal 120  -1060 9000  -1060 10060))
+      (outline (path signal 120  -1060 10060  0 10060))
+      (pin Rect[A]Pad_1350.000000x1350.000000_um 1 0 9000)
+      (pin Oval[A]Pad_1350.000000x1350.000000_um 2 0 7000)
+      (pin Oval[A]Pad_1350.000000x1350.000000_um 3 0 5000)
+      (pin Oval[A]Pad_1350.000000x1350.000000_um 4 0 3000)
+      (pin Oval[A]Pad_1350.000000x1350.000000_um 5 0 1000)
+      (pin Oval[A]Pad_1350.000000x1350.000000_um 6 0 -1000)
+      (pin Oval[A]Pad_1350.000000x1350.000000_um 7 0 -3000)
+      (pin Oval[A]Pad_1350.000000x1350.000000_um 8 0 -5000)
+      (pin Oval[A]Pad_1350.000000x1350.000000_um 9 0 -7000)
+      (pin Oval[A]Pad_1350.000000x1350.000000_um 10 0 -9000)
+    )
+    (padstack Oval[A]Pad_1350.000000x1350.000000_um
+      (shape (path F.Cu 1350  0 0  0 0))
+      (shape (path B.Cu 1350  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_750.000000x3000.000000_um
+      (shape (rect F.Cu -375 -1500 375 1500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000.000000x3000.000000_um
+      (shape (rect F.Cu -500 -1500 500 1500))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1350.000000x1350.000000_um
+      (shape (rect F.Cu -675 -675 675 675))
+      (shape (rect B.Cu -675 -675 675 675))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500.000000x3000.000000_um
+      (shape (rect F.Cu -750 -1500 750 1500))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins J2-1 J1-10)
+    )
+    (net SW2
+      (pins J11-1 J1-3)
+    )
+    (net SW1
+      (pins J10-1 J1-7)
+    )
+    (net +3V3
+      (pins J9-1 J1-6)
+    )
+    (net INT_N
+      (pins J8-1 J1-8)
+    )
+    (net SDA
+      (pins J7-1 J1-1)
+    )
+    (net SCL
+      (pins J6-1 J1-2)
+    )
+    (net USB_N
+      (pins J5-1 J1-4)
+    )
+    (net USB_P
+      (pins J4-1 J1-5)
+    )
+    (net VBUS
+      (pins J3-1 J1-9)
+    )
+    (class kicad_default +3V3 GND INT_N SCL SDA SW1 SW2 USB_N USB_P VBUS
+      (circuit
+        (use_via "Via[0-1]_800:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 127  90114.2 -110439  89700 -110024)(net SW2)(type route))
+    (wire (path F.Cu 127  103834 -110439  90114.2 -110439)(net SW2)(type route))
+    (wire (path F.Cu 127  105900 -110000  104273 -110000  103834 -110439)(net SW2)(type route))
+    (wire (path F.Cu 127  89700 -106800  91000 -105500)(net SW2)(type route))
+    (wire (path F.Cu 127  89700 -110024  89700 -106800)(net SW2)(type route))
+    (wire (path F.Cu 127  105900 -108500  102700 -108500  101900 -109300)(net SW1)(type route))
+    (wire (path B.Cu 127  90114.2 -110439  89700 -110024)(net SW1)(type route))
+    (wire (path B.Cu 127  101900 -109300  100761 -110439  90114.2 -110439)(net SW1)(type route))
+    (wire (path B.Cu 127  89700 -98800  91000 -97500)(net SW1)(type route))
+    (wire (path B.Cu 127  89700 -110024  89700 -98800)(net SW1)(type route))
+    (wire (path B.Cu 250  91000 -99500  95000 -99500  99250 -95250  106750 -95250
+            108250 -96750  108250 -104500  107250 -105500)(net +3V3)(type route))
+    (wire (path F.Cu 250  107250 -105650  105900 -107000)(net +3V3)(type route))
+    (wire (path F.Cu 250  107250 -105500  107250 -105650)(net +3V3)(type route))
+    (wire (path F.Cu 127  105900 -103400  109100 -103400)(net INT_N)(type route))
+    (wire (path B.Cu 127  109100 -103400  109100 -96800)(net INT_N)(type route))
+    (wire (path B.Cu 127  91675 -94825  91000 -95500)(net INT_N)(type route))
+    (wire (path B.Cu 127  107125 -94825  91675 -94825)(net INT_N)(type route))
+    (wire (path B.Cu 127  109100 -96800  107125 -94825)(net INT_N)(type route))
+    (wire (path F.Cu 127  91000 -109500  99900 -109500  104136 -105264)(net SDA)(type route))
+    (wire (path F.Cu 127  104900 -101900  105900 -101900)(net SDA)(type route))
+    (wire (path F.Cu 127  104136 -105264  104136 -102664  104900 -101900)(net SDA)(type route))
+    (wire (path F.Cu 127  103809 -104691  103809 -101491)(net SCL)(type route))
+    (wire (path F.Cu 127  104900 -100400  105900 -100400)(net SCL)(type route))
+    (wire (path F.Cu 127  103809 -101491  104900 -100400)(net SCL)(type route))
+    (wire (path F.Cu 127  101000 -107500  103809 -104691)(net SCL)(type route))
+    (wire (path F.Cu 127  91000 -107500  101000 -107500)(net SCL)(type route))
+    (wire (path F.Cu 200  91775 -102725  93093.2 -102725)(net USB_N)(type route))
+    (wire (path F.Cu 200  91000 -103500  91775 -102725)(net USB_N)(type route))
+    (wire (path F.Cu 200  93093.2 -102725  100343 -95475  103407 -95475  103833 -95901.5)(net USB_N)(type route))
+    (wire (path F.Cu 200  105325 -98225  105900 -98800)(net USB_N)(type route))
+    (wire (path F.Cu 200  104100 -98165  104160 -98225  105325 -98225)(net USB_N)(type route))
+    (wire (path F.Cu 200  103833 -95901.5  103833 -96733.3)(net USB_N)(type route))
+    (wire (path F.Cu 200  104100 -97000  104100 -98165)(net USB_N)(type route))
+    (wire (path F.Cu 200  103833 -96733.3  104100 -97000)(net USB_N)(type route))
+    (wire (path F.Cu 200  91000 -101500  91775 -102275  92906.8 -102275  100157 -95025
+            103593 -95025  104283 -95715.1)(net USB_P)(type route))
+    (wire (path F.Cu 200  104283 -96546.9  105286 -97550)(net USB_P)(type route))
+    (wire (path F.Cu 200  104283 -95715.1  104283 -96546.9)(net USB_P)(type route))
+    (wire (path F.Cu 200  105286 -97550  105900 -97550)(net USB_P)(type route))
+    (via "Via[0-1]_600:300_um"  102000 -90900 (net GND)(type route))
+    (via "Via[0-1]_600:300_um"  101100 -91700 (net GND)(type route))
+    (via "Via[0-1]_600:300_um"  103700 -90900 (net GND)(type route))
+    (via "Via[0-1]_600:300_um"  102800 -91700 (net GND)(type route))
+    (via "Via[0-1]_800:400_um"  101900 -109300 (net SW1)(type route))
+    (via "Via[0-1]_800:400_um"  107250 -105500 (net +3V3)(type route))
+    (via "Via[0-1]_800:400_um"  109100 -103400 (net INT_N)(type route))
+    (via "Via[0-1]_600:300_um"  102000 -93000 (net VBUS)(type route))
+    (via "Via[0-1]_600:300_um"  101100 -93800 (net VBUS)(type route))
+    (via "Via[0-1]_600:300_um"  103700 -93000 (net VBUS)(type route))
+    (via "Via[0-1]_600:300_um"  102800 -93800 (net VBUS)(type route))
+  )
+)

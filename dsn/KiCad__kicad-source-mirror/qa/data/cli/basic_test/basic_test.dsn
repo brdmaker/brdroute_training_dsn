@@ -1,0 +1,218 @@
+(pcb "/Users/mikaheikkinen/bb/github/brdroute_training/dsn/KiCad__kicad-source-mirror/qa/data/cli/basic_test/basic_test.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  223000 -160000  188000 -160000  188000 -138000  223000 -138000
+            223000 -160000)
+    )
+    (plane GND (polygon F.Cu 0  187000 -137000  187000 -161000  224000 -161000  224000 -137000
+            187000 -137000))
+    (plane GND (polygon B.Cu 0  187000 -137000  187000 -161000  224000 -161000  224000 -137000
+            187000 -137000))
+    (via "Via[0-1]_600:300_um" "Via[0-1]_800:400_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component TestPoint:TestPoint_Pad_3.0x3.0mm
+      (place J1 200800 -156600 front 0 (PN Conn_01x01_Pin))
+      (place J3 218000 -146000 front 0 (PN Conn_01x01_Pin))
+      (place J2 193000 -147000 front 0 (PN Conn_01x01_Pin))
+      (place J4 209000 -156600 front 0 (PN Conn_01x01_Pin))
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-5"
+      (place U1 201900 -145300 front 180 (PN TLV2371DBV))
+    )
+    (component Resistor_SMD:R_1206_3216Metric
+      (place R2 198000 -145000 front -90 (PN 10k))
+    )
+    (component Resistor_SMD:R_1206_3216Metric::1
+      (place R1 197000 -141000 front 0 (PN 10k))
+      (place R3 204000 -151000 front 0 (PN 10k))
+    )
+    (component Capacitor_SMD:C_1206_3216Metric
+      (place C1 207500 -145900 front 0 (PN 10u))
+    )
+  )
+  (library
+    (image TestPoint:TestPoint_Pad_3.0x3.0mm
+      (outline (polygon signal 0  1995 -1995  -1995 -1995  -1995 1995  1995 1995))
+      (outline (path signal 120  -1700 1700  1700 1700))
+      (outline (path signal 120  -1700 -1700  -1700 1700))
+      (outline (path signal 120  1700 1700  1700 -1700))
+      (outline (path signal 120  1700 -1700  -1700 -1700))
+      (pin Rect[T]Pad_3000.000000x3000.000000_um 1 0 0)
+    )
+    (image "Package_TO_SOT_SMD:SOT-23-5"
+      (outline (polygon signal 0  -2045 1695  2045 1695  2045 -1695  -2045 -1695))
+      (outline (path signal 120  0 1560  -1800 1560))
+      (outline (path signal 120  0 1560  800 1560))
+      (outline (path signal 120  0 -1560  -800 -1560))
+      (outline (path signal 120  0 -1560  800 -1560))
+      (outline (path signal 100  -800 1050  -400 1450))
+      (outline (path signal 100  -800 -1450  -800 1050))
+      (outline (path signal 100  -400 1450  800 1450))
+      (outline (path signal 100  800 1450  800 -1450))
+      (outline (path signal 100  800 -1450  -800 -1450))
+      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 1 -1137.5 950)
+      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 2 -1137.5 0)
+      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 3 -1137.5 -950)
+      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 4 1137.5 -950)
+      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 950)
+    )
+    (image Resistor_SMD:R_1206_3216Metric
+      (outline (polygon signal 0  2275 1115  2275 -1115  -2275 -1115  -2275 1115))
+      (outline (path signal 120  -727.064 910  727.064 910))
+      (outline (path signal 120  -727.064 -910  727.064 -910))
+      (outline (path signal 100  -1600 800  1600 800))
+      (outline (path signal 100  -1600 -800  -1600 800))
+      (outline (path signal 100  1600 800  1600 -800))
+      (outline (path signal 100  1600 -800  -1600 -800))
+      (pin RoundRect[T]Pad_1125.000000x1750.000000_250.951000_um_0.000000_0 1 -1462.5 0)
+      (pin RoundRect[T]Pad_1125.000000x1750.000000_250.951000_um_0.000000_0 2 1462.5 0)
+    )
+    (image Resistor_SMD:R_1206_3216Metric::1
+      (outline (polygon signal 0  2275 -1115  -2275 -1115  -2275 1115  2275 1115))
+      (outline (path signal 120  -727.064 910  727.064 910))
+      (outline (path signal 120  -727.064 -910  727.064 -910))
+      (outline (path signal 100  -1600 800  1600 800))
+      (outline (path signal 100  -1600 -800  -1600 800))
+      (outline (path signal 100  1600 800  1600 -800))
+      (outline (path signal 100  1600 -800  -1600 -800))
+      (pin RoundRect[T]Pad_1125.000000x1750.000000_250.951000_um_0.000000_0 1 -1462.5 0)
+      (pin RoundRect[T]Pad_1125.000000x1750.000000_250.951000_um_0.000000_0 2 1462.5 0)
+    )
+    (image Capacitor_SMD:C_1206_3216Metric
+      (outline (polygon signal 0  2295 -1145  -2295 -1145  -2295 1145  2295 1145))
+      (outline (path signal 120  -711.252 910  711.252 910))
+      (outline (path signal 120  -711.252 -910  711.252 -910))
+      (outline (path signal 100  -1600 800  1600 800))
+      (outline (path signal 100  -1600 -800  -1600 800))
+      (outline (path signal 100  1600 800  1600 -800))
+      (outline (path signal 100  1600 -800  -1600 -800))
+      (pin RoundRect[T]Pad_1150.000000x1800.000000_250.951000_um_0.000000_0 1 -1475 0)
+      (pin RoundRect[T]Pad_1150.000000x1800.000000_250.951000_um_0.000000_0 2 1475 0)
+    )
+    (padstack RoundRect[T]Pad_1125.000000x1750.000000_250.951000_um_0.000000_0
+      (shape (polygon F.Cu 0  -563.451 625  -544.348 721.035  -489.949 802.449  -408.535 856.848
+            -312.499 875.95  312.5 875.951  408.535 856.848  489.949 802.449
+            544.348 721.035  563.45 624.999  563.451 -625  544.348 -721.035
+            489.949 -802.449  408.535 -856.848  312.499 -875.95  -312.5 -875.951
+            -408.535 -856.848  -489.949 -802.449  -544.348 -721.035  -563.45 -624.999
+            -563.451 625))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1150.000000x1800.000000_250.951000_um_0.000000_0
+      (shape (polygon F.Cu 0  -575.951 650  -556.848 746.035  -502.449 827.449  -421.035 881.848
+            -324.999 900.95  325 900.951  421.035 881.848  502.449 827.449
+            556.848 746.035  575.95 649.999  575.951 -650  556.848 -746.035
+            502.449 -827.449  421.035 -881.848  324.999 -900.95  -325 -900.951
+            -421.035 -881.848  -502.449 -827.449  -556.848 -746.035  -575.95 -649.999
+            -575.951 650))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0
+      (shape (polygon F.Cu 0  -663.071 150  -651.609 207.621  -618.97 256.47  -570.121 289.109
+            -512.499 300.57  512.5 300.571  570.121 289.109  618.97 256.47
+            651.609 207.621  663.07 149.999  663.071 -150  651.609 -207.621
+            618.97 -256.47  570.121 -289.109  512.499 -300.57  -512.5 -300.571
+            -570.121 -289.109  -618.97 -256.47  -651.609 -207.621  -663.07 -149.999
+            -663.071 150))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3000.000000x3000.000000_um
+      (shape (rect F.Cu -1500 -1500 1500 1500))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins U1-2 R1-1 C1-2 J4-1)
+    )
+    (net "Net-(U1-+)"
+      (pins U1-3 R3-2 C1-1)
+    )
+    (net "Net-(U1--)"
+      (pins U1-4 R2-1 R1-2)
+    )
+    (net /VCC
+      (pins J1-1 U1-5)
+    )
+    (net /IN
+      (pins J2-1 R3-1)
+    )
+    (net /OUT
+      (pins U1-1 J3-1 R2-2)
+    )
+    (class kicad_default /IN /OUT /VCC GND "Net-(U1-+)" "Net-(U1--)"
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  206025 -150438  206025 -145900)(net "Net-(U1-+)")(type route))
+    (wire (path F.Cu 250  204475 -144350  203038 -144350)(net "Net-(U1-+)")(type route))
+    (wire (path F.Cu 250  206025 -145900  204475 -144350)(net "Net-(U1-+)")(type route))
+    (wire (path F.Cu 250  205462 -151000  206025 -150438)(net "Net-(U1-+)")(type route))
+    (wire (path F.Cu 250  198000 -141462  198462 -141000)(net "Net-(U1--)")(type route))
+    (wire (path F.Cu 250  198000 -143538  198000 -141462)(net "Net-(U1--)")(type route))
+    (wire (path F.Cu 250  198000 -143538  199950 -143538  200762 -144350)(net "Net-(U1--)")(type route))
+    (wire (path F.Cu 250  200762 -146250  200762 -147238)(net /VCC)(type route))
+    (wire (path F.Cu 250  200000 -153000  200800 -153800  200800 -156600)(net /VCC)(type route))
+    (wire (path F.Cu 250  200762 -147238  200000 -148000)(net /VCC)(type route))
+    (wire (path B.Cu 250  200000 -148000  200000 -153000)(net /VCC)(type route))
+    (wire (path F.Cu 250  197000 -151000  202538 -151000)(net /IN)(type route))
+    (wire (path F.Cu 250  193000 -147000  197000 -151000)(net /IN)(type route))
+    (wire (path F.Cu 250  203000 -149000  204000 -148000)(net /OUT)(type route))
+    (wire (path F.Cu 250  199000 -149000  203000 -149000)(net /OUT)(type route))
+    (wire (path F.Cu 250  198000 -148000  199000 -149000)(net /OUT)(type route))
+    (wire (path F.Cu 250  198000 -146462  198000 -148000)(net /OUT)(type route))
+    (wire (path F.Cu 250  216000 -146000  218000 -146000)(net /OUT)(type route))
+    (wire (path F.Cu 250  204000 -147212  203038 -146250)(net /OUT)(type route))
+    (wire (path F.Cu 250  204000 -148000  205000 -148000)(net /OUT)(type route))
+    (wire (path F.Cu 250  204000 -148000  204000 -147212)(net /OUT)(type route))
+    (wire (path F.Cu 250  215000 -147000  216000 -146000)(net /OUT)(type route))
+    (wire (path B.Cu 250  205000 -148000  214000 -148000  215000 -147000)(net /OUT)(type route))
+    (via "Via[0-1]_800:400_um"  200000 -148000 (net /VCC)(type route))
+    (via "Via[0-1]_800:400_um"  200000 -153000 (net /VCC)(type route))
+    (via "Via[0-1]_800:400_um"  205000 -148000 (net /OUT)(type route))
+    (via "Via[0-1]_800:400_um"  215000 -147000 (net /OUT)(type route))
+  )
+)

@@ -1,0 +1,3131 @@
+(pcb /Users/mikaheikkinen/bb/github/brdroute_training/dsn/drandyhaas__KiCadRoutingTools/kicad_files/haasoscope_pro_max_test.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (layer In2.Cu
+      (type signal)
+      (property
+        (index 2)
+      )
+    )
+    (layer In3.Cu
+      (type signal)
+      (property
+        (index 3)
+      )
+    )
+    (layer In4.Cu
+      (type signal)
+      (property
+        (index 4)
+      )
+    )
+    (layer In5.Cu
+      (type signal)
+      (property
+        (index 5)
+      )
+    )
+    (layer In6.Cu
+      (type signal)
+      (property
+        (index 6)
+      )
+    )
+    (layer In7.Cu
+      (type signal)
+      (property
+        (index 7)
+      )
+    )
+    (layer In8.Cu
+      (type signal)
+      (property
+        (index 8)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 9)
+      )
+    )
+    (boundary
+      (path pcb 0  230000 -133500  129300 -133500  129300 -71200  230000 -71200
+            230000 -133500)
+    )
+    (via "Via[0-9]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component ADC12DL:BGA256C100P16X16_1700X1700X331
+      (place IC1 144000 -102500 front 0 (PN ADC12DL500ACF_Aligned))
+    )
+    (component "G529:BGA-529_23x23_19.0x19.0mm"
+      (place U3 195400 -103000 front -90 (PN Ti90G529_Functions))
+    )
+    (component "MT53D512M32D2DS-053 WT_D:IC_MT53D512M16D1DS-046_WT_D"
+      (place U1 170400 -102975 front 180 (PN MT53D512M16D1DS_Aligned))
+    )
+    (component Resistor_SMD:R_0402_1005Metric
+      (place R3 170000 -115000 front -90 (PN 240))
+      (place R4 168000 -115000 front -90 (PN 240))
+      (place R2 172000 -115000 front -90 (PN 240))
+    )
+    (component Resistor_SMD:R_0402_1005Metric::1
+      (place R1 190500 -89500 front 90 (PN 240))
+    )
+    (component "Package_DFN_QFN:QFN-76-1EP_9x9mm_P0.4mm_EP5.81x6.31mm"
+      (place U2 218000 -102900 front 90 (PN FT601Q_Aligned))
+    )
+  )
+  (library
+    (image ADC12DL:BGA256C100P16X16_1700X1700X331
+      (outline (polygon signal 0  10595 -10595  -10595 -10595  -10595 10595  10595 10595))
+      (outline (path signal 200  -8500 7500  -7500 8500))
+      (outline (path signal 200  -8500 -8500  -8500 7500))
+      (outline (path signal 200  -7500 8500  8500 8500))
+      (outline (path signal 200  8500 8500  8500 -8500))
+      (outline (path signal 200  8500 -8500  -8500 -8500))
+      (outline (path signal 200  -8400 8500  -8415.88 8445.94  -8458.46 8409.04  -8514.23 8401.02
+            -8565.49 8424.42  -8595.95 8471.83  -8595.95 8528.17  -8565.49 8575.58
+            -8514.23 8598.98  -8458.46 8590.96  -8415.88 8554.06  -8400 8500))
+      (outline (path signal 100  -8500 8500  8500 8500))
+      (outline (path signal 100  -8500 4200  -4200 8500))
+      (outline (path signal 100  -8500 -8500  -8500 8500))
+      (outline (path signal 100  8500 8500  8500 -8500))
+      (outline (path signal 100  8500 -8500  -8500 -8500))
+      (pin Round[T]Pad_530.000000_um (rotate 90) A1 -7500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A2 -6500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A3 -5500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A4 -4500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A5 -3500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A6 -2500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A7 -1500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A8 -500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A9 500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A10 1500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A11 2500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A12 3500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A13 4500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A14 5500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A15 6500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) A16 7500 7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B1 -7500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B2 -6500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B3 -5500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B4 -4500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B5 -3500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B6 -2500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B7 -1500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B8 -500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B9 500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B10 1500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B11 2500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B12 3500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B13 4500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B14 5500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B15 6500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) B16 7500 6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C1 -7500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C2 -6500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C3 -5500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C4 -4500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C5 -3500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C6 -2500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C7 -1500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C8 -500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C9 500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C10 1500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C11 2500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C12 3500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C13 4500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C14 5500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C15 6500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) C16 7500 5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D1 -7500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D2 -6500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D3 -5500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D4 -4500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D5 -3500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D6 -2500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D7 -1500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D8 -500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D9 500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D10 1500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D11 2500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D12 3500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D13 4500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D14 5500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D15 6500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) D16 7500 4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E1 -7500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E2 -6500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E3 -5500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E4 -4500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E5 -3500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E6 -2500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E7 -1500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E8 -500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E9 500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E10 1500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E11 2500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E12 3500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E13 4500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E14 5500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E15 6500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) E16 7500 3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F1 -7500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F2 -6500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F3 -5500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F4 -4500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F5 -3500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F6 -2500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F7 -1500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F8 -500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F9 500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F10 1500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F11 2500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F12 3500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F13 4500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F14 5500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F15 6500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) F16 7500 2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G1 -7500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G2 -6500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G3 -5500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G4 -4500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G5 -3500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G6 -2500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G7 -1500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G8 -500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G9 500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G10 1500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G11 2500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G12 3500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G13 4500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G14 5500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G15 6500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) G16 7500 1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H1 -7500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H2 -6500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H3 -5500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H4 -4500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H5 -3500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H6 -2500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H7 -1500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H8 -500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H9 500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H10 1500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H11 2500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H12 3500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H13 4500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H14 5500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H15 6500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) H16 7500 500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J1 -7500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J2 -6500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J3 -5500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J4 -4500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J5 -3500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J6 -2500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J7 -1500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J8 -500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J9 500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J10 1500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J11 2500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J12 3500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J13 4500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J14 5500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J15 6500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) J16 7500 -500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K1 -7500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K2 -6500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K3 -5500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K4 -4500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K5 -3500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K6 -2500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K7 -1500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K8 -500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K9 500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K10 1500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K11 2500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K12 3500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K13 4500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K14 5500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K15 6500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) K16 7500 -1500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L1 -7500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L2 -6500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L3 -5500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L4 -4500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L5 -3500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L6 -2500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L7 -1500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L8 -500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L9 500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L10 1500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L11 2500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L12 3500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L13 4500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L14 5500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L15 6500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) L16 7500 -2500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M1 -7500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M2 -6500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M3 -5500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M4 -4500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M5 -3500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M6 -2500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M7 -1500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M8 -500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M9 500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M10 1500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M11 2500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M12 3500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M13 4500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M14 5500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M15 6500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) M16 7500 -3500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N1 -7500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N2 -6500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N3 -5500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N4 -4500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N5 -3500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N6 -2500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N7 -1500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N8 -500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N9 500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N10 1500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N11 2500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N12 3500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N13 4500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N14 5500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N15 6500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) N16 7500 -4500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P1 -7500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P2 -6500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P3 -5500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P4 -4500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P5 -3500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P6 -2500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P7 -1500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P8 -500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P9 500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P10 1500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P11 2500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P12 3500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P13 4500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P14 5500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P15 6500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) P16 7500 -5500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R1 -7500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R2 -6500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R3 -5500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R4 -4500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R5 -3500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R6 -2500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R7 -1500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R8 -500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R9 500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R10 1500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R11 2500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R12 3500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R13 4500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R14 5500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R15 6500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) R16 7500 -6500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T1 -7500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T2 -6500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T3 -5500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T4 -4500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T5 -3500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T6 -2500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T7 -1500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T8 -500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T9 500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T10 1500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T11 2500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T12 3500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T13 4500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T14 5500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T15 6500 -7500)
+      (pin Round[T]Pad_530.000000_um (rotate 90) T16 7500 -7500)
+    )
+    (image "G529:BGA-529_23x23_19.0x19.0mm"
+      (outline (polygon signal 0  9745 9745  9745 -9745  -9745 -9745  -9745 9745))
+      (outline (path signal 120  -9620 -9620  -9620 -4870))
+      (outline (path signal 120  -4870 -9620  -9620 -9620))
+      (outline (path signal 120  4870 -9620  9620 -9620))
+      (outline (path signal 120  9620 -9620  9620 -4870))
+      (outline (path signal 120  -9620 8500  -9620 4870))
+      (outline (path signal 120  -8500 9620  -9620 8500))
+      (outline (path signal 120  -4870 9620  -8500 9620))
+      (outline (path signal 120  4870 9620  9620 9620))
+      (outline (path signal 120  9620 9620  9620 4870))
+      (outline (path signal 200  -9500 9600  -9445.94 9584.12  -9409.04 9541.54  -9401.02 9485.77
+            -9424.42 9434.51  -9471.83 9404.05  -9528.17 9404.05  -9575.58 9434.51
+            -9598.98 9485.77  -9590.96 9541.54  -9554.06 9584.12  -9500 9600))
+      (outline (path signal 100  -9500 -9500  9500 -9500))
+      (outline (path signal 100  9500 -9500  9500 9500))
+      (outline (path signal 100  -9500 8500  -9500 -9500))
+      (outline (path signal 100  -8500 9500  -9500 8500))
+      (outline (path signal 100  9500 9500  -8500 9500))
+      (pin Round[T]Pad_400.000000_um A1 -8800 8800)
+      (pin Round[T]Pad_400.000000_um A2 -8000 8800)
+      (pin Round[T]Pad_400.000000_um A3 -7200 8800)
+      (pin Round[T]Pad_400.000000_um A4 -6400 8800)
+      (pin Round[T]Pad_400.000000_um A5 -5600 8800)
+      (pin Round[T]Pad_400.000000_um A6 -4800 8800)
+      (pin Round[T]Pad_400.000000_um A7 -4000 8800)
+      (pin Round[T]Pad_400.000000_um A8 -3200 8800)
+      (pin Round[T]Pad_400.000000_um A9 -2400 8800)
+      (pin Round[T]Pad_400.000000_um A10 -1600 8800)
+      (pin Round[T]Pad_400.000000_um A11 -800 8800)
+      (pin Round[T]Pad_400.000000_um A12 0 8800)
+      (pin Round[T]Pad_400.000000_um A13 800 8800)
+      (pin Round[T]Pad_400.000000_um A14 1600 8800)
+      (pin Round[T]Pad_400.000000_um A15 2400 8800)
+      (pin Round[T]Pad_400.000000_um A16 3200 8800)
+      (pin Round[T]Pad_400.000000_um A17 4000 8800)
+      (pin Round[T]Pad_400.000000_um A18 4800 8800)
+      (pin Round[T]Pad_400.000000_um A19 5600 8800)
+      (pin Round[T]Pad_400.000000_um A20 6400 8800)
+      (pin Round[T]Pad_400.000000_um A21 7200 8800)
+      (pin Round[T]Pad_400.000000_um A22 8000 8800)
+      (pin Round[T]Pad_400.000000_um A23 8800 8800)
+      (pin Round[T]Pad_400.000000_um AA1 -8800 -7200)
+      (pin Round[T]Pad_400.000000_um AA2 -8000 -7200)
+      (pin Round[T]Pad_400.000000_um AA3 -7200 -7200)
+      (pin Round[T]Pad_400.000000_um AA4 -6400 -7200)
+      (pin Round[T]Pad_400.000000_um AA5 -5600 -7200)
+      (pin Round[T]Pad_400.000000_um AA6 -4800 -7200)
+      (pin Round[T]Pad_400.000000_um AA7 -4000 -7200)
+      (pin Round[T]Pad_400.000000_um AA8 -3200 -7200)
+      (pin Round[T]Pad_400.000000_um AA9 -2400 -7200)
+      (pin Round[T]Pad_400.000000_um AA10 -1600 -7200)
+      (pin Round[T]Pad_400.000000_um AA11 -800 -7200)
+      (pin Round[T]Pad_400.000000_um AA12 0 -7200)
+      (pin Round[T]Pad_400.000000_um AA13 800 -7200)
+      (pin Round[T]Pad_400.000000_um AA14 1600 -7200)
+      (pin Round[T]Pad_400.000000_um AA15 2400 -7200)
+      (pin Round[T]Pad_400.000000_um AA16 3200 -7200)
+      (pin Round[T]Pad_400.000000_um AA17 4000 -7200)
+      (pin Round[T]Pad_400.000000_um AA18 4800 -7200)
+      (pin Round[T]Pad_400.000000_um AA19 5600 -7200)
+      (pin Round[T]Pad_400.000000_um AA20 6400 -7200)
+      (pin Round[T]Pad_400.000000_um AA21 7200 -7200)
+      (pin Round[T]Pad_400.000000_um AA22 8000 -7200)
+      (pin Round[T]Pad_400.000000_um AA23 8800 -7200)
+      (pin Round[T]Pad_400.000000_um AB1 -8800 -8000)
+      (pin Round[T]Pad_400.000000_um AB2 -8000 -8000)
+      (pin Round[T]Pad_400.000000_um AB3 -7200 -8000)
+      (pin Round[T]Pad_400.000000_um AB4 -6400 -8000)
+      (pin Round[T]Pad_400.000000_um AB5 -5600 -8000)
+      (pin Round[T]Pad_400.000000_um AB6 -4800 -8000)
+      (pin Round[T]Pad_400.000000_um AB7 -4000 -8000)
+      (pin Round[T]Pad_400.000000_um AB8 -3200 -8000)
+      (pin Round[T]Pad_400.000000_um AB9 -2400 -8000)
+      (pin Round[T]Pad_400.000000_um AB10 -1600 -8000)
+      (pin Round[T]Pad_400.000000_um AB11 -800 -8000)
+      (pin Round[T]Pad_400.000000_um AB12 0 -8000)
+      (pin Round[T]Pad_400.000000_um AB13 800 -8000)
+      (pin Round[T]Pad_400.000000_um AB14 1600 -8000)
+      (pin Round[T]Pad_400.000000_um AB15 2400 -8000)
+      (pin Round[T]Pad_400.000000_um AB16 3200 -8000)
+      (pin Round[T]Pad_400.000000_um AB17 4000 -8000)
+      (pin Round[T]Pad_400.000000_um AB18 4800 -8000)
+      (pin Round[T]Pad_400.000000_um AB19 5600 -8000)
+      (pin Round[T]Pad_400.000000_um AB20 6400 -8000)
+      (pin Round[T]Pad_400.000000_um AB21 7200 -8000)
+      (pin Round[T]Pad_400.000000_um AB22 8000 -8000)
+      (pin Round[T]Pad_400.000000_um AB23 8800 -8000)
+      (pin Round[T]Pad_400.000000_um AC1 -8800 -8800)
+      (pin Round[T]Pad_400.000000_um AC2 -8000 -8800)
+      (pin Round[T]Pad_400.000000_um AC3 -7200 -8800)
+      (pin Round[T]Pad_400.000000_um AC4 -6400 -8800)
+      (pin Round[T]Pad_400.000000_um AC5 -5600 -8800)
+      (pin Round[T]Pad_400.000000_um AC6 -4800 -8800)
+      (pin Round[T]Pad_400.000000_um AC7 -4000 -8800)
+      (pin Round[T]Pad_400.000000_um AC8 -3200 -8800)
+      (pin Round[T]Pad_400.000000_um AC9 -2400 -8800)
+      (pin Round[T]Pad_400.000000_um AC10 -1600 -8800)
+      (pin Round[T]Pad_400.000000_um AC11 -800 -8800)
+      (pin Round[T]Pad_400.000000_um AC12 0 -8800)
+      (pin Round[T]Pad_400.000000_um AC13 800 -8800)
+      (pin Round[T]Pad_400.000000_um AC14 1600 -8800)
+      (pin Round[T]Pad_400.000000_um AC15 2400 -8800)
+      (pin Round[T]Pad_400.000000_um AC16 3200 -8800)
+      (pin Round[T]Pad_400.000000_um AC17 4000 -8800)
+      (pin Round[T]Pad_400.000000_um AC18 4800 -8800)
+      (pin Round[T]Pad_400.000000_um AC19 5600 -8800)
+      (pin Round[T]Pad_400.000000_um AC20 6400 -8800)
+      (pin Round[T]Pad_400.000000_um AC21 7200 -8800)
+      (pin Round[T]Pad_400.000000_um AC22 8000 -8800)
+      (pin Round[T]Pad_400.000000_um AC23 8800 -8800)
+      (pin Round[T]Pad_400.000000_um B1 -8800 8000)
+      (pin Round[T]Pad_400.000000_um B2 -8000 8000)
+      (pin Round[T]Pad_400.000000_um B3 -7200 8000)
+      (pin Round[T]Pad_400.000000_um B4 -6400 8000)
+      (pin Round[T]Pad_400.000000_um B5 -5600 8000)
+      (pin Round[T]Pad_400.000000_um B6 -4800 8000)
+      (pin Round[T]Pad_400.000000_um B7 -4000 8000)
+      (pin Round[T]Pad_400.000000_um B8 -3200 8000)
+      (pin Round[T]Pad_400.000000_um B9 -2400 8000)
+      (pin Round[T]Pad_400.000000_um B10 -1600 8000)
+      (pin Round[T]Pad_400.000000_um B11 -800 8000)
+      (pin Round[T]Pad_400.000000_um B12 0 8000)
+      (pin Round[T]Pad_400.000000_um B13 800 8000)
+      (pin Round[T]Pad_400.000000_um B14 1600 8000)
+      (pin Round[T]Pad_400.000000_um B15 2400 8000)
+      (pin Round[T]Pad_400.000000_um B16 3200 8000)
+      (pin Round[T]Pad_400.000000_um B17 4000 8000)
+      (pin Round[T]Pad_400.000000_um B18 4800 8000)
+      (pin Round[T]Pad_400.000000_um B19 5600 8000)
+      (pin Round[T]Pad_400.000000_um B20 6400 8000)
+      (pin Round[T]Pad_400.000000_um B21 7200 8000)
+      (pin Round[T]Pad_400.000000_um B22 8000 8000)
+      (pin Round[T]Pad_400.000000_um B23 8800 8000)
+      (pin Round[T]Pad_400.000000_um C1 -8800 7200)
+      (pin Round[T]Pad_400.000000_um C2 -8000 7200)
+      (pin Round[T]Pad_400.000000_um C3 -7200 7200)
+      (pin Round[T]Pad_400.000000_um C4 -6400 7200)
+      (pin Round[T]Pad_400.000000_um C5 -5600 7200)
+      (pin Round[T]Pad_400.000000_um C6 -4800 7200)
+      (pin Round[T]Pad_400.000000_um C7 -4000 7200)
+      (pin Round[T]Pad_400.000000_um C8 -3200 7200)
+      (pin Round[T]Pad_400.000000_um C9 -2400 7200)
+      (pin Round[T]Pad_400.000000_um C10 -1600 7200)
+      (pin Round[T]Pad_400.000000_um C11 -800 7200)
+      (pin Round[T]Pad_400.000000_um C12 0 7200)
+      (pin Round[T]Pad_400.000000_um C13 800 7200)
+      (pin Round[T]Pad_400.000000_um C14 1600 7200)
+      (pin Round[T]Pad_400.000000_um C15 2400 7200)
+      (pin Round[T]Pad_400.000000_um C16 3200 7200)
+      (pin Round[T]Pad_400.000000_um C17 4000 7200)
+      (pin Round[T]Pad_400.000000_um C18 4800 7200)
+      (pin Round[T]Pad_400.000000_um C19 5600 7200)
+      (pin Round[T]Pad_400.000000_um C20 6400 7200)
+      (pin Round[T]Pad_400.000000_um C21 7200 7200)
+      (pin Round[T]Pad_400.000000_um C22 8000 7200)
+      (pin Round[T]Pad_400.000000_um C23 8800 7200)
+      (pin Round[T]Pad_400.000000_um D1 -8800 6400)
+      (pin Round[T]Pad_400.000000_um D2 -8000 6400)
+      (pin Round[T]Pad_400.000000_um D3 -7200 6400)
+      (pin Round[T]Pad_400.000000_um D4 -6400 6400)
+      (pin Round[T]Pad_400.000000_um D5 -5600 6400)
+      (pin Round[T]Pad_400.000000_um D6 -4800 6400)
+      (pin Round[T]Pad_400.000000_um D7 -4000 6400)
+      (pin Round[T]Pad_400.000000_um D8 -3200 6400)
+      (pin Round[T]Pad_400.000000_um D9 -2400 6400)
+      (pin Round[T]Pad_400.000000_um D10 -1600 6400)
+      (pin Round[T]Pad_400.000000_um D11 -800 6400)
+      (pin Round[T]Pad_400.000000_um D12 0 6400)
+      (pin Round[T]Pad_400.000000_um D13 800 6400)
+      (pin Round[T]Pad_400.000000_um D14 1600 6400)
+      (pin Round[T]Pad_400.000000_um D15 2400 6400)
+      (pin Round[T]Pad_400.000000_um D16 3200 6400)
+      (pin Round[T]Pad_400.000000_um D17 4000 6400)
+      (pin Round[T]Pad_400.000000_um D18 4800 6400)
+      (pin Round[T]Pad_400.000000_um D19 5600 6400)
+      (pin Round[T]Pad_400.000000_um D20 6400 6400)
+      (pin Round[T]Pad_400.000000_um D21 7200 6400)
+      (pin Round[T]Pad_400.000000_um D22 8000 6400)
+      (pin Round[T]Pad_400.000000_um D23 8800 6400)
+      (pin Round[T]Pad_400.000000_um E1 -8800 5600)
+      (pin Round[T]Pad_400.000000_um E2 -8000 5600)
+      (pin Round[T]Pad_400.000000_um E3 -7200 5600)
+      (pin Round[T]Pad_400.000000_um E4 -6400 5600)
+      (pin Round[T]Pad_400.000000_um E5 -5600 5600)
+      (pin Round[T]Pad_400.000000_um E6 -4800 5600)
+      (pin Round[T]Pad_400.000000_um E7 -4000 5600)
+      (pin Round[T]Pad_400.000000_um E8 -3200 5600)
+      (pin Round[T]Pad_400.000000_um E9 -2400 5600)
+      (pin Round[T]Pad_400.000000_um E10 -1600 5600)
+      (pin Round[T]Pad_400.000000_um E11 -800 5600)
+      (pin Round[T]Pad_400.000000_um E12 0 5600)
+      (pin Round[T]Pad_400.000000_um E13 800 5600)
+      (pin Round[T]Pad_400.000000_um E14 1600 5600)
+      (pin Round[T]Pad_400.000000_um E15 2400 5600)
+      (pin Round[T]Pad_400.000000_um E16 3200 5600)
+      (pin Round[T]Pad_400.000000_um E17 4000 5600)
+      (pin Round[T]Pad_400.000000_um E18 4800 5600)
+      (pin Round[T]Pad_400.000000_um E19 5600 5600)
+      (pin Round[T]Pad_400.000000_um E20 6400 5600)
+      (pin Round[T]Pad_400.000000_um E21 7200 5600)
+      (pin Round[T]Pad_400.000000_um E22 8000 5600)
+      (pin Round[T]Pad_400.000000_um E23 8800 5600)
+      (pin Round[T]Pad_400.000000_um F1 -8800 4800)
+      (pin Round[T]Pad_400.000000_um F2 -8000 4800)
+      (pin Round[T]Pad_400.000000_um F3 -7200 4800)
+      (pin Round[T]Pad_400.000000_um F4 -6400 4800)
+      (pin Round[T]Pad_400.000000_um F5 -5600 4800)
+      (pin Round[T]Pad_400.000000_um F6 -4800 4800)
+      (pin Round[T]Pad_400.000000_um F7 -4000 4800)
+      (pin Round[T]Pad_400.000000_um F8 -3200 4800)
+      (pin Round[T]Pad_400.000000_um F9 -2400 4800)
+      (pin Round[T]Pad_400.000000_um F10 -1600 4800)
+      (pin Round[T]Pad_400.000000_um F11 -800 4800)
+      (pin Round[T]Pad_400.000000_um F12 0 4800)
+      (pin Round[T]Pad_400.000000_um F13 800 4800)
+      (pin Round[T]Pad_400.000000_um F14 1600 4800)
+      (pin Round[T]Pad_400.000000_um F15 2400 4800)
+      (pin Round[T]Pad_400.000000_um F16 3200 4800)
+      (pin Round[T]Pad_400.000000_um F17 4000 4800)
+      (pin Round[T]Pad_400.000000_um F18 4800 4800)
+      (pin Round[T]Pad_400.000000_um F19 5600 4800)
+      (pin Round[T]Pad_400.000000_um F20 6400 4800)
+      (pin Round[T]Pad_400.000000_um F21 7200 4800)
+      (pin Round[T]Pad_400.000000_um F22 8000 4800)
+      (pin Round[T]Pad_400.000000_um F23 8800 4800)
+      (pin Round[T]Pad_400.000000_um G1 -8800 4000)
+      (pin Round[T]Pad_400.000000_um G2 -8000 4000)
+      (pin Round[T]Pad_400.000000_um G3 -7200 4000)
+      (pin Round[T]Pad_400.000000_um G4 -6400 4000)
+      (pin Round[T]Pad_400.000000_um G5 -5600 4000)
+      (pin Round[T]Pad_400.000000_um G6 -4800 4000)
+      (pin Round[T]Pad_400.000000_um G7 -4000 4000)
+      (pin Round[T]Pad_400.000000_um G8 -3200 4000)
+      (pin Round[T]Pad_400.000000_um G9 -2400 4000)
+      (pin Round[T]Pad_400.000000_um G10 -1600 4000)
+      (pin Round[T]Pad_400.000000_um G11 -800 4000)
+      (pin Round[T]Pad_400.000000_um G12 0 4000)
+      (pin Round[T]Pad_400.000000_um G13 800 4000)
+      (pin Round[T]Pad_400.000000_um G14 1600 4000)
+      (pin Round[T]Pad_400.000000_um G15 2400 4000)
+      (pin Round[T]Pad_400.000000_um G16 3200 4000)
+      (pin Round[T]Pad_400.000000_um G17 4000 4000)
+      (pin Round[T]Pad_400.000000_um G18 4800 4000)
+      (pin Round[T]Pad_400.000000_um G19 5600 4000)
+      (pin Round[T]Pad_400.000000_um G20 6400 4000)
+      (pin Round[T]Pad_400.000000_um G21 7200 4000)
+      (pin Round[T]Pad_400.000000_um G22 8000 4000)
+      (pin Round[T]Pad_400.000000_um G23 8800 4000)
+      (pin Round[T]Pad_400.000000_um H1 -8800 3200)
+      (pin Round[T]Pad_400.000000_um H2 -8000 3200)
+      (pin Round[T]Pad_400.000000_um H3 -7200 3200)
+      (pin Round[T]Pad_400.000000_um H4 -6400 3200)
+      (pin Round[T]Pad_400.000000_um H5 -5600 3200)
+      (pin Round[T]Pad_400.000000_um H6 -4800 3200)
+      (pin Round[T]Pad_400.000000_um H7 -4000 3200)
+      (pin Round[T]Pad_400.000000_um H8 -3200 3200)
+      (pin Round[T]Pad_400.000000_um H9 -2400 3200)
+      (pin Round[T]Pad_400.000000_um H10 -1600 3200)
+      (pin Round[T]Pad_400.000000_um H11 -800 3200)
+      (pin Round[T]Pad_400.000000_um H12 0 3200)
+      (pin Round[T]Pad_400.000000_um H13 800 3200)
+      (pin Round[T]Pad_400.000000_um H14 1600 3200)
+      (pin Round[T]Pad_400.000000_um H15 2400 3200)
+      (pin Round[T]Pad_400.000000_um H16 3200 3200)
+      (pin Round[T]Pad_400.000000_um H17 4000 3200)
+      (pin Round[T]Pad_400.000000_um H18 4800 3200)
+      (pin Round[T]Pad_400.000000_um H19 5600 3200)
+      (pin Round[T]Pad_400.000000_um H20 6400 3200)
+      (pin Round[T]Pad_400.000000_um H21 7200 3200)
+      (pin Round[T]Pad_400.000000_um H22 8000 3200)
+      (pin Round[T]Pad_400.000000_um H23 8800 3200)
+      (pin Round[T]Pad_400.000000_um J1 -8800 2400)
+      (pin Round[T]Pad_400.000000_um J2 -8000 2400)
+      (pin Round[T]Pad_400.000000_um J3 -7200 2400)
+      (pin Round[T]Pad_400.000000_um J4 -6400 2400)
+      (pin Round[T]Pad_400.000000_um J5 -5600 2400)
+      (pin Round[T]Pad_400.000000_um J6 -4800 2400)
+      (pin Round[T]Pad_400.000000_um J7 -4000 2400)
+      (pin Round[T]Pad_400.000000_um J8 -3200 2400)
+      (pin Round[T]Pad_400.000000_um J9 -2400 2400)
+      (pin Round[T]Pad_400.000000_um J10 -1600 2400)
+      (pin Round[T]Pad_400.000000_um J11 -800 2400)
+      (pin Round[T]Pad_400.000000_um J12 0 2400)
+      (pin Round[T]Pad_400.000000_um J13 800 2400)
+      (pin Round[T]Pad_400.000000_um J14 1600 2400)
+      (pin Round[T]Pad_400.000000_um J15 2400 2400)
+      (pin Round[T]Pad_400.000000_um J16 3200 2400)
+      (pin Round[T]Pad_400.000000_um J17 4000 2400)
+      (pin Round[T]Pad_400.000000_um J18 4800 2400)
+      (pin Round[T]Pad_400.000000_um J19 5600 2400)
+      (pin Round[T]Pad_400.000000_um J20 6400 2400)
+      (pin Round[T]Pad_400.000000_um J21 7200 2400)
+      (pin Round[T]Pad_400.000000_um J22 8000 2400)
+      (pin Round[T]Pad_400.000000_um J23 8800 2400)
+      (pin Round[T]Pad_400.000000_um K1 -8800 1600)
+      (pin Round[T]Pad_400.000000_um K2 -8000 1600)
+      (pin Round[T]Pad_400.000000_um K3 -7200 1600)
+      (pin Round[T]Pad_400.000000_um K4 -6400 1600)
+      (pin Round[T]Pad_400.000000_um K5 -5600 1600)
+      (pin Round[T]Pad_400.000000_um K6 -4800 1600)
+      (pin Round[T]Pad_400.000000_um K7 -4000 1600)
+      (pin Round[T]Pad_400.000000_um K8 -3200 1600)
+      (pin Round[T]Pad_400.000000_um K9 -2400 1600)
+      (pin Round[T]Pad_400.000000_um K10 -1600 1600)
+      (pin Round[T]Pad_400.000000_um K11 -800 1600)
+      (pin Round[T]Pad_400.000000_um K12 0 1600)
+      (pin Round[T]Pad_400.000000_um K13 800 1600)
+      (pin Round[T]Pad_400.000000_um K14 1600 1600)
+      (pin Round[T]Pad_400.000000_um K15 2400 1600)
+      (pin Round[T]Pad_400.000000_um K16 3200 1600)
+      (pin Round[T]Pad_400.000000_um K17 4000 1600)
+      (pin Round[T]Pad_400.000000_um K18 4800 1600)
+      (pin Round[T]Pad_400.000000_um K19 5600 1600)
+      (pin Round[T]Pad_400.000000_um K20 6400 1600)
+      (pin Round[T]Pad_400.000000_um K21 7200 1600)
+      (pin Round[T]Pad_400.000000_um K22 8000 1600)
+      (pin Round[T]Pad_400.000000_um K23 8800 1600)
+      (pin Round[T]Pad_400.000000_um L1 -8800 800)
+      (pin Round[T]Pad_400.000000_um L2 -8000 800)
+      (pin Round[T]Pad_400.000000_um L3 -7200 800)
+      (pin Round[T]Pad_400.000000_um L4 -6400 800)
+      (pin Round[T]Pad_400.000000_um L5 -5600 800)
+      (pin Round[T]Pad_400.000000_um L6 -4800 800)
+      (pin Round[T]Pad_400.000000_um L7 -4000 800)
+      (pin Round[T]Pad_400.000000_um L8 -3200 800)
+      (pin Round[T]Pad_400.000000_um L9 -2400 800)
+      (pin Round[T]Pad_400.000000_um L10 -1600 800)
+      (pin Round[T]Pad_400.000000_um L11 -800 800)
+      (pin Round[T]Pad_400.000000_um L12 0 800)
+      (pin Round[T]Pad_400.000000_um L13 800 800)
+      (pin Round[T]Pad_400.000000_um L14 1600 800)
+      (pin Round[T]Pad_400.000000_um L15 2400 800)
+      (pin Round[T]Pad_400.000000_um L16 3200 800)
+      (pin Round[T]Pad_400.000000_um L17 4000 800)
+      (pin Round[T]Pad_400.000000_um L18 4800 800)
+      (pin Round[T]Pad_400.000000_um L19 5600 800)
+      (pin Round[T]Pad_400.000000_um L20 6400 800)
+      (pin Round[T]Pad_400.000000_um L21 7200 800)
+      (pin Round[T]Pad_400.000000_um L22 8000 800)
+      (pin Round[T]Pad_400.000000_um L23 8800 800)
+      (pin Round[T]Pad_400.000000_um M1 -8800 0)
+      (pin Round[T]Pad_400.000000_um M2 -8000 0)
+      (pin Round[T]Pad_400.000000_um M3 -7200 0)
+      (pin Round[T]Pad_400.000000_um M4 -6400 0)
+      (pin Round[T]Pad_400.000000_um M5 -5600 0)
+      (pin Round[T]Pad_400.000000_um M6 -4800 0)
+      (pin Round[T]Pad_400.000000_um M7 -4000 0)
+      (pin Round[T]Pad_400.000000_um M8 -3200 0)
+      (pin Round[T]Pad_400.000000_um M9 -2400 0)
+      (pin Round[T]Pad_400.000000_um M10 -1600 0)
+      (pin Round[T]Pad_400.000000_um M11 -800 0)
+      (pin Round[T]Pad_400.000000_um M12 0 0)
+      (pin Round[T]Pad_400.000000_um M13 800 0)
+      (pin Round[T]Pad_400.000000_um M14 1600 0)
+      (pin Round[T]Pad_400.000000_um M15 2400 0)
+      (pin Round[T]Pad_400.000000_um M16 3200 0)
+      (pin Round[T]Pad_400.000000_um M17 4000 0)
+      (pin Round[T]Pad_400.000000_um M18 4800 0)
+      (pin Round[T]Pad_400.000000_um M19 5600 0)
+      (pin Round[T]Pad_400.000000_um M20 6400 0)
+      (pin Round[T]Pad_400.000000_um M21 7200 0)
+      (pin Round[T]Pad_400.000000_um M22 8000 0)
+      (pin Round[T]Pad_400.000000_um M23 8800 0)
+      (pin Round[T]Pad_400.000000_um N1 -8800 -800)
+      (pin Round[T]Pad_400.000000_um N2 -8000 -800)
+      (pin Round[T]Pad_400.000000_um N3 -7200 -800)
+      (pin Round[T]Pad_400.000000_um N4 -6400 -800)
+      (pin Round[T]Pad_400.000000_um N5 -5600 -800)
+      (pin Round[T]Pad_400.000000_um N6 -4800 -800)
+      (pin Round[T]Pad_400.000000_um N7 -4000 -800)
+      (pin Round[T]Pad_400.000000_um N8 -3200 -800)
+      (pin Round[T]Pad_400.000000_um N9 -2400 -800)
+      (pin Round[T]Pad_400.000000_um N10 -1600 -800)
+      (pin Round[T]Pad_400.000000_um N11 -800 -800)
+      (pin Round[T]Pad_400.000000_um N12 0 -800)
+      (pin Round[T]Pad_400.000000_um N13 800 -800)
+      (pin Round[T]Pad_400.000000_um N14 1600 -800)
+      (pin Round[T]Pad_400.000000_um N15 2400 -800)
+      (pin Round[T]Pad_400.000000_um N16 3200 -800)
+      (pin Round[T]Pad_400.000000_um N17 4000 -800)
+      (pin Round[T]Pad_400.000000_um N18 4800 -800)
+      (pin Round[T]Pad_400.000000_um N19 5600 -800)
+      (pin Round[T]Pad_400.000000_um N20 6400 -800)
+      (pin Round[T]Pad_400.000000_um N21 7200 -800)
+      (pin Round[T]Pad_400.000000_um N22 8000 -800)
+      (pin Round[T]Pad_400.000000_um N23 8800 -800)
+      (pin Round[T]Pad_400.000000_um P1 -8800 -1600)
+      (pin Round[T]Pad_400.000000_um P2 -8000 -1600)
+      (pin Round[T]Pad_400.000000_um P3 -7200 -1600)
+      (pin Round[T]Pad_400.000000_um P4 -6400 -1600)
+      (pin Round[T]Pad_400.000000_um P5 -5600 -1600)
+      (pin Round[T]Pad_400.000000_um P6 -4800 -1600)
+      (pin Round[T]Pad_400.000000_um P7 -4000 -1600)
+      (pin Round[T]Pad_400.000000_um P8 -3200 -1600)
+      (pin Round[T]Pad_400.000000_um P9 -2400 -1600)
+      (pin Round[T]Pad_400.000000_um P10 -1600 -1600)
+      (pin Round[T]Pad_400.000000_um P11 -800 -1600)
+      (pin Round[T]Pad_400.000000_um P12 0 -1600)
+      (pin Round[T]Pad_400.000000_um P13 800 -1600)
+      (pin Round[T]Pad_400.000000_um P14 1600 -1600)
+      (pin Round[T]Pad_400.000000_um P15 2400 -1600)
+      (pin Round[T]Pad_400.000000_um P16 3200 -1600)
+      (pin Round[T]Pad_400.000000_um P17 4000 -1600)
+      (pin Round[T]Pad_400.000000_um P18 4800 -1600)
+      (pin Round[T]Pad_400.000000_um P19 5600 -1600)
+      (pin Round[T]Pad_400.000000_um P20 6400 -1600)
+      (pin Round[T]Pad_400.000000_um P21 7200 -1600)
+      (pin Round[T]Pad_400.000000_um P22 8000 -1600)
+      (pin Round[T]Pad_400.000000_um P23 8800 -1600)
+      (pin Round[T]Pad_400.000000_um R1 -8800 -2400)
+      (pin Round[T]Pad_400.000000_um R2 -8000 -2400)
+      (pin Round[T]Pad_400.000000_um R3 -7200 -2400)
+      (pin Round[T]Pad_400.000000_um R4 -6400 -2400)
+      (pin Round[T]Pad_400.000000_um R5 -5600 -2400)
+      (pin Round[T]Pad_400.000000_um R6 -4800 -2400)
+      (pin Round[T]Pad_400.000000_um R7 -4000 -2400)
+      (pin Round[T]Pad_400.000000_um R8 -3200 -2400)
+      (pin Round[T]Pad_400.000000_um R9 -2400 -2400)
+      (pin Round[T]Pad_400.000000_um R10 -1600 -2400)
+      (pin Round[T]Pad_400.000000_um R11 -800 -2400)
+      (pin Round[T]Pad_400.000000_um R12 0 -2400)
+      (pin Round[T]Pad_400.000000_um R13 800 -2400)
+      (pin Round[T]Pad_400.000000_um R14 1600 -2400)
+      (pin Round[T]Pad_400.000000_um R15 2400 -2400)
+      (pin Round[T]Pad_400.000000_um R16 3200 -2400)
+      (pin Round[T]Pad_400.000000_um R17 4000 -2400)
+      (pin Round[T]Pad_400.000000_um R18 4800 -2400)
+      (pin Round[T]Pad_400.000000_um R19 5600 -2400)
+      (pin Round[T]Pad_400.000000_um R20 6400 -2400)
+      (pin Round[T]Pad_400.000000_um R21 7200 -2400)
+      (pin Round[T]Pad_400.000000_um R22 8000 -2400)
+      (pin Round[T]Pad_400.000000_um R23 8800 -2400)
+      (pin Round[T]Pad_400.000000_um T1 -8800 -3200)
+      (pin Round[T]Pad_400.000000_um T2 -8000 -3200)
+      (pin Round[T]Pad_400.000000_um T3 -7200 -3200)
+      (pin Round[T]Pad_400.000000_um T4 -6400 -3200)
+      (pin Round[T]Pad_400.000000_um T5 -5600 -3200)
+      (pin Round[T]Pad_400.000000_um T6 -4800 -3200)
+      (pin Round[T]Pad_400.000000_um T7 -4000 -3200)
+      (pin Round[T]Pad_400.000000_um T8 -3200 -3200)
+      (pin Round[T]Pad_400.000000_um T9 -2400 -3200)
+      (pin Round[T]Pad_400.000000_um T10 -1600 -3200)
+      (pin Round[T]Pad_400.000000_um T11 -800 -3200)
+      (pin Round[T]Pad_400.000000_um T12 0 -3200)
+      (pin Round[T]Pad_400.000000_um T13 800 -3200)
+      (pin Round[T]Pad_400.000000_um T14 1600 -3200)
+      (pin Round[T]Pad_400.000000_um T15 2400 -3200)
+      (pin Round[T]Pad_400.000000_um T16 3200 -3200)
+      (pin Round[T]Pad_400.000000_um T17 4000 -3200)
+      (pin Round[T]Pad_400.000000_um T18 4800 -3200)
+      (pin Round[T]Pad_400.000000_um T19 5600 -3200)
+      (pin Round[T]Pad_400.000000_um T20 6400 -3200)
+      (pin Round[T]Pad_400.000000_um T21 7200 -3200)
+      (pin Round[T]Pad_400.000000_um T22 8000 -3200)
+      (pin Round[T]Pad_400.000000_um T23 8800 -3200)
+      (pin Round[T]Pad_400.000000_um U1 -8800 -4000)
+      (pin Round[T]Pad_400.000000_um U2 -8000 -4000)
+      (pin Round[T]Pad_400.000000_um U3 -7200 -4000)
+      (pin Round[T]Pad_400.000000_um U4 -6400 -4000)
+      (pin Round[T]Pad_400.000000_um U5 -5600 -4000)
+      (pin Round[T]Pad_400.000000_um U6 -4800 -4000)
+      (pin Round[T]Pad_400.000000_um U7 -4000 -4000)
+      (pin Round[T]Pad_400.000000_um U8 -3200 -4000)
+      (pin Round[T]Pad_400.000000_um U9 -2400 -4000)
+      (pin Round[T]Pad_400.000000_um U10 -1600 -4000)
+      (pin Round[T]Pad_400.000000_um U11 -800 -4000)
+      (pin Round[T]Pad_400.000000_um U12 0 -4000)
+      (pin Round[T]Pad_400.000000_um U13 800 -4000)
+      (pin Round[T]Pad_400.000000_um U14 1600 -4000)
+      (pin Round[T]Pad_400.000000_um U15 2400 -4000)
+      (pin Round[T]Pad_400.000000_um U16 3200 -4000)
+      (pin Round[T]Pad_400.000000_um U17 4000 -4000)
+      (pin Round[T]Pad_400.000000_um U18 4800 -4000)
+      (pin Round[T]Pad_400.000000_um U19 5600 -4000)
+      (pin Round[T]Pad_400.000000_um U20 6400 -4000)
+      (pin Round[T]Pad_400.000000_um U21 7200 -4000)
+      (pin Round[T]Pad_400.000000_um U22 8000 -4000)
+      (pin Round[T]Pad_400.000000_um U23 8800 -4000)
+      (pin Round[T]Pad_400.000000_um V1 -8800 -4800)
+      (pin Round[T]Pad_400.000000_um V2 -8000 -4800)
+      (pin Round[T]Pad_400.000000_um V3 -7200 -4800)
+      (pin Round[T]Pad_400.000000_um V4 -6400 -4800)
+      (pin Round[T]Pad_400.000000_um V5 -5600 -4800)
+      (pin Round[T]Pad_400.000000_um V6 -4800 -4800)
+      (pin Round[T]Pad_400.000000_um V7 -4000 -4800)
+      (pin Round[T]Pad_400.000000_um V8 -3200 -4800)
+      (pin Round[T]Pad_400.000000_um V9 -2400 -4800)
+      (pin Round[T]Pad_400.000000_um V10 -1600 -4800)
+      (pin Round[T]Pad_400.000000_um V11 -800 -4800)
+      (pin Round[T]Pad_400.000000_um V12 0 -4800)
+      (pin Round[T]Pad_400.000000_um V13 800 -4800)
+      (pin Round[T]Pad_400.000000_um V14 1600 -4800)
+      (pin Round[T]Pad_400.000000_um V15 2400 -4800)
+      (pin Round[T]Pad_400.000000_um V16 3200 -4800)
+      (pin Round[T]Pad_400.000000_um V17 4000 -4800)
+      (pin Round[T]Pad_400.000000_um V18 4800 -4800)
+      (pin Round[T]Pad_400.000000_um V19 5600 -4800)
+      (pin Round[T]Pad_400.000000_um V20 6400 -4800)
+      (pin Round[T]Pad_400.000000_um V21 7200 -4800)
+      (pin Round[T]Pad_400.000000_um V22 8000 -4800)
+      (pin Round[T]Pad_400.000000_um V23 8800 -4800)
+      (pin Round[T]Pad_400.000000_um W1 -8800 -5600)
+      (pin Round[T]Pad_400.000000_um W2 -8000 -5600)
+      (pin Round[T]Pad_400.000000_um W3 -7200 -5600)
+      (pin Round[T]Pad_400.000000_um W4 -6400 -5600)
+      (pin Round[T]Pad_400.000000_um W5 -5600 -5600)
+      (pin Round[T]Pad_400.000000_um W6 -4800 -5600)
+      (pin Round[T]Pad_400.000000_um W7 -4000 -5600)
+      (pin Round[T]Pad_400.000000_um W8 -3200 -5600)
+      (pin Round[T]Pad_400.000000_um W9 -2400 -5600)
+      (pin Round[T]Pad_400.000000_um W10 -1600 -5600)
+      (pin Round[T]Pad_400.000000_um W11 -800 -5600)
+      (pin Round[T]Pad_400.000000_um W12 0 -5600)
+      (pin Round[T]Pad_400.000000_um W13 800 -5600)
+      (pin Round[T]Pad_400.000000_um W14 1600 -5600)
+      (pin Round[T]Pad_400.000000_um W15 2400 -5600)
+      (pin Round[T]Pad_400.000000_um W16 3200 -5600)
+      (pin Round[T]Pad_400.000000_um W17 4000 -5600)
+      (pin Round[T]Pad_400.000000_um W18 4800 -5600)
+      (pin Round[T]Pad_400.000000_um W19 5600 -5600)
+      (pin Round[T]Pad_400.000000_um W20 6400 -5600)
+      (pin Round[T]Pad_400.000000_um W21 7200 -5600)
+      (pin Round[T]Pad_400.000000_um W22 8000 -5600)
+      (pin Round[T]Pad_400.000000_um W23 8800 -5600)
+      (pin Round[T]Pad_400.000000_um Y1 -8800 -6400)
+      (pin Round[T]Pad_400.000000_um Y2 -8000 -6400)
+      (pin Round[T]Pad_400.000000_um Y3 -7200 -6400)
+      (pin Round[T]Pad_400.000000_um Y4 -6400 -6400)
+      (pin Round[T]Pad_400.000000_um Y5 -5600 -6400)
+      (pin Round[T]Pad_400.000000_um Y6 -4800 -6400)
+      (pin Round[T]Pad_400.000000_um Y7 -4000 -6400)
+      (pin Round[T]Pad_400.000000_um Y8 -3200 -6400)
+      (pin Round[T]Pad_400.000000_um Y9 -2400 -6400)
+      (pin Round[T]Pad_400.000000_um Y10 -1600 -6400)
+      (pin Round[T]Pad_400.000000_um Y11 -800 -6400)
+      (pin Round[T]Pad_400.000000_um Y12 0 -6400)
+      (pin Round[T]Pad_400.000000_um Y13 800 -6400)
+      (pin Round[T]Pad_400.000000_um Y14 1600 -6400)
+      (pin Round[T]Pad_400.000000_um Y15 2400 -6400)
+      (pin Round[T]Pad_400.000000_um Y16 3200 -6400)
+      (pin Round[T]Pad_400.000000_um Y17 4000 -6400)
+      (pin Round[T]Pad_400.000000_um Y18 4800 -6400)
+      (pin Round[T]Pad_400.000000_um Y19 5600 -6400)
+      (pin Round[T]Pad_400.000000_um Y20 6400 -6400)
+      (pin Round[T]Pad_400.000000_um Y21 7200 -6400)
+      (pin Round[T]Pad_400.000000_um Y22 8000 -6400)
+      (pin Round[T]Pad_400.000000_um Y23 8800 -6400)
+    )
+    (image "MT53D512M32D2DS-053 WT_D:IC_MT53D512M16D1DS-046_WT_D"
+      (outline (polygon signal 0  -5995 8245  5995 8245  5995 -8245  -5995 -8245))
+      (outline (path signal 127  5000 -7320  5000 -3625))
+      (outline (path signal 127  5000 -7320  2500 -7320))
+      (outline (path signal 127  5000 7320  5000 3625))
+      (outline (path signal 127  5000 7320  2500 7320))
+      (outline (path signal 127  -5000 -7320  -2500 -7320))
+      (outline (path signal 127  -5000 -7320  -5000 -3625))
+      (outline (path signal 127  -5000 7320  -2500 7320))
+      (outline (path signal 127  -5000 7320  -5000 3625))
+      (outline (path signal 200  -5650 6825  -5634.12 6879.06  -5591.54 6915.96  -5535.77 6923.98
+            -5484.51 6900.57  -5454.05 6853.17  -5454.05 6796.83  -5484.51 6749.43
+            -5535.77 6726.02  -5591.54 6734.04  -5634.12 6770.94  -5650 6825))
+      (outline (path signal 127  5000 -7250  5000 7250))
+      (outline (path signal 127  5000 -7250  -5000 -7250))
+      (outline (path signal 127  5000 7250  -5000 7250))
+      (outline (path signal 127  -5000 -7250  -5000 7250))
+      (outline (path signal 200  -5650 6825  -5634.12 6879.06  -5591.54 6915.96  -5535.77 6923.98
+            -5484.51 6900.57  -5454.05 6853.17  -5454.05 6796.83  -5484.51 6749.43
+            -5535.77 6726.02  -5591.54 6734.04  -5634.12 6770.94  -5650 6825))
+      (pin Round[T]Pad_350.000000_um A1 -4400 6825)
+      (pin Round[T]Pad_350.000000_um A2 -3600 6825)
+      (pin Round[T]Pad_350.000000_um A3 -2800 6825)
+      (pin Round[T]Pad_350.000000_um A4 -2000 6825)
+      (pin Round[T]Pad_350.000000_um A5 -1200 6825)
+      (pin Round[T]Pad_350.000000_um A8 1200 6825)
+      (pin Round[T]Pad_350.000000_um A9 2000 6825)
+      (pin Round[T]Pad_350.000000_um A10 2800 6825)
+      (pin Round[T]Pad_350.000000_um A11 3600 6825)
+      (pin Round[T]Pad_350.000000_um A12 4400 6825)
+      (pin Round[T]Pad_350.000000_um AA1 -4400 -6175)
+      (pin Round[T]Pad_350.000000_um AA2 -3600 -6175)
+      (pin Round[T]Pad_350.000000_um AA3 -2800 -6175)
+      (pin Round[T]Pad_350.000000_um AA4 -2000 -6175)
+      (pin Round[T]Pad_350.000000_um AA5 -1200 -6175)
+      (pin Round[T]Pad_350.000000_um AA8 1200 -6175)
+      (pin Round[T]Pad_350.000000_um AA9 2000 -6175)
+      (pin Round[T]Pad_350.000000_um AA10 2800 -6175)
+      (pin Round[T]Pad_350.000000_um AA11 3600 -6175)
+      (pin Round[T]Pad_350.000000_um AA12 4400 -6175)
+      (pin Round[T]Pad_350.000000_um AB1 -4400 -6825)
+      (pin Round[T]Pad_350.000000_um AB2 -3600 -6825)
+      (pin Round[T]Pad_350.000000_um AB3 -2800 -6825)
+      (pin Round[T]Pad_350.000000_um AB4 -2000 -6825)
+      (pin Round[T]Pad_350.000000_um AB5 -1200 -6825)
+      (pin Round[T]Pad_350.000000_um AB8 1200 -6825)
+      (pin Round[T]Pad_350.000000_um AB9 2000 -6825)
+      (pin Round[T]Pad_350.000000_um AB10 2800 -6825)
+      (pin Round[T]Pad_350.000000_um AB11 3600 -6825)
+      (pin Round[T]Pad_350.000000_um AB12 4400 -6825)
+      (pin Round[T]Pad_350.000000_um B1 -4400 6175)
+      (pin Round[T]Pad_350.000000_um B2 -3600 6175)
+      (pin Round[T]Pad_350.000000_um B3 -2800 6175)
+      (pin Round[T]Pad_350.000000_um B4 -2000 6175)
+      (pin Round[T]Pad_350.000000_um B5 -1200 6175)
+      (pin Round[T]Pad_350.000000_um B8 1200 6175)
+      (pin Round[T]Pad_350.000000_um B9 2000 6175)
+      (pin Round[T]Pad_350.000000_um B10 2800 6175)
+      (pin Round[T]Pad_350.000000_um B11 3600 6175)
+      (pin Round[T]Pad_350.000000_um B12 4400 6175)
+      (pin Round[T]Pad_350.000000_um C1 -4400 5525)
+      (pin Round[T]Pad_350.000000_um C2 -3600 5525)
+      (pin Round[T]Pad_350.000000_um C3 -2800 5525)
+      (pin Round[T]Pad_350.000000_um C4 -2000 5525)
+      (pin Round[T]Pad_350.000000_um C5 -1200 5525)
+      (pin Round[T]Pad_350.000000_um C8 1200 5525)
+      (pin Round[T]Pad_350.000000_um C9 2000 5525)
+      (pin Round[T]Pad_350.000000_um C10 2800 5525)
+      (pin Round[T]Pad_350.000000_um C11 3600 5525)
+      (pin Round[T]Pad_350.000000_um C12 4400 5525)
+      (pin Round[T]Pad_350.000000_um D1 -4400 4875)
+      (pin Round[T]Pad_350.000000_um D2 -3600 4875)
+      (pin Round[T]Pad_350.000000_um D3 -2800 4875)
+      (pin Round[T]Pad_350.000000_um D4 -2000 4875)
+      (pin Round[T]Pad_350.000000_um D5 -1200 4875)
+      (pin Round[T]Pad_350.000000_um D8 1200 4875)
+      (pin Round[T]Pad_350.000000_um D9 2000 4875)
+      (pin Round[T]Pad_350.000000_um D10 2800 4875)
+      (pin Round[T]Pad_350.000000_um D11 3600 4875)
+      (pin Round[T]Pad_350.000000_um D12 4400 4875)
+      (pin Round[T]Pad_350.000000_um E1 -4400 4225)
+      (pin Round[T]Pad_350.000000_um E2 -3600 4225)
+      (pin Round[T]Pad_350.000000_um E3 -2800 4225)
+      (pin Round[T]Pad_350.000000_um E4 -2000 4225)
+      (pin Round[T]Pad_350.000000_um E5 -1200 4225)
+      (pin Round[T]Pad_350.000000_um E8 1200 4225)
+      (pin Round[T]Pad_350.000000_um E9 2000 4225)
+      (pin Round[T]Pad_350.000000_um E10 2800 4225)
+      (pin Round[T]Pad_350.000000_um E11 3600 4225)
+      (pin Round[T]Pad_350.000000_um E12 4400 4225)
+      (pin Round[T]Pad_350.000000_um F1 -4400 3575)
+      (pin Round[T]Pad_350.000000_um F2 -3600 3575)
+      (pin Round[T]Pad_350.000000_um F3 -2800 3575)
+      (pin Round[T]Pad_350.000000_um F4 -2000 3575)
+      (pin Round[T]Pad_350.000000_um F5 -1200 3575)
+      (pin Round[T]Pad_350.000000_um F8 1200 3575)
+      (pin Round[T]Pad_350.000000_um F9 2000 3575)
+      (pin Round[T]Pad_350.000000_um F10 2800 3575)
+      (pin Round[T]Pad_350.000000_um F11 3600 3575)
+      (pin Round[T]Pad_350.000000_um F12 4400 3575)
+      (pin Round[T]Pad_350.000000_um G1 -4400 2925)
+      (pin Round[T]Pad_350.000000_um G2 -3600 2925)
+      (pin Round[T]Pad_350.000000_um G3 -2800 2925)
+      (pin Round[T]Pad_350.000000_um G4 -2000 2925)
+      (pin Round[T]Pad_350.000000_um G5 -1200 2925)
+      (pin Round[T]Pad_350.000000_um G8 1200 2925)
+      (pin Round[T]Pad_350.000000_um G9 2000 2925)
+      (pin Round[T]Pad_350.000000_um G10 2800 2925)
+      (pin Round[T]Pad_350.000000_um G11 3600 2925)
+      (pin Round[T]Pad_350.000000_um G12 4400 2925)
+      (pin Round[T]Pad_350.000000_um H1 -4400 2275)
+      (pin Round[T]Pad_350.000000_um H2 -3600 2275)
+      (pin Round[T]Pad_350.000000_um H3 -2800 2275)
+      (pin Round[T]Pad_350.000000_um H4 -2000 2275)
+      (pin Round[T]Pad_350.000000_um H5 -1200 2275)
+      (pin Round[T]Pad_350.000000_um H8 1200 2275)
+      (pin Round[T]Pad_350.000000_um H9 2000 2275)
+      (pin Round[T]Pad_350.000000_um H10 2800 2275)
+      (pin Round[T]Pad_350.000000_um H11 3600 2275)
+      (pin Round[T]Pad_350.000000_um H12 4400 2275)
+      (pin Round[T]Pad_350.000000_um J1 -4400 1625)
+      (pin Round[T]Pad_350.000000_um J2 -3600 1625)
+      (pin Round[T]Pad_350.000000_um J3 -2800 1625)
+      (pin Round[T]Pad_350.000000_um J4 -2000 1625)
+      (pin Round[T]Pad_350.000000_um J5 -1200 1625)
+      (pin Round[T]Pad_350.000000_um J8 1200 1625)
+      (pin Round[T]Pad_350.000000_um J9 2000 1625)
+      (pin Round[T]Pad_350.000000_um J10 2800 1625)
+      (pin Round[T]Pad_350.000000_um J11 3600 1625)
+      (pin Round[T]Pad_350.000000_um J12 4400 1625)
+      (pin Round[T]Pad_350.000000_um K1 -4400 975)
+      (pin Round[T]Pad_350.000000_um K2 -3600 975)
+      (pin Round[T]Pad_350.000000_um K3 -2800 975)
+      (pin Round[T]Pad_350.000000_um K4 -2000 975)
+      (pin Round[T]Pad_350.000000_um K5 -1200 975)
+      (pin Round[T]Pad_350.000000_um K8 1200 975)
+      (pin Round[T]Pad_350.000000_um K9 2000 975)
+      (pin Round[T]Pad_350.000000_um K10 2800 975)
+      (pin Round[T]Pad_350.000000_um K11 3600 975)
+      (pin Round[T]Pad_350.000000_um K12 4400 975)
+      (pin Round[T]Pad_350.000000_um N1 -4400 -975)
+      (pin Round[T]Pad_350.000000_um N2 -3600 -975)
+      (pin Round[T]Pad_350.000000_um N3 -2800 -975)
+      (pin Round[T]Pad_350.000000_um N4 -2000 -975)
+      (pin Round[T]Pad_350.000000_um N5 -1200 -975)
+      (pin Round[T]Pad_350.000000_um N8 1200 -975)
+      (pin Round[T]Pad_350.000000_um N9 2000 -975)
+      (pin Round[T]Pad_350.000000_um N10 2800 -975)
+      (pin Round[T]Pad_350.000000_um N11 3600 -975)
+      (pin Round[T]Pad_350.000000_um N12 4400 -975)
+      (pin Round[T]Pad_350.000000_um P1 -4400 -1625)
+      (pin Round[T]Pad_350.000000_um P2 -3600 -1625)
+      (pin Round[T]Pad_350.000000_um P3 -2800 -1625)
+      (pin Round[T]Pad_350.000000_um P4 -2000 -1625)
+      (pin Round[T]Pad_350.000000_um P5 -1200 -1625)
+      (pin Round[T]Pad_350.000000_um P8 1200 -1625)
+      (pin Round[T]Pad_350.000000_um P9 2000 -1625)
+      (pin Round[T]Pad_350.000000_um P10 2800 -1625)
+      (pin Round[T]Pad_350.000000_um P11 3600 -1625)
+      (pin Round[T]Pad_350.000000_um P12 4400 -1625)
+      (pin Round[T]Pad_350.000000_um R1 -4400 -2275)
+      (pin Round[T]Pad_350.000000_um R2 -3600 -2275)
+      (pin Round[T]Pad_350.000000_um R3 -2800 -2275)
+      (pin Round[T]Pad_350.000000_um R4 -2000 -2275)
+      (pin Round[T]Pad_350.000000_um R5 -1200 -2275)
+      (pin Round[T]Pad_350.000000_um R8 1200 -2275)
+      (pin Round[T]Pad_350.000000_um R9 2000 -2275)
+      (pin Round[T]Pad_350.000000_um R10 2800 -2275)
+      (pin Round[T]Pad_350.000000_um R11 3600 -2275)
+      (pin Round[T]Pad_350.000000_um R12 4400 -2275)
+      (pin Round[T]Pad_350.000000_um T1 -4400 -2925)
+      (pin Round[T]Pad_350.000000_um T2 -3600 -2925)
+      (pin Round[T]Pad_350.000000_um T3 -2800 -2925)
+      (pin Round[T]Pad_350.000000_um T4 -2000 -2925)
+      (pin Round[T]Pad_350.000000_um T5 -1200 -2925)
+      (pin Round[T]Pad_350.000000_um T8 1200 -2925)
+      (pin Round[T]Pad_350.000000_um T9 2000 -2925)
+      (pin Round[T]Pad_350.000000_um T10 2800 -2925)
+      (pin Round[T]Pad_350.000000_um T11 3600 -2925)
+      (pin Round[T]Pad_350.000000_um T12 4400 -2925)
+      (pin Round[T]Pad_350.000000_um U1 -4400 -3575)
+      (pin Round[T]Pad_350.000000_um U2 -3600 -3575)
+      (pin Round[T]Pad_350.000000_um U3 -2800 -3575)
+      (pin Round[T]Pad_350.000000_um U4 -2000 -3575)
+      (pin Round[T]Pad_350.000000_um U5 -1200 -3575)
+      (pin Round[T]Pad_350.000000_um U8 1200 -3575)
+      (pin Round[T]Pad_350.000000_um U9 2000 -3575)
+      (pin Round[T]Pad_350.000000_um U10 2800 -3575)
+      (pin Round[T]Pad_350.000000_um U11 3600 -3575)
+      (pin Round[T]Pad_350.000000_um U12 4400 -3575)
+      (pin Round[T]Pad_350.000000_um V1 -4400 -4225)
+      (pin Round[T]Pad_350.000000_um V2 -3600 -4225)
+      (pin Round[T]Pad_350.000000_um V3 -2800 -4225)
+      (pin Round[T]Pad_350.000000_um V4 -2000 -4225)
+      (pin Round[T]Pad_350.000000_um V5 -1200 -4225)
+      (pin Round[T]Pad_350.000000_um V8 1200 -4225)
+      (pin Round[T]Pad_350.000000_um V9 2000 -4225)
+      (pin Round[T]Pad_350.000000_um V10 2800 -4225)
+      (pin Round[T]Pad_350.000000_um V11 3600 -4225)
+      (pin Round[T]Pad_350.000000_um V12 4400 -4225)
+      (pin Round[T]Pad_350.000000_um W1 -4400 -4875)
+      (pin Round[T]Pad_350.000000_um W2 -3600 -4875)
+      (pin Round[T]Pad_350.000000_um W3 -2800 -4875)
+      (pin Round[T]Pad_350.000000_um W4 -2000 -4875)
+      (pin Round[T]Pad_350.000000_um W5 -1200 -4875)
+      (pin Round[T]Pad_350.000000_um W8 1200 -4875)
+      (pin Round[T]Pad_350.000000_um W9 2000 -4875)
+      (pin Round[T]Pad_350.000000_um W10 2800 -4875)
+      (pin Round[T]Pad_350.000000_um W11 3600 -4875)
+      (pin Round[T]Pad_350.000000_um W12 4400 -4875)
+      (pin Round[T]Pad_350.000000_um Y1 -4400 -5525)
+      (pin Round[T]Pad_350.000000_um Y2 -3600 -5525)
+      (pin Round[T]Pad_350.000000_um Y3 -2800 -5525)
+      (pin Round[T]Pad_350.000000_um Y4 -2000 -5525)
+      (pin Round[T]Pad_350.000000_um Y5 -1200 -5525)
+      (pin Round[T]Pad_350.000000_um Y8 1200 -5525)
+      (pin Round[T]Pad_350.000000_um Y9 2000 -5525)
+      (pin Round[T]Pad_350.000000_um Y10 2800 -5525)
+      (pin Round[T]Pad_350.000000_um Y11 3600 -5525)
+      (pin Round[T]Pad_350.000000_um Y12 4400 -5525)
+    )
+    (image Resistor_SMD:R_0402_1005Metric
+      (outline (polygon signal 0  925 465  925 -465  -925 -465  -925 465))
+      (outline (path signal 120  -153.641 -380  153.641 -380))
+      (outline (path signal 120  -153.641 380  153.641 380))
+      (outline (path signal 100  -525 -270  -525 270))
+      (outline (path signal 100  525 -270  -525 -270))
+      (outline (path signal 100  -525 270  525 270))
+      (outline (path signal 100  525 270  525 -270))
+      (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 1 -510 0)
+      (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 2 510 0)
+    )
+    (image Resistor_SMD:R_0402_1005Metric::1
+      (outline (polygon signal 0  -925 -465  -925 465  925 465  925 -465))
+      (outline (path signal 120  -153.641 380  153.641 380))
+      (outline (path signal 120  -153.641 -380  153.641 -380))
+      (outline (path signal 100  525 270  525 -270))
+      (outline (path signal 100  -525 270  525 270))
+      (outline (path signal 100  525 -270  -525 -270))
+      (outline (path signal 100  -525 -270  -525 270))
+      (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 1 -510 0)
+      (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 2 510 0)
+    )
+    (image "Package_DFN_QFN:QFN-76-1EP_9x9mm_P0.4mm_EP5.81x6.31mm"
+      (outline (polygon signal 0  4745 -3945  4745 -4745  3945 -4745  3945 -5125  -3945 -5125
+            -3945 -4745  -4745 -4745  -4745 -3945  -5125 -3945  -5125 3945
+            -4745 3945  -4745 4745  -3945 4745  -3945 5125  3945 5125  3945 4745
+            4745 4745  4745 3945  5125 3945  5125 -3945))
+      (outline (path signal 120  4610 4610  4610 3960))
+      (outline (path signal 120  3960 4610  4610 4610))
+      (outline (path signal 120  -4610 4610  -3960 4610))
+      (outline (path signal 120  -4610 3960  -4610 4610))
+      (outline (path signal 120  4610 -3960  4610 -4610))
+      (outline (path signal 120  4610 -4610  3960 -4610))
+      (outline (path signal 120  -3960 -4610  -4610 -4610))
+      (outline (path signal 120  -4610 -4610  -4610 -3960))
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 1 -4437.5 3600)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 2 -4437.5 3200)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 3 -4437.5 2800)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 4 -4437.5 2400)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 5 -4437.5 2000)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 6 -4437.5 1600)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 7 -4437.5 1200)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 8 -4437.5 800)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 9 -4437.5 400)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 10 -4437.5 0)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 11 -4437.5 -400)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 12 -4437.5 -800)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 13 -4437.5 -1200)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 14 -4437.5 -1600)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 15 -4437.5 -2000)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 16 -4437.5 -2400)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 17 -4437.5 -2800)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 18 -4437.5 -3200)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 19 -4437.5 -3600)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 20 -3600 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 21 -3200 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 22 -2800 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 23 -2400 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 24 -2000 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 25 -1600 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 26 -1200 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 27 -800 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 28 -400 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 29 0 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 30 400 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 31 800 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 32 1200 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 33 1600 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 34 2000 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 35 2400 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 36 2800 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 37 3200 -4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 38 3600 -4437.5)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 39 4437.5 -3600)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 40 4437.5 -3200)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 41 4437.5 -2800)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 42 4437.5 -2400)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 43 4437.5 -2000)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 44 4437.5 -1600)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 45 4437.5 -1200)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 46 4437.5 -800)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 47 4437.5 -400)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 48 4437.5 0)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 49 4437.5 400)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 50 4437.5 800)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 51 4437.5 1200)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 52 4437.5 1600)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 53 4437.5 2000)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 54 4437.5 2400)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 55 4437.5 2800)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 56 4437.5 3200)
+      (pin RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0 57 4437.5 3600)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 58 3600 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 59 3200 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 60 2800 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 61 2400 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 62 2000 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 63 1600 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 64 1200 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 65 800 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 66 400 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 67 0 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 68 -400 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 69 -800 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 70 -1200 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 71 -1600 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 72 -2000 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 73 -2400 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 74 -2800 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 75 -3200 4437.5)
+      (pin RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0 76 -3600 4437.5)
+      (pin Rect[T]Pad_5810.000000x6310.000000_um 77 0 0)
+    )
+    (padstack Round[T]Pad_350.000000_um
+      (shape (circle F.Cu 350))
+      (attach off)
+    )
+    (padstack Round[T]Pad_400.000000_um
+      (shape (circle F.Cu 400))
+      (attach off)
+    )
+    (padstack Round[T]Pad_530.000000_um
+      (shape (circle F.Cu 530))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_200.000000x875.000000_50.190000_um_0.000000_0
+      (shape (polygon F.Cu 0  -100.19 387.5  -96.37 406.707  -85.49 422.99  -69.207 433.87
+            -50 437.69  50 437.69  69.207 433.87  85.49 422.99  96.37 406.707
+            100.19 387.5  100.19 -387.5  96.37 -406.707  85.49 -422.99  69.207 -433.87
+            50 -437.69  -50 -437.69  -69.207 -433.87  -85.49 -422.99  -96.37 -406.707
+            -100.19 -387.5  -100.19 387.5))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0
+      (shape (polygon F.Cu 0  -270.514 185  -260.199 236.859  -230.823 280.823  -186.859 310.199
+            -135 320.514  135 320.514  186.859 310.199  230.823 280.823
+            260.199 236.859  270.514 185  270.514 -185  260.199 -236.859
+            230.823 -280.823  186.859 -310.199  135 -320.514  -135 -320.514
+            -186.859 -310.199  -230.823 -280.823  -260.199 -236.859  -270.514 -185
+            -270.514 185))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_875.000000x200.000000_50.190000_um_0.000000_0
+      (shape (polygon F.Cu 0  -437.69 50  -433.87 69.207  -422.99 85.49  -406.707 96.37
+            -387.5 100.19  387.5 100.19  406.707 96.37  422.99 85.49  433.87 69.207
+            437.69 50  437.69 -50  433.87 -69.207  422.99 -85.49  406.707 -96.37
+            387.5 -100.19  -387.5 -100.19  -406.707 -96.37  -422.99 -85.49
+            -433.87 -69.207  -437.69 -50  -437.69 50))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_5810.000000x6310.000000_um
+      (shape (rect F.Cu -2905 -3155 2905 3155))
+      (attach off)
+    )
+    (padstack "Via[0-9]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle In1.Cu 600))
+      (shape (circle In2.Cu 600))
+      (shape (circle In3.Cu 600))
+      (shape (circle In4.Cu 600))
+      (shape (circle In5.Cu 600))
+      (shape (circle In6.Cu 600))
+      (shape (circle In7.Cu 600))
+      (shape (circle In8.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "unconnected-(IC1E-TMSTP+-PadD1)"
+      (pins IC1-D1)
+    )
+    (net /fpga_adc/VLVDS
+      (pins IC1-G11 IC1-G12 IC1-H11 IC1-H12 IC1-H13 IC1-J11 IC1-J12 IC1-J13 IC1-K11
+        IC1-K12)
+    )
+    (net /fpga_adc/VA19
+      (pins IC1-G3 IC1-G4 IC1-G5 IC1-G6 IC1-H3 IC1-H4 IC1-H5 IC1-H6 IC1-J3 IC1-J4
+        IC1-J5 IC1-J6 IC1-K3 IC1-K4 IC1-K5 IC1-K6)
+    )
+    (net /fpga_adc/VA11
+      (pins IC1-E4 IC1-E5 IC1-E6 IC1-F3 IC1-F4 IC1-F5 IC1-F6 IC1-L3 IC1-L4 IC1-L5
+        IC1-L6 IC1-M4 IC1-M5 IC1-M6)
+    )
+    (net /fpga_adc/VD11
+      (pins IC1-E8 IC1-F8 IC1-G8 IC1-K8 IC1-L8 IC1-M8)
+    )
+    (net /fpga_ddr/VDD1
+      (pins U1-F1 U1-F12 U1-G4 U1-G9 U1-T4 U1-T9 U1-U1 U1-U12)
+    )
+    (net /fpga_ddr/VDD2
+      (pins U1-A4 U1-A9 U1-AB4 U1-AB9 U1-F5 U1-F8 U1-H1 U1-H5 U1-H8 U1-H12 U1-K1 U1-K3
+        U1-K10 U1-K12 U1-N1 U1-N3 U1-N10 U1-N12 U1-R1 U1-R5 U1-R8 U1-R12 U1-U5 U1-U8)
+    )
+    (net /fpga_ddr/VDDQ
+      (pins U1-AA3 U1-AA5 U1-AA8 U1-AA10 U1-B3 U1-B5 U1-B8 U1-B10 U1-D1 U1-D5 U1-D8
+        U1-D12 U1-F3 U1-F10 U1-U3 U1-U10 U1-W1 U1-W5 U1-W8 U1-W12)
+    )
+    (net "unconnected-(IC1D-INA--PadA5)"
+      (pins IC1-A5)
+    )
+    (net "unconnected-(IC1E-ORB0-PadD8)"
+      (pins IC1-D8)
+    )
+    (net "unconnected-(IC1E-SDO-PadN8)"
+      (pins IC1-N8)
+    )
+    (net "unconnected-(IC1E-TDIODE+-PadM2)"
+      (pins IC1-M2)
+    )
+    (net "unconnected-(IC1E-SDI-PadP8)"
+      (pins IC1-P8)
+    )
+    (net "unconnected-(IC1E-ORA0-PadB8)"
+      (pins IC1-B8)
+    )
+    (net "unconnected-(IC1D-INB+-PadT4)"
+      (pins IC1-T4)
+    )
+    (net "unconnected-(IC1E-CALSTAT-PadB1)"
+      (pins IC1-B1)
+    )
+    (net "unconnected-(IC1E-PD-PadR1)"
+      (pins IC1-R1)
+    )
+    (net "unconnected-(IC1D-INB--PadT5)"
+      (pins IC1-T5)
+    )
+    (net "unconnected-(IC1D-CLK--PadJ1)"
+      (pins IC1-J1)
+    )
+    (net "unconnected-(IC1E-SYNCSE-PadE2)"
+      (pins IC1-E2)
+    )
+    (net "unconnected-(IC1E-BG-PadD2)"
+      (pins IC1-D2)
+    )
+    (net "unconnected-(IC1E-TDIODE--PadN2)"
+      (pins IC1-N2)
+    )
+    (net "unconnected-(IC1E-SCS-PadR8)"
+      (pins IC1-R8)
+    )
+    (net "unconnected-(IC1E-ORB1-PadC8)"
+      (pins IC1-C8)
+    )
+    (net "unconnected-(IC1D-INA+-PadA4)"
+      (pins IC1-A4)
+    )
+    (net "unconnected-(IC1D-CLK+-PadH1)"
+      (pins IC1-H1)
+    )
+    (net "unconnected-(IC1E-ORA1-PadA8)"
+      (pins IC1-A8)
+    )
+    (net "unconnected-(U2B-RIDP-Pad35)"
+      (pins U2-35)
+    )
+    (net "unconnected-(U2B-TODP-Pad32)"
+      (pins U2-32)
+    )
+    (net "unconnected-(U2B-RREF-Pad27)"
+      (pins U2-27)
+    )
+    (net "unconnected-(U2B-XO-Pad22)"
+      (pins U2-22)
+    )
+    (net "unconnected-(U2B-XI-Pad21)"
+      (pins U2-21)
+    )
+    (net "unconnected-(IC1E-CALTRIG-PadB2)"
+      (pins IC1-B2)
+    )
+    (net "unconnected-(IC1E-SYSREF+-PadM1)"
+      (pins IC1-M1)
+    )
+    (net "unconnected-(U2B-DM-Pad25)"
+      (pins U2-25)
+    )
+    (net "unconnected-(U2C-VCCIO-Pad14)"
+      (pins U2-14)
+    )
+    (net "unconnected-(U2B-DP-Pad23)"
+      (pins U2-23)
+    )
+    (net "unconnected-(U2C-AVDD-Pad2)"
+      (pins U2-2)
+    )
+    (net "unconnected-(IC1E-TMSTP--PadE1)"
+      (pins IC1-E1)
+    )
+    (net "unconnected-(IC1E-SCLK-PadT8)"
+      (pins IC1-T8)
+    )
+    (net "unconnected-(U2B-TODN-Pad31)"
+      (pins U2-31)
+    )
+    (net "unconnected-(U2C-VBUS-Pad37)"
+      (pins U2-37)
+    )
+    (net "unconnected-(U2B-RIDN-Pad34)"
+      (pins U2-34)
+    )
+    (net "unconnected-(IC1E-SYSREF--PadN1)"
+      (pins IC1-N1)
+    )
+    (net "unconnected-(U2C-VCC33-Pad20)"
+      (pins U2-20)
+    )
+    (net "unconnected-(U1E-DNU-PadAA12)"
+      (pins U1-AA12)
+    )
+    (net "unconnected-(U1E-NC-PadH3)"
+      (pins U1-H3)
+    )
+    (net "unconnected-(U1E-DNU-PadAB12)"
+      (pins U1-AB12)
+    )
+    (net "unconnected-(U1E-NC-PadG11)"
+      (pins U1-G11)
+    )
+    (net "unconnected-(U1E-NC-PadR3)"
+      (pins U1-R3)
+    )
+    (net "unconnected-(U1E-DNU-PadB1)"
+      (pins U1-B1)
+    )
+    (net "unconnected-(U1E-DNU-PadAA1)"
+      (pins U1-AA1)
+    )
+    (net "unconnected-(U1E-DNU-PadA12)"
+      (pins U1-A12)
+    )
+    (net "unconnected-(U1E-DNU-PadAB2)"
+      (pins U1-AB2)
+    )
+    (net "unconnected-(U1E-NC-PadP5)"
+      (pins U1-P5)
+    )
+    (net "unconnected-(U1E-NC-PadN8)"
+      (pins U1-N8)
+    )
+    (net "unconnected-(U1E-NC-PadJ5)"
+      (pins U1-J5)
+    )
+    (net "unconnected-(U1E-DNU-PadAB1)"
+      (pins U1-AB1)
+    )
+    (net "unconnected-(U1E-DNU-PadA1)"
+      (pins U1-A1)
+    )
+    (net "unconnected-(U1E-DNU-PadB12)"
+      (pins U1-B12)
+    )
+    (net "unconnected-(U1E-NC-PadK8)"
+      (pins U1-K8)
+    )
+    (net "unconnected-(U1E-NC-PadK5)"
+      (pins U1-K5)
+    )
+    (net "unconnected-(U1E-DNU-PadA11)"
+      (pins U1-A11)
+    )
+    (net "unconnected-(U1E-NC-PadA8)"
+      (pins U1-A8)
+    )
+    (net "unconnected-(U1E-DNU-PadA2)"
+      (pins U1-A2)
+    )
+    (net "unconnected-(U1E-DNU-PadAB11)"
+      (pins U1-AB11)
+    )
+    (net "unconnected-(U1E-NC-PadN5)"
+      (pins U1-N5)
+    )
+    (net "Net-(U2A-DATA_13)"
+      (pins U3-C11 U2-55)
+    )
+    (net "Net-(U2A-DATA_21)"
+      (pins U3-B13 U2-65)
+    )
+    (net "Net-(U2A-~{RD})"
+      (pins U3-E16 U2-12)
+    )
+    (net "Net-(U2A-~{WR})"
+      (pins U3-G16 U2-11)
+    )
+    (net "Net-(U2A-GPIO1)"
+      (pins U3-G7 U2-18)
+    )
+    (net "Net-(U2A-DATA_5)"
+      (pins U3-E8 U2-45)
+    )
+    (net "Net-(U2A-DATA_19)"
+      (pins U3-A13 U2-63)
+    )
+    (net "Net-(U2A-CLK)"
+      (pins U3-F15 U2-58)
+    )
+    (net "Net-(U2A-~{WAKEUP})"
+      (pins U3-F7 U2-16)
+    )
+    (net "Net-(U2A-BE_2)"
+      (pins U3-C20 U2-6)
+    )
+    (net "Net-(U2A-GPIO0)"
+      (pins U3-H8 U2-17)
+    )
+    (net "Net-(U2A-DATA_0)"
+      (pins U3-F9 U2-40)
+    )
+    (net "Net-(U2A-DATA_29)"
+      (pins U3-C16 U2-74)
+    )
+    (net "Net-(U2A-~{OE})"
+      (pins U3-H15 U2-13)
+    )
+    (net "Net-(U2A-DATA_22)"
+      (pins U3-F13 U2-66)
+    )
+    (net "Net-(U2A-BE_3)"
+      (pins U3-E17 U2-7)
+    )
+    (net "Net-(U2A-DATA_25)"
+      (pins U3-B15 U2-70)
+    )
+    (net "Net-(U2A-DATA_24)"
+      (pins U3-E14 U2-69)
+    )
+    (net "Net-(U2A-DATA_10)"
+      (pins U3-C10 U2-52)
+    )
+    (net "Net-(U2A-DATA_15)"
+      (pins U3-B12 U2-57)
+    )
+    (net "Net-(U2A-DATA_20)"
+      (pins U3-H13 U2-64)
+    )
+    (net "Net-(U2A-DATA_8)"
+      (pins U3-E9 U2-50)
+    )
+    (net "Net-(U2A-DATA_31)"
+      (pins U3-A21 U2-76)
+    )
+    (net "Net-(U2A-~{RESET})"
+      (pins U3-G9 U2-15)
+    )
+    (net "Net-(U2A-DATA_16)"
+      (pins U3-E11 U2-60)
+    )
+    (net "Net-(U2A-DATA_6)"
+      (pins U3-A8 U2-46)
+    )
+    (net "Net-(U2A-DATA_4)"
+      (pins U3-C7 U2-44)
+    )
+    (net "Net-(U2A-DATA_23)"
+      (pins U3-G14 U2-67)
+    )
+    (net "Net-(U2A-DATA_2)"
+      (pins U3-E6 U2-42)
+    )
+    (net "Net-(U2A-DATA_18)"
+      (pins U3-D12 U2-62)
+    )
+    (net "Net-(U2A-~{TXE})"
+      (pins U3-E15 U2-8)
+    )
+    (net "Net-(U2A-DATA_9)"
+      (pins U3-E10 U2-51)
+    )
+    (net "Net-(U2A-DATA_28)"
+      (pins U3-A17 U2-73)
+    )
+    (net "Net-(U2A-DATA_14)"
+      (pins U3-G11 U2-56)
+    )
+    (net "Net-(U2A-DATA_11)"
+      (pins U3-H11 U2-53)
+    )
+    (net "Net-(U2A-BE_0)"
+      (pins U3-D17 U2-4)
+    )
+    (net "Net-(U2A-DATA_1)"
+      (pins U3-A5 U2-41)
+    )
+    (net "Net-(U2A-DATA_17)"
+      (pins U3-G12 U2-61)
+    )
+    (net "Net-(U2A-~{RXF})"
+      (pins U3-G15 U2-9)
+    )
+    (net "Net-(U2A-DATA_30)"
+      (pins U3-B18 U2-75)
+    )
+    (net "Net-(U2A-BE_1)"
+      (pins U3-C19 U2-5)
+    )
+    (net "Net-(U2A-DATA_26)"
+      (pins U3-C15 U2-71)
+    )
+    (net "Net-(U2A-DATA_12)"
+      (pins U3-A10 U2-54)
+    )
+    (net "Net-(U2A-~{SIWU})"
+      (pins U3-G8 U2-10)
+    )
+    (net "Net-(U2A-DATA_7)"
+      (pins U3-C9 U2-47)
+    )
+    (net "Net-(U2A-DATA_3)"
+      (pins U3-B7 U2-43)
+    )
+    (net "Net-(U2A-DATA_27)"
+      (pins U3-A16 U2-72)
+    )
+    (net "unconnected-(U3F-auxout-PadG19)"
+      (pins U3-G19)
+    )
+    (net "unconnected-(U3J-GPIOL_03_CLK24-PadW5)"
+      (pins U3-W5)
+    )
+    (net "unconnected-(U3J-GPIOT_P_23_PLLIN0-PadD23)"
+      (pins U3-D23)
+    )
+    (net "unconnected-(U3G-TDO-PadT4)"
+      (pins U3-T4)
+    )
+    (net "unconnected-(U3F-overrange[1]-PadD15)"
+      (pins U3-D15)
+    )
+    (net "unconnected-(U3F-lvdsin_trig-PadB2)"
+      (pins U3-B2)
+    )
+    (net "unconnected-(U3G-CDONE-PadT6)"
+      (pins U3-T6)
+    )
+    (net "unconnected-(U3H-VCC-PadN9)"
+      (pins U3-N9)
+    )
+    (net "unconnected-(U3H-VCCIO33_TL-PadU22)"
+      (pins U3-U22)
+    )
+    (net "unconnected-(U3H-VCCIO33_BL-PadV2)"
+      (pins U3-V2)
+    )
+    (net "unconnected-(U3F-boardout[4]-PadH12)"
+      (pins U3-H12)
+    )
+    (net "unconnected-(U3H-VCCA_TR-PadH16)"
+      (pins U3-H16)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadY11)"
+      (pins U3-Y11)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadY13)"
+      (pins U3-Y13)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadW12)"
+      (pins U3-W12)
+    )
+    (net "unconnected-(U3F-boardout[6]-PadA14)"
+      (pins U3-A14)
+    )
+    (net "unconnected-(U3G-REF_RES_2A-PadT22)"
+      (pins U3-T22)
+    )
+    (net "unconnected-(U3H-VCCIO3B-PadF12)"
+      (pins U3-F12)
+    )
+    (net "unconnected-(U3H-VCC-PadN11)"
+      (pins U3-N11)
+    )
+    (net "unconnected-(U3H-VCCA_BL-PadR7)"
+      (pins U3-R7)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadT14)"
+      (pins U3-T14)
+    )
+    (net "unconnected-(U3H-VCCIO33_BR-PadF8)"
+      (pins U3-F8)
+    )
+    (net "unconnected-(U3H-VDDPLL_MCB_TOP_PHY-PadU12)"
+      (pins U3-U12)
+    )
+    (net "unconnected-(U3H-VCC-PadU16)"
+      (pins U3-U16)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadR14)"
+      (pins U3-R14)
+    )
+    (net "unconnected-(U3F-boardout[1]-PadF11)"
+      (pins U3-F11)
+    )
+    (net "unconnected-(U3H-VCCIO33_TL-PadU19)"
+      (pins U3-U19)
+    )
+    (net "unconnected-(U3F-debugout[4]-PadD9)"
+      (pins U3-D9)
+    )
+    (net "unconnected-(U3F-spics[5]-PadV22)"
+      (pins U3-V22)
+    )
+    (net "unconnected-(U3F-boardout[2]-PadA12)"
+      (pins U3-A12)
+    )
+    (net "unconnected-(U3F-boardin[2]-PadH14)"
+      (pins U3-H14)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadY5)"
+      (pins U3-Y5)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadP9)"
+      (pins U3-P9)
+    )
+    (net "unconnected-(U3H-VDDQX_PHY-PadU15)"
+      (pins U3-U15)
+    )
+    (net "unconnected-(U3F-boardin[3]-PadD14)"
+      (pins U3-D14)
+    )
+    (net "unconnected-(U3H-VCCIO33_TR-PadF16)"
+      (pins U3-F16)
+    )
+    (net "unconnected-(U3J-GPIOL_02-PadU3)"
+      (pins U3-U3)
+    )
+    (net "unconnected-(U3F-adc_clkout-PadU17)"
+      (pins U3-U17)
+    )
+    (net "unconnected-(U3F-LED[0]-PadU1)"
+      (pins U3-U1)
+    )
+    (net "unconnected-(U3E-DDR_CS_N[1]-PadW16)"
+      (pins U3-W16)
+    )
+    (net "unconnected-(U3F-boardout[5]-PadC12)"
+      (pins U3-C12)
+    )
+    (net "unconnected-(U3J-GPIOB_N_33_CDI30-PadA3)"
+      (pins U3-A3)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadT9)"
+      (pins U3-T9)
+    )
+    (net "unconnected-(U3F-debugout[6]-PadA6)"
+      (pins U3-A6)
+    )
+    (net "unconnected-(U3H-VCCIO4B-PadM5)"
+      (pins U3-M5)
+    )
+    (net "unconnected-(U3G-REF_RES_2B-PadK23)"
+      (pins U3-K23)
+    )
+    (net "unconnected-(U3J-GPIOT_P_33-PadF17)"
+      (pins U3-F17)
+    )
+    (net "unconnected-(U3H-VCCIO4A-PadG4)"
+      (pins U3-G4)
+    )
+    (net "unconnected-(U3H-VCCIO3C-PadB8)"
+      (pins U3-B8)
+    )
+    (net "unconnected-(U3H-VDDQX_PHY-PadV9)"
+      (pins U3-V9)
+    )
+    (net "unconnected-(U3F-lvdsout_trig_b_N-PadD20)"
+      (pins U3-D20)
+    )
+    (net "unconnected-(U3F-debugout[11]-PadA11)"
+      (pins U3-A11)
+    )
+    (net "unconnected-(U3G-TDI-PadU6)"
+      (pins U3-U6)
+    )
+    (net "unconnected-(U3J-GPIOT_N_34-PadG18)"
+      (pins U3-G18)
+    )
+    (net "unconnected-(U3J-GPIOL_00_PLLIN1-PadV6)"
+      (pins U3-V6)
+    )
+    (net "unconnected-(U3J-GPIOB_P_32_CDI28-PadC4)"
+      (pins U3-C4)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadP11)"
+      (pins U3-P11)
+    )
+    (net "unconnected-(U3F-lockinfo[0]-PadC17)"
+      (pins U3-C17)
+    )
+    (net "unconnected-(U3H-VDDQX_PHY-PadV14)"
+      (pins U3-V14)
+    )
+    (net "unconnected-(U3F-ext_clkin-PadC5)"
+      (pins U3-C5)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadY3)"
+      (pins U3-Y3)
+    )
+    (net "unconnected-(U3F-lvdsout_clk-PadF19)"
+      (pins U3-F19)
+    )
+    (net "unconnected-(U3F-exttrigin-PadF5)"
+      (pins U3-F5)
+    )
+    (net "unconnected-(U3H-VCCIO3B-PadF14)"
+      (pins U3-F14)
+    )
+    (net "unconnected-(U3G-REF_RES_2C-PadA22)"
+      (pins U3-A22)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadT15)"
+      (pins U3-T15)
+    )
+    (net "unconnected-(U3F-spi_clk-PadV18)"
+      (pins U3-V18)
+    )
+    (net "unconnected-(U3H-VCC-PadJ11)"
+      (pins U3-J11)
+    )
+    (net "unconnected-(U3F-lockinfo[2]-PadA20)"
+      (pins U3-A20)
+    )
+    (net "unconnected-(U3H-VCCIO2C-PadH17)"
+      (pins U3-H17)
+    )
+    (net "unconnected-(U3H-VCCIO4C-PadP4)"
+      (pins U3-P4)
+    )
+    (net "unconnected-(U3H-VDDQX_PHY-PadU10)"
+      (pins U3-U10)
+    )
+    (net "unconnected-(U3J-GPIOB_N_34-PadG5)"
+      (pins U3-G5)
+    )
+    (net "unconnected-(U3H-VCCIO4B-PadM8)"
+      (pins U3-M8)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadAB18)"
+      (pins U3-AB18)
+    )
+    (net "unconnected-(U3H-VCC-PadJ13)"
+      (pins U3-J13)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadW7)"
+      (pins U3-W7)
+    )
+    (net "unconnected-(U3J-GPIOB_P_33_CDI31-PadA4)"
+      (pins U3-A4)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadAB10)"
+      (pins U3-AB10)
+    )
+    (net "unconnected-(U3H-VCC-PadK14)"
+      (pins U3-K14)
+    )
+    (net "unconnected-(U3J-GPIOL_44-PadW20)"
+      (pins U3-W20)
+    )
+    (net "unconnected-(U3J-GPIOL_21-PadV5)"
+      (pins U3-V5)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadT10)"
+      (pins U3-T10)
+    )
+    (net "unconnected-(U3H-VCC-PadN15)"
+      (pins U3-N15)
+    )
+    (net "unconnected-(U3F-debugout[0]-PadC8)"
+      (pins U3-C8)
+    )
+    (net "unconnected-(U3H-VCCIO4C-PadP2)"
+      (pins U3-P2)
+    )
+    (net "unconnected-(U3F-debugout[5]-PadC6)"
+      (pins U3-C6)
+    )
+    (net "unconnected-(U3F-debugout[8]-PadF10)"
+      (pins U3-F10)
+    )
+    (net "unconnected-(U3F-debugout[10]-PadH10)"
+      (pins U3-H10)
+    )
+    (net "unconnected-(U3H-VCCAUX-PadR16)"
+      (pins U3-R16)
+    )
+    (net "unconnected-(U3F-lvdsin_trig_b-PadD5)"
+      (pins U3-D5)
+    )
+    (net "unconnected-(U3H-VCC-PadJ9)"
+      (pins U3-J9)
+    )
+    (net "unconnected-(U3H-VCC-PadJ15)"
+      (pins U3-J15)
+    )
+    (net "unconnected-(U3H-VCCIO33_BL-PadU4)"
+      (pins U3-U4)
+    )
+    (net "unconnected-(U3F-lvdsout_trig-PadC21)"
+      (pins U3-C21)
+    )
+    (net "unconnected-(U3G-REF_RES_3C-PadD6)"
+      (pins U3-D6)
+    )
+    (net "unconnected-(U3F-boardout[3]-PadE12)"
+      (pins U3-E12)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadY19)"
+      (pins U3-Y19)
+    )
+    (net "unconnected-(U3J-GPIOL_41-PadW23)"
+      (pins U3-W23)
+    )
+    (net "unconnected-(U3G-REF_RES_3A-PadE18)"
+      (pins U3-E18)
+    )
+    (net "unconnected-(U3H-VCCA_BR-PadJ8)"
+      (pins U3-J8)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadP12)"
+      (pins U3-P12)
+    )
+    (net "unconnected-(U3F-LED[2]-PadV3)"
+      (pins U3-V3)
+    )
+    (net "unconnected-(U3F-spics[4]-PadV21)"
+      (pins U3-V21)
+    )
+    (net "unconnected-(U3H-VCC-PadN13)"
+      (pins U3-N13)
+    )
+    (net "unconnected-(U3H-VCCIO2C-PadK16)"
+      (pins U3-K16)
+    )
+    (net "unconnected-(U3F-lvdsout_spare-PadH19)"
+      (pins U3-H19)
+    )
+    (net "unconnected-(U3F-lvdsin_clk_N-PadE3)"
+      (pins U3-E3)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadY21)"
+      (pins U3-Y21)
+    )
+    (net "unconnected-(U3G-REF_RES_4A-PadB5)"
+      (pins U3-B5)
+    )
+    (net "unconnected-(U3H-VCCIO2B-PadH21)"
+      (pins U3-H21)
+    )
+    (net "unconnected-(U3G-REF_RES_4B-PadJ1)"
+      (pins U3-J1)
+    )
+    (net "unconnected-(U3H-VCCIO2B-PadK22)"
+      (pins U3-K22)
+    )
+    (net "unconnected-(U3F-spics[2]-PadU20)"
+      (pins U3-U20)
+    )
+    (net "unconnected-(U3H-VCCAUX-PadK8)"
+      (pins U3-K8)
+    )
+    (net "unconnected-(U3H-VDDQ_CK_PHY-PadT12)"
+      (pins U3-T12)
+    )
+    (net "unconnected-(U3F-lvdsin_spare_N-PadH6)"
+      (pins U3-H6)
+    )
+    (net "unconnected-(U3F-debugout[7]-PadE7)"
+      (pins U3-E7)
+    )
+    (net "unconnected-(U3F-spics[0]-PadV19)"
+      (pins U3-V19)
+    )
+    (net "unconnected-(U3F-lvdsin_trig_b_N-PadE5)"
+      (pins U3-E5)
+    )
+    (net "unconnected-(U3F-lvdsin_spare-PadG6)"
+      (pins U3-G6)
+    )
+    (net "unconnected-(U3J-GPIOL_42-PadW21)"
+      (pins U3-W21)
+    )
+    (net "unconnected-(U3H-VCCIO3B-PadD13)"
+      (pins U3-D13)
+    )
+    (net "unconnected-(U3H-VCCIO2C-PadF18)"
+      (pins U3-F18)
+    )
+    (net "unconnected-(U3H-VCC-PadL13)"
+      (pins U3-L13)
+    )
+    (net "unconnected-(U3H-VCCIO4A-PadF6)"
+      (pins U3-F6)
+    )
+    (net "unconnected-(U3H-VCCIO4B-PadK7)"
+      (pins U3-K7)
+    )
+    (net "unconnected-(U3H-VCC-PadM14)"
+      (pins U3-M14)
+    )
+    (net "unconnected-(U3H-VCCIO2A-PadP22)"
+      (pins U3-P22)
+    )
+    (net "unconnected-(U3H-VCCIO2A-PadR20)"
+      (pins U3-R20)
+    )
+    (net "unconnected-(U3J-GPIOT_N_23-PadC23)"
+      (pins U3-C23)
+    )
+    (net "unconnected-(U3H-VCC-PadL9)"
+      (pins U3-L9)
+    )
+    (net "unconnected-(U3G-REF_RES_4C-PadT2)"
+      (pins U3-T2)
+    )
+    (net "unconnected-(U3G-REF_RES_3B-PadC14)"
+      (pins U3-C14)
+    )
+    (net "unconnected-(U3F-LED[3]-PadW3)"
+      (pins U3-W3)
+    )
+    (net "unconnected-(U3F-boardin[1]-PadE13)"
+      (pins U3-E13)
+    )
+    (net "unconnected-(U3F-spi_mosi-PadT19)"
+      (pins U3-T19)
+    )
+    (net "unconnected-(U3F-boardin[6]-PadB20)"
+      (pins U3-B20)
+    )
+    (net "unconnected-(U3J-GPIOL_05_CLK26-PadT3)"
+      (pins U3-T3)
+    )
+    (net "unconnected-(U3F-ddr_pllin-PadU18)"
+      (pins U3-U18)
+    )
+    (net "unconnected-(U3H-VCC-PadK10)"
+      (pins U3-K10)
+    )
+    (net "unconnected-(U3E-DDR_CS_N[3]-PadY17)"
+      (pins U3-Y17)
+    )
+    (net "unconnected-(U3F-lvdsin_clk-PadE2)"
+      (pins U3-E2)
+    )
+    (net "unconnected-(U3F-main_pllin-PadW4)"
+      (pins U3-W4)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadP14)"
+      (pins U3-P14)
+    )
+    (net "unconnected-(U3H-VCCIO2A-PadP17)"
+      (pins U3-P17)
+    )
+    (net "unconnected-(U3F-boardin[7]-PadH9)"
+      (pins U3-H9)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadR13)"
+      (pins U3-R13)
+    )
+    (net "unconnected-(U3H-VDDQX_PHY-PadV12)"
+      (pins U3-V12)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadR10)"
+      (pins U3-R10)
+    )
+    (net "unconnected-(U3J-GPIOB_N_32_CDI29-PadB4)"
+      (pins U3-B4)
+    )
+    (net "unconnected-(U3F-spics[1]-PadT18)"
+      (pins U3-T18)
+    )
+    (net "unconnected-(U3J-GPIOL_36_PLLIN1-PadU23)"
+      (pins U3-U23)
+    )
+    (net "unconnected-(U3F-boardin[4]-PadA7)"
+      (pins U3-A7)
+    )
+    (net "unconnected-(U3F-spics[6]-PadU21)"
+      (pins U3-U21)
+    )
+    (net "unconnected-(U3H-VQPS-PadU7)"
+      (pins U3-U7)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadR11)"
+      (pins U3-R11)
+    )
+    (net "unconnected-(U3F-debugout[9]-PadB10)"
+      (pins U3-B10)
+    )
+    (net "unconnected-(U3H-VCCIO3A-PadD16)"
+      (pins U3-D16)
+    )
+    (net "unconnected-(U3J-GPIOL_01-PadW6)"
+      (pins U3-W6)
+    )
+    (net "unconnected-(U3H-VCCAUX-PadR8)"
+      (pins U3-R8)
+    )
+    (net "unconnected-(U3F-lvdsout_spare_N-PadH18)"
+      (pins U3-H18)
+    )
+    (net "unconnected-(U3H-VDDQX_PHY-PadU9)"
+      (pins U3-U9)
+    )
+    (net "unconnected-(U3F-overrange[3]-PadA18)"
+      (pins U3-A18)
+    )
+    (net "unconnected-(U3F-lockinfo[1]-PadC18)"
+      (pins U3-C18)
+    )
+    (net "unconnected-(U3F-lvdsout_trig_b-PadD21)"
+      (pins U3-D21)
+    )
+    (net "unconnected-(U3J-GPIOL_43-PadW19)"
+      (pins U3-W19)
+    )
+    (net "unconnected-(U3F-boardin[5]-PadB19)"
+      (pins U3-B19)
+    )
+    (net "unconnected-(U3J-GPIOT_N_33-PadG17)"
+      (pins U3-G17)
+    )
+    (net "unconnected-(U3H-VCC-PadT16)"
+      (pins U3-T16)
+    )
+    (net "unconnected-(U3F-fan_out-PadW2)"
+      (pins U3-W2)
+    )
+    (net "unconnected-(U3G-TCK-PadU5)"
+      (pins U3-U5)
+    )
+    (net "unconnected-(U3H-VCC-PadL15)"
+      (pins U3-L15)
+    )
+    (net "unconnected-(U3F-debugout[3]-PadB9)"
+      (pins U3-B9)
+    )
+    (net "unconnected-(U3J-GPIOL_40-PadW22)"
+      (pins U3-W22)
+    )
+    (net "unconnected-(U3F-neo_led-PadV4)"
+      (pins U3-V4)
+    )
+    (net "unconnected-(U3J-GPIOL_04_CLK25-PadU2)"
+      (pins U3-U2)
+    )
+    (net "unconnected-(U3F-spics[7]-PadV20)"
+      (pins U3-V20)
+    )
+    (net "unconnected-(U3H-VCC-PadT8)"
+      (pins U3-T8)
+    )
+    (net "unconnected-(U3F-overrange[2]-PadB16)"
+      (pins U3-B16)
+    )
+    (net "unconnected-(U3H-VCCIO4C-PadN7)"
+      (pins U3-N7)
+    )
+    (net "unconnected-(U3H-VCCIO3A-PadB17)"
+      (pins U3-B17)
+    )
+    (net "unconnected-(U3H-VCCIO2B-PadM17)"
+      (pins U3-M17)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadAB14)"
+      (pins U3-AB14)
+    )
+    (net "unconnected-(U3H-VCCIO4A-PadD4)"
+      (pins U3-D4)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadP15)"
+      (pins U3-P15)
+    )
+    (net "unconnected-(U3F-spi_miso-PadT20)"
+      (pins U3-T20)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadT11)"
+      (pins U3-T11)
+    )
+    (net "unconnected-(U3G-TMS-PadT5)"
+      (pins U3-T5)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadAB6)"
+      (pins U3-AB6)
+    )
+    (net "unconnected-(U3H-VDDQX_PHY-PadV11)"
+      (pins U3-V11)
+    )
+    (net "unconnected-(U3H-VCC-PadK12)"
+      (pins U3-K12)
+    )
+    (net "unconnected-(U3E-DDR_CKE[1]-PadAA13)"
+      (pins U3-AA13)
+    )
+    (net "unconnected-(U3F-lvdsout_clk_N-PadE19)"
+      (pins U3-E19)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadY23)"
+      (pins U3-Y23)
+    )
+    (net "unconnected-(U3H-VDD_PHY-PadT13)"
+      (pins U3-T13)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadY1)"
+      (pins U3-Y1)
+    )
+    (net "unconnected-(U3H-VCCIO3C-PadD7)"
+      (pins U3-D7)
+    )
+    (net "unconnected-(U3F-spics[3]-PadV23)"
+      (pins U3-V23)
+    )
+    (net "unconnected-(U3F-overrange[0]-PadA15)"
+      (pins U3-A15)
+    )
+    (net "unconnected-(U3J-GPIOL_06_CLK27-PadV1)"
+      (pins U3-V1)
+    )
+    (net "unconnected-(U3F-lockinfo[3]-PadD18)"
+      (pins U3-D18)
+    )
+    (net "unconnected-(U3F-debugout[1]-PadD8)"
+      (pins U3-D8)
+    )
+    (net "unconnected-(U3F-lvdsout_trig_N-PadC22)"
+      (pins U3-C22)
+    )
+    (net "unconnected-(U3F-boardout[0]-PadD11)"
+      (pins U3-D11)
+    )
+    (net "unconnected-(U3F-boardin[0]-PadC13)"
+      (pins U3-C13)
+    )
+    (net "unconnected-(U3H-VCCIO3B-PadG10)"
+      (pins U3-G10)
+    )
+    (net "unconnected-(U3H-VCC-PadL11)"
+      (pins U3-L11)
+    )
+    (net "unconnected-(U3F-lvdsin_trig_N-PadA2)"
+      (pins U3-A2)
+    )
+    (net "unconnected-(U3F-boardout[7]-PadG13)"
+      (pins U3-G13)
+    )
+    (net "unconnected-(U3F-LED[1]-PadW1)"
+      (pins U3-W1)
+    )
+    (net "unconnected-(U3G-CRESET_N-PadR6)"
+      (pins U3-R6)
+    )
+    (net "unconnected-(U3H-VCC-PadM12)"
+      (pins U3-M12)
+    )
+    (net "unconnected-(U3F-debugout[2]-PadA9)"
+      (pins U3-A9)
+    )
+    (net "unconnected-(U3H-VCCAUX-PadJ16)"
+      (pins U3-J16)
+    )
+    (net "unconnected-(U3H-VDDQ_PHY-PadW18)"
+      (pins U3-W18)
+    )
+    (net "unconnected-(U3H-VCC-PadM10)"
+      (pins U3-M10)
+    )
+    (net "unconnected-(U3H-VDDQX_PHY-PadU13)"
+      (pins U3-U13)
+    )
+    (net "unconnected-(U3H-VCCA_TL-PadR17)"
+      (pins U3-R17)
+    )
+    (net "unconnected-(U3H-VCC-PadU8)"
+      (pins U3-U8)
+    )
+    (net "Net-(U1A-DQ0_B)"
+      (pins U3-AB9 U1-AA2)
+    )
+    (net "Net-(U1A-DQ13_B)"
+      (pins U3-AA1 U1-V9)
+    )
+    (net "Net-(U1A-DQ1_A)"
+      (pins U3-AA23 U1-C2)
+    )
+    (net "Net-(U1A-DQ0_A)"
+      (pins U3-AA22 U1-B2)
+    )
+    (net "Net-(U1A-DQ10_B)"
+      (pins U3-AC5 U1-V11)
+    )
+    (net "Net-(U1A-DQ1_B)"
+      (pins U3-AA9 U1-Y2)
+    )
+    (net "Net-(U1A-DQ5_B)"
+      (pins U3-AA7 U1-V4)
+    )
+    (net "Net-(U1A-DQ6_B)"
+      (pins U3-AC6 U1-Y4)
+    )
+    (net "Net-(U1A-DQ15_A)"
+      (pins U3-AA14 U1-B9)
+    )
+    (net "Net-(U1A-DQ12_A)"
+      (pins U3-AB15 U1-F9)
+    )
+    (net "Net-(U1A-DQ9_A)"
+      (pins U3-AC17 U1-C11)
+    )
+    (net "Net-(U1A-DQ14_A)"
+      (pins U3-AC14 U1-C9)
+    )
+    (net "Net-(U1A-DQ2_A)"
+      (pins U3-AA20 U1-E2)
+    )
+    (net "Net-(U1A-DQ11_B)"
+      (pins U3-AA5 U1-U11)
+    )
+    (net "Net-(U1A-DQ7_A)"
+      (pins U3-AA21 U1-B4)
+    )
+    (net "Net-(U1A-DQS0_c_A)"
+      (pins U3-AC21 U1-E3)
+    )
+    (net "Net-(U1A-DQ6_A)"
+      (pins U3-AC22 U1-C4)
+    )
+    (net "Net-(U1A-DMI0_B)"
+      (pins U3-AA8 U1-Y3)
+    )
+    (net "Net-(U1A-DQ8_A)"
+      (pins U3-AA17 U1-B11)
+    )
+    (net "Net-(U1A-DQS1_t_B)"
+      (pins U3-AB3 U1-W10)
+    )
+    (net "Net-(U1A-DQ3_A)"
+      (pins U3-AC19 U1-F2)
+    )
+    (net "Net-(U1A-DQS0_t_B)"
+      (pins U3-AB8 U1-W3)
+    )
+    (net "Net-(U1A-DMI0_A)"
+      (pins U3-AB23 U1-C3)
+    )
+    (net "Net-(U1A-DQ11_A)"
+      (pins U3-AC18 U1-F11)
+    )
+    (net "Net-(U1A-DQ3_B)"
+      (pins U3-AA10 U1-U2)
+    )
+    (net "Net-(U1A-DQ15_B)"
+      (pins U3-AC2 U1-AA9)
+    )
+    (net "Net-(U1A-DMI1_B)"
+      (pins U3-AA3 U1-Y10)
+    )
+    (net "Net-(U1A-DQS1_c_B)"
+      (pins U3-AC3 U1-V10)
+    )
+    (net "Net-(U1A-DQ4_B)"
+      (pins U3-AC7 U1-U4)
+    )
+    (net "Net-(U1A-DQ7_B)"
+      (pins U3-AA6 U1-AA4)
+    )
+    (net "Net-(U1A-DQ10_A)"
+      (pins U3-AA18 U1-E11)
+    )
+    (net "Net-(U1A-DQ4_A)"
+      (pins U3-AB20 U1-F4)
+    )
+    (net "Net-(U1B-CS0_A)"
+      (pins U3-Y15 U1-H4)
+    )
+    (net "Net-(U1A-DQ14_B)"
+      (pins U3-AA2 U1-Y9)
+    )
+    (net "Net-(U1A-DQ8_B)"
+      (pins U3-AB4 U1-AA11)
+    )
+    (net "Net-(U1A-DQS0_c_B)"
+      (pins U3-AC8 U1-V3)
+    )
+    (net "Net-(U1A-DQ13_A)"
+      (pins U3-AA15 U1-E9)
+    )
+    (net "Net-(U1A-DQ2_B)"
+      (pins U3-AC10 U1-V2)
+    )
+    (net "Net-(U1A-DMI1_A)"
+      (pins U3-AA16 U1-C10)
+    )
+    (net "Net-(U1A-DQ9_B)"
+      (pins U3-AA4 U1-Y11)
+    )
+    (net "Net-(U1A-DQS0_t_A)"
+      (pins U3-AB21 U1-D3)
+    )
+    (net "Net-(U1A-DQS1_c_A)"
+      (pins U3-AC16 U1-E10)
+    )
+    (net "Net-(U1A-DQ12_B)"
+      (pins U3-AB1 U1-U9)
+    )
+    (net "Net-(U1A-DQ5_A)"
+      (pins U3-AB19 U1-E4)
+    )
+    (net "Net-(U1A-DQS1_t_A)"
+      (pins U3-AB16 U1-D10)
+    )
+    (net GND
+      (pins IC1-A1 IC1-A2 IC1-A3 IC1-A6 IC1-A7 IC1-A15 IC1-A16 IC1-B3 IC1-B4 IC1-B5
+        IC1-B6 IC1-B7 IC1-C1 IC1-C2 IC1-C3 IC1-C4 IC1-C5 IC1-C6 IC1-C7 IC1-D3 IC1-D4
+        IC1-D5 IC1-D6 IC1-D7 IC1-E3 IC1-E7 IC1-F1 IC1-F2 IC1-F7 IC1-G1 IC1-G2 IC1-G7
+        IC1-H2 IC1-H7 IC1-H8 IC1-H14 IC1-J2 IC1-J7 IC1-J8 IC1-J14 IC1-K1 IC1-K2 IC1-K7
+        IC1-L1 IC1-L2 IC1-L7 IC1-M3 IC1-M7 IC1-N3 IC1-N4 IC1-N5 IC1-N6 IC1-N7 IC1-P1
+        IC1-P2 IC1-P3 IC1-P4 IC1-P5 IC1-P6 IC1-P7 IC1-R2 IC1-R3 IC1-R4 IC1-R5 IC1-R6
+        IC1-R7 IC1-T1 IC1-T2 IC1-T3 IC1-T6 IC1-T7 IC1-T15 IC1-T16 U3-A1 U3-A19 U3-A23
+        U3-AA19 U3-AB2 U3-AB5 U3-AB7 U3-AB11 U3-AB13 U3-AB17 U3-AB22 U3-AC1 U3-AC4
+        U3-AC9 U3-AC15 U3-AC20 U3-AC23 U3-B3 U3-B6 U3-B11 U3-B14 U3-B21 U3-D1 U3-D10
+        U3-D19 U3-D22 U3-F2 U3-F20 U3-F22 U3-H1 U3-H4 U3-H7 U3-H23 U3-J10 U3-J12 U3-J14
+        U3-J19 U3-K2 U3-K5 U3-K9 U3-K11 U3-K13 U3-K15 U3-L10 U3-L12 U3-L14 U3-M1 U3-M3
+        U3-M9 U3-M11 U3-M13 U3-M15 U3-M20 U3-M23 U3-N8 U3-N10 U3-N12 U3-N14 U3-P10
+        U3-P13 U3-P16 U3-R9 U3-R12 U3-R15 U3-T1 U3-T7 U3-T17 U3-T21 U3-T23 U3-U11
+        U3-U14 U3-V7 U3-V10 U3-V13 U3-V15 U3-V17 U3-Y2 U3-Y4 U3-Y6 U3-Y8 U3-Y10 U3-Y12
+        U3-Y14 U3-Y16 U3-Y18 U3-Y20 U3-Y22 U1-A3 U1-A10 U1-AB3 U1-AB5 U1-AB8 U1-AB10
+        U1-C1 U1-C5 U1-C8 U1-C12 U1-D2 U1-D4 U1-D9 U1-D11 U1-E1 U1-E5 U1-E8 U1-E12
+        U1-G1 U1-G3 U1-G5 U1-G8 U1-G10 U1-G12 U1-J1 U1-J3 U1-J10 U1-J12 U1-K2 U1-K4
+        U1-K9 U1-K11 U1-N2 U1-N4 U1-N9 U1-N11 U1-P1 U1-P3 U1-P10 U1-P12 U1-T1 U1-T3
+        U1-T5 U1-T8 U1-T10 U1-T12 U1-V1 U1-V5 U1-V8 U1-V12 U1-W2 U1-W4 U1-W9 U1-W11
+        U1-Y1 U1-Y5 U1-Y8 U1-Y12 R1-2 U2-1 U2-19 U2-26 U2-29 U2-36 U2-77)
+    )
+    (net "Net-(U3E-DDR_CAL)"
+      (pins U3-V8 R1-1)
+    )
+    (net "unconnected-(R2-Pad2)"
+      (pins R2-2)
+    )
+    (net "Net-(U1B-ZQ0)"
+      (pins U1-A5 R2-1)
+    )
+    (net /fpga_ddr/1V1
+      (pins R3-2 R4-2)
+    )
+    (net "Net-(U1B-ODT_CA_A)"
+      (pins U1-G2 R3-1)
+    )
+    (net "Net-(U1B-ODT_CA_B)"
+      (pins U1-T2 R4-1)
+    )
+    (net "Net-(U1B-CA5_A)"
+      (pins U3-Y7 U1-J11 U1-P11)
+    )
+    (net "Net-(U1B-CKE0_A)"
+      (pins U3-AA12 U1-J4 U1-P4)
+    )
+    (net "Net-(U1B-RESET_n)"
+      (pins U3-AC13 U1-T11)
+    )
+    (net "Net-(U1B-CA4_A)"
+      (pins U3-W8 U1-H11 U1-R11)
+    )
+    (net "Net-(U1B-CA0_A)"
+      (pins U3-AC11 U1-H2 U1-R2)
+    )
+    (net "Net-(U1B-CA1_A)"
+      (pins U3-AA11 U1-J2 U1-P2)
+    )
+    (net "Net-(U1B-CA3_A)"
+      (pins U3-W9 U1-H10 U1-R10)
+    )
+    (net "Net-(U1B-CA2_A)"
+      (pins U3-Y9 U1-H9 U1-R9)
+    )
+    (net "Net-(U1B-CS0_B)"
+      (pins U3-W17 U1-R4)
+    )
+    (net "Net-(U1B-CK_t_A)"
+      (pins U3-AC12 U1-J8 U1-P8)
+    )
+    (net "Net-(U1B-CK_c_A)"
+      (pins U3-AB12 U1-J9 U1-P9)
+    )
+    (net "unconnected-(U2C-VD10-Pad3)"
+      (pins U2-3)
+    )
+    (net "unconnected-(U2C-VCC33-Pad38)"
+      (pins U2-38)
+    )
+    (net "unconnected-(U2C-DV10-Pad39)"
+      (pins U2-39)
+    )
+    (net "unconnected-(U2C-VD10-Pad30)"
+      (pins U2-30)
+    )
+    (net "unconnected-(U2C-VD10-Pad48)"
+      (pins U2-48)
+    )
+    (net "unconnected-(U2C-VCC33-Pad24)"
+      (pins U2-24)
+    )
+    (net "unconnected-(U2C-VDDA-Pad28)"
+      (pins U2-28)
+    )
+    (net "unconnected-(U2C-VCCIO-Pad59)"
+      (pins U2-59)
+    )
+    (net "unconnected-(U2C-VCCIO-Pad68)"
+      (pins U2-68)
+    )
+    (net "unconnected-(U2C-VD10-Pad33)"
+      (pins U2-33)
+    )
+    (net "unconnected-(U2C-VCCIO-Pad49)"
+      (pins U2-49)
+    )
+    (net /fpga_adc/lvds_rx1_1_P
+      (pins IC1-T9 U3-E21)
+    )
+    (net /fpga_adc/lvds_rx1_1_N
+      (pins IC1-T10 U3-E20)
+    )
+    (net /fpga_adc/lvds_rx3_1_P
+      (pins IC1-A9 U3-C3)
+    )
+    (net /fpga_adc/lvds_rx3_1_N
+      (pins IC1-A10 U3-C2)
+    )
+    (net "unconnected-(U3J-NC-PadW10)"
+      (pins U3-W10)
+    )
+    (net "unconnected-(U3J-NC-PadV16)"
+      (pins U3-V16)
+    )
+    (net "unconnected-(U3J-NC-PadW13)"
+      (pins U3-W13)
+    )
+    (net "unconnected-(U3J-NC-PadW14)"
+      (pins U3-W14)
+    )
+    (net "unconnected-(U3J-NC-PadW15)"
+      (pins U3-W15)
+    )
+    (net "unconnected-(U3J-NC-PadW11)"
+      (pins U3-W11)
+    )
+    (net /fpga_adc/lvds_rx4_9_N
+      (pins IC1-C16 U3-L6)
+    )
+    (net /fpga_adc/lvds_rx1_3_N
+      (pins IC1-P10 U3-R19)
+    )
+    (net /fpga_adc/lvds_rx1_7_P
+      (pins IC1-T11 U3-L23)
+    )
+    (net /fpga_adc/lvds_rx4_2_N
+      (pins IC1-B14 U3-J2)
+    )
+    (net /fpga_adc/lvds_rx4_8_N
+      (pins IC1-B16 U3-J5)
+    )
+    (net /fpga_adc/lvds_rx1_9_N
+      (pins IC1-P12 U3-N17)
+    )
+    (net /fpga_adc/lvds_rx2_7_N
+      (pins IC1-K14 U3-F21)
+    )
+    (net /fpga_adc/lvds_rx2_2_P
+      (pins IC1-R13 U3-F23)
+    )
+    (net /fpga_adc/lvds_rx1_6_N
+      (pins IC1-L10 U3-P19)
+    )
+    (net /fpga_adc/lvds_rx2_8_N
+      (pins IC1-R16 U3-K19)
+    )
+    (net /fpga_adc/lvds_rx2_1_N
+      (pins IC1-T14 U3-K21)
+    )
+    (net /fpga_adc/lvds_rx1_5_N
+      (pins IC1-M10 U3-N23)
+    )
+    (net /fpga_adc/lvds_rx1_10_P
+      (pins IC1-N11 U3-N19)
+    )
+    (net /fpga_adc/lvds_rx2_5_P
+      (pins IC1-M13 U3-J20)
+    )
+    (net /fpga_adc/lvds_rx3_2_P
+      (pins IC1-B9 U3-R2)
+    )
+    (net /fpga_adc/lvds_rx1_10_N
+      (pins IC1-N12 U3-N18)
+    )
+    (net /fpga_adc/lvds_rx2_3_N
+      (pins IC1-P14 U3-M16)
+    )
+    (net /fpga_adc/lvds_rx4_4_N
+      (pins IC1-D14 U3-H3)
+    )
+    (net /fpga_adc/lvds_rx1_5_P
+      (pins IC1-M9 U3-N22)
+    )
+    (net /fpga_adc/lvds_rx4_13_N
+      (pins IC1-H16 U3-D3)
+    )
+    (net /fpga_adc/lvds_rx1_7_N
+      (pins IC1-T12 U3-L22)
+    )
+    (net /fpga_adc/lvds_rx3_10_P
+      (pins IC1-D11 U3-L2)
+    )
+    (net /fpga_adc/lvds_rx3_11_N
+      (pins IC1-E12 U3-L1)
+    )
+    (net /fpga_adc/lvds_rx4_10_P
+      (pins IC1-D15 U3-J7)
+    )
+    (net /fpga_adc/lvds_rx1_9_P
+      (pins IC1-P11 U3-N16)
+    )
+    (net /fpga_adc/lvds_rx3_6_N
+      (pins IC1-F10 U3-N6)
+    )
+    (net /fpga_adc/lvds_rx1_13_P
+      (pins IC1-J9 U3-M19)
+    )
+    (net /fpga_adc/lvds_rx2_12_P
+      (pins IC1-L15 U3-K18)
+    )
+    (net /fpga_adc/lvds_rx3_11_P
+      (pins IC1-E11 U3-K1)
+    )
+    (net /fpga_adc/lvds_rx4_6_P
+      (pins IC1-F13 U3-L7)
+    )
+    (net /fpga_adc/lvds_rx3_5_P
+      (pins IC1-E9 U3-P5)
+    )
+    (net /fpga_adc/lvds_rx1_2_P
+      (pins IC1-R9 U3-R23)
+    )
+    (net /fpga_adc/lvds_rx4_13_P
+      (pins IC1-H15 U3-D2)
+    )
+    (net /fpga_adc/lvds_rx2_12_N
+      (pins IC1-L16 U3-K17)
+    )
+    (net /fpga_adc/lvds_rx2_11_P
+      (pins IC1-M15 U3-B23)
+    )
+    (net /fpga_adc/lvds_rx1_12_P
+      (pins IC1-L11 U3-G22)
+    )
+    (net /fpga_adc/lvds_rx2_10_N
+      (pins IC1-N16 U3-J17)
+    )
+    (net /fpga_adc/lvds_rx_top_clkin2_P
+      (pins IC1-K15 U3-R22)
+    )
+    (net /fpga_adc/lvds_rx3_3_N
+      (pins IC1-C10 U3-P7)
+    )
+    (net /fpga_adc/lvds_rx4_6_N
+      (pins IC1-F14 U3-L8)
+    )
+    (net /fpga_adc/lvds_rx4_8_P
+      (pins IC1-B15 U3-H5)
+    )
+    (net /fpga_adc/lvds_rx3_9_P
+      (pins IC1-C11 U3-N4)
+    )
+    (net /fpga_adc/lvds_rx3_8_N
+      (pins IC1-B12 U3-N2)
+    )
+    (net /fpga_adc/lvds_rx1_2_N
+      (pins IC1-R10 U3-P23)
+    )
+    (net /fpga_adc/lvds_rx4_7_N
+      (pins IC1-G14 U3-J4)
+    )
+    (net /fpga_adc/lvds_rx_top_clkin1_P
+      (pins IC1-K9 U3-J22)
+    )
+    (net /fpga_adc/lvds_rx1_8_P
+      (pins IC1-R11 U3-N20)
+    )
+    (net /fpga_adc/lvds_rx2_9_N
+      (pins IC1-P16 U3-L19)
+    )
+    (net /fpga_adc/lvds_rx2_1_P
+      (pins IC1-T13 U3-L21)
+    )
+    (net /fpga_adc/lvds_rx3_10_N
+      (pins IC1-D12 U3-M2)
+    )
+    (net /fpga_adc/lvds_rx1_13_N
+      (pins IC1-J10 U3-M18)
+    )
+    (net /fpga_adc/lvds_rx3_5_N
+      (pins IC1-E10 U3-P6)
+    )
+    (net /fpga_adc/lvds_rx2_7_P
+      (pins IC1-K13 U3-G21)
+    )
+    (net /fpga_adc/lvds_rx4_10_N
+      (pins IC1-D16 U3-J6)
+    )
+    (net /fpga_adc/lvds_rx2_4_P
+      (pins IC1-N13 U3-E23)
+    )
+    (net /fpga_adc/lvds_rx3_3_P
+      (pins IC1-C9 U3-P8)
+    )
+    (net /fpga_adc/lvds_rx3_7_N
+      (pins IC1-A12 U3-P3)
+    )
+    (net /fpga_adc/lvds_rx4_2_P
+      (pins IC1-B13 U3-J3)
+    )
+    (net /fpga_adc/lvds_rx2_2_N
+      (pins IC1-R14 U3-G23)
+    )
+    (net /fpga_adc/lvds_rx2_10_P
+      (pins IC1-N15 U3-J18)
+    )
+    (net /fpga_adc/lvds_rx4_9_P
+      (pins IC1-C15 U3-K6)
+    )
+    (net /fpga_adc/lvds_rx4_4_P
+      (pins IC1-D13 U3-H2)
+    )
+    (net /fpga_adc/lvds_rx4_11_P
+      (pins IC1-E15 U3-B1)
+    )
+    (net /fpga_adc/lvds_rx1_12_N
+      (pins IC1-L12 U3-H22)
+    )
+    (net /fpga_adc/lvds_rx1_11_N
+      (pins IC1-M12 U3-M22)
+    )
+    (net /fpga_adc/lvds_rx3_12_P
+      (pins IC1-F11 U3-E1)
+    )
+    (net /fpga_adc/lvds_rx1_11_P
+      (pins IC1-M11 U3-M21)
+    )
+    (net /fpga_adc/lvds_rx4_11_N
+      (pins IC1-E16 U3-C1)
+    )
+    (net /fpga_adc/lvds_rx_top_clkin4_N
+      (pins IC1-G16 U3-G2)
+    )
+    (net /fpga_adc/lvds_rx4_3_N
+      (pins IC1-C14 U3-L5)
+    )
+    (net /fpga_adc/lvds_rx2_9_P
+      (pins IC1-P15 U3-L20)
+    )
+    (net /fpga_adc/lvds_rx3_4_N
+      (pins IC1-D10 U3-R1)
+    )
+    (net /fpga_adc/lvds_rx_top_clkin3_P
+      (pins IC1-G9 U3-R4)
+    )
+    (net /fpga_adc/lvds_rx1_8_N
+      (pins IC1-R12 U3-N21)
+    )
+    (net /fpga_adc/lvds_rx3_2_N
+      (pins IC1-B10 U3-R3)
+    )
+    (net /fpga_adc/lvds_rx_top_clkin1_N
+      (pins IC1-K10 U3-J23)
+    )
+    (net /fpga_adc/lvds_rx2_3_P
+      (pins IC1-P13 U3-L16)
+    )
+    (net /fpga_adc/lvds_rx1_4_P
+      (pins IC1-N9 U3-P21)
+    )
+    (net /fpga_adc/lvds_rx2_8_P
+      (pins IC1-R15 U3-K20)
+    )
+    (net /fpga_adc/lvds_rx1_4_N
+      (pins IC1-N10 U3-P20)
+    )
+    (net /fpga_adc/lvds_rx2_5_N
+      (pins IC1-M14 U3-J21)
+    )
+    (net /fpga_adc/lvds_rx4_5_P
+      (pins IC1-E13 U3-F3)
+    )
+    (net /fpga_adc/lvds_rx_top_clkin2_N
+      (pins IC1-K16 U3-R21)
+    )
+    (net /fpga_adc/lvds_rx2_6_N
+      (pins IC1-L14 U3-L17)
+    )
+    (net /fpga_adc/lvds_rx3_13_N
+      (pins IC1-H10 U3-M7)
+    )
+    (net /fpga_adc/lvds_rx3_13_P
+      (pins IC1-H9 U3-M6)
+    )
+    (net /fpga_adc/lvds_rx4_7_P
+      (pins IC1-G13 U3-K4)
+    )
+    (net /fpga_adc/lvds_rx4_3_P
+      (pins IC1-C13 U3-L4)
+    )
+    (net /fpga_adc/lvds_rx4_1_P
+      (pins IC1-A13 U3-L3)
+    )
+    (net /fpga_adc/lvds_rx_top_clkin3_N
+      (pins IC1-G10 U3-R5)
+    )
+    (net /fpga_adc/lvds_rx_top_clkin4_P
+      (pins IC1-G15 U3-G1)
+    )
+    (net /fpga_adc/lvds_rx3_6_P
+      (pins IC1-F9 U3-N5)
+    )
+    (net /fpga_adc/lvds_rx2_13_P
+      (pins IC1-J15 U3-H20)
+    )
+    (net /fpga_adc/lvds_rx4_12_N
+      (pins IC1-F16 U3-F4)
+    )
+    (net /fpga_adc/lvds_rx3_9_N
+      (pins IC1-C12 U3-M4)
+    )
+    (net /fpga_adc/lvds_rx3_8_P
+      (pins IC1-B11 U3-N1)
+    )
+    (net /fpga_adc/lvds_rx2_11_N
+      (pins IC1-M16 U3-B22)
+    )
+    (net /fpga_adc/lvds_rx4_5_N
+      (pins IC1-E14 U3-G3)
+    )
+    (net /fpga_adc/lvds_rx3_4_P
+      (pins IC1-D9 U3-P1)
+    )
+    (net /fpga_adc/lvds_rx4_12_P
+      (pins IC1-F15 U3-E4)
+    )
+    (net /fpga_adc/lvds_rx1_3_P
+      (pins IC1-P9 U3-R18)
+    )
+    (net /fpga_adc/lvds_rx1_6_P
+      (pins IC1-L9 U3-P18)
+    )
+    (net /fpga_adc/lvds_rx3_12_N
+      (pins IC1-F12 U3-F1)
+    )
+    (net /fpga_adc/lvds_rx2_13_N
+      (pins IC1-J16 U3-G20)
+    )
+    (net /fpga_adc/lvds_rx3_7_P
+      (pins IC1-A11 U3-N3)
+    )
+    (net /fpga_adc/lvds_rx2_6_P
+      (pins IC1-L13 U3-L18)
+    )
+    (net /fpga_adc/lvds_rx4_1_N
+      (pins IC1-A14 U3-K3)
+    )
+    (net /fpga_adc/lvds_rx2_4_N
+      (pins IC1-N14 U3-E22)
+    )
+    (class kicad_default /fpga_adc/VA11 /fpga_adc/VA19 /fpga_adc/VD11 /fpga_adc/VLVDS
+      /fpga_adc/lvds_rx1_10_N /fpga_adc/lvds_rx1_10_P /fpga_adc/lvds_rx1_11_N
+      /fpga_adc/lvds_rx1_11_P /fpga_adc/lvds_rx1_12_N /fpga_adc/lvds_rx1_12_P
+      /fpga_adc/lvds_rx1_13_N /fpga_adc/lvds_rx1_13_P /fpga_adc/lvds_rx1_1_N
+      /fpga_adc/lvds_rx1_1_P /fpga_adc/lvds_rx1_2_N /fpga_adc/lvds_rx1_2_P
+      /fpga_adc/lvds_rx1_3_N /fpga_adc/lvds_rx1_3_P /fpga_adc/lvds_rx1_4_N
+      /fpga_adc/lvds_rx1_4_P /fpga_adc/lvds_rx1_5_N /fpga_adc/lvds_rx1_5_P
+      /fpga_adc/lvds_rx1_6_N /fpga_adc/lvds_rx1_6_P /fpga_adc/lvds_rx1_7_N
+      /fpga_adc/lvds_rx1_7_P /fpga_adc/lvds_rx1_8_N /fpga_adc/lvds_rx1_8_P
+      /fpga_adc/lvds_rx1_9_N /fpga_adc/lvds_rx1_9_P /fpga_adc/lvds_rx2_10_N
+      /fpga_adc/lvds_rx2_10_P /fpga_adc/lvds_rx2_11_N /fpga_adc/lvds_rx2_11_P
+      /fpga_adc/lvds_rx2_12_N /fpga_adc/lvds_rx2_12_P /fpga_adc/lvds_rx2_13_N
+      /fpga_adc/lvds_rx2_13_P /fpga_adc/lvds_rx2_1_N /fpga_adc/lvds_rx2_1_P
+      /fpga_adc/lvds_rx2_2_N /fpga_adc/lvds_rx2_2_P /fpga_adc/lvds_rx2_3_N
+      /fpga_adc/lvds_rx2_3_P /fpga_adc/lvds_rx2_4_N /fpga_adc/lvds_rx2_4_P
+      /fpga_adc/lvds_rx2_5_N /fpga_adc/lvds_rx2_5_P /fpga_adc/lvds_rx2_6_N
+      /fpga_adc/lvds_rx2_6_P /fpga_adc/lvds_rx2_7_N /fpga_adc/lvds_rx2_7_P
+      /fpga_adc/lvds_rx2_8_N /fpga_adc/lvds_rx2_8_P /fpga_adc/lvds_rx2_9_N
+      /fpga_adc/lvds_rx2_9_P /fpga_adc/lvds_rx3_10_N /fpga_adc/lvds_rx3_10_P
+      /fpga_adc/lvds_rx3_11_N /fpga_adc/lvds_rx3_11_P /fpga_adc/lvds_rx3_12_N
+      /fpga_adc/lvds_rx3_12_P /fpga_adc/lvds_rx3_13_N /fpga_adc/lvds_rx3_13_P
+      /fpga_adc/lvds_rx3_1_N /fpga_adc/lvds_rx3_1_P /fpga_adc/lvds_rx3_2_N
+      /fpga_adc/lvds_rx3_2_P /fpga_adc/lvds_rx3_3_N /fpga_adc/lvds_rx3_3_P
+      /fpga_adc/lvds_rx3_4_N /fpga_adc/lvds_rx3_4_P /fpga_adc/lvds_rx3_5_N
+      /fpga_adc/lvds_rx3_5_P /fpga_adc/lvds_rx3_6_N /fpga_adc/lvds_rx3_6_P
+      /fpga_adc/lvds_rx3_7_N /fpga_adc/lvds_rx3_7_P /fpga_adc/lvds_rx3_8_N
+      /fpga_adc/lvds_rx3_8_P /fpga_adc/lvds_rx3_9_N /fpga_adc/lvds_rx3_9_P
+      /fpga_adc/lvds_rx4_10_N /fpga_adc/lvds_rx4_10_P /fpga_adc/lvds_rx4_11_N
+      /fpga_adc/lvds_rx4_11_P /fpga_adc/lvds_rx4_12_N /fpga_adc/lvds_rx4_12_P
+      /fpga_adc/lvds_rx4_13_N /fpga_adc/lvds_rx4_13_P /fpga_adc/lvds_rx4_1_N
+      /fpga_adc/lvds_rx4_1_P /fpga_adc/lvds_rx4_2_N /fpga_adc/lvds_rx4_2_P
+      /fpga_adc/lvds_rx4_3_N /fpga_adc/lvds_rx4_3_P /fpga_adc/lvds_rx4_4_N
+      /fpga_adc/lvds_rx4_4_P /fpga_adc/lvds_rx4_5_N /fpga_adc/lvds_rx4_5_P
+      /fpga_adc/lvds_rx4_6_N /fpga_adc/lvds_rx4_6_P /fpga_adc/lvds_rx4_7_N
+      /fpga_adc/lvds_rx4_7_P /fpga_adc/lvds_rx4_8_N /fpga_adc/lvds_rx4_8_P
+      /fpga_adc/lvds_rx4_9_N /fpga_adc/lvds_rx4_9_P /fpga_adc/lvds_rx_top_clkin1_N
+      /fpga_adc/lvds_rx_top_clkin1_P /fpga_adc/lvds_rx_top_clkin2_N /fpga_adc/lvds_rx_top_clkin2_P
+      /fpga_adc/lvds_rx_top_clkin3_N /fpga_adc/lvds_rx_top_clkin3_P /fpga_adc/lvds_rx_top_clkin4_N
+      /fpga_adc/lvds_rx_top_clkin4_P /fpga_ddr/1V1 /fpga_ddr/VDD1 /fpga_ddr/VDD2
+      /fpga_ddr/VDDQ GND "Net-(U1A-DMI0_A)" "Net-(U1A-DMI0_B)" "Net-(U1A-DMI1_A)"
+      "Net-(U1A-DMI1_B)" "Net-(U1A-DQ0_A)" "Net-(U1A-DQ0_B)" "Net-(U1A-DQ10_A)"
+      "Net-(U1A-DQ10_B)" "Net-(U1A-DQ11_A)" "Net-(U1A-DQ11_B)" "Net-(U1A-DQ12_A)"
+      "Net-(U1A-DQ12_B)" "Net-(U1A-DQ13_A)" "Net-(U1A-DQ13_B)" "Net-(U1A-DQ14_A)"
+      "Net-(U1A-DQ14_B)" "Net-(U1A-DQ15_A)" "Net-(U1A-DQ15_B)" "Net-(U1A-DQ1_A)"
+      "Net-(U1A-DQ1_B)" "Net-(U1A-DQ2_A)" "Net-(U1A-DQ2_B)" "Net-(U1A-DQ3_A)"
+      "Net-(U1A-DQ3_B)" "Net-(U1A-DQ4_A)" "Net-(U1A-DQ4_B)" "Net-(U1A-DQ5_A)"
+      "Net-(U1A-DQ5_B)" "Net-(U1A-DQ6_A)" "Net-(U1A-DQ6_B)" "Net-(U1A-DQ7_A)"
+      "Net-(U1A-DQ7_B)" "Net-(U1A-DQ8_A)" "Net-(U1A-DQ8_B)" "Net-(U1A-DQ9_A)"
+      "Net-(U1A-DQ9_B)" "Net-(U1A-DQS0_c_A)" "Net-(U1A-DQS0_c_B)" "Net-(U1A-DQS0_t_A)"
+      "Net-(U1A-DQS0_t_B)" "Net-(U1A-DQS1_c_A)" "Net-(U1A-DQS1_c_B)" "Net-(U1A-DQS1_t_A)"
+      "Net-(U1A-DQS1_t_B)" "Net-(U1B-CA0_A)" "Net-(U1B-CA1_A)" "Net-(U1B-CA2_A)"
+      "Net-(U1B-CA3_A)" "Net-(U1B-CA4_A)" "Net-(U1B-CA5_A)" "Net-(U1B-CKE0_A)"
+      "Net-(U1B-CK_c_A)" "Net-(U1B-CK_t_A)" "Net-(U1B-CS0_A)" "Net-(U1B-CS0_B)"
+      "Net-(U1B-ODT_CA_A)" "Net-(U1B-ODT_CA_B)" "Net-(U1B-RESET_n)" "Net-(U1B-ZQ0)"
+      "Net-(U2A-BE_0)" "Net-(U2A-BE_1)" "Net-(U2A-BE_2)" "Net-(U2A-BE_3)"
+      "Net-(U2A-CLK)" "Net-(U2A-DATA_0)" "Net-(U2A-DATA_1)" "Net-(U2A-DATA_10)"
+      "Net-(U2A-DATA_11)" "Net-(U2A-DATA_12)" "Net-(U2A-DATA_13)" "Net-(U2A-DATA_14)"
+      "Net-(U2A-DATA_15)" "Net-(U2A-DATA_16)" "Net-(U2A-DATA_17)" "Net-(U2A-DATA_18)"
+      "Net-(U2A-DATA_19)" "Net-(U2A-DATA_2)" "Net-(U2A-DATA_20)" "Net-(U2A-DATA_21)"
+      "Net-(U2A-DATA_22)" "Net-(U2A-DATA_23)" "Net-(U2A-DATA_24)" "Net-(U2A-DATA_25)"
+      "Net-(U2A-DATA_26)" "Net-(U2A-DATA_27)" "Net-(U2A-DATA_28)" "Net-(U2A-DATA_29)"
+      "Net-(U2A-DATA_3)" "Net-(U2A-DATA_30)" "Net-(U2A-DATA_31)" "Net-(U2A-DATA_4)"
+      "Net-(U2A-DATA_5)" "Net-(U2A-DATA_6)" "Net-(U2A-DATA_7)" "Net-(U2A-DATA_8)"
+      "Net-(U2A-DATA_9)" "Net-(U2A-GPIO0)" "Net-(U2A-GPIO1)" "Net-(U2A-~{OE})"
+      "Net-(U2A-~{RD})" "Net-(U2A-~{RESET})" "Net-(U2A-~{RXF})" "Net-(U2A-~{SIWU})"
+      "Net-(U2A-~{TXE})" "Net-(U2A-~{WAKEUP})" "Net-(U2A-~{WR})" "Net-(U3E-DDR_CAL)"
+      "unconnected-(IC1D-CLK+-PadH1)" "unconnected-(IC1D-CLK--PadJ1)" "unconnected-(IC1D-INA+-PadA4)"
+      "unconnected-(IC1D-INA--PadA5)" "unconnected-(IC1D-INB+-PadT4)" "unconnected-(IC1D-INB--PadT5)"
+      "unconnected-(IC1E-BG-PadD2)" "unconnected-(IC1E-CALSTAT-PadB1)" "unconnected-(IC1E-CALTRIG-PadB2)"
+      "unconnected-(IC1E-ORA0-PadB8)" "unconnected-(IC1E-ORA1-PadA8)" "unconnected-(IC1E-ORB0-PadD8)"
+      "unconnected-(IC1E-ORB1-PadC8)" "unconnected-(IC1E-PD-PadR1)" "unconnected-(IC1E-SCLK-PadT8)"
+      "unconnected-(IC1E-SCS-PadR8)" "unconnected-(IC1E-SDI-PadP8)" "unconnected-(IC1E-SDO-PadN8)"
+      "unconnected-(IC1E-SYNCSE-PadE2)" "unconnected-(IC1E-SYSREF+-PadM1)"
+      "unconnected-(IC1E-SYSREF--PadN1)" "unconnected-(IC1E-TDIODE+-PadM2)"
+      "unconnected-(IC1E-TDIODE--PadN2)" "unconnected-(IC1E-TMSTP+-PadD1)"
+      "unconnected-(IC1E-TMSTP--PadE1)" "unconnected-(R2-Pad2)" "unconnected-(U1E-DNU-PadA1)"
+      "unconnected-(U1E-DNU-PadA11)" "unconnected-(U1E-DNU-PadA12)" "unconnected-(U1E-DNU-PadA2)"
+      "unconnected-(U1E-DNU-PadAA1)" "unconnected-(U1E-DNU-PadAA12)" "unconnected-(U1E-DNU-PadAB1)"
+      "unconnected-(U1E-DNU-PadAB11)" "unconnected-(U1E-DNU-PadAB12)" "unconnected-(U1E-DNU-PadAB2)"
+      "unconnected-(U1E-DNU-PadB1)" "unconnected-(U1E-DNU-PadB12)" "unconnected-(U1E-NC-PadA8)"
+      "unconnected-(U1E-NC-PadG11)" "unconnected-(U1E-NC-PadH3)" "unconnected-(U1E-NC-PadJ5)"
+      "unconnected-(U1E-NC-PadK5)" "unconnected-(U1E-NC-PadK8)" "unconnected-(U1E-NC-PadN5)"
+      "unconnected-(U1E-NC-PadN8)" "unconnected-(U1E-NC-PadP5)" "unconnected-(U1E-NC-PadR3)"
+      "unconnected-(U2B-DM-Pad25)" "unconnected-(U2B-DP-Pad23)" "unconnected-(U2B-RIDN-Pad34)"
+      "unconnected-(U2B-RIDP-Pad35)" "unconnected-(U2B-RREF-Pad27)" "unconnected-(U2B-TODN-Pad31)"
+      "unconnected-(U2B-TODP-Pad32)" "unconnected-(U2B-XI-Pad21)" "unconnected-(U2B-XO-Pad22)"
+      "unconnected-(U2C-AVDD-Pad2)" "unconnected-(U2C-DV10-Pad39)" "unconnected-(U2C-VBUS-Pad37)"
+      "unconnected-(U2C-VCC33-Pad20)" "unconnected-(U2C-VCC33-Pad24)" "unconnected-(U2C-VCC33-Pad38)"
+      "unconnected-(U2C-VCCIO-Pad14)" "unconnected-(U2C-VCCIO-Pad49)" "unconnected-(U2C-VCCIO-Pad59)"
+      "unconnected-(U2C-VCCIO-Pad68)" "unconnected-(U2C-VD10-Pad3)" "unconnected-(U2C-VD10-Pad30)"
+      "unconnected-(U2C-VD10-Pad33)" "unconnected-(U2C-VD10-Pad48)" "unconnected-(U2C-VDDA-Pad28)"
+      "unconnected-(U3E-DDR_CKE[1]-PadAA13)" "unconnected-(U3E-DDR_CS_N[1]-PadW16)"
+      "unconnected-(U3E-DDR_CS_N[3]-PadY17)" "unconnected-(U3F-LED[0]-PadU1)"
+      "unconnected-(U3F-LED[1]-PadW1)" "unconnected-(U3F-LED[2]-PadV3)" "unconnected-(U3F-LED[3]-PadW3)"
+      "unconnected-(U3F-adc_clkout-PadU17)" "unconnected-(U3F-auxout-PadG19)"
+      "unconnected-(U3F-boardin[0]-PadC13)" "unconnected-(U3F-boardin[1]-PadE13)"
+      "unconnected-(U3F-boardin[2]-PadH14)" "unconnected-(U3F-boardin[3]-PadD14)"
+      "unconnected-(U3F-boardin[4]-PadA7)" "unconnected-(U3F-boardin[5]-PadB19)"
+      "unconnected-(U3F-boardin[6]-PadB20)" "unconnected-(U3F-boardin[7]-PadH9)"
+      "unconnected-(U3F-boardout[0]-PadD11)" "unconnected-(U3F-boardout[1]-PadF11)"
+      "unconnected-(U3F-boardout[2]-PadA12)" "unconnected-(U3F-boardout[3]-PadE12)"
+      "unconnected-(U3F-boardout[4]-PadH12)" "unconnected-(U3F-boardout[5]-PadC12)"
+      "unconnected-(U3F-boardout[6]-PadA14)" "unconnected-(U3F-boardout[7]-PadG13)"
+      "unconnected-(U3F-ddr_pllin-PadU18)" "unconnected-(U3F-debugout[0]-PadC8)"
+      "unconnected-(U3F-debugout[10]-PadH10)" "unconnected-(U3F-debugout[11]-PadA11)"
+      "unconnected-(U3F-debugout[1]-PadD8)" "unconnected-(U3F-debugout[2]-PadA9)"
+      "unconnected-(U3F-debugout[3]-PadB9)" "unconnected-(U3F-debugout[4]-PadD9)"
+      "unconnected-(U3F-debugout[5]-PadC6)" "unconnected-(U3F-debugout[6]-PadA6)"
+      "unconnected-(U3F-debugout[7]-PadE7)" "unconnected-(U3F-debugout[8]-PadF10)"
+      "unconnected-(U3F-debugout[9]-PadB10)" "unconnected-(U3F-ext_clkin-PadC5)"
+      "unconnected-(U3F-exttrigin-PadF5)" "unconnected-(U3F-fan_out-PadW2)"
+      "unconnected-(U3F-lockinfo[0]-PadC17)" "unconnected-(U3F-lockinfo[1]-PadC18)"
+      "unconnected-(U3F-lockinfo[2]-PadA20)" "unconnected-(U3F-lockinfo[3]-PadD18)"
+      "unconnected-(U3F-lvdsin_clk-PadE2)" "unconnected-(U3F-lvdsin_clk_N-PadE3)"
+      "unconnected-(U3F-lvdsin_spare-PadG6)" "unconnected-(U3F-lvdsin_spare_N-PadH6)"
+      "unconnected-(U3F-lvdsin_trig-PadB2)" "unconnected-(U3F-lvdsin_trig_N-PadA2)"
+      "unconnected-(U3F-lvdsin_trig_b-PadD5)" "unconnected-(U3F-lvdsin_trig_b_N-PadE5)"
+      "unconnected-(U3F-lvdsout_clk-PadF19)" "unconnected-(U3F-lvdsout_clk_N-PadE19)"
+      "unconnected-(U3F-lvdsout_spare-PadH19)" "unconnected-(U3F-lvdsout_spare_N-PadH18)"
+      "unconnected-(U3F-lvdsout_trig-PadC21)" "unconnected-(U3F-lvdsout_trig_N-PadC22)"
+      "unconnected-(U3F-lvdsout_trig_b-PadD21)" "unconnected-(U3F-lvdsout_trig_b_N-PadD20)"
+      "unconnected-(U3F-main_pllin-PadW4)" "unconnected-(U3F-neo_led-PadV4)"
+      "unconnected-(U3F-overrange[0]-PadA15)" "unconnected-(U3F-overrange[1]-PadD15)"
+      "unconnected-(U3F-overrange[2]-PadB16)" "unconnected-(U3F-overrange[3]-PadA18)"
+      "unconnected-(U3F-spi_clk-PadV18)" "unconnected-(U3F-spi_miso-PadT20)"
+      "unconnected-(U3F-spi_mosi-PadT19)" "unconnected-(U3F-spics[0]-PadV19)"
+      "unconnected-(U3F-spics[1]-PadT18)" "unconnected-(U3F-spics[2]-PadU20)"
+      "unconnected-(U3F-spics[3]-PadV23)" "unconnected-(U3F-spics[4]-PadV21)"
+      "unconnected-(U3F-spics[5]-PadV22)" "unconnected-(U3F-spics[6]-PadU21)"
+      "unconnected-(U3F-spics[7]-PadV20)" "unconnected-(U3G-CDONE-PadT6)"
+      "unconnected-(U3G-CRESET_N-PadR6)" "unconnected-(U3G-REF_RES_2A-PadT22)"
+      "unconnected-(U3G-REF_RES_2B-PadK23)" "unconnected-(U3G-REF_RES_2C-PadA22)"
+      "unconnected-(U3G-REF_RES_3A-PadE18)" "unconnected-(U3G-REF_RES_3B-PadC14)"
+      "unconnected-(U3G-REF_RES_3C-PadD6)" "unconnected-(U3G-REF_RES_4A-PadB5)"
+      "unconnected-(U3G-REF_RES_4B-PadJ1)" "unconnected-(U3G-REF_RES_4C-PadT2)"
+      "unconnected-(U3G-TCK-PadU5)" "unconnected-(U3G-TDI-PadU6)" "unconnected-(U3G-TDO-PadT4)"
+      "unconnected-(U3G-TMS-PadT5)" "unconnected-(U3H-VCC-PadJ11)" "unconnected-(U3H-VCC-PadJ13)"
+      "unconnected-(U3H-VCC-PadJ15)" "unconnected-(U3H-VCC-PadJ9)" "unconnected-(U3H-VCC-PadK10)"
+      "unconnected-(U3H-VCC-PadK12)" "unconnected-(U3H-VCC-PadK14)" "unconnected-(U3H-VCC-PadL11)"
+      "unconnected-(U3H-VCC-PadL13)" "unconnected-(U3H-VCC-PadL15)" "unconnected-(U3H-VCC-PadL9)"
+      "unconnected-(U3H-VCC-PadM10)" "unconnected-(U3H-VCC-PadM12)" "unconnected-(U3H-VCC-PadM14)"
+      "unconnected-(U3H-VCC-PadN11)" "unconnected-(U3H-VCC-PadN13)" "unconnected-(U3H-VCC-PadN15)"
+      "unconnected-(U3H-VCC-PadN9)" "unconnected-(U3H-VCC-PadT16)" "unconnected-(U3H-VCC-PadT8)"
+      "unconnected-(U3H-VCC-PadU16)" "unconnected-(U3H-VCC-PadU8)" "unconnected-(U3H-VCCAUX-PadJ16)"
+      "unconnected-(U3H-VCCAUX-PadK8)" "unconnected-(U3H-VCCAUX-PadR16)" "unconnected-(U3H-VCCAUX-PadR8)"
+      "unconnected-(U3H-VCCA_BL-PadR7)" "unconnected-(U3H-VCCA_BR-PadJ8)"
+      "unconnected-(U3H-VCCA_TL-PadR17)" "unconnected-(U3H-VCCA_TR-PadH16)"
+      "unconnected-(U3H-VCCIO2A-PadP17)" "unconnected-(U3H-VCCIO2A-PadP22)"
+      "unconnected-(U3H-VCCIO2A-PadR20)" "unconnected-(U3H-VCCIO2B-PadH21)"
+      "unconnected-(U3H-VCCIO2B-PadK22)" "unconnected-(U3H-VCCIO2B-PadM17)"
+      "unconnected-(U3H-VCCIO2C-PadF18)" "unconnected-(U3H-VCCIO2C-PadH17)"
+      "unconnected-(U3H-VCCIO2C-PadK16)" "unconnected-(U3H-VCCIO33_BL-PadU4)"
+      "unconnected-(U3H-VCCIO33_BL-PadV2)" "unconnected-(U3H-VCCIO33_BR-PadF8)"
+      "unconnected-(U3H-VCCIO33_TL-PadU19)" "unconnected-(U3H-VCCIO33_TL-PadU22)"
+      "unconnected-(U3H-VCCIO33_TR-PadF16)" "unconnected-(U3H-VCCIO3A-PadB17)"
+      "unconnected-(U3H-VCCIO3A-PadD16)" "unconnected-(U3H-VCCIO3B-PadD13)"
+      "unconnected-(U3H-VCCIO3B-PadF12)" "unconnected-(U3H-VCCIO3B-PadF14)"
+      "unconnected-(U3H-VCCIO3B-PadG10)" "unconnected-(U3H-VCCIO3C-PadB8)"
+      "unconnected-(U3H-VCCIO3C-PadD7)" "unconnected-(U3H-VCCIO4A-PadD4)"
+      "unconnected-(U3H-VCCIO4A-PadF6)" "unconnected-(U3H-VCCIO4A-PadG4)"
+      "unconnected-(U3H-VCCIO4B-PadK7)" "unconnected-(U3H-VCCIO4B-PadM5)"
+      "unconnected-(U3H-VCCIO4B-PadM8)" "unconnected-(U3H-VCCIO4C-PadN7)"
+      "unconnected-(U3H-VCCIO4C-PadP2)" "unconnected-(U3H-VCCIO4C-PadP4)"
+      "unconnected-(U3H-VDDPLL_MCB_TOP_PHY-PadU12)" "unconnected-(U3H-VDDQX_PHY-PadU10)"
+      "unconnected-(U3H-VDDQX_PHY-PadU13)" "unconnected-(U3H-VDDQX_PHY-PadU15)"
+      "unconnected-(U3H-VDDQX_PHY-PadU9)" "unconnected-(U3H-VDDQX_PHY-PadV11)"
+      "unconnected-(U3H-VDDQX_PHY-PadV12)" "unconnected-(U3H-VDDQX_PHY-PadV14)"
+      "unconnected-(U3H-VDDQX_PHY-PadV9)" "unconnected-(U3H-VDDQ_CK_PHY-PadT12)"
+      "unconnected-(U3H-VDDQ_PHY-PadAB10)" "unconnected-(U3H-VDDQ_PHY-PadAB14)"
+      "unconnected-(U3H-VDDQ_PHY-PadAB18)" "unconnected-(U3H-VDDQ_PHY-PadAB6)"
+      "unconnected-(U3H-VDDQ_PHY-PadW12)" "unconnected-(U3H-VDDQ_PHY-PadW18)"
+      "unconnected-(U3H-VDDQ_PHY-PadW7)" "unconnected-(U3H-VDDQ_PHY-PadY1)"
+      "unconnected-(U3H-VDDQ_PHY-PadY11)" "unconnected-(U3H-VDDQ_PHY-PadY13)"
+      "unconnected-(U3H-VDDQ_PHY-PadY19)" "unconnected-(U3H-VDDQ_PHY-PadY21)"
+      "unconnected-(U3H-VDDQ_PHY-PadY23)" "unconnected-(U3H-VDDQ_PHY-PadY3)"
+      "unconnected-(U3H-VDDQ_PHY-PadY5)" "unconnected-(U3H-VDD_PHY-PadP11)"
+      "unconnected-(U3H-VDD_PHY-PadP12)" "unconnected-(U3H-VDD_PHY-PadP14)"
+      "unconnected-(U3H-VDD_PHY-PadP15)" "unconnected-(U3H-VDD_PHY-PadP9)"
+      "unconnected-(U3H-VDD_PHY-PadR10)" "unconnected-(U3H-VDD_PHY-PadR11)"
+      "unconnected-(U3H-VDD_PHY-PadR13)" "unconnected-(U3H-VDD_PHY-PadR14)"
+      "unconnected-(U3H-VDD_PHY-PadT10)" "unconnected-(U3H-VDD_PHY-PadT11)"
+      "unconnected-(U3H-VDD_PHY-PadT13)" "unconnected-(U3H-VDD_PHY-PadT14)"
+      "unconnected-(U3H-VDD_PHY-PadT15)" "unconnected-(U3H-VDD_PHY-PadT9)"
+      "unconnected-(U3H-VQPS-PadU7)" "unconnected-(U3J-GPIOB_N_32_CDI29-PadB4)"
+      "unconnected-(U3J-GPIOB_N_33_CDI30-PadA3)" "unconnected-(U3J-GPIOB_N_34-PadG5)"
+      "unconnected-(U3J-GPIOB_P_32_CDI28-PadC4)" "unconnected-(U3J-GPIOB_P_33_CDI31-PadA4)"
+      "unconnected-(U3J-GPIOL_00_PLLIN1-PadV6)" "unconnected-(U3J-GPIOL_01-PadW6)"
+      "unconnected-(U3J-GPIOL_02-PadU3)" "unconnected-(U3J-GPIOL_03_CLK24-PadW5)"
+      "unconnected-(U3J-GPIOL_04_CLK25-PadU2)" "unconnected-(U3J-GPIOL_05_CLK26-PadT3)"
+      "unconnected-(U3J-GPIOL_06_CLK27-PadV1)" "unconnected-(U3J-GPIOL_21-PadV5)"
+      "unconnected-(U3J-GPIOL_36_PLLIN1-PadU23)" "unconnected-(U3J-GPIOL_40-PadW22)"
+      "unconnected-(U3J-GPIOL_41-PadW23)" "unconnected-(U3J-GPIOL_42-PadW21)"
+      "unconnected-(U3J-GPIOL_43-PadW19)" "unconnected-(U3J-GPIOL_44-PadW20)"
+      "unconnected-(U3J-GPIOT_N_23-PadC23)" "unconnected-(U3J-GPIOT_N_33-PadG17)"
+      "unconnected-(U3J-GPIOT_N_34-PadG18)" "unconnected-(U3J-GPIOT_P_23_PLLIN0-PadD23)"
+      "unconnected-(U3J-GPIOT_P_33-PadF17)" "unconnected-(U3J-NC-PadV16)"
+      "unconnected-(U3J-NC-PadW10)" "unconnected-(U3J-NC-PadW11)" "unconnected-(U3J-NC-PadW13)"
+      "unconnected-(U3J-NC-PadW14)" "unconnected-(U3J-NC-PadW15)"
+      (circuit
+        (use_via "Via[0-9]_600:300_um")
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (via "Via[0-9]_600:300_um"  147000 -77000 (net /fpga_adc/VLVDS)(type route))
+    (via "Via[0-9]_600:300_um"  133000 -77000 (net /fpga_adc/VA19)(type route))
+    (via "Via[0-9]_600:300_um"  138000 -77000 (net /fpga_adc/VA11)(type route))
+    (via "Via[0-9]_600:300_um"  142000 -77000 (net /fpga_adc/VD11)(type route))
+  )
+)

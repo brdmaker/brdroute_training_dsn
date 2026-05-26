@@ -1,0 +1,263 @@
+(pcb "/Users/mikaheikkinen/bb/github/brdroute_training/dsn/CRImier__MyKiCad/Breakouts/8-led-board/8-led-board.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  168000 -113000  158000 -113000  158000 -92750  168000 -92750
+            168000 -113000)
+    )
+    (plane "Net-(D1-Pad2)" (polygon F.Cu 0  166000 -93000  167750 -93000  167750 -112750  166000 -112750
+            166000 -93000))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component LEDs:LED_0805_HandSoldering
+      (place D1 162630.5 -93989 front 0 (PN 0))
+      (place D2 162643.2 -96522.4 front 0 (PN 1))
+      (place D3 162643.2 -99081.2 front 0 (PN 2))
+      (place D4 162694 -101640 front 0 (PN 3))
+      (place D5 162643.2 -104148 front 0 (PN 4))
+      (place D6 162643.2 -106706.8 front 0 (PN 5))
+      (place D7 162643.2 -109214.8 front 0 (PN 6))
+      (place D8 162643.2 -111773.6 front 0 (PN 7))
+    )
+    (component Resistors_SMD:R_0603_HandSoldering
+      (place R1 163930.5 -93989 back 180 (PN 1K))
+      (place R2 163843.2 -96522.4 back 180 (PN 1K))
+      (place R3 163843.2 -99081.2 back 180 (PN 1K))
+      (place R4 163894 -101640 back 180 (PN 1K))
+      (place R5 163843.2 -104148 back 180 (PN 1K))
+      (place R6 163843.2 -106706.8 back 180 (PN 1K))
+      (place R7 163843.2 -109214.8 back 180 (PN 1K))
+      (place R8 163843.2 -111773.6 back 180 (PN 1K))
+    )
+    (component "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"
+      (place TP1 166850 -93980 back 0 (PN 0))
+      (place TP2 166850 -96520 back 0 (PN 1))
+      (place TP3 166850 -99060 back 0 (PN 2))
+      (place TP4 166850 -101600 back 0 (PN 3))
+      (place TP6 166850 -104140 back 0 (PN 4))
+      (place TP7 166850 -106680 back 0 (PN 5))
+      (place TP8 166850 -109220 back 0 (PN 6))
+      (place TP9 166850 -111760 back 0 (PN 7))
+    )
+    (component "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big"
+      (place TP5 166793.2 -111873.6 front 0 (PN TEST))
+    )
+  )
+  (library
+    (image LEDs:LED_0805_HandSoldering
+      (outline (polygon signal 0  2345 -895  -2345 -895  -2345 895  2345 895))
+      (outline (path signal 100  -400 400  -400 -400))
+      (outline (path signal 100  -400 0  200 400))
+      (outline (path signal 100  200 -400  -400 0))
+      (outline (path signal 100  200 400  200 -400))
+      (outline (path signal 100  -1000 -620  -1000 620))
+      (outline (path signal 100  1000 -620  -1000 -620))
+      (outline (path signal 100  1000 620  1000 -620))
+      (outline (path signal 100  -1000 620  1000 620))
+      (outline (path signal 120  1000 -750  -2200 -750))
+      (outline (path signal 120  -2200 750  1000 750))
+      (outline (path signal 120  -2200 750  -2200 -750))
+      (pin Rect[T]Pad_1500.000000x1300.000000_um 1 -1350 0)
+      (pin Rect[T]Pad_1500.000000x1300.000000_um 2 1350 0)
+    )
+    (image Resistors_SMD:R_0603_HandSoldering
+      (outline (polygon signal 0  1945 -695  -1955 -695  -1955 695  1945 695))
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 120  500 -680  -500 -680))
+      (outline (path signal 120  -500 680  500 680))
+      (pin Rect[T]Pad_1200.000000x900.000000_um 1 -1100 0)
+      (pin Rect[T]Pad_1200.000000x900.000000_um 2 1100 0)
+    )
+    (image "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"
+      (outline (polygon signal 0  -250.035 -965.709  -439.318 -895.607  -610.606 -788.842
+            -756.902 -649.778  -872.205 -484.116  -951.804 -298.631  -992.448 -100.855
+            -994.998 0  -992.448 100.854  -951.804 298.63  -872.205 484.115
+            -756.902 649.777  -610.606 788.841  -439.318 895.606  -250.035 965.708
+            -50.529 996.272  151.062 986.048  346.454 935.458  527.668 846.567
+            687.281 723.018  818.755 569.87  916.709 393.39  977.134 200.803
+            997.553 0  977.134 -200.804  916.709 -393.391  818.755 -569.871
+            687.281 -723.019  527.668 -846.568  346.454 -935.459  151.062 -986.049
+            -50.529 -996.273))
+      (pin Round[T]Pad_1500.000000_um 1 0 0)
+    )
+    (image "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big"
+      (outline (polygon signal 0  260.439 1727.92  515.071 1669.81  758.184 1574.39  984.369 1443.8
+            1188.56 1280.97  1366.2 1089.51  1513.33 873.72  1626.64 638.413
+            1703.63 388.84  1742.56 130.541  1745 0  1742.56 -130.54  1703.63 -388.839
+            1626.64 -638.412  1513.33 -873.719  1366.2 -1089.51  1188.56 -1280.96
+            984.369 -1443.8  758.184 -1574.39  515.071 -1669.8  260.439 -1727.92
+            0 -1747.44  -260.44 -1727.92  -515.072 -1669.8  -758.185 -1574.39
+            -984.37 -1443.8  -1188.56 -1280.96  -1366.2 -1089.51  -1513.33 -873.719
+            -1626.64 -638.412  -1703.63 -388.839  -1742.55 -130.587  -1742.55 130.588
+            -1703.63 388.84  -1626.64 638.413  -1513.33 873.72  -1366.2 1089.51
+            -1188.56 1280.97  -984.37 1443.8  -758.185 1574.39  -515.072 1669.81
+            -260.44 1727.92  0 1747.44))
+      (pin Round[T]Pad_650.000000_um 1 0 0)
+    )
+    (padstack Round[T]Pad_1500.000000_um
+      (shape (circle F.Cu 1500))
+      (attach off)
+    )
+    (padstack Round[T]Pad_650.000000_um
+      (shape (circle F.Cu 650))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200.000000x900.000000_um
+      (shape (rect F.Cu -600 -450 600 450))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500.000000x1300.000000_um
+      (shape (rect F.Cu -750 -650 750 650))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(D1-Pad1)"
+      (pins D1-1 R1-1)
+    )
+    (net "Net-(D1-Pad2)"
+      (pins D1-2 D2-2 D3-2 D4-2 D5-2 D6-2 D7-2 D8-2 TP5-1)
+    )
+    (net "Net-(D2-Pad1)"
+      (pins D2-1 R2-1)
+    )
+    (net "Net-(D3-Pad1)"
+      (pins D3-1 R3-1)
+    )
+    (net "Net-(D4-Pad1)"
+      (pins D4-1 R4-1)
+    )
+    (net "Net-(D5-Pad1)"
+      (pins D5-1 R5-1)
+    )
+    (net "Net-(D6-Pad1)"
+      (pins D6-1 R6-1)
+    )
+    (net "Net-(D7-Pad1)"
+      (pins D7-1 R7-1)
+    )
+    (net "Net-(D8-Pad1)"
+      (pins D8-1 R8-1)
+    )
+    (net "Net-(R1-Pad2)"
+      (pins R1-2 TP1-1)
+    )
+    (net "Net-(R2-Pad2)"
+      (pins R2-2 TP2-1)
+    )
+    (net "Net-(R3-Pad2)"
+      (pins R3-2 TP3-1)
+    )
+    (net "Net-(R4-Pad2)"
+      (pins R4-2 TP4-1)
+    )
+    (net "Net-(R5-Pad2)"
+      (pins R5-2 TP6-1)
+    )
+    (net "Net-(R6-Pad2)"
+      (pins R6-2 TP7-1)
+    )
+    (net "Net-(R7-Pad2)"
+      (pins R7-2 TP8-1)
+    )
+    (net "Net-(R8-Pad2)"
+      (pins R8-2 TP9-1)
+    )
+    (class kicad_default "Net-(D1-Pad1)" "Net-(D1-Pad2)" "Net-(D2-Pad1)" "Net-(D3-Pad1)"
+      "Net-(D4-Pad1)" "Net-(D5-Pad1)" "Net-(D6-Pad1)" "Net-(D7-Pad1)" "Net-(D8-Pad1)"
+      "Net-(R1-Pad2)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(R4-Pad2)" "Net-(R5-Pad2)"
+      "Net-(R6-Pad2)" "Net-(R7-Pad2)" "Net-(R8-Pad2)"
+      (circuit
+        (use_via "Via[0-1]_600:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path B.Cu 250  159880 -93989  161080 -93989)(net "Net-(D1-Pad1)")(type route))
+    (wire (path F.Cu 250  161280 -93989  159880 -93989)(net "Net-(D1-Pad1)")(type route))
+    (wire (path B.Cu 250  162830 -93989  161080 -93989)(net "Net-(D1-Pad1)")(type route))
+    (wire (path F.Cu 250  163993 -111774  166693 -111774)(net "Net-(D1-Pad2)")(type route))
+    (wire (path F.Cu 250  163993 -106707  166693 -106707)(net "Net-(D1-Pad2)")(type route))
+    (wire (path F.Cu 250  163993 -104148  166693 -104148)(net "Net-(D1-Pad2)")(type route))
+    (wire (path F.Cu 250  164044 -101640  166744 -101640)(net "Net-(D1-Pad2)")(type route))
+    (wire (path F.Cu 250  163993 -99081.2  166693 -99081.2)(net "Net-(D1-Pad2)")(type route))
+    (wire (path F.Cu 250  163993 -96522.4  166693 -96522.4)(net "Net-(D1-Pad2)")(type route))
+    (wire (path F.Cu 250  163980 -93989  166680 -93989)(net "Net-(D1-Pad2)")(type route))
+    (wire (path F.Cu 250  166693 -109215  163993 -109215)(net "Net-(D1-Pad2)")(type route))
+    (wire (path F.Cu 250  166793 -111874  166793 -109315  166693 -109215)(net "Net-(D1-Pad2)")(type route))
+    (wire (path F.Cu 250  159893 -96522.4  161293 -96522.4)(net "Net-(D2-Pad1)")(type route))
+    (wire (path B.Cu 250  160993 -96522.4  159893 -96522.4)(net "Net-(D2-Pad1)")(type route))
+    (wire (path B.Cu 250  162743 -96522.4  160993 -96522.4)(net "Net-(D2-Pad1)")(type route))
+    (wire (path B.Cu 250  159893 -99081.2  160993 -99081.2)(net "Net-(D3-Pad1)")(type route))
+    (wire (path F.Cu 250  161293 -99081.2  159893 -99081.2)(net "Net-(D3-Pad1)")(type route))
+    (wire (path B.Cu 250  162743 -99081.2  160993 -99081.2)(net "Net-(D3-Pad1)")(type route))
+    (wire (path F.Cu 250  159944 -101640  161344 -101640)(net "Net-(D4-Pad1)")(type route))
+    (wire (path B.Cu 250  161044 -101640  159944 -101640)(net "Net-(D4-Pad1)")(type route))
+    (wire (path B.Cu 250  162794 -101640  161044 -101640)(net "Net-(D4-Pad1)")(type route))
+    (wire (path B.Cu 250  159893 -104148  160993 -104148)(net "Net-(D5-Pad1)")(type route))
+    (wire (path F.Cu 250  161293 -104148  159893 -104148)(net "Net-(D5-Pad1)")(type route))
+    (wire (path B.Cu 250  162743 -104148  160993 -104148)(net "Net-(D5-Pad1)")(type route))
+    (wire (path F.Cu 250  159893 -106707  161293 -106707)(net "Net-(D6-Pad1)")(type route))
+    (wire (path B.Cu 250  160993 -106707  159893 -106707)(net "Net-(D6-Pad1)")(type route))
+    (wire (path B.Cu 250  162743 -106707  160993 -106707)(net "Net-(D6-Pad1)")(type route))
+    (wire (path B.Cu 250  160993 -109215  159893 -109215)(net "Net-(D7-Pad1)")(type route))
+    (wire (path F.Cu 250  161293 -109215  159893 -109215)(net "Net-(D7-Pad1)")(type route))
+    (wire (path B.Cu 250  162743 -109215  160993 -109215)(net "Net-(D7-Pad1)")(type route))
+    (wire (path F.Cu 250  159893 -111774  161293 -111774)(net "Net-(D8-Pad1)")(type route))
+    (wire (path B.Cu 250  160993 -111774  159893 -111774)(net "Net-(D8-Pad1)")(type route))
+    (wire (path B.Cu 250  162743 -111774  160993 -111774)(net "Net-(D8-Pad1)")(type route))
+    (wire (path B.Cu 250  165280 -93989  167080 -93989)(net "Net-(R1-Pad2)")(type route))
+    (wire (path B.Cu 250  165193 -96522.4  167093 -96522.4)(net "Net-(R2-Pad2)")(type route))
+    (wire (path B.Cu 250  165193 -99081.2  167093 -99081.2)(net "Net-(R3-Pad2)")(type route))
+    (wire (path B.Cu 250  165244 -101640  167144 -101640)(net "Net-(R4-Pad2)")(type route))
+    (wire (path B.Cu 250  165193 -104148  167093 -104148)(net "Net-(R5-Pad2)")(type route))
+    (wire (path B.Cu 250  165193 -106707  167093 -106707)(net "Net-(R6-Pad2)")(type route))
+    (wire (path B.Cu 250  165193 -109215  167093 -109215)(net "Net-(R7-Pad2)")(type route))
+    (wire (path B.Cu 250  167093 -111774  165193 -111774)(net "Net-(R8-Pad2)")(type route))
+    (via "Via[0-1]_600:400_um"  159880 -93989 (net "Net-(D1-Pad1)")(type route))
+    (via "Via[0-1]_600:400_um"  159893 -96522.4 (net "Net-(D2-Pad1)")(type route))
+    (via "Via[0-1]_600:400_um"  159893 -99081.2 (net "Net-(D3-Pad1)")(type route))
+    (via "Via[0-1]_600:400_um"  159944 -101640 (net "Net-(D4-Pad1)")(type route))
+    (via "Via[0-1]_600:400_um"  159893 -104148 (net "Net-(D5-Pad1)")(type route))
+    (via "Via[0-1]_600:400_um"  159893 -106707 (net "Net-(D6-Pad1)")(type route))
+    (via "Via[0-1]_600:400_um"  159893 -109215 (net "Net-(D7-Pad1)")(type route))
+    (via "Via[0-1]_600:400_um"  159893 -111774 (net "Net-(D8-Pad1)")(type route))
+  )
+)

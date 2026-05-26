@@ -1,0 +1,414 @@
+(pcb /Users/mikaheikkinen/bb/github/brdroute_training/dsn/hackclub__OnBoard/projects/AuroDeej5Slider/src/Deej.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  201820 -49178.4  202155 -49216.1  202483 -49291  202801 -49402.2
+            203104 -49548.3  203389 -49727.4  203653 -49937.3  203891 -50175.4
+            204101 -50438.6  204280 -50723.7  204426 -51027  204537 -51344.8
+            204612 -51673.1  204650 -52007.7  204652 -52176  204652 -122176
+            204650 -122344  204612 -122679  204537 -123007  204426 -123325
+            204280 -123628  204101 -123913  203891 -124177  203653 -124415
+            203389 -124625  203104 -124804  202801 -124950  202483 -125061
+            202155 -125136  201820 -125174  201652 -125176  95652 -125176
+            95455.6 -125174  95064.7 -125135  94679.5 -125058  94303.6 -124944
+            93940.7 -124794  93594.3 -124609  93267.8 -124391  92964.1 -124142
+            92686.4 -123864  92437.2 -123560  92219 -123234  92033.9 -122887
+            91883.6 -122524  91769.5 -122149  91692.9 -121763  91654.4 -121372
+            91652 -121176  91652 -52176  91654.4 -52007.7  91692.1 -51673.1
+            91767 -51344.8  91878.2 -51027  92024.3 -50723.7  92203.4 -50438.6
+            92413.3 -50175.4  92651.4 -49937.3  92914.6 -49727.4  93199.7 -49548.3
+            93503 -49402.2  93820.8 -49291  94149.1 -49216.1  94483.7 -49178.4
+            94652 -49176  201652 -49176  201820 -49178.4)
+    )
+    (keepout "" (polygon signal 0  105954 -53978.4  105761 -54016.7  105579 -54091.9  105416 -54201.1
+            105277 -54340.1  105168 -54503.5  105093 -54685  105054 -54877.7
+            105052 -54976  105052 -119776  105054 -119874  105093 -120067
+            105168 -120249  105277 -120412  105416 -120551  105579 -120660
+            105761 -120735  105954 -120774  106052 -120776  106552 -120776
+            106650 -120774  106843 -120735  107025 -120660  107188 -120551
+            107327 -120412  107436 -120249  107511 -120067  107550 -119874
+            107552 -119776  107552 -54976  107550 -54877.7  107511 -54685
+            107436 -54503.5  107327 -54340.1  107188 -54201.1  107025 -54091.9
+            106843 -54016.7  106650 -53978.4  106552 -53976  106052 -53976
+            105954 -53978.4))
+    (keepout "" (polygon signal 0  126854 -53978.4  126661 -54016.7  126479 -54091.9  126316 -54201.1
+            126177 -54340.1  126068 -54503.5  125993 -54685  125954 -54877.7
+            125952 -54976  125952 -119776  125954 -119874  125993 -120067
+            126068 -120249  126177 -120412  126316 -120551  126479 -120660
+            126661 -120735  126854 -120774  126952 -120776  127452 -120776
+            127550 -120774  127743 -120735  127925 -120660  128088 -120551
+            128227 -120412  128336 -120249  128411 -120067  128450 -119874
+            128452 -119776  128452 -54976  128450 -54877.7  128411 -54685
+            128336 -54503.5  128227 -54340.1  128088 -54201.1  127925 -54091.9
+            127743 -54016.7  127550 -53978.4  127452 -53976  126952 -53976
+            126854 -53978.4))
+    (keepout "" (polygon signal 0  147754 -53978.4  147561 -54016.7  147379 -54091.9  147216 -54201.1
+            147077 -54340.1  146968 -54503.5  146893 -54685  146854 -54877.7
+            146852 -54976  146852 -119776  146854 -119874  146893 -120067
+            146968 -120249  147077 -120412  147216 -120551  147379 -120660
+            147561 -120735  147754 -120774  147852 -120776  148352 -120776
+            148450 -120774  148643 -120735  148825 -120660  148988 -120551
+            149127 -120412  149236 -120249  149311 -120067  149350 -119874
+            149352 -119776  149352 -54976  149350 -54877.7  149311 -54685
+            149236 -54503.5  149127 -54340.1  148988 -54201.1  148825 -54091.9
+            148643 -54016.7  148450 -53978.4  148352 -53976  147852 -53976
+            147754 -53978.4))
+    (keepout "" (polygon signal 0  168654 -53978.4  168461 -54016.7  168279 -54091.9  168116 -54201.1
+            167977 -54340.1  167868 -54503.5  167793 -54685  167754 -54877.7
+            167752 -54976  167752 -119776  167754 -119874  167793 -120067
+            167868 -120249  167977 -120412  168116 -120551  168279 -120660
+            168461 -120735  168654 -120774  168752 -120776  169252 -120776
+            169350 -120774  169543 -120735  169725 -120660  169888 -120551
+            170027 -120412  170136 -120249  170211 -120067  170250 -119874
+            170252 -119776  170252 -54976  170250 -54877.7  170211 -54685
+            170136 -54503.5  170027 -54340.1  169888 -54201.1  169725 -54091.9
+            169543 -54016.7  169350 -53978.4  169252 -53976  168752 -53976
+            168654 -53978.4))
+    (keepout "" (polygon signal 0  189554 -53978.4  189361 -54016.7  189179 -54091.9  189016 -54201.1
+            188877 -54340.1  188768 -54503.5  188693 -54685  188654 -54877.7
+            188652 -54976  188652 -119776  188654 -119874  188693 -120067
+            188768 -120249  188877 -120412  189016 -120551  189179 -120660
+            189361 -120735  189554 -120774  189652 -120776  190152 -120776
+            190250 -120774  190443 -120735  190625 -120660  190788 -120551
+            190927 -120412  191036 -120249  191111 -120067  191150 -119874
+            191152 -119776  191152 -54976  191150 -54877.7  191111 -54685
+            191036 -54503.5  190927 -54340.1  190788 -54201.1  190625 -54091.9
+            190443 -54016.7  190250 -53978.4  190152 -53976  189652 -53976
+            189554 -53978.4))
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component MountingHole:MountingHole_4.3mm_M4_ISO7380
+      (place H3 199652 -120256 front 0 (PN MountingHole))
+      (place H4 199652 -54176 front 0 (PN MountingHole))
+      (place H1 96652 -120176 front 0 (PN MountingHole))
+      (place H2 96652 -54176 front 0 (PN MountingHole))
+    )
+    (component "Auro-deej:Fdeej-slider"
+      (place VR1 105632 -87236 front -90 (PN Slider))
+      (place VR5 189192 -87236 front -90 (PN Slider))
+      (place VR3 147412 -87236 front -90 (PN Slider))
+      (place VR4 168302 -87236 front -90 (PN Slider))
+      (place VR2 126522 -87236 front -90 (PN Slider))
+    )
+    (component "Keebio-Parts:ArduinoProMicro"
+      (place U1 116808 -84696 front -90 (PN ProMicro))
+    )
+  )
+  (library
+    (image MountingHole:MountingHole_4.3mm_M4_ISO7380
+      (outline (polygon signal 0  503.283 4016.1  900.657 3946.03  1289.08 3836.75  1664.69 3689.33
+            2023.75 3505.25  2362.71 3286.33  2678.18 3034.75  2967.04 2753.01
+            3226.4 2443.91  3453.71 2110.51  3646.68 1756.15  3803.42 1384.34
+            3922.35 998.754  4002.31 603.248  4042.49 201.727  4045 0  4042.49 -201.726
+            4002.31 -603.247  3922.35 -998.753  3803.42 -1384.34  3646.68 -1756.15
+            3453.71 -2110.51  3226.4 -2443.91  2967.04 -2753.01  2678.18 -3034.75
+            2362.71 -3286.33  2023.75 -3505.25  1664.69 -3689.33  1289.08 -3836.75
+            900.657 -3946.03  503.283 -4016.1  100.902 -4046.26  -302.469 -4036.2
+            -702.838 -3986.02  -1096.23 -3896.23  -1478.72 -3767.72  -1846.52 -3601.77
+            -2195.96 -3400.02  -2523.59 -3164.47  -2826.12 -2897.48  -3100.57 -2601.69
+            -3344.22 -2280.04  -3554.61 -1935.74  -3729.69 -1572.19  -3867.7 -1193.03
+            -3967.26 -802  -4027.4 -403.006  -4047.51 0  -4027.4 403.007
+            -3967.26 802.001  -3867.7 1193.03  -3729.69 1572.19  -3554.61 1935.74
+            -3344.22 2280.04  -3100.57 2601.7  -2826.12 2897.48  -2523.59 3164.47
+            -2195.96 3400.02  -1846.52 3601.77  -1478.72 3767.72  -1096.23 3896.23
+            -702.838 3986.03  -302.469 4036.2  100.902 4046.26))
+      (outline (path signal 150  3800 0  3780.5 -384.44  3722.21 -764.934  3625.73 -1137.58
+            3492.04 -1498.55  3322.52 -1844.15  3118.9 -2170.82  2883.28 -2475.22
+            2618.07 -2754.21  2326 -3004.95  2010.06 -3224.85  1673.5 -3411.66
+            1319.76 -3563.46  952.48 -3678.69  575.426 -3756.18  192.467 -3795.12
+            -192.467 -3795.12  -575.426 -3756.18  -952.48 -3678.69  -1319.76 -3563.46
+            -1673.5 -3411.66  -2010.06 -3224.85  -2326 -3004.95  -2618.07 -2754.21
+            -2883.28 -2475.22  -3118.9 -2170.82  -3322.52 -1844.15  -3492.04 -1498.55
+            -3625.73 -1137.58  -3722.21 -764.934  -3780.5 -384.44  -3800 0
+            -3780.5 384.44  -3722.21 764.934  -3625.73 1137.58  -3492.04 1498.55
+            -3322.52 1844.15  -3118.9 2170.82  -2883.28 2475.22  -2618.07 2754.21
+            -2326 3004.95  -2010.06 3224.85  -1673.5 3411.66  -1319.76 3563.46
+            -952.48 3678.69  -575.426 3756.18  -192.467 3795.12  192.467 3795.12
+            575.426 3756.18  952.48 3678.69  1319.76 3563.46  1673.5 3411.66
+            2010.06 3224.85  2326 3004.95  2618.07 2754.21  2883.28 2475.22
+            3118.9 2170.82  3322.52 1844.15  3492.04 1498.55  3625.73 1137.58
+            3722.21 764.934  3780.5 384.44  3800 0))
+      (keepout "" (circle F.Cu 4800))
+      (keepout "" (circle B.Cu 4800))
+    )
+    (image "Auro-deej:Fdeej-slider"
+      (pin Round[A]Pad_1524.000000_um 1 -34900 4400)
+      (pin Round[A]Pad_1524.000000_um 2 -34900 1900)
+      (pin Round[A]Pad_1524.000000_um 3 -34900 -600)
+      (pin Round[A]Pad_1524.000000_um 4 -34900 -3100)
+      (pin Round[A]Pad_1524.000000_um 5 34900 1900)
+      (pin Round[A]Pad_1524.000000_um 6 34900 -3100)
+    )
+    (image "Keebio-Parts:ArduinoProMicro"
+      (pin Rect[A]Pad_1752.600000x1752.600000_um 1 -13970 -7620)
+      (pin Round[A]Pad_1752.600000_um 2 -11430 -7620)
+      (pin Round[A]Pad_1752.600000_um 3 -8890 -7620)
+      (pin Round[A]Pad_1752.600000_um 4 -6350 -7620)
+      (pin Round[A]Pad_1752.600000_um 5 -3810 -7620)
+      (pin Round[A]Pad_1752.600000_um 6 -1270 -7620)
+      (pin Round[A]Pad_1752.600000_um 7 1270 -7620)
+      (pin Round[A]Pad_1752.600000_um 8 3810 -7620)
+      (pin Round[A]Pad_1752.600000_um 9 6350 -7620)
+      (pin Round[A]Pad_1752.600000_um 10 8890 -7620)
+      (pin Round[A]Pad_1752.600000_um 11 11430 -7620)
+      (pin Round[A]Pad_1752.600000_um 12 13970 -7620)
+      (pin Round[A]Pad_1752.600000_um 13 13970 7620)
+      (pin Round[A]Pad_1752.600000_um 14 11430 7620)
+      (pin Round[A]Pad_1752.600000_um 15 8890 7620)
+      (pin Round[A]Pad_1752.600000_um 16 6350 7620)
+      (pin Round[A]Pad_1752.600000_um 17 3810 7620)
+      (pin Round[A]Pad_1752.600000_um 18 1270 7620)
+      (pin Round[A]Pad_1752.600000_um 19 -1270 7620)
+      (pin Round[A]Pad_1752.600000_um 20 -3810 7620)
+      (pin Round[A]Pad_1752.600000_um 21 -6350 7620)
+      (pin Round[A]Pad_1752.600000_um 22 -8890 7620)
+      (pin Round[A]Pad_1752.600000_um 23 -11430 7620)
+      (pin Round[A]Pad_1752.600000_um 24 -13970 7620)
+    )
+    (padstack Round[A]Pad_1524.000000_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1752.600000_um
+      (shape (circle F.Cu 1752.6))
+      (shape (circle B.Cu 1752.6))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1752.600000x1752.600000_um
+      (shape (rect F.Cu -876.3 -876.3 876.3 876.3))
+      (shape (rect B.Cu -876.3 -876.3 876.3 876.3))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "unconnected-(U1-TX0{slash}PD3-Pad1)"
+      (pins U1-1)
+    )
+    (net "unconnected-(U1-RX1{slash}PD2-Pad2)"
+      (pins U1-2)
+    )
+    (net GND
+      (pins VR1-2 VR5-2 U1-3 VR3-2 VR4-2 VR2-2)
+    )
+    (net "unconnected-(U1-GND-Pad4)"
+      (pins U1-4)
+    )
+    (net "unconnected-(U1-2{slash}PD1-Pad5)"
+      (pins U1-5)
+    )
+    (net "unconnected-(U1-3{slash}PD0-Pad6)"
+      (pins U1-6)
+    )
+    (net "unconnected-(U1-4{slash}PD4-Pad7)"
+      (pins U1-7)
+    )
+    (net "unconnected-(U1-5{slash}PC6-Pad8)"
+      (pins U1-8)
+    )
+    (net "unconnected-(U1-6{slash}PD7-Pad9)"
+      (pins U1-9)
+    )
+    (net "unconnected-(U1-7{slash}PE6-Pad10)"
+      (pins U1-10)
+    )
+    (net "unconnected-(U1-8{slash}PB4-Pad11)"
+      (pins U1-11)
+    )
+    (net "Net-(U1-9{slash}PB5)"
+      (pins VR1-1 U1-12)
+    )
+    (net "unconnected-(U1-10{slash}PB6-Pad13)"
+      (pins U1-13)
+    )
+    (net "unconnected-(U1-16{slash}PB2-Pad14)"
+      (pins U1-14)
+    )
+    (net "unconnected-(U1-14{slash}PB3-Pad15)"
+      (pins U1-15)
+    )
+    (net "unconnected-(U1-15{slash}PB1-Pad16)"
+      (pins U1-16)
+    )
+    (net "Net-(U1-A0{slash}PF7)"
+      (pins VR5-1 U1-17)
+    )
+    (net "Net-(U1-A1{slash}PF6)"
+      (pins U1-18 VR4-1)
+    )
+    (net "Net-(U1-A2{slash}PF5)"
+      (pins U1-19 VR3-1)
+    )
+    (net "Net-(U1-A3{slash}PF4)"
+      (pins U1-20 VR2-1)
+    )
+    (net "Net-(U1-VCC)"
+      (pins VR1-5 VR5-5 U1-21 VR3-5 VR4-5 VR2-5)
+    )
+    (net "unconnected-(U1-RST-Pad22)"
+      (pins U1-22)
+    )
+    (net "unconnected-(U1-GND-Pad23)"
+      (pins U1-23)
+    )
+    (net "unconnected-(U1-RAW-Pad24)"
+      (pins U1-24)
+    )
+    (net "unconnected-(VR1-Pad3)"
+      (pins VR1-3)
+    )
+    (net "unconnected-(VR1-Pad4)"
+      (pins VR1-4)
+    )
+    (net "unconnected-(VR1-Pad6)"
+      (pins VR1-6)
+    )
+    (net "unconnected-(VR2-Pad3)"
+      (pins VR2-3)
+    )
+    (net "unconnected-(VR2-Pad4)"
+      (pins VR2-4)
+    )
+    (net "unconnected-(VR2-Pad6)"
+      (pins VR2-6)
+    )
+    (net "unconnected-(VR3-Pad3)"
+      (pins VR3-3)
+    )
+    (net "unconnected-(VR3-Pad4)"
+      (pins VR3-4)
+    )
+    (net "unconnected-(VR3-Pad6)"
+      (pins VR3-6)
+    )
+    (net "unconnected-(VR4-Pad3)"
+      (pins VR4-3)
+    )
+    (net "unconnected-(VR4-Pad4)"
+      (pins VR4-4)
+    )
+    (net "unconnected-(VR4-Pad6)"
+      (pins VR4-6)
+    )
+    (net "unconnected-(VR5-Pad3)"
+      (pins VR5-3)
+    )
+    (net "unconnected-(VR5-Pad4)"
+      (pins VR5-4)
+    )
+    (net "unconnected-(VR5-Pad6)"
+      (pins VR5-6)
+    )
+    (class kicad_default GND "Net-(U1-9{slash}PB5)" "Net-(U1-A0{slash}PF7)"
+      "Net-(U1-A1{slash}PF6)" "Net-(U1-A2{slash}PF5)" "Net-(U1-A3{slash}PF4)"
+      "Net-(U1-VCC)" "unconnected-(U1-10{slash}PB6-Pad13)" "unconnected-(U1-14{slash}PB3-Pad15)"
+      "unconnected-(U1-15{slash}PB1-Pad16)" "unconnected-(U1-16{slash}PB2-Pad14)"
+      "unconnected-(U1-2{slash}PD1-Pad5)" "unconnected-(U1-3{slash}PD0-Pad6)"
+      "unconnected-(U1-4{slash}PD4-Pad7)" "unconnected-(U1-5{slash}PC6-Pad8)"
+      "unconnected-(U1-6{slash}PD7-Pad9)" "unconnected-(U1-7{slash}PE6-Pad10)"
+      "unconnected-(U1-8{slash}PB4-Pad11)" "unconnected-(U1-GND-Pad23)" "unconnected-(U1-GND-Pad4)"
+      "unconnected-(U1-RAW-Pad24)" "unconnected-(U1-RST-Pad22)" "unconnected-(U1-RX1{slash}PD2-Pad2)"
+      "unconnected-(U1-TX0{slash}PD3-Pad1)" "unconnected-(VR1-Pad3)" "unconnected-(VR1-Pad4)"
+      "unconnected-(VR1-Pad6)" "unconnected-(VR2-Pad3)" "unconnected-(VR2-Pad4)"
+      "unconnected-(VR2-Pad6)" "unconnected-(VR3-Pad3)" "unconnected-(VR3-Pad4)"
+      "unconnected-(VR3-Pad6)" "unconnected-(VR4-Pad3)" "unconnected-(VR4-Pad4)"
+      "unconnected-(VR4-Pad6)" "unconnected-(VR5-Pad3)" "unconnected-(VR5-Pad4)"
+      "unconnected-(VR5-Pad6)"
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  150399 -51249  169115 -51249)(net GND)(type route))
+    (wire (path F.Cu 250  107532 -52336  107652 -52456)(net GND)(type route))
+    (wire (path F.Cu 250  127335 -51249  128422 -52336)(net GND)(type route))
+    (wire (path F.Cu 250  129509 -51249  128422 -52336)(net GND)(type route))
+    (wire (path F.Cu 250  190005 -51249  171289 -51249)(net GND)(type route))
+    (wire (path F.Cu 250  112776 -57580  112776 -72218)(net GND)(type route))
+    (wire (path F.Cu 250  149312 -52336  148225 -51249)(net GND)(type route))
+    (wire (path F.Cu 250  191092 -52336  190005 -51249)(net GND)(type route))
+    (wire (path F.Cu 250  171289 -51249  170202 -52336)(net GND)(type route))
+    (wire (path F.Cu 250  108619 -51249  127335 -51249)(net GND)(type route))
+    (wire (path F.Cu 250  148225 -51249  129509 -51249)(net GND)(type route))
+    (wire (path F.Cu 250  149312 -52336  150399 -51249)(net GND)(type route))
+    (wire (path F.Cu 250  107532 -52336  108619 -51249)(net GND)(type route))
+    (wire (path F.Cu 250  107532 -52336  112776 -57580)(net GND)(type route))
+    (wire (path F.Cu 250  169115 -51249  170202 -52336)(net GND)(type route))
+    (wire (path F.Cu 250  107652 -52456  107652 -52975.2)(net GND)(type route))
+    (wire (path F.Cu 250  112776 -72218  109188 -75806)(net GND)(type route))
+    (wire (path B.Cu 250  107727 -52531  107532 -52336)(net GND)(type route))
+    (wire (path B.Cu 250  128422 -52336  127927 -52336)(net GND)(type route))
+    (wire (path B.Cu 250  110032 -53644  113792 -57404  113792 -94062  109188 -98666)(net "Net-(U1-9{slash}PB5)")(type route))
+    (wire (path B.Cu 250  110032 -52336  110032 -53644)(net "Net-(U1-9{slash}PB5)")(type route))
+    (wire (path B.Cu 250  121412 -115831  126485 -120904)(net "Net-(U1-A0{slash}PF7)")(type route))
+    (wire (path B.Cu 250  124428 -88506  121412 -91522)(net "Net-(U1-A0{slash}PF7)")(type route))
+    (wire (path B.Cu 250  190619 -120904  193592 -117931  193592 -52336)(net "Net-(U1-A0{slash}PF7)")(type route))
+    (wire (path B.Cu 250  126485 -120904  190619 -120904)(net "Net-(U1-A0{slash}PF7)")(type route))
+    (wire (path B.Cu 250  121412 -91522  121412 -115831)(net "Net-(U1-A0{slash}PF7)")(type route))
+    (wire (path B.Cu 250  125821 -84573.3  124428 -85966)(net "Net-(U1-A1{slash}PF6)")(type route))
+    (wire (path B.Cu 250  172702 -52336  171189 -53848.7)(net "Net-(U1-A1{slash}PF6)")(type route))
+    (wire (path B.Cu 250  126485 -53848.7  125821 -54512.6)(net "Net-(U1-A1{slash}PF6)")(type route))
+    (wire (path B.Cu 250  171189 -53848.7  126485 -53848.7)(net "Net-(U1-A1{slash}PF6)")(type route))
+    (wire (path B.Cu 250  125821 -54512.6  125821 -84573.3)(net "Net-(U1-A1{slash}PF6)")(type route))
+    (wire (path B.Cu 250  150275 -50799  151812 -52336)(net "Net-(U1-A2{slash}PF5)")(type route))
+    (wire (path B.Cu 250  122785 -50799  150275 -50799)(net "Net-(U1-A2{slash}PF5)")(type route))
+    (wire (path B.Cu 250  121470 -52114.4  122785 -50799)(net "Net-(U1-A2{slash}PF5)")(type route))
+    (wire (path B.Cu 250  124428 -83426  121470 -80468  121470 -52114.4)(net "Net-(U1-A2{slash}PF5)")(type route))
+    (wire (path B.Cu 250  121920 -52300.7  121920 -78378)(net "Net-(U1-A3{slash}PF4)")(type route))
+    (wire (path B.Cu 250  129835 -51249  122972 -51249)(net "Net-(U1-A3{slash}PF4)")(type route))
+    (wire (path B.Cu 250  130922 -52336  129835 -51249)(net "Net-(U1-A3{slash}PF4)")(type route))
+    (wire (path B.Cu 250  121920 -78378  124428 -80886)(net "Net-(U1-A3{slash}PF4)")(type route))
+    (wire (path B.Cu 250  122972 -51249  121920 -52300.7)(net "Net-(U1-A3{slash}PF4)")(type route))
+    (wire (path F.Cu 250  112776 -119888  110528 -122136)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  124428 -78346  112776 -89998)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  147272 -124176  149312 -122136)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  172242 -124176  189052 -124176)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  130462 -124176  147272 -124176)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  112776 -89998  112776 -119888)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  151352 -124176  168162 -124176)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  149312 -122136  151352 -124176)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  128422 -122136  130462 -124176)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  126382 -124176  128422 -122136)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  107532 -122136  109572 -124176)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  168162 -124176  170202 -122136)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  109572 -124176  126382 -124176)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  110528 -122136  107532 -122136)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  170202 -122136  172242 -124176)(net "Net-(U1-VCC)")(type route))
+    (wire (path F.Cu 250  189052 -124176  191092 -122136)(net "Net-(U1-VCC)")(type route))
+  )
+)

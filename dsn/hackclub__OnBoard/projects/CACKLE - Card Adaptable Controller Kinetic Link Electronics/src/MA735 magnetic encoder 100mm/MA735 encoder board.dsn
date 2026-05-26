@@ -1,0 +1,291 @@
+(pcb "/Users/mikaheikkinen/bb/github/brdroute_training/dsn/hackclub__OnBoard/projects/CACKLE - Card Adaptable Controller Kinetic Link Electronics/src/MA735 magnetic encoder 100mm/MA735 encoder board.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  154000 -129100  154151 -129173  154437 -129349  154700 -129557
+            154937 -129795  155145 -130059  155320 -130346  155460 -130651
+            155563 -130971  155628 -131300  155654 -131635  155640 -131970
+            155587 -132302  155496 -132625  155367 -132935  155203 -133228
+            155005 -133500  154777 -133746  154521 -133964  154242 -134150
+            153943 -134303  153628 -134419  153301 -134497  152968 -134536
+            152632 -134536  152299 -134497  151972 -134419  151657 -134303
+            151358 -134150  151079 -133964  150823 -133746  150595 -133500
+            150397 -133228  150233 -132935  150104 -132625  150013 -132302
+            149960 -131970  149946 -131635  149972 -131300  150037 -130971
+            150140 -130651  150280 -130346  150455 -130059  150663 -129795
+            150900 -129557  151163 -129349  151449 -129173  151600 -129100
+            151600 -29100  154000 -29100  154000 -129100)
+    )
+    (plane GND (polygon B.Cu 0  149100 -135800  149100 -128800  156500 -128800  156500 -135800
+            149100 -135800))
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "MA730:UTQFN-14_MA735_MNP"
+      (place U1 152810.408 -131700 front 180 (PN "MA735GGU-Z"))
+    )
+    (component Capacitor_SMD:C_0402_1005Metric
+      (place C2 152800 -133800 front 0 (PN 0.1uF))
+    )
+    (component Capacitor_SMD:C_0402_1005Metric::1
+      (place C1 150700 -131700 front 90 (PN 1uF))
+    )
+    (component custom_testpoints:7pin_fpc_contact_0.3mmptich
+      (place J1 152800 -30200 front 0 (PN "FPC contacts 0.3mm"))
+    )
+  )
+  (library
+    (image "MA730:UTQFN-14_MA735_MNP"
+      (outline (polygon signal 0  -949 -1277.7  -1277.7 -1277.7  -1277.7 -749  -1599 -749
+            -1599 749  -1277.7 749  -1277.7 1277.7  -949 1277.7  -949 1599
+            949 1599  949 1277.7  1277.7 1277.7  1277.7 749  1599 749  1599 -749
+            1277.7 -749  1277.7 -1277.7  949 -1277.7  949 -1599  -949 -1599))
+      (outline (path signal 152.4  1155.7 -1155.7  1155.7 -832.739))
+      (outline (path signal 152.4  1155.7 832.739  1155.7 1155.7))
+      (outline (path signal 152.4  -1155.7 -832.739  -1155.7 -1155.7))
+      (outline (path signal 152.4  -1155.7 1155.7  -1155.7 832.739))
+      (outline (path signal 25.4  1028.7 -1028.7  1028.7 1028.7))
+      (outline (path signal 25.4  1028.7 1028.7  -1028.7 1028.7))
+      (outline (path signal 25.4  -1028.7 -1028.7  1028.7 -1028.7))
+      (outline (path signal 25.4  -1028.7 -241.3  241.3 1028.7))
+      (outline (path signal 25.4  -1028.7 1028.7  -1028.7 -1028.7))
+      (pin RoundRect[T]Pad_700.000000x199.998000_0.000000_um_0.500000_2 1 -1000 400)
+      (pin Rect[T]Pad_700.000000x200.000000_um 2 -1000 0)
+      (pin RoundRect[T]Pad_700.000000x200.000000_0.000000_um_0.500000_8 3 -1000 -400)
+      (pin RoundRect[T]Pad_700.000000x200.000000_0.000000_um_0.500000_2 (rotate 90) 4 -600 -1000)
+      (pin Rect[T]Pad_700.000000x200.000000_um (rotate 90) 5 -200 -1000)
+      (pin Rect[T]Pad_700.000000x200.000000_um (rotate 90) 6 200 -1000)
+      (pin RoundRect[T]Pad_700.000000x199.999000_0.000000_um_0.500000_8 (rotate 90) 7 599.999 -1000)
+      (pin RoundRect[T]Pad_700.000000x200.000000_0.000000_um_0.500000_4 8 1000 -399.999)
+      (pin Rect[T]Pad_700.000000x200.000000_um 9 1000 0)
+      (pin RoundRect[T]Pad_700.000000x200.000000_0.000000_um_0.500000_1 10 1000 400)
+      (pin RoundRect[T]Pad_700.000000x199.998000_0.000000_um_0.500000_4 (rotate 90) 11 600 1000)
+      (pin Rect[T]Pad_700.000000x200.000000_um (rotate 90) 12 200 1000)
+      (pin Rect[T]Pad_700.000000x200.000000_um (rotate 90) 13 -200 1000)
+      (pin RoundRect[T]Pad_700.000000x199.998000_0.000000_um_0.500000_1 (rotate 90) 14 -600 1000)
+    )
+    (image Capacitor_SMD:C_0402_1005Metric
+      (outline (polygon signal 0  905 -455  -905 -455  -905 455  905 455))
+      (outline (path signal 120  -107.836 360  107.836 360))
+      (outline (path signal 120  -107.836 -360  107.836 -360))
+      (outline (path signal 100  -500 250  500 250))
+      (outline (path signal 100  -500 -250  -500 250))
+      (outline (path signal 100  500 250  500 -250))
+      (outline (path signal 100  500 -250  -500 -250))
+      (pin RoundRect[T]Pad_560.000000x620.000000_140.533000_um_0.000000_0 1 -480 0)
+      (pin RoundRect[T]Pad_560.000000x620.000000_140.533000_um_0.000000_0 2 480 0)
+    )
+    (image Capacitor_SMD:C_0402_1005Metric::1
+      (outline (polygon signal 0  -905 -455  -905 455  905 455  905 -455))
+      (outline (path signal 120  -107.836 360  107.836 360))
+      (outline (path signal 120  -107.836 -360  107.836 -360))
+      (outline (path signal 100  500 250  500 -250))
+      (outline (path signal 100  -500 250  500 250))
+      (outline (path signal 100  500 -250  -500 -250))
+      (outline (path signal 100  -500 -250  -500 250))
+      (pin RoundRect[T]Pad_560.000000x620.000000_140.533000_um_0.000000_0 1 -480 0)
+      (pin RoundRect[T]Pad_560.000000x620.000000_140.533000_um_0.000000_0 2 480 0)
+    )
+    (image custom_testpoints:7pin_fpc_contact_0.3mmptich
+      (outline (path signal 0  -1200 1100  1200 1100  1200 -900  -1200 -900  -1200 1100))
+      (outline (path signal 50  -1200 1100  1200 1100  1200 -1900  -1200 -1900  -1200 1100))
+      (pin Cust[T]Pad_100.000000x2000.000000_300.000000x2000.000000_9_um_F2CDFAB8E53F3FECFA0855AAFAA95A00 1 -900 100)
+      (pin Cust[T]Pad_100.000000x2000.000000_300.000000x2000.000000_9_um_227406D7EF873BC73FE83B43EF6444D4 2 -600 100)
+      (pin Cust[T]Pad_100.000000x2000.000000_300.000000x2000.000000_9_um_F2CDFAB8E53F3FECFA0855AAFAA95A00 3 -300 100)
+      (pin Cust[T]Pad_100.000000x2000.000000_300.000000x2000.000000_9_um_227406D7EF873BC73FE83B43EF6444D4 4 0 100)
+      (pin Cust[T]Pad_100.000000x2000.000000_300.000000x2000.000000_9_um_F2CDFAB8E53F3FECFA0855AAFAA95A00 5 300 100)
+      (pin Cust[T]Pad_100.000000x2000.000000_300.000000x2000.000000_9_um_227406D7EF873BC73FE83B43EF6444D4 6 600 100)
+      (pin Cust[T]Pad_100.000000x2000.000000_300.000000x2000.000000_9_um_F2CDFAB8E53F3FECFA0855AAFAA95A00 7 900 100)
+    )
+    (padstack Cust[T]Pad_100.000000x2000.000000_300.000000x2000.000000_9_um_227406D7EF873BC73FE83B43EF6444D4
+      (shape (polygon F.Cu 0  -150 250  -50 1000  50 1000  150 250  150 -350  100 -1000
+            -100 -1000  -150 -350  -150 250))
+      (attach off)
+    )
+    (padstack Cust[T]Pad_100.000000x2000.000000_300.000000x2000.000000_9_um_F2CDFAB8E53F3FECFA0855AAFAA95A00
+      (shape (polygon F.Cu 0  -150 880  -50 1000  50 1000  150 880  150 350  100 -1000
+            -100 -1000  -150 350  -150 880))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_560.000000x620.000000_140.533000_um_0.000000_0
+      (shape (polygon F.Cu 0  -280.533 170  -269.836 223.78  -239.372 269.372  -193.78 299.836
+            -139.999 310.532  140 310.533  193.78 299.836  239.372 269.372
+            269.836 223.78  280.532 169.999  280.533 -170  269.836 -223.78
+            239.372 -269.372  193.78 -299.836  139.999 -310.532  -140 -310.533
+            -193.78 -299.836  -239.372 -269.372  -269.836 -223.78  -280.532 -169.999
+            -280.533 170))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_700.000000x199.998000_0.000000_um_0.500000_1
+      (shape (polygon F.Cu 0  -350 0  -250.001 99.999  350 99.999  350 -99.999  -350 -99.999
+            -350 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_700.000000x200.000000_0.000000_um_0.500000_1
+      (shape (polygon F.Cu 0  -350 0  -250 100  350 100  350 -100  -350 -100  -350 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_700.000000x200.000000_0.000000_um_0.500000_2
+      (shape (polygon F.Cu 0  -350 100  250 100  350 0  350 -100  -350 -100  -350 100))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_700.000000x200.000000_0.000000_um_0.500000_4
+      (shape (polygon F.Cu 0  -350 100  350 100  350 -100  -250 -100  -350 0  -350 100))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_700.000000x199.999000_0.000000_um_0.500000_8
+      (shape (polygon F.Cu 0  -350 100  350 100  350 0  250 -100  -350 -100  -350 100))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_700.000000x200.000000_0.000000_um_0.500000_8
+      (shape (polygon F.Cu 0  -350 100  350 100  350 0  250 -100  -350 -100  -350 100))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_700.000000x199.998000_0.000000_um_0.500000_2
+      (shape (polygon F.Cu 0  -350 99.999  250.001 99.999  350 0  350 -99.999  -350 -99.999
+            -350 99.999))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_700.000000x199.998000_0.000000_um_0.500000_4
+      (shape (polygon F.Cu 0  -350 99.999  350 99.999  350 -99.999  -250.001 -99.999
+            -350 0  -350 99.999))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_700.000000x200.000000_um
+      (shape (rect F.Cu -350 -100 350 100))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins U1-2 U1-4 C2-2 C1-2 J1-1 J1-5)
+    )
+    (net +3V3
+      (pins U1-13 C2-1 C1-1 J1-7)
+    )
+    (net /MOSI
+      (pins U1-8 J1-2)
+    )
+    (net /MISO
+      (pins U1-5 J1-4)
+    )
+    (net /CS
+      (pins U1-7 J1-3)
+    )
+    (net /SCK
+      (pins U1-1 J1-6)
+    )
+    (net "unconnected-(U1-PWM-Pad3)"
+      (pins U1-3)
+    )
+    (net "unconnected-(U1-SSD-Pad11)"
+      (pins U1-11)
+    )
+    (net "unconnected-(U1-MGH-Pad12)"
+      (pins U1-12)
+    )
+    (net "unconnected-(U1-SSCK-Pad14)"
+      (pins U1-14)
+    )
+    (net "unconnected-(U1-A-Pad10)"
+      (pins U1-10)
+    )
+    (net "unconnected-(U1-Z-Pad9)"
+      (pins U1-9)
+    )
+    (net "unconnected-(U1-B-Pad6)"
+      (pins U1-6)
+    )
+    (class kicad_default +3V3 /CS /MISO /MOSI /SCK GND "unconnected-(U1-A-Pad10)"
+      "unconnected-(U1-B-Pad6)" "unconnected-(U1-MGH-Pad12)" "unconnected-(U1-PWM-Pad3)"
+      "unconnected-(U1-SSCK-Pad14)" "unconnected-(U1-SSD-Pad11)" "unconnected-(U1-Z-Pad9)"
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 160  153200 -131700  152900 -131700)(net GND)(type route))
+    (wire (path F.Cu 160  153280 -133800  153900 -133800)(net GND)(type route))
+    (wire (path F.Cu 160  152900 -131700  152700 -131700)(net GND)(type route))
+    (wire (path F.Cu 160  153200 -131278  153200 -131700)(net GND)(type route))
+    (wire (path F.Cu 160  150700 -130500  150900 -130500)(net GND)(type route))
+    (wire (path F.Cu 160  153410 -130700  153410 -131067)(net GND)(type route))
+    (wire (path F.Cu 160  153810 -131700  153200 -131700)(net GND)(type route))
+    (wire (path F.Cu 160  150900 -130400  151900 -129400)(net GND)(type route))
+    (wire (path F.Cu 160  150900 -130500  150900 -130400)(net GND)(type route))
+    (wire (path F.Cu 160  150900 -130500  150900 -131020)(net GND)(type route))
+    (wire (path F.Cu 160  153410 -130700  153410 -130111  153100 -129801)(net GND)(type route))
+    (wire (path F.Cu 160  153410 -131067  153200 -131278)(net GND)(type route))
+    (wire (path F.Cu 160  150900 -131020  150700 -131220)(net GND)(type route))
+    (wire (path F.Cu 160  153900 -133800  154300 -133400)(net GND)(type route))
+    (wire (path F.Cu 160  153100 -129801  153100 -31120.3)(net GND)(type route))
+    (wire (path F.Cu 160  151900 -129400  151900 -31120.3)(net GND)(type route))
+    (wire (path B.Cu 200  154300 -133400  154200 -133500)(net GND)(type route))
+    (wire (path F.Cu 160  155000 -130600  153700 -129300)(net +3V3)(type route))
+    (wire (path F.Cu 160  154900 -132500  155000 -132400  155000 -130600)(net +3V3)(type route))
+    (wire (path F.Cu 160  152320 -133800  151673 -133800)(net +3V3)(type route))
+    (wire (path F.Cu 160  153700 -129300  153700 -31120.3)(net +3V3)(type route))
+    (wire (path F.Cu 160  153010 -132700  153010 -133110)(net +3V3)(type route))
+    (wire (path F.Cu 160  151500 -132900  151137 -133263  150700 -132827  150700 -132180)(net +3V3)(type route))
+    (wire (path F.Cu 160  151500 -132800  151500 -132900)(net +3V3)(type route))
+    (wire (path F.Cu 160  153010 -133110  152320 -133800)(net +3V3)(type route))
+    (wire (path F.Cu 160  151673 -133800  151137 -133263)(net +3V3)(type route))
+    (wire (path B.Cu 160  153900 -132800  151500 -132800)(net +3V3)(type route))
+    (wire (path B.Cu 160  154200 -132500  153900 -132800)(net +3V3)(type route))
+    (wire (path B.Cu 160  154900 -132500  154200 -132500)(net +3V3)(type route))
+    (wire (path F.Cu 160  151700 -131190  151810 -131300)(net /MOSI)(type route))
+    (wire (path F.Cu 160  152200 -129600  151700 -130100)(net /MOSI)(type route))
+    (wire (path F.Cu 160  152200 -30100  152200 -129600)(net /MOSI)(type route))
+    (wire (path F.Cu 160  151700 -130100  151700 -131190)(net /MOSI)(type route))
+    (wire (path F.Cu 160  152800 -30100  152800 -130026)(net /MISO)(type route))
+    (wire (path F.Cu 160  153010 -130237  153010 -130700)(net /MISO)(type route))
+    (wire (path F.Cu 160  152800 -130026  153010 -130237)(net /MISO)(type route))
+    (wire (path F.Cu 160  152210 -130190  152500 -129900  152500 -31120.3)(net /CS)(type route))
+    (wire (path F.Cu 160  152210 -130700  152210 -130190)(net /CS)(type route))
+    (wire (path F.Cu 160  154500 -130700  153400 -129600)(net /SCK)(type route))
+    (wire (path F.Cu 160  153810 -132100  154260 -132100)(net /SCK)(type route))
+    (wire (path F.Cu 160  154500 -131860  154500 -130700)(net /SCK)(type route))
+    (wire (path F.Cu 200  153406 -30105.8  153400 -30100)(net /SCK)(type route))
+    (wire (path F.Cu 160  153400 -129600  153400 -30100)(net /SCK)(type route))
+    (wire (path F.Cu 160  154260 -132100  154500 -131860)(net /SCK)(type route))
+    (via "Via[0-1]_600:300_um"  150900 -130500 (net GND)(type route))
+    (via "Via[0-1]_600:300_um"  154300 -133400 (net GND)(type route))
+    (via "Via[0-1]_600:300_um"  152700 -131700 (net GND)(type route))
+    (via "Via[0-1]_600:300_um"  154900 -132500 (net +3V3)(type route))
+    (via "Via[0-1]_600:300_um"  151500 -132800 (net +3V3)(type route))
+  )
+)

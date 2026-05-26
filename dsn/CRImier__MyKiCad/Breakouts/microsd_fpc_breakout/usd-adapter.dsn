@@ -1,0 +1,191 @@
+(pcb "/Users/mikaheikkinen/bb/github/brdroute_training/dsn/CRImier__MyKiCad/Breakouts/microsd_fpc_breakout/usd-adapter.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  155310 -85012.5  155485 -85052.5  155647 -85130.5  155787 -85242.5
+            155900 -85383  155977 -85544.9  156017 -85720.1  156020 -85810
+            156020 -104210  156023 -104300  156063 -104475  156140 -104637
+            156253 -104777  156393 -104890  156555 -104967  156730 -105007
+            156820 -105010  156910 -105013  157085 -105053  157247 -105130
+            157387 -105243  157500 -105383  157577 -105545  157617 -105720
+            157620 -105810  157620 -114210  157617 -114300  157577 -114475
+            157500 -114637  157387 -114777  157247 -114890  157085 -114967
+            156910 -115007  156820 -115010  144215 -115010  144126 -115007
+            143951 -114966  143790 -114888  143651 -114776  143540 -114635
+            143462 -114474  143422 -114300  143420 -114210  143420 -105805
+            143423 -105715  143463 -105540  143540 -105378  143653 -105238
+            143793 -105125  143955 -105048  144130 -105008  144220 -105005
+            144310 -105002  144485 -104962  144647 -104885  144787 -104772
+            144900 -104632  144977 -104470  145017 -104295  145020 -104205
+            145020 -94844.5  145720 -94110  145720 -93110  145718 -93070.6
+            145688 -92997.8  145632 -92942.1  145559 -92911.9  145520 -92910
+            145020 -92910  145020 -91410  146270 -90160  146270 -85810  146273 -85720.1
+            146313 -85544.9  146390 -85383  146503 -85242.5  146643 -85130.5
+            146805 -85052.5  146980 -85012.5  147070 -85010  155220 -85010
+            155310 -85012.5)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component connectors:FPC_8
+      (place J2 150515 -111330 front 0 (PN Conn_01x08))
+    )
+    (component connectors:usd
+      (place J1 147300 -87580 front 0 (PN "usd-plug"))
+    )
+  )
+  (library
+    (image connectors:FPC_8
+      (outline (polygon signal 0  3745 -2395  -3745 -2395  -3745 1195  3745 1195))
+      (outline (path signal 120  2000 -310  2000 980))
+      (outline (path signal 120  -2000 -310  -2000 980))
+      (outline (path signal 120  3510 -310  2000 -310))
+      (outline (path signal 120  -3510 -310  -2000 -310))
+      (outline (path signal 120  3510 -2170  3510 -310))
+      (outline (path signal 120  -3510 -2170  -3510 -310))
+      (outline (path signal 120  2000 -2170  3510 -2170))
+      (outline (path signal 120  -2000 -2170  -3510 -2170))
+      (outline (path signal 120  2000 -980  2000 -2170))
+      (outline (path signal 120  -2000 -980  -2000 -2170))
+      (outline (path signal 120  -2000 -980  2000 -980))
+      (outline (path signal 120  -2000 980  2000 980))
+      (pin Rect[T]Pad_1000.000000x1500.000000_um 0 2650 -1300)
+      (pin Rect[T]Pad_1000.000000x1500.000000_um 0@1 -2650 -1300)
+      (pin Rect[T]Pad_250.000000x1600.000000_um 8 1750 0)
+      (pin Rect[T]Pad_250.000000x1600.000000_um 7 1250 0)
+      (pin Rect[T]Pad_250.000000x1600.000000_um 6 750 0)
+      (pin Rect[T]Pad_250.000000x1600.000000_um 5 250 0)
+      (pin Rect[T]Pad_250.000000x1600.000000_um 4 -250 0)
+      (pin Rect[T]Pad_250.000000x1600.000000_um 3 -750 0)
+      (pin Rect[T]Pad_250.000000x1600.000000_um 2 -1250 0)
+      (pin Rect[T]Pad_250.000000x1600.000000_um 1 -1750 0)
+    )
+    (image connectors:usd
+      (pin Rect[T]Pad_800.000000x2900.000000_um 8 7700 0)
+      (pin Rect[T]Pad_800.000000x2900.000000_um 7 6600 0)
+      (pin Rect[T]Pad_800.000000x3200.000000_um 6 5500 150)
+      (pin Rect[T]Pad_800.000000x2900.000000_um 5 4400 0)
+      (pin Rect[T]Pad_800.000000x3200.000000_um 4 3300 150)
+      (pin Rect[T]Pad_800.000000x2900.000000_um 3 2200 0)
+      (pin Rect[T]Pad_800.000000x2900.000000_um 2 1100 0)
+      (pin Rect[T]Pad_800.000000x2900.000000_um 1 0 0)
+    )
+    (padstack Rect[T]Pad_250.000000x1600.000000_um
+      (shape (rect F.Cu -125 -800 125 800))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800.000000x2900.000000_um
+      (shape (rect F.Cu -400 -1450 400 1450))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800.000000x3200.000000_um
+      (shape (rect F.Cu -400 -1600 400 1600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000.000000x1500.000000_um
+      (shape (rect F.Cu -500 -750 500 750))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net /D1
+      (pins J2-8 J1-8)
+    )
+    (net /D0
+      (pins J2-7 J1-7)
+    )
+    (net /VSS
+      (pins J2-6 J1-6)
+    )
+    (net /CLK
+      (pins J2-5 J1-5)
+    )
+    (net /VDD
+      (pins J2-4 J1-4)
+    )
+    (net /CMD
+      (pins J2-3 J1-3)
+    )
+    (net /D3
+      (pins J2-2 J1-2)
+    )
+    (net /D2
+      (pins J2-1 J1-1)
+    )
+    (class kicad_default /CLK /CMD /D0 /D1 /D2 /D3 /VDD /VSS
+      (circuit
+        (use_via "Via[0-1]_600:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  152265 -108310  152265 -111330)(net /D1)(type route))
+    (wire (path F.Cu 250  155000 -105575  152265 -108310)(net /D1)(type route))
+    (wire (path F.Cu 250  155000 -87580  155000 -105575)(net /D1)(type route))
+    (wire (path F.Cu 250  153690 -104961  153690 -94770  153900 -94560  153900 -87580)(net /D0)(type route))
+    (wire (path F.Cu 250  151765 -106886  153690 -104961)(net /D0)(type route))
+    (wire (path F.Cu 250  151765 -111330  151765 -106886)(net /D0)(type route))
+    (wire (path F.Cu 250  152800 -94570  152800 -87430)(net /VSS)(type route))
+    (wire (path F.Cu 250  152420 -94950  152800 -94570)(net /VSS)(type route))
+    (wire (path F.Cu 250  151315 -110760  151315 -106085)(net /VSS)(type route))
+    (wire (path F.Cu 250  151265 -110810  151315 -110760)(net /VSS)(type route))
+    (wire (path F.Cu 250  151265 -111330  151265 -110810)(net /VSS)(type route))
+    (wire (path F.Cu 250  152420 -104980  152420 -102440)(net /VSS)(type route))
+    (wire (path F.Cu 250  151315 -106085  152420 -104980)(net /VSS)(type route))
+    (wire (path F.Cu 250  152420 -102440  152420 -94950)(net /VSS)(type route))
+    (wire (path F.Cu 250  151150 -95110  151700 -94560  151700 -87580)(net /CLK)(type route))
+    (wire (path F.Cu 250  150765 -111330  150765 -104730  151150 -104345  151150 -95110)(net /CLK)(type route))
+    (wire (path F.Cu 250  149880 -95280  150600 -94560  150600 -87430)(net /VDD)(type route))
+    (wire (path F.Cu 250  150265 -111330  150265 -104730)(net /VDD)(type route))
+    (wire (path F.Cu 250  149880 -104345  149880 -103075)(net /VDD)(type route))
+    (wire (path F.Cu 250  150265 -104730  149880 -104345)(net /VDD)(type route))
+    (wire (path F.Cu 250  149880 -103075  149880 -95280)(net /VDD)(type route))
+    (wire (path F.Cu 250  148610 -95460  149500 -94570  149500 -87580)(net /CMD)(type route))
+    (wire (path F.Cu 250  149765 -106135  148610 -104980)(net /CMD)(type route))
+    (wire (path F.Cu 250  149765 -111330  149765 -106135)(net /CMD)(type route))
+    (wire (path F.Cu 250  148610 -104980  148610 -95460)(net /CMD)(type route))
+    (wire (path F.Cu 250  148400 -94560  148400 -87580)(net /D3)(type route))
+    (wire (path F.Cu 250  147340 -95620  148400 -94560)(net /D3)(type route))
+    (wire (path F.Cu 250  149265 -111330  149265 -106905)(net /D3)(type route))
+    (wire (path F.Cu 250  147340 -104980  147340 -102440)(net /D3)(type route))
+    (wire (path F.Cu 250  149265 -106905  147340 -104980)(net /D3)(type route))
+    (wire (path F.Cu 250  147340 -102440  147340 -95620)(net /D3)(type route))
+    (wire (path F.Cu 250  146070 -95790  147300 -94560  147300 -87580)(net /D2)(type route))
+    (wire (path F.Cu 250  148765 -108310  146070 -105615)(net /D2)(type route))
+    (wire (path F.Cu 250  148765 -111330  148765 -108310)(net /D2)(type route))
+    (wire (path F.Cu 250  146070 -105615  146070 -95790)(net /D2)(type route))
+  )
+)
