@@ -1,6 +1,14 @@
+11ua.dsn
+8x485.dsn
 Allen-Synthesis__EuroPi__hardware__surface-mount__europi-surface-mount.dsn
 AndersBNielsen__abn6502__hardware__6502.dsn
 AzonInc__Doorman__pcb_slot_programmer__doorman_slot_programmer.dsn
+Bob.dsn
+CM4IOv5.dsn
+CM4IOv5_2.dsn
+CM4IOv5_3.dsn
+CM4IOv5_4.dsn
+CRAMPS.dsn
 CRImier__MyKiCad__Atmel__attiny_uart_injector__attiny_uart_injector.dsn
 CRImier__MyKiCad__Atmel__attiny_x4-x5_adapter__attiny_x4-x5_adapter.dsn
 CRImier__MyKiCad__Atmel__fan_controller__fan_controller.dsn
@@ -142,6 +150,11 @@ Spaceboards__SpaceboardsHardware__Keyboards__XLant__kicad__WideZlant.dsn
 SukkoPera__Raemixx500__Raemixx500.dsn
 Twisted-Fields__rp2040-motor-controller__driver_module__driver_module.dsn
 Twisted-Fields__rp2040-motor-controller__rp2040_encoder__rp2040_encoder.dsn
+antenna.dsn
+ar488.dsn
+ar488_2.dsn
+backplane.dsn
+backplane_2.dsn
 baldengineer__bit-preserve__Apple__Peripherals__ezcgi__ezcgi.dsn
 baldengineer__bit-preserve__Commodore__C64__KU-14194HB-RevB-KiCad__KU-14194HB-REV-B-KiCad.dsn
 baldengineer__bit-preserve__Tandy-RS__TRS-80 Color Computer__Color Computer 2__26-302x__coco2__coco2.dsn
@@ -151,11 +164,60 @@ bbogush__nand_programmer__kicad__adapter_soic8_solder__adapter_soic8_solder.dsn
 bbogush__nand_programmer__kicad__adapter_tsop48__adapter_tsop48.dsn
 bbogush__nand_programmer__kicad__adapter_tsop48_solder__adapter_tsop48_solder.dsn
 bbogush__nand_programmer__kicad__nand_programmator.dsn
+bdrbottomlight.dsn
 brainsmoke__hexboard__pcb__horiz__hexdump.dsn
 brainsmoke__hexboard__pcb__teensy40_adapter__teensy40_adapter.dsn
+brdHead.dsn
+brdcan.dsn
+brdcap.dsn
+brdcontroller.dsn
+brdcontroller_2.dsn
+brdcontroller_3.dsn
+brdfeeder.dsn
+brdfeeder_2.dsn
+brdmot.dsn
+brdmot_2.dsn
+brdmot_pre.dsn
+brdsteppoer.dsn
+brdsteppoer_2.dsn
+brdsteppoer_3.dsn
+brdsteppoer_4.dsn
+brdsteppoer_5.dsn
 camrbuss__pinci__pcb__pinci.dsn
+carrier.dsn
+clcontroller.dsn
+closet.dsn
+closet_2.dsn
+closet_3.dsn
+closet_4.dsn
+closet_5.dsn
+closet_6.dsn
+closet_7.dsn
+closet_8.dsn
+closet_9.dsn
+connector.dsn
+controller.dsn
+controller_10.dsn
+controller_2.dsn
+controller_3.dsn
+controller_4.dsn
+controller_5.dsn
+controller_6.dsn
+controller_7.dsn
+controller_8.dsn
+controller_9.dsn
+controller_copy.dsn
+controller_pre.dsn
+controller_pre_2.dsn
 ctag-fh-kiel__ctag-tbd__hw__pcb__ESP32-Eurorack-Audio.dsn
+db25_bob_v2.dsn
+diff_driver.dsn
 ebastler__osprey__osprey_rev_a__osprey_rev_a.dsn
+ethernet_bob_base.dsn
+fabcam.dsn
+fabcam_2.dsn
+fabcam_3.dsn
+fabcam_4.dsn
 freerouting__freerouting__fixtures__Issue191-processor.Z80__processor.Z80.dsn
 freerouting__freerouting__fixtures__Issue269-NoWiresOnPowerLayers__proba.dsn
 freerouting__freerouting__fixtures__Issue283-UnconnectedTracesUnderPads__Natural_Tone_Preamp.dsn
@@ -185,6 +247,11 @@ hackclub__OnBoard__projects__CACKLE - Card Adaptable Controller Kinetic Link Ele
 hackclub__OnBoard__projects__CACKLE - Card Adaptable Controller Kinetic Link Electronics__src__ESP32-S3 Hub__ESP32-S3 Hub.dsn
 hackclub__OnBoard__projects__CosmicBoard__src__keyboard.dsn
 hackup__Pi1541io__Pi1541io.dsn
+handreader.dsn
+handreader_2.dsn
+handreader_3.dsn
+headconnector.dsn
+headconnector_2.dsn
 ijnekenamay__HAGIWOs_Module__4ch_Sampler__4ch_Sampler_comtrol__4ch_Sampler_comtrol.dsn
 ijnekenamay__HAGIWOs_Module__4ch_Sampler__4ch_Sampler_main__4ch_Sampler_main.dsn
 ijnekenamay__HAGIWOs_Module__6CH_Sequencer__6ch_seq_main__6ch_Sequencer__6ch_Sequencer.dsn
@@ -196,6 +263,7 @@ im-tomu__tomu-hardware__releases__v0.0__gerbers__tomu.dsn
 im-tomu__tomu-hardware__releases__v0.1__gerbers__tomu.dsn
 im-tomu__tomu-hardware__releases__v0.2__gerbers__tomu.dsn
 im-tomu__tomu-hardware__releases__v0.3__gerber__tomu.dsn
+io_base.dsn
 jago85__UltraPIF_Hardware__led__led.dsn
 jago85__UltraPIF_Hardware__pif_adapter__pif_adapter.dsn
 jago85__UltraPIF_Hardware__pif_fpga__pif_fpga.dsn
@@ -207,6 +275,7 @@ justbuchanan__oasis__pcb__fabricated-boards__mainboard-v0.3__kicad__pcb.dsn
 justbuchanan__oasis__pcb__main__pcb.dsn
 kelu124__echomods__goblin__source__Kicad__goblin.dsn
 kelu124__echomods__retired__tobo__source__Kicad__tobo.dsn
+keypad.dsn
 kylemanna__sniffer__kicad__sniffer.dsn
 loxodes__vna__breakouts__ad9864__ad9864_breakout.dsn
 loxodes__vna__breakouts__adc_cape__adc_cape.dsn
@@ -235,6 +304,7 @@ maxlab-io__tokay-lite-pcb__ai-camera-rev3.1__ai-camera-rev3.1.dsn
 maxlab-io__tokay-lite-pcb__ai-camera-rev3.2__ai-camera-rev3.2.dsn
 maxlab-io__tokay-lite-pcb__ai-camera-rev3__ai-camera-rev3.dsn
 mecparts__RetroWiFiModem__kicad__RetroWiFiModem.dsn
+mpgadapter.dsn
 mzuelch__CATs-Eurosynth__Modules__CGS__Analog Switch Matrix__Electronics__Control__CGS Analog Switch Matrix Control.dsn
 mzuelch__CATs-Eurosynth__Modules__CGS__Analog Switch Matrix__Electronics__Main__CGS Analog Switch Matrix Main.dsn
 mzuelch__CATs-Eurosynth__Modules__HAGIWO__4Ch Sample Player__Electronics__Main__HAGIWO 4Ch Sampler.dsn
@@ -247,10 +317,26 @@ mzuelch__CATs-Eurosynth__Modules__HAGIWO__Ringfolder__Electronics__Main__HAGIWO 
 mzuelch__CATs-Eurosynth__Modules__HAGIWO__Sync LFO__Electronics__Main__HAGIWO Sync LFO Main.dsn
 mzuelch__CATs-Eurosynth__Modules__MFOS__Dual VCA #2__Electronics__Main__Dual VCA #2 Main.dsn
 mzuelch__CATs-Eurosynth__Modules__MFOS__Eight Stage Phase Shifter__Electronics__Control__MFOS Eight Stage Phase Shifter - Control.dsn
+newvmi.dsn
+newvmi_2.dsn
+newvmi_3.dsn
+newvmi_4.dsn
+noname.kicad_pcb_bak.dsn
 ohmtech-rdi__eurorack-blocks__blocks__multiplexer__multiplexer.dsn
 ohmtech-rdi__eurorack-blocks__boards__kivu12__kivu12.dsn
+pickup.dsn
 pointhi__kicad-color-schemes___help__kit-dev-coldfire-xilinx_5213__kit-dev-coldfire-xilinx_5213.dsn
+powerstep.dsn
 raeedcho__temper__pcb__temper.dsn
+rfid16.dsn
+rfid_antenna.dsn
+rfid_slave.dsn
+rfid_slave_pre.dsn
+scalebridge.dsn
+scalebridge_2.dsn
+scalebridge_3.dsn
+scalebridge_4.dsn
+scalebridge_5.dsn
 scottbez1__splitflap__electronics__chainlinkBase__chainlinkBase.dsn
 scottbez1__splitflap__electronics__chainlinkDriverTester__chainlinkDriverTester.dsn
 scottbez1__splitflap__electronics__chainlinkDriver__chainlinkDriver.dsn
@@ -265,6 +351,7 @@ siderakb__pmw3360-pcb__pmw3360_pcb_pinheader__pmw3360_pcb_pinheader.dsn
 siderakb__pmw3610-pcb__pmw3610_pcb.dsn
 snsten__Klein__Case__Prototype__SwitchPlateFR4__klein.dsn
 snsten__Klein__PCB__klein.dsn
+sshost.dsn
 stack-chan__stack-chan__schematics__m5-pantilt__m5-pantilt.dsn
 staticintlucas__goldfish__cad__goldfish.dsn
 strayer__taira-keyboard__pcb__tairakb.dsn
@@ -282,6 +369,7 @@ tpcarlson__synth-diy__oneshot__oneshot.dsn
 tpcarlson__synth-diy__pentanoise__pentanoise-board.dsn
 tpcarlson__synth-diy__rowan__rowan.dsn
 tpcarlson__synth-diy__slew-limiter__slew-limiter-board.dsn
+trollerv2.dsn
 tzarc__keyboards__Djinn__Rev2a__Djinn.dsn
 tzarc__keyboards__Kobold__R1__Kobold.dsn
 yaqwsx__PcbDraw__examples__resources__ArduinoLearningKitStarter.dsn
